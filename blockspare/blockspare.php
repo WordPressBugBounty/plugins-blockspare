@@ -1,10 +1,10 @@
 <?php
     /*
-     * Plugin Name:       Blockspare - Page Builder Gutenberg Blocks & Starter Sites
+     * Plugin Name:       BlockSpare - Page Builder Gutenberg Blocks & Starter Sites
      * Plugin URI:        https://blockspare.com/
      * Description:       Gutenberg Blocks & Patterns for Blogs, Magazines, Business Sites – Post Grids, Sliders, Carousels, Counters, Page Builder & Starter Site Imports, No Coding Needed
-     * Version:           3.2.5.1
-     * Author:            Blockspare
+     * Version:           3.2.5.2
+     * Author:            BlockSpare
      * Author URI:        https://blockspare.com/
      * Text Domain:       blockspare
      * License:           GPL-2.0+
@@ -23,7 +23,7 @@
                 defined('BLOCKSPARE_PLUGIN_DIR') or define('BLOCKSPARE_PLUGIN_DIR', plugin_dir_path(__FILE__));
                 defined('BLOCKSPARE_PRO_PATH') || define('BLOCKSPARE_PRO_PATH','https://www.blockspare.com/');
                 defined('BLOCKSPARE_SHOW_PRO_NOTICES' ) || define('BLOCKSPARE_SHOW_PRO_NOTICES', true );
-                defined('BLOCKSPARE_VERSION' ) || define('BLOCKSPARE_VERSION',  '3.2.5.1');
+                defined('BLOCKSPARE_VERSION' ) || define('BLOCKSPARE_VERSION',  '3.2.5.2');
 
 
                 if ( ! version_compare( PHP_VERSION, '5.6', '>=' ) ) {
@@ -48,14 +48,14 @@
 
                 function blockspare_fail_php_version() {
                     /* translators: %s: PHP version */
-                    $message      = sprintf( esc_html__( 'Blockspare for Gutenberg requires PHP version %s+, plugin is currently NOT RUNNING.', 'blockspare' ), '5.6' );
+                    $message      = sprintf( esc_html__( 'BlockSpare for Gutenberg requires PHP version %s+, plugin is currently NOT RUNNING.', 'blockspare' ), '5.6' );
                     $html_message = sprintf( '<div class="error">%s</div>', wpautop( $message ) );
                     echo wp_kses_post( $html_message );
                 }
 
                 function blockspare_fail_wp_version() {
                     /* translators: %s: WordPress version */
-                    $message      = sprintf( esc_html__( 'Blockspare for Gutenberg requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING.', 'blockspare' ), '4.7' );
+                    $message      = sprintf( esc_html__( 'BlockSpare for Gutenberg requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING.', 'blockspare' ), '4.7' );
                     $html_message = sprintf( '<div class="error">%s</div>', wpautop( $message ) );
                     echo wp_kses_post( $html_message );
                 }

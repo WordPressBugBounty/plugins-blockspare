@@ -1,4 +1,4 @@
-﻿=== Blockspare: Gutenberg Blocks & Patterns for Blogs, Magazines, Business Sites – Post Grids, Sliders, Carousels, Counters, Page Builder & Starter Site Imports, No Coding Needed ===
+﻿=== BlockSpare: Gutenberg Blocks & Patterns for Blogs, Magazines, Business Sites – Post Grids, Sliders, Carousels, Counters, Page Builder & Starter Site Imports, No Coding Needed ===
 Author URI: https://www.blockspare.com/
 Plugin URI: https://www.blockspare.com/
 Contributors: blockspare, afthemes
@@ -6,7 +6,7 @@ Tags: Block, Editor, Gutenberg, Gutenberg Blocks, Page Builder, WordPress Blocks
 Requires at least: 4.9
 Tested up to: 6.6
 Requires PHP: 5.3
-Stable tag: 3.2.5.1
+Stable tag: 3.2.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Effortless Website Building, and One-Click Magic
 
-Are you ready to elevate your website without the hassle of coding? Look no further – <strong>[Blockspare](https://blockspare.com)</strong> is here to redefine your digital journey. Our primary focus is clear: <strong>Build Your Blog, News, Magazine, and Agency Websites with Expert-Designed Templates. One Click Import – No Coding Skills Required!</strong>
+Are you ready to elevate your website without the hassle of coding? Look no further – <strong>[BlockSpare](https://blockspare.com)</strong> is here to redefine your digital journey. Our primary focus is clear: <strong>Build Your Blog, News, Magazine, and Agency Websites with Expert-Designed Templates. One Click Import – No Coding Skills Required!</strong>
 
 [Try It Now](https://tastewp.com/new/?pre-installed-plugin-slug=blockspare) | [Explore More](https://blockspare.com) | [Demos](https://www.blockspare.com/starter-templates/) | [Blocks](https://www.blockspare.com/blocks/) | [Documentation](https://www.blockspare.com/docs/) | [Pricing](https://www.blockspare.com/pricing/)
 
@@ -41,6 +41,8 @@ With the editing and customization complete, it's time to go live! In just minut
 <strong>[Explore More](https://www.blockspare.com/)</strong>
 
 <strong>Dive into our [Patterns Library](https://www.blockspare.com/starter-templates/) featuring 125+ Ready-to-Use Landing Pages, 270+ Page Sections, and 55+ Header/Footer Templates. Your creativity, simplified!</strong>
+
+[youtube https://youtu.be/elLCTqnQMI0?t=1033]
 
 * <strong>[General News & Magazine Hub 📰](https://blockspare.com/demo/default/general-news/)</strong> Explore versatile templates for seamless website creation. Craft your news website effortlessly.
 
@@ -110,6 +112,7 @@ Enjoy limitless style options and the convenience of one-click installation for 
 
 With these added features, creating and managing your ideal website has never been more seamless.
 
+[youtube https://www.youtube.com/watch?v=keMO48vPIxY]
 
 ## Celebrating the Success Stories of Our Users
 
@@ -133,13 +136,13 @@ With these added features, creating and managing your ideal website has never be
 
 <strong>This plugin adds a great appearance to my website </strong>
 🌟🌟🌟🌟🌟
-> At first, I tried my website without the Blockspare plugin, but it seemed to be missing SOMETHING. After adding Blockspare, and seeing how great and modern looking my website becomes, it just seemed to help bring it to life. Great plugin.
+> At first, I tried my website without the BlockSpare plugin, but it seemed to be missing SOMETHING. After adding BlockSpare, and seeing how great and modern looking my website becomes, it just seemed to help bring it to life. Great plugin.
 
 [@hitmanentertainment](https://wordpress.org/support/topic/this-plugin-adds-a-great-appearance-to-my-website/)
 
 <strong>User-Friendly Interface </strong>
 🌟🌟🌟🌟🌟
-> Blockspare – boasts a remarkably intuitive interface that ensures a smooth and hassle-free user experience. From the moment you install the plugin, you’ll be greeted with a well-designed dashboard that makes navigation and customization a breeze. The clean layout and straightforward options make it accessible to users of all levels, eliminating any steep learning curve.
+> BlockSpare – boasts a remarkably intuitive interface that ensures a smooth and hassle-free user experience. From the moment you install the plugin, you’ll be greeted with a well-designed dashboard that makes navigation and customization a breeze. The clean layout and straightforward options make it accessible to users of all levels, eliminating any steep learning curve.
 
 [@unokrionline](https://wordpress.org/support/topic/user-friendly-interface-6/)
 
@@ -294,7 +297,7 @@ If you want spaces, the block will give you the extra.
 * <strong>Pagination Settings </strong> 
 * <strong>Color, Typography & Other Advanced Settings</strong> 
 
-[Explore Live Demo](https://tastewp.com/new/?pre-installed-plugin-slug=blockspare), Let’s Start Designing Your Dream Site in Minutes with [Blockspare!](https://blockspare.com/)
+[Explore Live Demo](https://tastewp.com/new/?pre-installed-plugin-slug=blockspare), Let’s Start Designing Your Dream Site in Minutes with [BlockSpare!](https://blockspare.com/)
 
 ## Welcome in for amazing plugins from AF themes
 >The most flexible WordPress themes and plugins crafted for the future web.
@@ -323,7 +326,7 @@ If you want spaces, the block will give you the extra.
 == Installation ==
 * Download to your plugin directory or simply install via the WordPress admin interface.
 * Activate.
-* Go to Blockspare admin dashboard (or page/post edit panel)
+* Go to BlockSpare admin dashboard (or page/post edit panel)
 * Find and Click on "Patterns Library" button
 * Get hundreds of gutenberg starter templates to build your site
 * Import (or View)
@@ -335,7 +338,7 @@ If you want spaces, the block will give you the extra.
 
 Starter Templates are the demo layout design of your site designed by the extert developer and designers, like homepage, about page, contact, etc. You can easily import it with one click, customize the texts and publish it.
 
-Blockspare provides you with hundreds of pro-built templates to create awesome blogs, news, magazine and agency websites for you.
+BlockSpare provides you with hundreds of pro-built templates to create awesome blogs, news, magazine and agency websites for you.
 
 **Can I Try Live Demo?**
 
@@ -353,7 +356,7 @@ No, you don’t have to design because our plugin already has a range of pre-des
 
 Blocks are the basic content-building components, like buttons, images, videos, etc., for WordPress Block Editor (Gutenberg).
 
-Blockspare provides you with lots of great blocks to create awesome posts, pages, and front pages for you.
+BlockSpare provides you with lots of great blocks to create awesome posts, pages, and front pages for you.
 
 **Do I need any third-party page builder plugins?**
 
@@ -361,11 +364,11 @@ Not, only you do not need to install any third-party page builder plugin but you
 
 **Can I use this with other plugins?**
 
-Oh yeah! With other, Blockspare is performing well.
+Oh yeah! With other, BlockSpare is performing well.
 
-**Can I use Blockspare with any WordPress theme?**
+**Can I use BlockSpare with any WordPress theme?**
 
-Since Blockspare has its own designed components for websites, it can be used for WordPress themes of any kind.
+Since BlockSpare has its own designed components for websites, it can be used for WordPress themes of any kind.
 
 **Can I use Blockpare on client websites?**
 
@@ -375,13 +378,13 @@ Yes! You will use Blockpare on yours, as well as the websites of your client.
 
 There's just no! The structure of the package and clean code keep it lightweight and simple. Blockpare is designed with ease and performance in mind. Therefore, it can in no way impact the pace and efficiency of your website.
 
-**Is Blockspare free?**
+**Is BlockSpare free?**
 
-Yes, Blockspare is a free website building Plugin for WordPress Websites. But definitely, you can get more awesome premium templates and blocks on <a href="https://www.blockspare.com/pricing/" target="_blank" rel="">Blockspare Pro</a>
+Yes, BlockSpare is a free website building Plugin for WordPress Websites. But definitely, you can get more awesome premium templates and blocks on <a href="https://www.blockspare.com/pricing/" target="_blank" rel="">BlockSpare Pro</a>
 
 **Can I explore the demos?**
 
-Definitely, you can explore all of the demos on <a href="https://www.blockspare.com/starter-templates/" target="_blank" rel="">Blockspare Website.</a>
+Definitely, you can explore all of the demos on <a href="https://www.blockspare.com/starter-templates/" target="_blank" rel="">BlockSpare Website.</a>
 
 
 == Screenshots ==
@@ -393,7 +396,7 @@ Definitely, you can explore all of the demos on <a href="https://www.blockspare.
 6. Expert-Designed Templates - Flower, Auto Service, Auto Deal, Garderner, Montessori, Travel
 7. Expert-Designed Templates - Cinema Hall, Dental, Interior, Yoga, Hair Salon, and More to come
 8. Let’s Start Designing Your Dream Site in Minutes!
-9. Transform Your WordPress Site-Building Experience Using Blockspare
+9. Transform Your WordPress Site-Building Experience Using BlockSpare
 10. Lots Of Blocks For Your News Magazine, and Business Websites That Fit Your Need.
 11. Post Blocks - Hero Banners, Main Banners
 12. Post Blocks - Post Grid, Post List, Express Grid and List, Ticker News, Masonry 
@@ -527,7 +530,7 @@ Update: Assets Improvement
 
 
 = 2.7.0 =
-* New: Blockspare dashboard with helpful information
+* New: BlockSpare dashboard with helpful information
 * Update: Added deprecated in social links
 * Update: Added deprecated in user profile
 * Update: Search input improvement
