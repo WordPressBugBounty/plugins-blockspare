@@ -3,7 +3,7 @@
      * Plugin Name:       BlockSpare - Gutenberg Site Builder Blocks & Starter Sites
      * Plugin URI:        https://blockspare.com/
      * Description:       Gutenberg Blocks & Patterns for Blogs, Magazines, Business Sites – Post Grids, Sliders, Carousels, Counters, Page Builder & Starter Site Imports, No Coding Needed
-     * Version:           3.2.7
+     * Version:           3.2.8
      * Author:            BlockSpare
      * Author URI:        https://blockspare.com/
      * Text Domain:       blockspare
@@ -23,7 +23,7 @@
                 defined('BLOCKSPARE_PLUGIN_DIR') or define('BLOCKSPARE_PLUGIN_DIR', plugin_dir_path(__FILE__));
                 defined('BLOCKSPARE_PRO_PATH') || define('BLOCKSPARE_PRO_PATH','https://www.blockspare.com/');
                 defined('BLOCKSPARE_SHOW_PRO_NOTICES' ) || define('BLOCKSPARE_SHOW_PRO_NOTICES', true );
-                defined('BLOCKSPARE_VERSION' ) || define('BLOCKSPARE_VERSION',  '3.2.6');
+                defined('BLOCKSPARE_VERSION' ) || define('BLOCKSPARE_VERSION',  '3.2.8');
 
 
                 if ( ! version_compare( PHP_VERSION, '5.6', '>=' ) ) {
