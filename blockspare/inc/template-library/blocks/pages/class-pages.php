@@ -26,7 +26,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_1',
                         'imagePath'=>'pages',
                         'pages'    =>'agency',
-						'name'     => esc_html__( 'Agency Home', 'blockspare' ),
+						'name'     => 'Agency Home',
                         'blockLink'=>"https://blockspare.com/demo/default/agency/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-4cfc9297-04d7-4","backGroundColor":"#00000000"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-4cfc9297-04d7-4" blockspare-animation=""><style>.blockspare-4cfc9297-04d7-4 > .blockspare-block-container-wrapper{background-color:#00000000;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-4cfc9297-04d7-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-1c4c23ca-1459-4","backGroundColor":"#f7f7f7"} -->
@@ -312,7 +312,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_2',
                         'imagePath'=>'pages',
                         'pages'    =>'agency',
-						'name'     => esc_html__( 'Agency Frontpage', 'blockspare' ),
+						'name'     => 'Agency Frontpage',
                         'blockLink'=>"https://blockspare.com/demo/default/agency/home-2/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -322,7 +322,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_3',
                         'imagePath'=>'pages',
                         'pages'    =>'agency',
-						'name'     => esc_html__( 'Agency About Us', 'blockspare' ),
+						'name'     => 'Agency About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/agency/about-us/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -332,7 +332,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_4',
                         'imagePath'=>'pages',
                         'pages'    =>'agency',
-						'name'     => esc_html__( 'Agency  Services', 'blockspare' ),
+						'name'     => 'Agency  Services',
                         'blockLink'=>"https://blockspare.com/demo/default/agency/services/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -342,7 +342,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_5',
                         'imagePath'=>'pages',
                         'pages'    =>'agency',
-						'name'     => esc_html__( 'Agency Contact Us', 'blockspare' ),
+						'name'     => 'Agency Contact Us',
                         'blockLink'=>"https://blockspare.com/demo/default/agency/contact-us/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -352,7 +352,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_6',
                         'imagePath'=>'pages',
                         'pages'    =>'agency',
-						'name'     => esc_html__( 'Agency Blog', 'blockspare' ),
+						'name'     => 'Agency Blog',
                         'blockLink'=>"https://blockspare.com/demo/default/agency/blog/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -364,7 +364,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_7',
                         'imagePath'=>'pages',
                         'pages'    =>'lawyer',
-						'name'     => esc_html__( 'Lawyer Home', 'blockspare' ),
+						'name'     => 'Lawyer Home',
                         'blockLink'=>"https://blockspare.com/demo/default/lawyer/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -374,7 +374,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_8',
                         'imagePath'=>'pages',
                         'pages'    =>'lawyer',
-						'name'     => esc_html__( 'Lawyer Contact Us', 'blockspare' ),
+						'name'     => 'Lawyer Contact Us',
                         'blockLink'=>"https://blockspare.com/demo/default/lawyer/contact-us-2/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -384,7 +384,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_9',
                         'imagePath'=>'pages',
                         'pages'    =>'lawyer',
-						'name'     => esc_html__( 'Lawyer About Us', 'blockspare' ),
+						'name'     => 'Lawyer About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/lawyer/about-us-2/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -394,7 +394,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_10',
                         'imagePath'=>'pages',
                         'pages'    =>'lawyer',
-						'name'     => esc_html__( 'Lawyer Cases', 'blockspare' ),
+						'name'     => 'Lawyer Cases',
                         'blockLink'=>"https://blockspare.com/demo/default/lawyer/cases-2/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -404,7 +404,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_11',
                         'imagePath'=>'pages',
                         'pages'    =>'lawyer',
-						'name'     => esc_html__( 'Lawyer Blog', 'blockspare' ),
+						'name'     => 'Lawyer Blog',
                         'blockLink'=>"https://blockspare.com/demo/default/lawyer/blog/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -414,7 +414,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_12',
                         'imagePath'=>'pages',
                         'pages'    =>'lawyer',
-						'name'     => esc_html__( 'Practice Area Blog', 'blockspare' ),
+						'name'     => 'Practice Area Blog',
                         'blockLink'=>"https://blockspare.com/demo/default/lawyer/pratice-area2/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -426,7 +426,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_13',
                         'imagePath'=>'pages',
                         'pages'    =>'restaurant',
-						'name'     => esc_html__( 'Restaurant Home', 'blockspare' ),
+						'name'     => 'Restaurant Home',
                         'blockLink'=>"https://blockspare.com/demo/default/restaurant/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -436,7 +436,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_14',
                         'imagePath'=>'pages',
                         'pages'    =>'restaurant',
-						'name'     => esc_html__( 'Restaurant Contact Us', 'blockspare' ),
+						'name'     => 'Restaurant Contact Us',
                         'blockLink'=>"https://blockspare.com/demo/default/restaurant/contact-us/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -446,7 +446,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_15',
                         'imagePath'=>'pages',
                         'pages'    =>'restaurant',
-						'name'     => esc_html__( 'Restaurant About Us', 'blockspare' ),
+						'name'     => 'Restaurant About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/restaurant/about-us-2/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -456,7 +456,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_16',
                         'imagePath'=>'pages',
                         'pages'    =>'restaurant',
-						'name'     => esc_html__( 'Restaurant Menu', 'blockspare' ),
+						'name'     => 'Restaurant Menu',
                         'blockLink'=>"https://blockspare.com/demo/default/restaurant/about-us/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -466,7 +466,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_17',
                         'imagePath'=>'pages',
                         'pages'    =>'restaurant',
-						'name'     => esc_html__( 'Restaurant Food Website', 'blockspare' ),
+						'name'     => 'Restaurant Food Website',
                         'blockLink'=>"https://blockspare.com/demo/default/restaurant/food-website/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -476,7 +476,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_18',
                         'imagePath'=>'pages',
                         'pages'    =>'restaurant',
-						'name'     => esc_html__( 'Restaurant Frontpage', 'blockspare' ),
+						'name'     => 'Restaurant Frontpage',
                         'blockLink'=>"https://blockspare.com/demo/default/restaurant/food-homepage-website/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -486,7 +486,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_19',
                         'imagePath'=>'pages',
                         'pages'    =>'restaurant',
-						'name'     => esc_html__( 'Restaurant Blog', 'blockspare' ),
+						'name'     => 'Restaurant Blog',
                         'blockLink'=>"https://blockspare.com/demo/default/restaurant/single-blog/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -498,7 +498,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_20',
                         'imagePath'=>'pages',
                         'pages'    =>'apps',
-						'name'     => esc_html__( 'Apps Home', 'blockspare' ),
+						'name'     => 'Apps Home',
                         'blockLink'=>"https://blockspare.com/demo/default/app/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -508,7 +508,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_21',
                         'imagePath'=>'pages',
                         'pages'    =>'apps',
-						'name'     => esc_html__( 'Apps Contact', 'blockspare' ),
+						'name'     => 'Apps Contact',
                         'blockLink'=>"https://blockspare.com/demo/default/app/contact/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -518,7 +518,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_22',
                         'imagePath'=>'pages',
                         'pages'    =>'apps',
-						'name'     => esc_html__( 'Apps About Us', 'blockspare' ),
+						'name'     => 'Apps About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/app/about-us/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -528,7 +528,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_23',
                         'imagePath'=>'pages',
                         'pages'    =>'apps',
-						'name'     => esc_html__( 'Apps Pricing', 'blockspare' ),
+						'name'     => 'Apps Pricing',
                         'blockLink'=>"https://blockspare.com/demo/default/app/pricing/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -540,7 +540,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_24',
                         'imagePath'=>'pages',
                         'pages'    =>'education',
-						'name'     => esc_html__( 'Education Home', 'blockspare' ),
+						'name'     => 'Education Home',
                         'blockLink'=>"https://blockspare.com/demo/default/education/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -550,7 +550,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_25',
                         'imagePath'=>'pages',
                         'pages'    =>'education',
-						'name'     => esc_html__( 'Education About Us', 'blockspare' ),
+						'name'     => 'Education About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/education/about-us/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -560,7 +560,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_26',
                         'imagePath'=>'pages',
                         'pages'    =>'education',
-						'name'     => esc_html__( 'Education Courses', 'blockspare' ),
+						'name'     => 'Education Courses',
                         'blockLink'=>"https://blockspare.com/demo/default/education/serivces/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -572,7 +572,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_27',
                         'imagePath'=>'pages',
                         'pages'    =>'fitness',
-						'name'     => esc_html__( 'Fitness Home', 'blockspare' ),
+						'name'     => 'Fitness Home',
                         'blockLink'=>"https://blockspare.com/demo/default/fitness/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -582,7 +582,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_28',
                         'imagePath'=>'pages',
                         'pages'    =>'fitness',
-						'name'     => esc_html__( 'Fitness Pricing', 'blockspare' ),
+						'name'     => 'Fitness Pricing',
                         'blockLink'=>"https://blockspare.com/demo/default/fitness/pricing-table/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -592,7 +592,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_29',
                         'imagePath'=>'pages',
                         'pages'    =>'fitness',
-						'name'     => esc_html__( 'Fitness About Us', 'blockspare' ),
+						'name'     => 'Fitness About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/fitness/about-us/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -602,7 +602,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_30',
                         'imagePath'=>'pages',
                         'pages'    =>'fitness',
-						'name'     => esc_html__( 'Fitness Services', 'blockspare' ),
+						'name'     => 'Fitness Services',
                         'blockLink'=>"https://blockspare.com/demo/default/fitness/services/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -612,7 +612,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_31',
                         'imagePath'=>'pages',
                         'pages'    =>'fitness',
-						'name'     => esc_html__( 'Fitness Team', 'blockspare' ),
+						'name'     => 'Fitness Team',
                         'blockLink'=>"https://blockspare.com/demo/default/fitness/team/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -624,7 +624,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_32',
                         'imagePath'=>'pages',
                         'pages'    =>'real-estate',
-						'name'     => esc_html__( 'Real Estate Home', 'blockspare' ),
+						'name'     => 'Real Estate Home',
                         'blockLink'=>"https://blockspare.com/demo/default/real-estate/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -634,7 +634,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_33',
                         'imagePath'=>'pages',
                         'pages'    =>'real-estate',
-						'name'     => esc_html__( 'Real Estate Frontpage', 'blockspare' ),
+						'name'     => 'Real Estate Frontpage',
                         'blockLink'=>"https://blockspare.com/demo/default/real-estate/homepage2/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -644,7 +644,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_34',
                         'imagePath'=>'pages',
                         'pages'    =>'real-estate',
-						'name'     => esc_html__( 'Real Estate About Us', 'blockspare' ),
+						'name'     => 'Real Estate About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/real-estate/about-us/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -654,7 +654,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_35',
                         'imagePath'=>'pages',
                         'pages'    =>'real-estate',
-						'name'     => esc_html__( 'Real Estate Property Details', 'blockspare' ),
+						'name'     => 'Real Estate Property Details',
                         'blockLink'=>"https://blockspare.com/demo/default/real-estate/property-details/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -664,7 +664,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_36',
                         'imagePath'=>'pages',
                         'pages'    =>'real-estate',
-						'name'     => esc_html__( 'Real Estate Details Properties', 'blockspare' ),
+						'name'     => 'Real Estate Details Properties',
                         'blockLink'=>"https://blockspare.com/demo/default/real-estate/details-properties/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -674,7 +674,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_37',
                         'imagePath'=>'pages',
                         'pages'    =>'real-estate',
-						'name'     => esc_html__( 'Real Estate Featured Property', 'blockspare' ),
+						'name'     => 'Real Estate Featured Property',
                         'blockLink'=>"https://blockspare.com/demo/default/real-estate/featured-property2/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -686,7 +686,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_38',
                         'imagePath'=>'pages',
                         'pages'    =>'medical',
-						'name'     => esc_html__( 'Medical Home', 'blockspare' ),
+						'name'     => 'Medical Home',
                         'blockLink'=>"https://blockspare.com/demo/default/medical/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -696,7 +696,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_39',
                         'imagePath'=>'pages',
                         'pages'    =>'medical',
-						'name'     => esc_html__( 'Medical About Us', 'blockspare' ),
+						'name'     => 'Medical About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/medical/about-us/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -706,7 +706,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_40',
                         'imagePath'=>'pages',
                         'pages'    =>'medical',
-						'name'     => esc_html__( 'Medical Special Offer', 'blockspare' ),
+						'name'     => 'Medical Special Offer',
                         'blockLink'=>"https://blockspare.com/demo/default/medical/price-offer/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -716,7 +716,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_41',
                         'imagePath'=>'pages',
                         'pages'    =>'medical',
-						'name'     => esc_html__( 'Medical Services', 'blockspare' ),
+						'name'     => 'Medical Services',
                         'blockLink'=>"https://blockspare.com/demo/default/medical/services/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -726,7 +726,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_42',
                         'imagePath'=>'pages',
                         'pages'    =>'medical',
-						'name'     => esc_html__( 'Medical Our Team', 'blockspare' ),
+						'name'     => 'Medical Our Team',
                         'blockLink'=>"https://blockspare.com/demo/default/medical/our-team/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -738,7 +738,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'position' => 117 ,
                         'imagePath'=>'pages',
                         'pages'    =>'charity',
-						'name'     => esc_html__( 'Charity Home', 'blockspare' ),
+						'name'     => 'Charity Home',
                         'blockLink'=>"https://blockspare.com/demo/default/charity/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -748,7 +748,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_44',
                         'imagePath'=>'pages',
                         'pages'    =>'charity',
-						'name'     => esc_html__( 'Charity Our Event', 'blockspare' ),
+						'name'     => 'Charity Our Event',
                         'blockLink'=>"https://blockspare.com/demo/default/charity/our-events/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -758,7 +758,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_45',
                         'imagePath'=>'pages',
                         'pages'    =>'charity',
-						'name'     => esc_html__( 'Charity Volunteer', 'blockspare' ),
+						'name'     => 'Charity Volunteer',
                         'blockLink'=>"https://blockspare.com/demo/default/charity/become-a-volunteer/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -768,7 +768,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_46',
                         'imagePath'=>'pages',
                         'pages'    =>'charity',
-						'name'     => esc_html__( 'Charity About Us', 'blockspare' ),
+						'name'     => 'Charity About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/charity/about-us/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -778,7 +778,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_47',
                         'imagePath'=>'pages',
                         'pages'    =>'charity',
-						'name'     => esc_html__( 'Charity Donation', 'blockspare' ),
+						'name'     => 'Charity Donation',
                         'blockLink'=>"https://blockspare.com/demo/default/charity/donation/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -788,7 +788,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_48',
                         'imagePath'=>'pages',
                         'pages'    =>'charity',
-						'name'     => esc_html__( 'Charity Blog', 'blockspare' ),
+						'name'     => 'Charity Blog',
                         'blockLink'=>"https://blockspare.com/demo/default/charity/blog-page/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -800,7 +800,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'position' => 2,
                         'imagePath'=>'pages',
                         'pages'    =>'general',
-						'name'     => esc_html__( 'General Home', 'blockspare' ),
+						'name'     => 'General Home',
                         'blockLink'=>"https://blockspare.com/demo/default/general-news/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-0a0ce57e-c9e3-4"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-0a0ce57e-c9e3-4" blockspare-animation=""><style>.blockspare-0a0ce57e-c9e3-4 > .blockspare-block-container-wrapper{background-color:#f9f9f9;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-0a0ce57e-c9e3-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-9f710ad2-9eef-4","imgURL":"https://blockspare.com/demo/default/general-news/wp-content/uploads/sites/11/2018/07/water-light-architecture-sky-bridge-skyline-661635-pxhere.com_-1.jpg","imgID":439,"imgAlt":"","opacityRatio":30,"backGroundColor":"#000000"} -->
@@ -1096,7 +1096,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_50',
                         'imagePath'=>'pages',
                         'pages'    =>'general',
-						'name'     => esc_html__( 'General Blog', 'blockspare' ),
+						'name'     => 'General Blog',
                         'blockLink'=>"https://blockspare.com/demo/default/general-news/blog-2/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -1108,7 +1108,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_51',
                         'imagePath'=>'pages',
                         'pages'    =>'sport',
-						'name'     => esc_html__( 'Sport Home', 'blockspare' ),
+						'name'     => 'Sport Home',
                         'blockLink'=>"https://blockspare.com/demo/default/sport-news/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-9382fa44-092b-4"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-9382fa44-092b-4" blockspare-animation=""><style>.blockspare-9382fa44-092b-4 > .blockspare-block-container-wrapper{background-color:#f9f9f9;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-9382fa44-092b-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-4c4941f8-6d9e-4","imgURL":"https://blockspare.com/demo/default/sport-news/wp-content/uploads/sites/12/2021/06/cropped-pexels-digital-buggu-186241.jpg","imgID":255,"imgAlt":"","opacityRatio":60,"backGroundColor":"#000000"} -->
@@ -1380,7 +1380,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_52',
                         'imagePath'=>'pages',
                         'pages'    =>'sport',
-						'name'     => esc_html__( 'Sport Subscription', 'blockspare' ),
+						'name'     => 'Sport Subscription',
                         'blockLink'=>"https://blockspare.com/demo/default/sport-news/subscription/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -1390,7 +1390,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_53',
                         'imagePath'=>'pages',
                         'pages'    =>'sport',
-						'name'     => esc_html__( 'Sport Blog', 'blockspare' ),
+						'name'     => 'Sport Blog',
                         'blockLink'=>"https://blockspare.com/demo/default/sport-news/blog-2/",
 						'content'  =>  BLOCKSPARE_PRO_PATH	
                     ),
@@ -1402,7 +1402,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_54',
                         'imagePath'=>'pages',
                         'pages'    =>'fashion',
-						'name'     => esc_html__( 'Fashion Home', 'blockspare' ),
+						'name'     => 'Fashion Home',
                         'blockLink'=>"https://blockspare.com/demo/default/fashion-news/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -1412,7 +1412,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_55',
                         'imagePath'=>'pages',
                         'pages'    =>'fashion',
-						'name'     => esc_html__( 'Fashion Subscription', 'blockspare' ),
+						'name'     => 'Fashion Subscription',
                         'blockLink'=>"https://blockspare.com/demo/default/fashion-news/subscription/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -1422,7 +1422,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_56',
                         'imagePath'=>'pages',
                         'pages'    =>'fashion',
-						'name'     => esc_html__( 'Fashion Blog', 'blockspare' ),
+						'name'     => 'Fashion Blog',
                         'blockLink'=>"https://blockspare.com/demo/default/fashion-news/blog/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -1432,7 +1432,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_57',
                         'imagePath'=>'pages',
                         'pages'    =>'fashion',
-						'name'     => esc_html__( 'Fashion Blog 2', 'blockspare' ),
+						'name'     => 'Fashion Blog 2',
                         'blockLink'=>"https://blockspare.com/demo/default/fashion-news/blog-2/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -1444,7 +1444,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_58',
                         'imagePath'=>'pages',
                         'pages'    =>'recipe',
-						'name'     => esc_html__( 'Recipe Home', 'blockspare' ),
+						'name'     => 'Recipe Home',
                         'blockLink'=>"https://blockspare.com/demo/default/recipe-blog",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -1456,7 +1456,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_59',
                         'imagePath'=>'pages',
                         'pages'    =>'arabic',
-						'name'     => esc_html__( 'Arabic Home', 'blockspare' ),
+						'name'     => 'Arabic Home',
                         'blockLink'=>"https://blockspare.com/demo/default/arabic-news/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -1468,7 +1468,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_60',
                         'imagePath'=>'pages',
                         'pages'    =>'chinese',
-						'name'     => esc_html__( 'Chinese Home', 'blockspare' ),
+						'name'     => 'Chinese Home',
                         'blockLink'=>"https://blockspare.com/demo/default/chinese-news/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -1480,7 +1480,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_61',
                         'imagePath'=>'pages',
                         'pages'    =>'pet-care',
-						'name'     => esc_html__( 'Pet Care Home', 'blockspare' ),
+						'name'     => 'Pet Care Home',
                         'blockLink'=>"https://blockspare.com/demo/default/puppycare/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-3a2f2430-6990-4","backGroundColor":"#00000000"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-3a2f2430-6990-4" blockspare-animation=""><style>.blockspare-3a2f2430-6990-4 > .blockspare-block-container-wrapper{background-color:#00000000;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-3a2f2430-6990-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":30,"paddingBottom":30,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-5dff3602-b53c-4","backGroundColor":"#ff7e22"} -->
@@ -1736,7 +1736,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_62',
                         'imagePath'=>'pages',
                         'pages'    =>'pet-care',
-						'name'     => esc_html__( 'Pet Care About Us', 'blockspare' ),
+						'name'     => 'Pet Care About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/puppycare/about/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -1746,7 +1746,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_63',
                         'imagePath'=>'pages',
                         'pages'    =>'pet-care',
-						'name'     => esc_html__( 'Pet Care Contact Us', 'blockspare' ),
+						'name'     => 'Pet Care Contact Us',
                         'blockLink'=>"https://blockspare.com/demo/default/puppycare/contact/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -1758,7 +1758,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_64',
                         'imagePath'=>'pages',
                         'pages'    =>'chromenews-dark',
-						'name'     => esc_html__( 'Chromenews Dark Home', 'blockspare' ),
+						'name'     => 'Chromenews Dark Home',
                         'blockLink'=>"https://blockspare.com/demo/default/chromenews-dark/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -1770,7 +1770,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_65',
                         'imagePath'=>'pages',
                         'pages'    =>'morenews',
-						'name'     => esc_html__( 'Morenews Home', 'blockspare' ),
+						'name'     => 'Morenews Home',
                         'blockLink'=>"https://blockspare.com/demo/default/morenews/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-8267d7c6-71f3-4"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-8267d7c6-71f3-4" blockspare-animation=""><style>.blockspare-8267d7c6-71f3-4 > .blockspare-block-container-wrapper{background-color:#f9f9f9;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-8267d7c6-71f3-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-63309789-b03b-4"} -->
@@ -2060,7 +2060,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_66',
                         'imagePath'=>'pages',
                         'pages'    =>'hybridnews',
-						'name'     => esc_html__( 'Hybridnews Home', 'blockspare' ),
+						'name'     => 'Hybridnews Home',
                         'blockLink'=>"https://blockspare.com/demo/default/hybridnews/",
 						'content'  => '<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
                         <div class="wp-block-group alignfull"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"20px","left":"20px"}}},"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
@@ -2382,7 +2382,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_67',
                         'imagePath'=>'pages',
                         'pages'    =>'Newsphere',
-						'name'     => esc_html__( 'Newsphere Home', 'blockspare' ),
+						'name'     => 'Newsphere Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsphere/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2394,7 +2394,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_68',
                         'imagePath'=>'pages',
                         'pages'    =>'Newsphere Dark',
-						'name'     => esc_html__( 'Newsphere Dark Home', 'blockspare' ),
+						'name'     => 'Newsphere Dark Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsphere-dark/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2406,7 +2406,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_69',
                         'imagePath'=>'pages',
                         'pages'    =>'enternews',
-						'name'     => esc_html__( 'Enternews Home', 'blockspare' ),
+						'name'     => 'Enternews Home',
                         'blockLink'=>"https://blockspare.com/demo/default/enternews/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2418,7 +2418,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_70',
                         'imagePath'=>'pages',
                         'pages'    =>'enternews-dark',
-						'name'     => esc_html__( 'Enternews Dark Home', 'blockspare' ),
+						'name'     => 'Enternews Dark Home',
                         'blockLink'=>"https://blockspare.com/demo/default/enternews-dark/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2430,7 +2430,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_71',
                         'imagePath'=>'pages',
                         'pages'    =>'newsever',
-						'name'     => esc_html__( 'Newsever Home', 'blockspare' ),
+						'name'     => 'Newsever Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsever/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2442,7 +2442,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_72',
                         'imagePath'=>'pages',
                         'pages'    =>'newsever-light',
-						'name'     => esc_html__( 'Newsever Light Home', 'blockspare' ),
+						'name'     => 'Newsever Light Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsever-light/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2454,7 +2454,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_73',
                         'imagePath'=>'pages',
                         'pages'    =>'covernews-dark',
-						'name'     => esc_html__( 'CoverNews Dark Home', 'blockspare' ),
+						'name'     => 'CoverNews Dark Home',
                         'blockLink'=>"https://blockspare.com/demo/default/covernews-dark/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2466,7 +2466,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_74',
                         'imagePath'=>'pages',
                         'pages'    =>'morenews-dark',
-						'name'     => esc_html__( 'MoreNews Dark Home', 'blockspare' ),
+						'name'     => 'MoreNews Dark Home',
                         'blockLink'=>"https://blockspare.com/demo/default/morenews-dark/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2478,7 +2478,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_75',
                         'imagePath'=>'pages',
                         'pages'    =>'darknews',
-						'name'     => esc_html__( 'Darknews Home', 'blockspare' ),
+						'name'     => 'Darknews Home',
                         'blockLink'=>"https://blockspare.com/demo/default/darknews/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2490,7 +2490,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_76',
                         'imagePath'=>'pages',
                         'pages'    =>'darknews-light',
-						'name'     => esc_html__( 'Darknews Light Home', 'blockspare' ),
+						'name'     => 'Darknews Light Home',
                         'blockLink'=>"https://blockspare.com/demo/default/darknews-light/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"align":"wide","enableBoxShadow":true,"yOffset":1,"blur":3,"spread":2,"shadowColor":"#00000012","animation":"AFTfadeInUp","uniqueClass":"blockspare-5a0f01cf-db1b-4","backGroundColor":"#252525"} -->
                         <div class="wp-block-blockspare-blockspare-container alignwide blockspare-5a0f01cf-db1b-4 blockspare-block-animation" blockspare-animation="AFTfadeInUp"><style>.blockspare-5a0f01cf-db1b-4 > .blockspare-block-container-wrapper{box-shadow:0px 1px 3px 2px #00000012;background-color:#252525;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-5a0f01cf-db1b-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"10px","bottom":"10px","left":"20px","right":"20px"}},"color":{"background":"#090909"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -2792,7 +2792,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_77',
                         'imagePath'=>'pages',
                         'pages'    =>'gadgets',
-						'name'     => esc_html__( 'Gadgets Home', 'blockspare' ),
+						'name'     => 'Gadgets Home',
                         'blockLink'=>"https://blockspare.com/demo/default/tech-gadgets/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -2802,7 +2802,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_78',
                         'imagePath'=>'pages',
                         'pages'    =>'gadgets',
-						'name'     => esc_html__( 'Gadgets Blog', 'blockspare' ),
+						'name'     => 'Gadgets Blog',
                         'blockLink'=>"https://blockspare.com/demo/default/tech-gadgets/blog/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -2812,7 +2812,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_79',
                         'imagePath'=>'pages',
                         'pages'    =>'gadgets',
-						'name'     => esc_html__( 'Gadgets About', 'blockspare' ),
+						'name'     => 'Gadgets About',
                         'blockLink'=>"https://blockspare.com/demo/default/tech-gadgets/about/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2822,7 +2822,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_80',
                         'imagePath'=>'pages',
                         'pages'    =>'gadgets',
-						'name'     => esc_html__( 'Gadgets Pricing', 'blockspare' ),
+						'name'     => 'Gadgets Pricing',
                         'blockLink'=>"https://blockspare.com/demo/default/tech-gadgets/pricing/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2832,7 +2832,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_81',
                         'imagePath'=>'pages',
                         'pages'    =>'gadgets',
-						'name'     => esc_html__( 'Gadgets Testimonal', 'blockspare' ),
+						'name'     => 'Gadgets Testimonal',
                         'blockLink'=>"https://blockspare.com/demo/default/tech-gadgets/testimonial/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -2842,7 +2842,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_82',
                         'imagePath'=>'pages',
                         'pages'    =>'gadgets',
-						'name'     => esc_html__( 'Gadgets Services', 'blockspare' ),
+						'name'     => 'Gadgets Services',
                         'blockLink'=>"https://blockspare.com/demo/default/tech-gadgets/services/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -2854,7 +2854,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_83',
                         'imagePath'=>'pages',
                         'pages'    =>'construction',
-						'name'     => esc_html__( 'Construction Home', 'blockspare' ),
+						'name'     => 'Construction Home',
                         'blockLink'=>"https://blockspare.com/demo/default/constructions/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2864,7 +2864,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_84',
                         'imagePath'=>'pages',
                         'pages'    =>'construction',
-						'name'     => esc_html__( 'Construction About Us', 'blockspare' ),
+						'name'     => 'Construction About Us',
                         'blockLink'=>"https://blockspare.com/demo/default/constructions/about/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2874,7 +2874,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_85',
                         'imagePath'=>'pages',
                         'pages'    =>'construction',
-						'name'     => esc_html__( 'Construction Blog', 'blockspare' ),
+						'name'     => 'Construction Blog',
                         'blockLink'=>"https://blockspare.com/demo/default/constructions/blog/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2884,7 +2884,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_86',
                         'imagePath'=>'pages',
                         'pages'    =>'construction',
-						'name'     => esc_html__( 'Construction FAQ', 'blockspare' ),
+						'name'     => 'Construction FAQ',
                         'blockLink'=>"https://blockspare.com/demo/default/constructions/faq/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -2894,7 +2894,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_87',
                         'imagePath'=>'pages',
                         'pages'    =>'construction',
-						'name'     => esc_html__( 'Construction Pricing', 'blockspare' ),
+						'name'     => 'Construction Pricing',
                         'blockLink'=>"https://blockspare.com/demo/default/constructions/pricing/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2904,7 +2904,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_88',
                         'imagePath'=>'pages',
                         'pages'    =>'construction',
-						'name'     => esc_html__( 'Construction Services', 'blockspare' ),
+						'name'     => 'Construction Services',
                         'blockLink'=>"https://blockspare.com/demo/default/constructions/services/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -2914,7 +2914,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_89',
                         'imagePath'=>'pages',
                         'pages'    =>'construction',
-						'name'     => esc_html__( 'Construction Testimonial', 'blockspare' ),
+						'name'     => 'Construction Testimonial',
                         'blockLink'=>"https://blockspare.com/demo/default/constructions/testimonials/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2926,7 +2926,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_90',
                         'imagePath'=>'pages',
                         'pages'    =>'florista',
-						'name'     => esc_html__( 'Florista Home', 'blockspare' ),
+						'name'     => 'Florista Home',
                         'blockLink'=>"https://blockspare.com/demo/default/florista-hut/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -2938,7 +2938,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_91',
                         'imagePath'=>'pages',
                         'pages'    =>'autoservice',
-						'name'     => esc_html__( 'Auto Service Home', 'blockspare' ),
+						'name'     => 'Auto Service Home',
                         'blockLink'=>"https://blockspare.com/demo/default/autoservice/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-a201fcce-0235-4"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-a201fcce-0235-4" blockspare-animation=""><style>.blockspare-a201fcce-0235-4 > .blockspare-block-container-wrapper{background-color:#f9f9f9;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-a201fcce-0235-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-8c4e4991-fb24-4","imgURL":"https://blockspare.com/demo/default/autoservice/wp-content/uploads/sites/25/2023/05/image-13.png","imgID":7,"imgAlt":"","opacityRatio":10,"backGroundColor":"#000000"} -->
@@ -3226,7 +3226,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_92',
                         'imagePath'=>'pages',
                         'pages'    =>'autodeal',
-						'name'     => esc_html__( 'Auto Deal Home', 'blockspare' ),
+						'name'     => 'Auto Deal Home',
                         'blockLink'=>"https://blockspare.com/demo/default/autodeal/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -3238,7 +3238,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_93',
                         'imagePath'=>'pages',
                         'pages'    =>'gardener',
-						'name'     => esc_html__( 'Gardener Home', 'blockspare' ),
+						'name'     => 'Gardener Home',
                         'blockLink'=>"https://blockspare.com/demo/default/gardener/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -3250,7 +3250,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_94',
                         'imagePath'=>'pages',
                         'pages'    =>'montessori',
-						'name'     => esc_html__( 'Montessori Home', 'blockspare' ),
+						'name'     => 'Montessori Home',
                         'blockLink'=>"https://blockspare.com/demo/default/montessori/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-11f39216-60a3-4"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-11f39216-60a3-4" blockspare-animation=""><style>.blockspare-11f39216-60a3-4 > .blockspare-block-container-wrapper{background-color:#f9f9f9;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-11f39216-60a3-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-5b4833aa-f0dc-4"} -->
@@ -3708,7 +3708,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_95',
                         'imagePath'=>'pages',
                         'pages'    =>'travel',
-						'name'     => esc_html__( 'Travel Home', 'blockspare' ),
+						'name'     => 'Travel Home',
                         'blockLink'=>"https://blockspare.com/demo/default/travel/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -3720,7 +3720,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_96',
                         'imagePath'=>'pages',
                         'pages'    =>'cinema',
-						'name'     => esc_html__( 'Cinema Home', 'blockspare' ),
+						'name'     => 'Cinema Home',
                         'blockLink'=>"https://blockspare.com/demo/default/cinemax/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -3732,7 +3732,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_97',
                         'imagePath'=>'pages',
                         'pages'    =>'dentlo',
-						'name'     => esc_html__( 'Dentlo Home', 'blockspare' ),
+						'name'     => 'Dentlo Home',
                         'blockLink'=>"https://blockspare.com/demo/default/dentist/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-f442f014-f971-4","backGroundColor":"#ffffff"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-f442f014-f971-4" blockspare-animation=""><style>.blockspare-f442f014-f971-4 > .blockspare-block-container-wrapper{background-color:#ffffff;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-f442f014-f971-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":50,"paddingLeft":0,"marginTop":0,"marginBottom":0,"bottomDesign":"sloped","bottomColor":"#ffffff","showBottomFront":true,"uniqueClass":"blockspare-bc9941e1-fc12-4","opacityRatio":50,"backGroundColor":"#104099"} -->
@@ -4060,7 +4060,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_98',
                         'imagePath'=>'pages',
                         'pages'    =>'hair-salon',
-						'name'     => esc_html__( 'Hair Salon Home', 'blockspare' ),
+						'name'     => 'Hair Salon Home',
                         'blockLink'=>"https://blockspare.com/demo/default/hair-salon/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -4072,7 +4072,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_99',
                         'imagePath'=>'pages',
                         'pages'    =>'interior-design',
-						'name'     => esc_html__( 'Interior Design Home', 'blockspare' ),
+						'name'     => 'Interior Design Home',
                         'blockLink'=>"https://blockspare.com/demo/default/interior-design/",
 						'content'  => BLOCKSPARE_PRO_PATH	
                     ),
@@ -4084,7 +4084,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_100',
                         'imagePath'=>'pages',
                         'pages'    =>'yoga',
-						'name'     => esc_html__( 'Yoga Home', 'blockspare' ),
+						'name'     => 'Yoga Home',
                         'blockLink'=>"https://blockspare.com/demo/default/yoga/",
 						'content'  => BLOCKSPARE_PRO_PATH
                     ),
@@ -4096,7 +4096,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_101',
                         'imagePath'=>'pages',
                         'pages'    =>'newschrome',
-						'name'     => esc_html__( 'NewsChrome Home', 'blockspare' ),
+						'name'     => 'NewsChrome Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newschrome/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4108,7 +4108,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_102',
                         'imagePath'=>'pages',
                         'pages'    =>'newschrome-dark',
-						'name'     => esc_html__( 'NewsChrome Dark Home', 'blockspare' ),
+						'name'     => 'NewsChrome Dark Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newschrome-dark/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4120,7 +4120,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_103',
                         'imagePath'=>'pages',
                         'pages'    =>'covernews',
-						'name'     => esc_html__( 'CoverNews Home', 'blockspare' ),
+						'name'     => 'CoverNews Home',
                         'blockLink'=>"https://blockspare.com/demo/default/covernews/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-80db69f6-ed05-4","backGroundColor":"#f5f5f5"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-80db69f6-ed05-4" blockspare-animation=""><style>.blockspare-80db69f6-ed05-4 > .blockspare-block-container-wrapper{background-color:#f5f5f5;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-80db69f6-ed05-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"},"padding":{"top":"10px","bottom":"10px","left":"20px","right":"20px"}},"color":{"background":"#353535"}},"layout":{"type":"constrained"}} -->
@@ -4443,7 +4443,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_104',
                         'imagePath'=>'pages',
                         'pages'    =>'gadgets-news',
-						'name'     => esc_html__( 'Gadgets News Home', 'blockspare' ),
+						'name'     => 'Gadgets News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/gadgets-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4456,7 +4456,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_105',
                         'imagePath'=>'pages',
                         'pages'    =>'crypto-news',
-						'name'     => esc_html__( 'Crypto News Home', 'blockspare' ),
+						'name'     => 'Crypto News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/crypto-news-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4469,7 +4469,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_106',
                         'imagePath'=>'pages',
                         'pages'    =>'travel-news',
-						'name'     => esc_html__( 'Travel News Home', 'blockspare' ),
+						'name'     => 'Travel News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/travel-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4482,7 +4482,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_107',
                         'imagePath'=>'pages',
                         'pages'    =>'daily-news',
-						'name'     => esc_html__( 'Daily News Home', 'blockspare' ),
+						'name'     => 'Daily News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/covernews-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4495,7 +4495,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_108',
                         'imagePath'=>'pages',
                         'pages'    =>'news-station',
-						'name'     => esc_html__( 'News Station Home', 'blockspare' ),
+						'name'     => 'News Station Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newschrome-dark-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4508,7 +4508,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_109',
                         'imagePath'=>'pages',
                         'pages'    =>'modern-news',
-						'name'     => esc_html__( 'Modern News Home', 'blockspare' ),
+						'name'     => 'Modern News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newschrome-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4521,7 +4521,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_110',
                         'imagePath'=>'pages',
                         'pages'    =>'rtl-news',
-						'name'     => esc_html__( 'RTL News Home', 'blockspare' ),
+						'name'     => 'RTL News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/arabic-news-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4534,7 +4534,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_111',
                         'imagePath'=>'pages',
                         'pages'    =>'simple-chinese-news',
-						'name'     => esc_html__( 'Simple Chinese News Home', 'blockspare' ),
+						'name'     => 'Simple Chinese News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/chinese-news-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4547,7 +4547,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_112',
                         'imagePath'=>'pages',
                         'pages'    =>'fashion-magazine',
-						'name'     => esc_html__( 'Fashion Magazine Home', 'blockspare' ),
+						'name'     => 'Fashion Magazine Home',
                         'blockLink'=>"https://blockspare.com/demo/default/fashion-news-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4560,7 +4560,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_113',
                         'imagePath'=>'pages',
                         'pages'    =>'sport-blog',
-						'name'     => esc_html__( 'Sport Blog Home', 'blockspare' ),
+						'name'     => 'Sport Blog Home',
                         'blockLink'=>"https://blockspare.com/demo/default/sport-news-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4573,7 +4573,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_114',
                         'imagePath'=>'pages',
                         'pages'    =>'news-hub',
-						'name'     => esc_html__( 'News Hub Home', 'blockspare' ),
+						'name'     => 'News Hub Home',
                         'blockLink'=>"https://blockspare.com/demo/default/general-news-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4586,7 +4586,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_115',
                         'imagePath'=>'pages',
                         'pages'    =>'live-sport',
-						'name'     => esc_html__( 'Live Sport Home', 'blockspare' ),
+						'name'     => 'Live Sport Home',
                         'blockLink'=>"https://blockspare.com/demo/default/chromenews-dark-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4599,7 +4599,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_116',
                         'imagePath'=>'pages',
                         'pages'    =>'times-news',
-						'name'     => esc_html__( 'Times News Home', 'blockspare' ),
+						'name'     => 'Times News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/morenews-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4612,7 +4612,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_117',
                         'imagePath'=>'pages',
                         'pages'    =>'express-news',
-						'name'     => esc_html__( 'Express News Home', 'blockspare' ),
+						'name'     => 'Express News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/hybridnews-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4625,7 +4625,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_118',
                         'imagePath'=>'pages',
                         'pages'    =>'classic-news',
-						'name'     => esc_html__( 'Classic News Home', 'blockspare' ),
+						'name'     => 'Classic News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsphere-dark-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4638,7 +4638,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_119',
                         'imagePath'=>'pages',
                         'pages'    =>'world-news',
-						'name'     => esc_html__( 'World News Home', 'blockspare' ),
+						'name'     => 'World News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsphere-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4651,7 +4651,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_120',
                         'imagePath'=>'pages',
                         'pages'    =>'central-news',
-						'name'     => esc_html__( 'Central News Home', 'blockspare' ),
+						'name'     => 'Central News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/enternews-dark-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4664,7 +4664,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_121',
                         'imagePath'=>'pages',
                         'pages'    =>'24hrs-news',
-						'name'     => esc_html__( '24hrs News Home', 'blockspare' ),
+						'name'     => '24hrs News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/enternews-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4677,7 +4677,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_122',
                         'imagePath'=>'pages',
                         'pages'    =>'magnificent-blog',
-						'name'     => esc_html__( 'Magnificent Blog Home', 'blockspare' ),
+						'name'     => 'Magnificent Blog Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsever-light-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4690,7 +4690,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_123',
                         'imagePath'=>'pages',
                         'pages'    =>'elegance-news',
-						'name'     => esc_html__( 'Elegance News Home', 'blockspare' ),
+						'name'     => 'Elegance News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsever-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4703,7 +4703,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_124',
                         'imagePath'=>'pages',
                         'pages'    =>'online-news',
-						'name'     => esc_html__( 'Online News Home', 'blockspare' ),
+						'name'     => 'Online News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/covernews-dark-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4716,7 +4716,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_125',
                         'imagePath'=>'pages',
                         'pages'    =>'dark-magazine',
-						'name'     => esc_html__( 'Dark Magazine Home', 'blockspare' ),
+						'name'     => 'Dark Magazine Home',
                         'blockLink'=>"https://blockspare.com/demo/default/darknews-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4729,7 +4729,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_126',
                         'imagePath'=>'pages',
                         'pages'    =>'splash-news',
-						'name'     => esc_html__( 'Splash News Home', 'blockspare' ),
+						'name'     => 'Splash News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/darknews-light-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -4739,7 +4739,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_127',
                         'imagePath'=>'pages',
                         'pages'    =>'newschrome',
-						'name'     => esc_html__( 'NewsChrome Home 1', 'blockspare' ),
+						'name'     => 'NewsChrome Home 1',
                         'blockLink'=>"https://blockspare.com/demo/default/newschrome/home-1/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"marginTop":0,"marginBottom":20,"align":"wide","enableBoxShadow":true,"yOffset":1,"blur":1,"spread":1,"shadowColor":"#00000012","uniqueClass":"blockspare-92764b81-ff37-4","backGroundColor":"#ffffff"} -->
                         <div class="wp-block-blockspare-blockspare-container alignwide blockspare-92764b81-ff37-4" blockspare-animation=""><style>.blockspare-92764b81-ff37-4 > .blockspare-block-container-wrapper{box-shadow:0px 1px 1px 1px #00000012;background-color:#ffffff;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;border-radius:0}.blockspare-92764b81-ff37-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/latest-posts-flash {"taxType":"","uniqueClass":"blockspare-7169158f-c541-4","postTitleColor":"#404040","titleFontSizeMobile":14,"exclusiveColor":"#ffffff","exclusiveBgColor":"#0987f5","marginBottom":20,"backGroundColor":"#ffffff","titleOnHoverColor":"#000000","animation":"AFTfadeInDown","exclusiveText":"EXCLUSIVE","exclusiveSubtitle":true,"exclusiveSubtitleText":"NEWS","exclusiveFontWeight":"700","newsColor":"#ffffff","newsBgColor":"#ee2224","fixedWidth":true,"postWidth":325,"exclusiveSubtitleFontSize":10,"exclusiveSubtitleFontWeight":"700","exclusiveSubtitleFontSizeMobile":10,"exclusiveSubtitleFontSizeTablet":10} /-->
@@ -4871,7 +4871,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_128',
                         'imagePath'=>'pages',
                         'pages'    =>'newschrome',
-						'name'     => esc_html__( 'NewsChrome Home 2', 'blockspare' ),
+						'name'     => 'NewsChrome Home 2',
                         'blockLink'=>"https://blockspare.com/demo/default/newschrome/home-2/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"marginTop":0,"marginBottom":20,"align":"wide","enableBoxShadow":true,"yOffset":1,"blur":1,"spread":1,"shadowColor":"#00000012","uniqueClass":"blockspare-5c0630f1-2e67-4","backGroundColor":"#ffffff"} -->
                         <div class="wp-block-blockspare-blockspare-container alignwide blockspare-5c0630f1-2e67-4" blockspare-animation=""><style>.blockspare-5c0630f1-2e67-4 > .blockspare-block-container-wrapper{box-shadow:0px 1px 1px 1px #00000012;background-color:#ffffff;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;border-radius:0}.blockspare-5c0630f1-2e67-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/latest-posts-flash {"uniqueClass":"blockspare-61be33b2-f3f0-4","postTitleColor":"#404040","titleFontSizeMobile":14,"exclusiveColor":"#ffffff","exclusiveBgColor":"#0987f5","marginBottom":20,"backGroundColor":"#ffffff","titleOnHoverColor":"#000000","animation":"AFTfadeInDown","exclusiveText":"BREAKING NEWS ","exclusiveSubtitleText":"NEWS","spinnerOption":"spinner-option-2","spinnerIcon":"fas fa-globe-americas","animationStyle":"animation-style-3","exclusiveFontWeight":"700","newsColor":"#ffffff","newsBgColor":"#ee2224","fixedWidth":true,"postWidth":325,"exclusiveSubtitleFontSize":10,"exclusiveSubtitleFontWeight":"700","exclusiveSubtitleFontSizeMobile":10,"exclusiveSubtitleFontSizeTablet":10} /-->
@@ -4985,7 +4985,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_129',
                         'imagePath'=>'pages',
                         'pages'    =>'newschrome',
-						'name'     => esc_html__( 'NewsChrome Home 3', 'blockspare' ),
+						'name'     => 'NewsChrome Home 3',
                         'blockLink'=>"https://blockspare.com/demo/default/newschrome/home-3/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"marginTop":0,"marginBottom":0,"align":"wide","enableBoxShadow":true,"yOffset":1,"blur":1,"spread":1,"shadowColor":"#00000012","uniqueClass":"blockspare-7cc09985-152c-4","backGroundColor":"#ffffff"} -->
                         <div class="wp-block-blockspare-blockspare-container alignwide blockspare-7cc09985-152c-4" blockspare-animation=""><style>.blockspare-7cc09985-152c-4 > .blockspare-block-container-wrapper{box-shadow:0px 1px 1px 1px #00000012;background-color:#ffffff;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-7cc09985-152c-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/latest-posts-flash {"uniqueClass":"blockspare-ea7fc6fa-aca5-4","postTitleColor":"#404040","titleFontSizeMobile":14,"exclusiveColor":"#ffffff","exclusiveBgColor":"#ee2224","marginBottom":20,"backGroundColor":"#ffffff","titleOnHoverColor":"#000000","animation":"AFTfadeInDown","exclusiveText":"UPDATE","exclusiveSubtitle":true,"exclusiveSubtitleText":"LIVE","spinnerStyle":"spinner-style-4","exclusiveFontWeight":"700","newsColor":"#ffffff","newsBgColor":"#0987f5","fixedWidth":true,"postWidth":325,"exclusiveSubtitleFontSize":10,"exclusiveSubtitleFontWeight":"700","exclusiveSubtitleFontSizeMobile":10,"exclusiveSubtitleFontSizeTablet":10} /-->
@@ -5119,7 +5119,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_130',
                         'imagePath'=>'pages',
                         'pages'    =>'newschrome',
-						'name'     => esc_html__( 'NewsChrome Home 4', 'blockspare' ),
+						'name'     => 'NewsChrome Home 4',
                         'blockLink'=>"https://blockspare.com/demo/default/newschrome/home-4/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"marginTop":0,"marginBottom":20,"align":"wide","enableBoxShadow":true,"yOffset":1,"blur":1,"spread":1,"shadowColor":"#00000012","uniqueClass":"blockspare-14b6cb00-7045-4","backGroundColor":"#ffffff"} -->
                         <div class="wp-block-blockspare-blockspare-container alignwide blockspare-14b6cb00-7045-4" blockspare-animation=""><style>.blockspare-14b6cb00-7045-4 > .blockspare-block-container-wrapper{box-shadow:0px 1px 1px 1px #00000012;background-color:#ffffff;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;border-radius:0}.blockspare-14b6cb00-7045-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/latest-posts-flash {"uniqueClass":"blockspare-954004c4-043b-4","postTitleColor":"#404040","postTitleFontSize":16,"titleFontSizeMobile":14,"exclusiveColor":"#ffffff","exclusiveBgColor":"#ee2224","marginBottom":20,"backGroundColor":"#ffffff","titleOnHoverColor":"#000000","animation":"AFTfadeInDown","exclusiveText":"TRENDING","exclusiveSubtitleText":"NOW","spinner":false,"spinnerStyle":"spinner-style-1","exclusiveFontWeight":"700","newsColor":"#ffffff","newsBgColor":"#ee2224","postWidth":325,"exclusiveSubtitleFontSize":10,"exclusiveSubtitleFontWeight":"700","exclusiveSubtitleFontSizeMobile":10,"exclusiveSubtitleFontSizeTablet":10} /-->
@@ -5275,7 +5275,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
 						'key'      => 'bs_page_131',
                         'imagePath'=>'pages',
                         'pages'    =>'newschrome',
-						'name'     => esc_html__( 'NewsChrome Home 5', 'blockspare' ),
+						'name'     => 'NewsChrome Home 5',
                         'blockLink'=>"https://blockspare.com/demo/default/newschrome/home-5/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"marginTop":0,"marginBottom":20,"align":"wide","enableBoxShadow":true,"yOffset":1,"blur":1,"spread":1,"shadowColor":"#00000012","uniqueClass":"blockspare-7ea33765-f212-4","backGroundColor":"#ffffff"} -->
                         <div class="wp-block-blockspare-blockspare-container alignwide blockspare-7ea33765-f212-4" blockspare-animation=""><style>.blockspare-7ea33765-f212-4 > .blockspare-block-container-wrapper{box-shadow:0px 1px 1px 1px #00000012;background-color:#ffffff;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;border-radius:0}.blockspare-7ea33765-f212-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/latest-posts-flash {"taxType":"","uniqueClass":"blockspare-21540813-aa85-4","postTitleColor":"#404040","titleFontSizeMobile":14,"exclusiveColor":"#ffffff","exclusiveBgColor":"#0987f5","marginBottom":20,"backGroundColor":"#ffffff","titleOnHoverColor":"#000000","animation":"AFTfadeInDown","exclusiveText":"EXCLUSIVE","exclusiveSubtitle":true,"exclusiveSubtitleText":"NEWS","exclusiveFontWeight":"700","newsColor":"#ffffff","newsBgColor":"#ee2224","fixedWidth":true,"postWidth":325,"exclusiveSubtitleFontSize":10,"exclusiveSubtitleFontWeight":"700","exclusiveSubtitleFontSizeMobile":10,"exclusiveSubtitleFontSizeTablet":10} /-->
@@ -5411,7 +5411,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'newsium',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Newsium Home', 'blockspare' ),
+						'name'     => 'Newsium Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsium/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-a8f26400-2b77-4","backGroundColor":"#f3f3f3"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-a8f26400-2b77-4" blockspare-animation=""><style>.blockspare-a8f26400-2b77-4 > .blockspare-block-container-wrapper{background-color:#f3f3f3;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-a8f26400-2b77-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingRight":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-49dfce73-f88e-4","backGroundColor":"#00000000"} -->
@@ -5551,7 +5551,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'newsium-dark',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Newsium Dark Home', 'blockspare' ),
+						'name'     => 'Newsium Dark Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsium-dark/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-f40f28de-5789-4","backGroundColor":"#181818"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-f40f28de-5789-4" blockspare-animation=""><style>.blockspare-f40f28de-5789-4 > .blockspare-block-container-wrapper{background-color:#181818;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-f40f28de-5789-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingRight":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-99b3da84-1cc8-4","backGroundColor":"#00000000"} -->
@@ -5691,7 +5691,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'chromenews',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Chromenews Home', 'blockspare' ),
+						'name'     => 'Chromenews Home',
                         'blockLink'=>"https://blockspare.com/demo/default/chromenews/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-e8f46017-14f5-4","backGroundColor":"#eeeeee"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-e8f46017-14f5-4" blockspare-animation=""><style>.blockspare-e8f46017-14f5-4 > .blockspare-block-container-wrapper{background-color:#eeeeee;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-e8f46017-14f5-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"20px","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}},"color":{"background":"#eeeeee"}},"layout":{"type":"constrained"}} -->
@@ -5899,7 +5899,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'news-graph',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'News Graph Home', 'blockspare' ),
+						'name'     => 'News Graph Home',
                         'blockLink'=>"https://blockspare.com/demo/default/chromenews-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -5913,7 +5913,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'pastel-news',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Pastel News Home', 'blockspare' ),
+						'name'     => 'Pastel News Home',
                         'blockLink'=>"https://blockspare.com/demo/default/morenews-pro-pastel/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -5927,7 +5927,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'news-cafe',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'News Cafe Home', 'blockspare' ),
+						'name'     => 'News Cafe Home',
                         'blockLink'=>"https://blockspare.com/demo/default/morenews-pro-cafe/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -5941,7 +5941,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'news-border',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'News Border Home', 'blockspare' ),
+						'name'     => 'News Border Home',
                         'blockLink'=>"https://blockspare.com/demo/default/morenews-pro-border/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -5955,7 +5955,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'elegant-magazine',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Elegant Magazine Home', 'blockspare' ),
+						'name'     => 'Elegant Magazine Home',
                         'blockLink'=>"https://blockspare.com/demo/default/elegant-magazine/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-ff1e152b-f617-4","backGroundColor":"#fefefe"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-ff1e152b-f617-4" blockspare-animation=""><style>.blockspare-ff1e152b-f617-4 > .blockspare-block-container-wrapper{background-color:#fefefe;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-ff1e152b-f617-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingRight":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-9ffca099-4a1a-4","backGroundColor":"#00000000"} -->
@@ -6097,7 +6097,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'elegant-magazine-dark',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Elegant Magazine Dark Home', 'blockspare' ),
+						'name'     => 'Elegant Magazine Dark Home',
                         'blockLink'=>"https://blockspare.com/demo/default/elegant-magazine-dark/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-f46ae310-a54a-4","backGroundColor":"#131313"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-f46ae310-a54a-4" blockspare-animation=""><style>.blockspare-f46ae310-a54a-4 > .blockspare-block-container-wrapper{background-color:#131313;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-f46ae310-a54a-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingRight":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-d8cda9b8-35be-4","backGroundColor":"#00000000"} -->
@@ -6239,7 +6239,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'fashion-magazine',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Fashion Magazine Home', 'blockspare' ),
+						'name'     => 'Fashion Magazine Home',
                         'blockLink'=>"https://blockspare.com/demo/default/elegant-magazine-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -6253,7 +6253,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'magazine-club',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Magazine Club Home', 'blockspare' ),
+						'name'     => 'Magazine Club Home',
                         'blockLink'=>"https://blockspare.com/demo/default/elegant-magazine-dark-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -6267,7 +6267,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'magazine-7',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Magazine 7 Home', 'blockspare' ),
+						'name'     => 'Magazine 7 Home',
                         'blockLink'=>"https://blockspare.com/demo/default/magazine-7/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-c89486ae-def3-4","backGroundColor":"#f3f3f3"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-c89486ae-def3-4" blockspare-animation=""><style>.blockspare-c89486ae-def3-4 > .blockspare-block-container-wrapper{background-color:#f3f3f3;padding-top:0px;padding-right:0px;padding-bottom:20px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-c89486ae-def3-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":10,"paddingBottom":10,"marginTop":0,"marginBottom":0,"yOffset":0,"blur":0,"spread":1,"uniqueClass":"blockspare-dc4054cf-5d76-4","backGroundColor":"#00000000"} -->
@@ -6395,7 +6395,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'magazine-7-dark',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Magazine 7 Dark Home', 'blockspare' ),
+						'name'     => 'Magazine 7 Dark Home',
                         'blockLink'=>"https://blockspare.com/demo/default/magazine-7-dark/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-44ca6c24-5779-4","backGroundColor":"#111111"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-44ca6c24-5779-4" blockspare-animation=""><style>.blockspare-44ca6c24-5779-4 > .blockspare-block-container-wrapper{background-color:#111111;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-44ca6c24-5779-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":10,"paddingBottom":10,"marginTop":0,"marginBottom":0,"yOffset":0,"blur":0,"spread":1,"uniqueClass":"blockspare-1d350fc5-d9f4-4","backGroundColor":"#00000000"} -->
@@ -6529,7 +6529,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'magazine-hub',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Magazine Hub Home', 'blockspare' ),
+						'name'     => 'Magazine Hub Home',
                         'blockLink'=>"https://blockspare.com/demo/default/magazine-7-plus/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -6543,7 +6543,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'dark-magazine',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Dark Magazine Home', 'blockspare' ),
+						'name'     => 'Dark Magazine Home',
                         'blockLink'=>"https://blockspare.com/demo/default/magazine-7-dark-plus/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ), 
@@ -6557,7 +6557,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'magnitude',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Magnitude Home', 'blockspare' ),
+						'name'     => 'Magnitude Home',
                         'blockLink'=>"https://blockspare.com/demo/default/magnitude/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-e0e0a651-3eba-4","backGroundColor":"#f7f7f7"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-e0e0a651-3eba-4" blockspare-animation=""><style>.blockspare-e0e0a651-3eba-4 > .blockspare-block-container-wrapper{background-color:#f7f7f7;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-e0e0a651-3eba-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingRight":0,"paddingBottom":10,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-b8b128e4-0c1d-4","backGroundColor":"#00000000"} -->
@@ -6709,7 +6709,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'magnitude-dark',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'Magnitude Dark Home', 'blockspare' ),
+						'name'     => 'Magnitude Dark Home',
                         'blockLink'=>"https://blockspare.com/demo/default/magnitude-dark/",
 						'content'  => '<!-- wp:blockspare/blockspare-container {"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-59430444-e804-4","backGroundColor":"#111111"} -->
                         <div class="wp-block-blockspare-blockspare-container alignfull blockspare-59430444-e804-4" blockspare-animation=""><style>.blockspare-59430444-e804-4 > .blockspare-block-container-wrapper{background-color:#111111;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border-radius:0}.blockspare-59430444-e804-4 .blockspare-image-wrap{background-image:none}</style><div class="blockspare-block-container-wrapper blockspare-hover-item"><div class="blockspare-container-background blockspare-image-wrap has-background-opacity-100 has-background-opacity"></div><div class="blockspare-container"><div class="blockspare-inner-blocks blockspare-inner-wrapper-blocks"><!-- wp:blockspare/blockspare-container {"paddingTop":10,"paddingRight":0,"paddingBottom":10,"paddingLeft":0,"marginTop":0,"marginBottom":0,"uniqueClass":"blockspare-3eb9c1f8-99b2-4","backGroundColor":"#00000000"} -->
@@ -6865,7 +6865,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'news-design',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'News Design Home', 'blockspare' ),
+						'name'     => 'News Design Home',
                         'blockLink'=>"https://blockspare.com/demo/default/magnitude-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -6879,7 +6879,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'news-store',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'News Store Home', 'blockspare' ),
+						'name'     => 'News Store Home',
                         'blockLink'=>"https://blockspare.com/demo/default/magnitude-dark-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -6893,7 +6893,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'news-tour',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'News Tour Home', 'blockspare' ),
+						'name'     => 'News Tour Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsium-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     ),
@@ -6907,7 +6907,7 @@ if ( ! class_exists( 'Blockspare_Page_Template_Block' ) ) {
                         'imagePath'=>'pages',
                         'pages'    =>'news-art',
                         'pattern'  => 'yes',
-						'name'     => esc_html__( 'News Art Home', 'blockspare' ),
+						'name'     => 'News Art Home',
                         'blockLink'=>"https://blockspare.com/demo/default/newsium-dark-pro/",
 						'content'  => BLOCKSPARE_PRO_PATH,	
                     )

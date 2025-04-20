@@ -4,9 +4,9 @@ Plugin URI: https://www.blockspare.com/
 Contributors: blockspare, afthemes
 Tags: Block, Editor, Gutenberg, Gutenberg Blocks, Page Builder, WordPress Blocks, Blocks, Patterns, Templates, Business, News, Magazine, Post Grid, Post List, Post Slider, Post Carousel, Starter Sites
 Requires at least: 4.9
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.3
-Stable tag: 3.2.8
+Stable tag: 3.2.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
