@@ -6,7 +6,7 @@ Tags: Block, Editor, Gutenberg, Gutenberg Blocks, Page Builder, WordPress Blocks
 Requires at least: 4.9
 Tested up to: 6.8
 Requires PHP: 5.3
-Stable tag: 3.2.9
+Stable tag: 3.2.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -407,6 +407,10 @@ Definitely, you can explore all of the demos on <a href="https://www.blockspare.
 
 
 == Changelog ==
+= 3.2.10 =
+* Update: Security improvement
+* Update: New patterns on library
+
 = 3.2.8 =
 * Update: Security improvement
 * Update: New patterns on library
