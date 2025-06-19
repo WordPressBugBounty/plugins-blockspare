@@ -2,7 +2,8 @@
 Author URI: https://www.blockspare.com/
 Plugin URI: https://www.blockspare.com/
 Contributors: blockspare, afthemes
-Tags: Block, Editor, Gutenberg, Gutenberg Blocks, Page Builder, WordPress Blocks, Blocks, Patterns, Templates, Business, News, Magazine, Post Grid, Post List, Post Slider, Post Carousel, Starter Sites
+Tags: blog, news, post carousel, post grid, post slider
+Donate link: https://www.blockspare.com/pricing/
 Requires at least: 4.9
 Tested up to: 6.8
 Requires PHP: 5.3
