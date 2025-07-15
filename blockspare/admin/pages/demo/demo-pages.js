@@ -126,7 +126,7 @@ const Pages = ({ data, loader }) => {
                                             </div>
                                             <div className='bs-layout-design-info'>
                                                 <div className='bs-layout-design-title'>{items[0].name}</div>
-                                                <span className="bs-template-count">{noOfpages} Templates</span>
+                                                <span className="bs-template-count">{noOfpages} {__('Patterns', 'blockspare')}</span>
                                             </div>
                                         </div>
                                     </div>

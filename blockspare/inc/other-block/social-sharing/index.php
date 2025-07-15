@@ -157,10 +157,10 @@ if (!function_exists('blockspare_render_social_sharing_block')) {
       '
 <div class="%7$s %8$s %10$s %12$s" blockspare-animation="%9$s">' . blockspare_social_share_style($blockuniqueclass, $attributes) . '
 <div class="blockspare-blocks blockspare-social-wrapper">
-            <ul class="blockspare-social-sharing %2$s %3$s %4$s %5$s %6$s %11$s ">%1$s</ul>
-            </div>
-            </div>
-        ',
+			<ul class="blockspare-social-sharing %2$s %3$s %4$s %5$s %6$s %11$s ">%1$s</ul>
+			</div>
+			</div>
+		',
       $share_url,
       isset($attributes['iconColorOption']) ? esc_attr($attributes['iconColorOption']) : null,
       isset($attributes['buttonOptions']) ? esc_attr($attributes['buttonOptions']) : null,
@@ -254,16 +254,16 @@ if (!function_exists('blockspare_render_social_sharing_block_item')) {
     if (!$is_amp_endpoint) {
       $share_url .= sprintf(
         '<li class="blockspare-hover-item">
-                <a
-                    href="%1$s"
-                    class="%3$s"
-                    title="%2$s" 
-                    >
-                    <span class="blockspare-social-icons">
-                    <i class="%4$s"></i> <span class="blockspare-social-text">%2$s</span>
-                    </span>
-                </a>
-            </li>',
+				<a
+					href="%1$s"
+					class="%3$s"
+					title="%2$s" 
+					>
+					<span class="blockspare-social-icons">
+					<i class="%4$s"></i> <span class="blockspare-social-text">%2$s</span>
+					</span>
+				</a>
+			</li>',
         $attribute_url,
         esc_html__($attribute_title),
         esc_attr__($item_class),
@@ -279,15 +279,15 @@ if (!function_exists('blockspare_render_social_sharing_block_item')) {
       }
       $share_url .= sprintf(
         '<li class="blockspare-hover-item">
-                <a
-                    %1$s
-                    class="%3$s"
-                    title="%2$s" 
-                    ><span class="blockspare-social-icons">
-                    <i class="%4$s"></i> <span class="blockspare-social-text">%2$s</span>
-                    </span>
-                </a>
-            </li>',
+				<a
+					%1$s
+					class="%3$s"
+					title="%2$s" 
+					><span class="blockspare-social-icons">
+					<i class="%4$s"></i> <span class="blockspare-social-text">%2$s</span>
+					</span>
+				</a>
+			</li>',
         $href_format,
         esc_html__($attribute_title),
         esc_attr__($item_class),

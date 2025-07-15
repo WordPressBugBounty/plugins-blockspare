@@ -20,7 +20,7 @@ const navs = [
     //     title: "Blocks",
     // },
     {
-        title: "Starter Templates"
+        title: "Patterns Library"
     },
     {
         title: "Explore More",

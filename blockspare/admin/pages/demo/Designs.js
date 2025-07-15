@@ -39,7 +39,7 @@ const Designs = () => {
                                 }`}
                             onClick={(e) => handleNavStateChange("pages")}
                         >
-                            {__("Starter Templates", 'blockspare')}
+                            {__("All Patterns", 'blockspare')}
                             <Countdemo type='page' data={demoData} />
                         </div>
                         <div

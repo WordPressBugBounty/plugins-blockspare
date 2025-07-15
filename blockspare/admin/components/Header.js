@@ -21,7 +21,7 @@ const Header = ({current, activeNavHandler}) => {
                     <div className="bs-dashboard-upgrade-button links-panel">
                         <a className="bs-dashboard__button bs-upgrade-button" href='https://www.blockspare.com/pricing/' target='_blank'>
                             {icons.diamond}
-                            {__('Unlock All Templates', 'blockspare')}
+                            {__('Unlock All Features', 'blockspare')}
                         </a>
                     </div>
                     {/* <div className="bs-dashboare-menu-mobile">

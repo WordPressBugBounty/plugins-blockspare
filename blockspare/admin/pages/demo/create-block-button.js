@@ -10,7 +10,7 @@ const CreateBlockButton = ({ href }) => {
 
     return (
         <Tooltip 
-            text={__('Create Page with Template', 'blockspare')}
+            text={__('Use Pattern', 'blockspare')}
         >
             <Button 
                 isSmall

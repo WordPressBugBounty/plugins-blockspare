@@ -6,13 +6,13 @@ import {
 
 } from '@wordpress/components';
 const Copycontent = ({ contentdata }) => {
-    const [copySuccessMessage, setCopySuccessMessage] = useState('Copy Template');
+    const [copySuccessMessage, setCopySuccessMessage] = useState('Copy Pattern');
     const copyToClipboard = (text) => {
         navigator.clipboard.writeText(text)
             .then(() => {
                 setCopySuccessMessage('Copied');
                 // Clear success message after a certain time if needed
-                setTimeout(() => setCopySuccessMessage('Copy Template'), 2000);
+                setTimeout(() => setCopySuccessMessage('Copy Pattern'), 2000);
             })
             .catch((err) => {
                 setCopySuccessMessage('Unable to copy to clipboard', err);

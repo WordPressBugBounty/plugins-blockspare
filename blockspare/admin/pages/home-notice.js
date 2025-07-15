@@ -12,7 +12,7 @@ const Homenotice = () => {
                             <div class="blockspare-version">{__('Blockspare', 'blockspare')} <span>{blockspare_dashboard.pluginVesion}</span></div>
                         </div>
                         <h2 class="blockspare-notice-title">{__('Effortless Site Creation in Minutes', 'blockspare')}</h2>
-                        <p class="blockspare-notice-description">{__('Expert Templates from our Design Library - Import, Customize, Publish with Ease!', 'blockspare')}</p>
+                        <p class="blockspare-notice-description">{__('Expert Templates from our Patterns Library - Import, Customize, Publish with Ease!', 'blockspare')}</p>
                         <div class='blockspare-notice-buttons'>
                             <a href={blockspare_dashboard.adminPath} target="_blank" class="blockspare-notice-button blockspare-notice-button-primary"><span class="dashicons dashicons-plus"></span> {__('Get Started', 'blockspare')}</a>
                             <a href="https://blockspare.com/" target="_blank" class="blockspare-notice-button blockspare-notice-button-secondary"><span class="dashicons dashicons-welcome-learn-more"></span> {__('Learn More', 'blockspare')}</a>
@@ -32,8 +32,8 @@ const Homenotice = () => {
                         </div>
                         <div class='bs-welcome-panel-column-content'>
                             <h3>{__('Launch Your Site with a Click!', 'blockspare')} </h3>
-                            <p>{__('Effortlessly build Blogs, News, Magazines, and Agency Websites with our Expert-Designed Templates. No Coding Needed - Just a Click Away!', 'blockspare')} </p>
-                            <a href={blockspare_dashboard.adminPath} target="_blank" class="blockspare-notice-link">{__('Create Page with Template', 'blockspare')}</a>
+                            <p>{__('Effortlessly build Blogs, News, Magazines, and Agency Websites with our Expert-Designed Patterns. No Coding Needed - Just a Click Away!', 'blockspare')} </p>
+                            <a href={blockspare_dashboard.adminPath} target="_blank" class="blockspare-notice-link">{__('Use Pattern', 'blockspare')}</a>
                         </div>
                     </div>
 
