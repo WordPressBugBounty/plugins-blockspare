@@ -1,413 +1,163 @@
-﻿=== BlockSpare: Gutenberg Blocks & Patterns for Blogs, Magazines, Business Sites – Post Grids, Sliders, Carousels, Counters, Page Builder & Starter Site Imports, No Coding Needed ===
+﻿=== BlockSpare — News, Magazine and Blog Addons for (Gutenberg) Block Editor===
 Author URI: https://www.blockspare.com/
 Plugin URI: https://www.blockspare.com/
 Contributors: blockspare, afthemes
-Tags: blog, news, post carousel, post grid, post slider
 Donate link: https://www.blockspare.com/pricing/
+Tags: blog, news, magazine, gutenberg blocks, starter templates
 Requires at least: 4.9
 Tested up to: 6.8
 Requires PHP: 5.3
-Stable tag: 3.2.13.2
+Stable tag: 3.2.14
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+Build blogs, magazines, and business sites with ready-to-use Gutenberg blocks and starter templates. No coding needed.
 
 == Description ==
 
-## Effortless Drag & Drop Website Building, and Starter Templates Imports, No Coding Needed
+Creating a professional blog, news or business site can take a lot of time: design, layout, post presentation, and responsive adjustments are all needed before you can launch. Many users want great-looking results but don’t want to write code or build layouts from scratch.
 
-Are you ready to elevate your website without the hassle of coding? Look no further – <strong>[BlockSpare](https://blockspare.com)</strong> is here to redefine your digital journey. Our primary focus is clear: <strong>Build Your Blog, News, Magazine, and Agency Websites with Expert-Designed Templates. One Click Import – No Coding Skills Required!</strong>
-
-[Try It Now](https://tastewp.com/new/?pre-installed-plugin-slug=blockspare) | [Explore More](https://blockspare.com) | [Demos](https://www.blockspare.com/starter-templates/) | [Blocks](https://www.blockspare.com/blocks/) | [Documentation](https://www.blockspare.com/docs/) | [Pricing](https://www.blockspare.com/pricing/)
-
-## Forget About Starting From Scratch
+### The BlockSpare approach
+BlockSpare provides a library of **starter templates**, **Gutenberg blocks**, and **patterns** so you can assemble production-ready pages quickly. Instead of starting from an empty canvas, start from a thoughtfully designed block or template and adapt it for your brand.
 
 [youtube https://www.youtube.com/watch?v=JHNIdv4C690]
 
+BlockSpare delivers:
+* A large starter templates library (industry & niche specific)
+* Post presentation blocks (grids, sliders, carousels, masonry)
+* Business and utility blocks (pricing, testimonials, counters, CTAs)
+* Image & gallery blocks (carousel, masonry, logo grid)
+* One-click import and copy/paste patterns for fast builds
 
-Embark on your website journey with simplicity and style. Follow these 3 easy steps to create your online masterpiece effortlessly:
+This lets you focus on content and customization — not repetitive layout work.
 
-<ol>
-	<li><strong>Choose a Template</strong>
-Explore a rich selection of over 425 pre-built page templates. With a single click, import the template that resonates with your vision.
-</li>
-	<li><strong>Customize & Personalize</strong>
-Unleash your creativity! Customize your chosen template with complete design freedom. Tailor every element to build and personalize your website exactly the way you envision it.</li>
-	<li><strong>Publish & Go Live!</strong>
-With the editing and customization complete, it's time to go live! In just minutes, your website will be ready to share with the world.
-</li>	
-</ol>
+---
 
-<strong>[Try Live Setup](https://tastewp.com/new/?pre-installed-plugin-slug=blockspare)</strong>
-<strong>[Explore More](https://www.blockspare.com/)</strong>
+### Key features
+* **Starter Templates:** 425+ pre-built pages, 125+ landing pages, 270+ sections, 55+ header/footer templates.  
+* **Post Presentation:** Post Grid, Post List, Post Tile, Post Slider, Post Carousel, Post Masonry, Trending/Ticker.  
+* **Image & Gallery Blocks:** Image Slider, Image Carousel, Masonry gallery, Logo grid.  
+* **Business & Utility Blocks:** Services, Pricing Table, Price List, Testimonial, Call-to-Action, Counter, Progress Bar, Tabs, Accordion.  
+* **Customization Controls:** Typography, color, spacing (gaps), box-shadow, borders, image radius, responsive settings.  
+* **Performance:** Designed with lightweight code and minimal runtime overhead.  
+* **Compatibility:** Works with Gutenberg-compatible themes and other editor plugins.  
+* **Workflow:** Save and reuse templates (My Patterns), copy/paste sections between posts/pages, and one-click starter template imports.
 
-<strong>Dive into our [Patterns Library](https://www.blockspare.com/starter-templates/) featuring 125+ Ready-to-Use Landing Pages, 270+ Page Sections, and 55+ Header/Footer Templates. Your creativity, simplified!</strong>
+---
 
-[youtube https://youtu.be/elLCTqnQMI0?t=1033]
+### Starter templates & demos (highlights)
+Choose a starter tailored to your site type — import in one click and edit.
 
-* <strong>[General News & Magazine Hub 📰](https://blockspare.com/demo/default/general-news/)</strong> Explore versatile templates for seamless website creation. Craft your news website effortlessly.
+- **News & Magazine:** General News, Sports, Entertainment  
+- **Lifestyle:** Fashion & Lifestyle, Travel, Recipes  
+- **Business & Agency:** Corporate, Agency, Legal, Construction  
+- **Education & Nonprofit:** Education, Montessori, Charity  
+- **Healthcare & Services:** Medical, Fitness, Dentist  
+- **Other niches:** Real Estate, Restaurant, Auto Service, Pet Care, Technology
 
-* <strong>[Sports & Entertainment ⚽🎬](https://blockspare.com/demo/default/sport-news/)</strong> Elevate sports and entertainment content with dynamic designs. Swift setup for your sports and entertainment website.
+Browse all starter templates: https://www.blockspare.com/starter-templates/
 
-* <strong>[Fashion & Lifestyle 👗🌟](https://blockspare.com/demo/default/fashion-news/)</strong> Stylish layouts for a runway-ready fashion and lifestyle website. Simplify the setup for your fashion and lifestyle site.
+[youtube https://www.youtube.com/watch?v=elLCTqnQMI0]
 
-* <strong>[Business Agency Templates 💼](https://blockspare.com/demo/default/agency/)</strong> Transform your agency's online presence with sleek, professional templates. Achieve a polished site effortlessly.
+---
 
-* <strong>[Legal & Business 👔📚](https://blockspare.com/demo/default/lawyer/)</strong> Present legal and business services with elegance. Set up your legal and business website seamlessly. 
+### Blocks & Layouts (examples)
+**Post / News blocks**
+* Hero banners (multiple layouts)  
+* Flash Posts / News Ticker  
+* Trending Posts carousel  
+* Post Grid / Post Tile / Post List / Post Express Grid & List  
+* Post Slider & Post Carousel  
+* Post Timeline / Post Full / Post Large (Full)
 
-* <strong>[Culinary & Restaurants 🍽️](https://blockspare.com/demo/default/restaurant/)</strong> Tempt your audience with enticing layouts for culinary establishments. Create your restaurant website with ease.
+**Image & media**
+* Image Carousel  
+* Image Masonry  
+* Image Slider  
+* Logo Grid
 
-* <strong>[Recipe Blog 🍲](https://blockspare.com/demo/default/recipe-blog/)</strong> Showcase culinary creations with mouthwatering templates. Effortlessly bring your recipes to the digital table.
-
-* <strong>[Arabic News 🌐📰](https://blockspare.com/demo/default/arabic-news/)</strong> Rich and culturally resonant designs for Arabic content. Impressively set up your Arabic news website.
-
-* <strong>[Chinese Magazine 🌏📖](https://blockspare.com/demo/default/chinese-news/)</strong> Elegant templates catering to Chinese language and culture. Run your Chinese magazine site smoothly.
-
-* <strong>[Apps Website 📱](https://blockspare.com/demo/default/app/)</strong> Tech-savvy layouts for app-related content. Showcase innovations on your tech-focused site.
-
-* <strong>[Education & Learning 🎓](https://blockspare.com/demo/default/education/)</strong> Captivating designs for educational institutions. Simplify the setup for your education website.
-
-* <strong>[Fitness & Wellness 💪](https://blockspare.com/demo/default/fitness/)</strong> Dynamic and motivational templates for fitness enthusiasts. Swiftly empower your fitness and wellness website.
-
-* <strong>[Real Estate 🏡](https://blockspare.com/demo/default/real-estate/)</strong> Stylish templates for real estate professionals. Stand out with a streamlined site for your real estate business.
-
-* <strong>[Medical & Healthcare 🩺](https://blockspare.com/demo/default/medical/)</strong> Clean and professional designs for medical and healthcare websites. Focus on healthcare with clean designs.
-
-* <strong>[Charitable & Non-Profit 💖](https://blockspare.com/demo/default/charity/)</strong> Heartwarming templates for charitable organizations. Set up your charitable and non-profit website with ease.
-
-* <strong>[Pet Care 🐾](https://blockspare.com/demo/default/puppycare/)</strong> Adorable layouts for pet care. Spread joy with an effortless setup for your pet care website.
-
-* <strong>[Gadgets 📲](https://blockspare.com/demo/default/tech-gadgets/)</strong> Sleek designs for tech and gadget-related content. Showcase innovations on your tech-focused site.
-
-* <strong>[Construction & Projects 🏗️](https://blockspare.com/demo/default/constructions/)</strong> Solid templates for the construction industry. Stand tall with a streamlined website for your construction business.
-
-* <strong>[Floral & Gardening 🌸](https://blockspare.com/demo/default/florista-hut/)</strong> Elegant designs for floristry and flower shops. Effortlessly bloom your floral and gardening website.
-
-* <strong>[Auto Service 🚗](https://blockspare.com/demo/default/autoservice/)</strong> Professional layouts for automotive service providers. Hit the road with a ready-to-go auto service website.
-
-* <strong>[Auto Deals & Sales 🛒](https://blockspare.com/demo/default/autodeal/)</strong> Dynamic templates for automotive sales. Streamline your auto deal website effortlessly.
-
-* <strong>[Green & Gardening 🌿](https://blockspare.com/demo/default/gardener/)</strong> Fresh designs for gardening and landscaping services. Grow your gardening website with a quick setup.
-
-* <strong>[Montessori & Education 🎨](https://blockspare.com/demo/default/montessori/)</strong> Playful layouts for Montessori schools. Engage with ease using a smooth setup for your Montessori website.
-
-* <strong>[Travel & Adventure 🛫](https://blockspare.com/demo/default/travel/)</strong> Adventure-inspired designs for travel-related content. Get ready for exciting journeys with a quick setup.
-
-* <strong>[Cinematic & Entertainment 🎥](https://blockspare.com/demo/default/cinemax/)</strong> Movie-inspired templates for cinema and entertainment. Experience a blockbuster setup with an efficient website.
-
-* <strong>[Dental & Oral Care 🦷](https://blockspare.com/demo/default/dentist/)</strong> Clean and professional designs for dental practices. Stand out with a streamlined dental website.
-
-* <strong>[Interior & Design 🏡](https://blockspare.com/demo/default/interior-design/)</strong> Stylish layouts for interior design and decor enthusiasts. Showcase style effortlessly with an easy setup.
-
-* <strong>[Yoga & Wellness 🧘](https://blockspare.com/demo/default/yoga/)</strong> Serene and balanced templates for yoga and wellness. Inspire with ease using a quick setup for your yoga website.
-
-* <strong>[Hair & Beauty Salon 💇](https://blockspare.com/demo/default/hair-salon/)</strong> Trendsetting designs for hair salons and stylists. Showcase style with an efficient setup for your hair and beauty salon website.
-
-<strong>[More to Come 🌟](https://blockspare.com/starter-templates/)</strong> Stay tuned for additional templates, ensuring your options are always expanding.
-
-Enjoy limitless style options and the convenience of one-click installation for numerous pre-designed sites. Start your website journey with ease and bring your dream site to life today!
-
-* Easily copy/paste customized page templates from the post/page admin bar menu.
-* Save customized templates for future use.
-* Access saved user templates conveniently through the 'My Patterns' admin menu.
-
-With these added features, creating and managing your ideal website has never been more seamless.
+**Business & general**
+* Section Header  
+* Content Box / Container  
+* Button, Icon, Icon List  
+* Counter, Progress Bar  
+* Pricing Table, Price List  
+* Testimonial, User Profile / Author box  
+* Tabs, Accordion, Notice Bar, Date & Time
 
 [youtube https://www.youtube.com/watch?v=keMO48vPIxY]
 
-## Celebrating the Success Stories of Our Users
+(Individual block demos: https://www.blockspare.com/blocks/)
 
-<strong>Great!</strong>
-🌟🌟🌟🌟🌟
-> Recommended 100%.
+---
 
-[@ascen7](https://wordpress.org/support/topic/great-15889/)
-
-<strong>Great Plugin</strong>
-🌟🌟🌟🌟🌟
-> Perfectly satisfied user.
-
-[@aproko234](https://wordpress.org/support/topic/great-plugin-37098/)
-
-<strong>More than expected </strong>
-🌟🌟🌟🌟🌟
-> Excellent plugin that made me delete alot of other. Well done!!!
-
-[@tairigr](https://wordpress.org/support/topic/more-than-expected-13/)
-
-<strong>This plugin adds a great appearance to my website </strong>
-🌟🌟🌟🌟🌟
-> At first, I tried my website without the BlockSpare plugin, but it seemed to be missing SOMETHING. After adding BlockSpare, and seeing how great and modern looking my website becomes, it just seemed to help bring it to life. Great plugin.
-
-[@hitmanentertainment](https://wordpress.org/support/topic/this-plugin-adds-a-great-appearance-to-my-website/)
-
-<strong>User-Friendly Interface </strong>
-🌟🌟🌟🌟🌟
-> BlockSpare – boasts a remarkably intuitive interface that ensures a smooth and hassle-free user experience. From the moment you install the plugin, you’ll be greeted with a well-designed dashboard that makes navigation and customization a breeze. The clean layout and straightforward options make it accessible to users of all levels, eliminating any steep learning curve.
-
-[@unokrionline](https://wordpress.org/support/topic/user-friendly-interface-6/)
-
-<strong>Good Plugin</strong>
-🌟🌟🌟🌟🌟
-> It’s really good plugin, download and install it.
-
-[@ansor_kukar](https://wordpress.org/support/topic/good-plugin-6476/)
-
-<strong>Great additions!</strong>
-🌟🌟🌟🌟🌟
-> Great additional blocks. Love the flexibility of the gallery blocks.
-
-[@rlgura](https://wordpress.org/support/topic/great-additions-9/)
-
-
-[Read More Reviews](https://wordpress.org/support/plugin/blockspare/reviews/?filter=5)
-
-## Essential Gutenberg Blocks For Your Websites
-
-<strong> Posts Blocks - Blogs, News and Magazine</strong>
-Exclusively crafted for blogs, news, and magazine websites, this [plugin](https://blockspare.com/) offers versatile presentation options for your post archives. Showcase your content in diverse formats such as trending news, banners, post lists, post grids, post titles, post sliders, post carousels, and more.
+### How it works (three steps)
+1. **Choose a template or block** from the Patterns Library or demo gallery.  
+2. **Import or copy** the pattern into a page or post.  
+3. **Customize** typography, colors, and content with Gutenberg and publish.
 
 [youtube https://www.youtube.com/watch?v=jmuK1o6U9mQ]
 
-* [Hero Banner 1](https://www.blockspare.com/layout/hero-banner-1/)
-The slider allows for dynamic content presentation and draws attention, while the grids provide structured layouts for textual information and visual elements.
-* [Hero Banner 2](https://www.blockspare.com/layout/hero-banner-2/)
-The combination of the banner with a slider and the 4-grid layout offers a visually engaging and organized way to present multiple images or content.
-
-* [Hero Banner 3](https://www.blockspare.com/layout/hero-banner-3/)
-By combining a banner with a slider and three grids, you can create a visually attractive and interactive interface that effectively showcases multiple pieces of content or information to the user.
-* [Hero Banner 4](https://www.blockspare.com/layout/hero-banner-4/)
-By combining a banner with a slider and three grids with three columns, you can create a visually attractive and interactive interface that effectively showcases multiple pieces of content or information to the user.
-* [Hero Banner 5](https://www.blockspare.com/layout/hero-banner-5/)
-This visually appealing design showcases multiple content items in a sliding format, allowing users to explore trending topics with ease. The grid layout complements the slider, displaying additional trending items or featured content.
-* [Hero Banner 6](https://www.blockspare.com/layout/hero-banner-6/)
-Discover the latest trends with our dynamic banner. Featuring a slider and a grid layout, this banner is designed to captivate and inform.
-* [Hero Banner 7](https://www.blockspare.com/layout/hero-banner-7/)
-Introducing our dynamic banner that combines a slider, three grid cells, and a trending section.
-* [Hero Banner 8](https://www.blockspare.com/layout/hero-banner-8/)
-Introducing our dynamic banner that combines a slider and three grids in 3 rows of cells, and a trending section.
-* [Hero Banner 9](https://www.blockspare.com/layout/hero-banner-9/)
-The banner with a slider catches the user’s attention, while the grid and trending elements provide additional content and context.
-* [Hero Banner 10](https://www.blockspare.com/layout/hero-banner-10/)
-The banner with a slider captures attention, while the three grids allow for the presentation of multiple categories or types of content. The trending section provides users with a glimpse of what is currently popular or trending, driving engagement and discovery.
-* [Hero Banner 11](https://www.blockspare.com/layout/hero-banner-11/)
-The post slider image and title combination grab the user’s attention, while the grid presents a variety of related content. The trending section adds an extra layer of engagement and discovery, showcasing what is currently popular among users.
-* [Hero Banner 12](https://www.blockspare.com/layout/hero-banner-12/)
-The banner and post slider combination grabs the user’s attention, while the grid presents various related items or featured content. The tab component enhances navigation and allows users to explore different categories or topics within the same row.
-* [Flash Posts](https://www.blockspare.com/layout/post-flash/)
-The news ticker area, which comes with a lot of style options, will assist you in presenting your flash posts.
-* [Trending Posts](https://www.blockspare.com/layout/post-trending-demo/)
-You can organize the archived posts using a carousel list of articles with a multitude of displaying possibilities.
-* [Post Slider](https://www.blockspare.com/layout/post-slider-demo/)
-You can loop post archives using a slider block of posts with various layout variations.
-* [Posts Carousel](https://www.blockspare.com/layout/post-carousel-demo/)
-Group and show your articles in a carousel and let it slide with time.
-* [Posts Grid](https://www.blockspare.com/layout/post-grid-demo/)
-The block with multiple grid options will help you to present your blog posts in columns. The block also has a "Load More" pagination option.
-* [Posts List](https://www.blockspare.com/layout/post-list-demo/)
-A list of articles having several display options will let you sort post archives. The block also has a "Load More" pagination option.
-* [Posts Large (Full)](https://www.blockspare.com/layout/post-large/)
-The large post block will enable you to show your blog posts in sections by providing different choices.
-* [Post Express Grid](https://www.blockspare.com/layout/post-express-grid/)
-The big and small grid combo block designs will help you in showing your blog entries in a fashionable style. The block also has a "Load More" pagination option.
-* [Post Express List](https://www.blockspare.com/layout/post-express-list/)
-The grid and list designs of the combo block will help you stylishly present your articles.
-* [Post Tile](https://www.blockspare.com/layout/post-tile/)
-The tiled grid block box will assist you in presenting your blog content in multiple columns as well as collages.
-* [Posts Grid Masonry](https://www.blockspare.com/layout/post-grid-masonry/)
-You can sort posts archive masonry in a grid of articles with a range of options available.
-* [Popular Tags](https://www.blockspare.com/layout/popular-tags-and-category/)
-Displaying popular tags and categories is a common practice in various contexts, such as blogging platforms, e-commerce websites, and content management systems.
-* [Search](https://www.blockspare.com/layout/search-demo/)
-The search block serves as a vital tool for users to navigate and find specific information within a website or application.
 
 
-<strong> Image Blocks - Gallary and Portfolio Showcase</strong>
-Image Blocks are meticulously crafted to enhance your image gallery, provide an elegant showcase for your photos and portfolios
-
-[youtube https://www.youtube.com/watch?v=9OmZcsyuudw]
-
-* [Image Carousel](https://www.blockspare.com/layout/image-carousel-demo/)
-Display your precious images with multiple carousel options with advanced controls like gallery arrangements, columns, layouts, etc.
-* [Image Masonry](https://www.blockspare.com/layout/image-masonry-demos/)
-When you want a masonry grid for your image gallery this is going to be your go-to block.
-* [Image Slider](https://www.blockspare.com/layout/image-slider-demo/)
-Create a functional and beautiful image slideshow with an Image Slider block.
-* [Logo Grid](https://www.blockspare.com/layout/logo-grid-demo/)
-To show your associates, sponsors, awards, etc logos in a dedicated grid format
-
-<strong> General Blocks -  Profile, Bussines and Agency</strong>
-Tailored specifically for Business Agency website sections, encompassing services, teams, testimonials, profiles, pricing, and more. Yet, these blocks transcend their initial design, offering adaptability as general-purpose blocks suitable for a wide array of website types.
-
-[youtube https://www.youtube.com/watch?v=n-KCN_3iBeM]
-
-* [Section Header](https://www.blockspare.com/layout/section-header-demo/)
-Only with the best title, you can show the worth of content. The title/subtitle section with multiple appearances could lead to envisioning an enhanced header.
-* [Accordion](https://www.blockspare.com/layout/accordion-demo/)
-Designed for expanded and collapsible content like FAQs, you will get advanced controls over the texts, colors, icons, etc.
-* [Button](https://www.blockspare.com/layout/button-demo/)
-Attractive Button appearance with fill and border layout option with hover effects. You can place the block on any of your contents where you want.
-* [Container](https://www.blockspare.com/layout/container-demo/)
-With the concept of a content group, you can add several blocks inside the section so that you can easily control it.
-* [Content Box](https://www.blockspare.com/layout/content-box/)
-The predefined set of shapes and sides of the image with title, subtitle, description, and button elements, so that you can build amazing sections.
-* [Counter](https://www.blockspare.com/layout/counter-demo/)
-Show your achievements, progress, and involvement in the count-in-number running effects.
-* [Call to Action](https://www.blockspare.com/layout/call-to-action-demo/)
-Redefine your call to action section outstandingly with the help of mandatory items like images, texts, colors, and buttons.
-* [Price List](https://www.blockspare.com/layout/price-list-demo/)
-Show products and prices in line with a nice-looking design for your website such as a restaurant menu.
-* [Price Table](https://www.blockspare.com/layout/price-table-demo/)
-After immense research on modern business sites, the block has been designed with powerful, flexible, and advanced controls for pricing comparisons.
-* [Progress Bar](https://www.blockspare.com/layout/progress-bar-demos/)
-An animated progress bar with customizable colors could be useful for displaying company history and achievements.
-* [Services](https://www.blockspare.com/layout/services-demo/)
-A flexible and powerful set of content sections with customizable advanced controls like icons, texts, colors, and buttons will help you display your services in a contemporary manner.
-* [Shape Divider](https://blockspare.com/block/shape-divider/)
-Divide your sections with layered shapes along with unlimited color options.
-* [Social Links](https://www.blockspare.com/layout/social-icon-demo/)
-Linking your social pages and platform to your block with easy mentions.
-* [Social Sharing](https://www.blockspare.com/layout/social-sharing/)
-Let other people share your content with the leading web portals.
-* [Star Rating](https://www.blockspare.com/layout/star-rating/)
-The star will help you to show the product and book. movie, game, food, etc, rating,
-* [Tabs](https://www.blockspare.com/layout/tabs-demos/)
-Group your specs, details, or whatever you want in a toggle tabbed content format.
-* [Testimonial](https://www.blockspare.com/layout/testimonial-demos/)
-A set of boxes with image upload, title, descriptions, etc to show a formal statement testifying to your feedback and references.
-* [User Profile](https://www.blockspare.com/layout/user-profile-demo/)
-The user profile block can be placed as an author box or author bio section with social contact icons.
-* [Icon](https://www.blockspare.com/layout/icon-demo/)
-Please have Font Awesome 5 Icons with unlimited color and advanced appearing options.
-* [Icon List](https://www.blockspare.com/layout/icon-with-list-demo/)
-Whenever you want an iconic bullet for your list, the block will let you have an option for it.
-* [Notice Bar](https://www.blockspare.com/layout/notice-bar-demos/)
-Simply, notices, warnings, and announcements should have their design to be noticed.
-* [Date and Time](https://www.blockspare.com/layout/date-and-time-demo/)
-A user interface element that allows users to select a specific date and time.
-* [Spacer](https://www.blockspare.com/layout/spacer-demo/)
-If you want spaces, the block will give you the extra.
-
-## Design Your Dream Site in Minutes!
-
-<strong>Don't let time be a barrier to your dreams. With our user-friendly interface, [start crafting](https://www.blockspare.com/docs/)  your dream website in minutes. No coding is required—just creativity and a vision for success.</strong>
-
-* <strong>Expert Patterns Library</strong> 
-* <strong>Multiple Layouts Options</strong> 
-* <strong>On-scroll Animation to Reveal Content</strong> 
-* <strong>Pagination Settings </strong> 
-* <strong>Color, Typography & Other Advanced Settings</strong> 
-
-[Explore Live Demo](https://tastewp.com/new/?pre-installed-plugin-slug=blockspare), Let’s Start Designing Your Dream Site in Minutes with [BlockSpare!](https://blockspare.com/)
-
-## Welcome in for amazing plugins from AF themes
->The most flexible WordPress themes and plugins crafted for the future web.
-
-#Check all of our [plugins](https://profiles.wordpress.org/afthemes/#content-plugins) #
-
-
-* [WP Post Author](http://afthemes.com/plugins/wp-post-author/)
-* [Elespare](https://elespare.com/)
-* [Templatespare](https://templatespare.com/)
-* [Latest Posts Block](https://1.envato.market/2xxbD)
-* [Magic Content Box](https://1.envato.market/NOO1O)
-
-
-## Get the outstanding themes from AF themes
-#Check all of our [themes](https://afthemes.com/products/)#
-
-* [CoverNews Pro](https://afthemes.com/products/covernews-pro/)
-* [ChromeNews Pro](https://afthemes.com/products/chromenews-pro/)
-* [MoreNews Pro](https://afthemes.com/products/morenews-pro/)
-* [Newsphere Pro](https://afthemes.com/products/newsphere-pro/)
-* [DarkNews Pro](https://afthemes.com/products/darknews-pro/)
-* [And More..](https://afthemes.com/products/)
-
+---
 
 == Installation ==
-* Download to your plugin directory or simply install via the WordPress admin interface.
-* Activate.
-* Go to BlockSpare admin dashboard (or page/post edit panel)
-* Find and Click on "Patterns Library" button
-* Get hundreds of gutenberg starter templates to build your site
-* Import (or View)
-* Publish (or edit as per your prefrence)
-* Enjoy
+1. Install the plugin via the WordPress plugin installer or upload the `blockspare` folder to `/wp-content/plugins/`.  
+2. Activate BlockSpare from the **Plugins** menu.  
+3. Open the Gutenberg editor on any page/post.  
+4. Use the **BlockSpare** blocks (in the block inserter) or open the **Patterns Library**/design library from the plugin panel.  
+5. Import a starter template or insert blocks, then customize.
+
+---
 
 == Frequently Asked Questions ==
-**What are Starter Templates?**
 
-Starter Templates are the demo layout design of your site designed by the extert developer and designers, like homepage, about page, contact, etc. You can easily import it with one click, customize the texts and publish it.
+= Can I create post grids, sliders, and carousels with BlockSpare? =  
+Yes. BlockSpare includes multiple blocks for grids, sliders, carousels, masonry, and tickers to present posts in different ways.
 
-BlockSpare provides you with hundreds of pro-built templates to create awesome blogs, news, magazine and agency websites for you.
+= What are Starter Templates? =  
+Starter Templates are complete page and site layouts (home, archive, single, inner pages, sections) created by designers. Import them to jump-start a site and then customize.
 
-**Can I Try Live Demo?**
+= Do I need coding knowledge? =  
+No. BlockSpare is built for users who prefer visual editing. Templates and blocks are ready-to-use and customizable through Gutenberg.
 
-Yes, you can test live admin demo [live](https://tastewp.com/new/?pre-installed-plugin-slug=blockspare).
+= Does BlockSpare work with any theme? =  
+Yes. BlockSpare works with any modern Gutenberg-compatible theme.
 
-**Do I need to code?**
+= Will BlockSpare slow down my site? =  
+BlockSpare is built with performance in mind. Blocks load only where used; templates are static HTML/CSS markup in the editor. However, performance also depends on server and theme choices.
 
-Nope, you do not need to have coding knowledge.
+= Is BlockSpare free? =  
+Yes — the plugin and many templates/blocks are free. A Pro plan is available for additional templates and premium features: https://www.blockspare.com/pricing/
 
-**Do I need to design the layout?**
+= Where can I see the demos and documentation? =  
+Demos: https://www.blockspare.com/starter-templates/  
+Blocks & layouts: https://www.blockspare.com/blocks/  
+Docs: https://www.blockspare.com/docs/
 
-No, you don’t have to design because our plugin already has a range of pre-designed gorgeous templates and layouts from which you can select one and use it.
+= Can I use BlockSpare on client sites? =  
+Yes, BlockSpare can be used on personal and client projects.
 
-**What are blocks?**
-
-Blocks are the basic content-building components, like buttons, images, videos, etc., for WordPress Block Editor (Gutenberg).
-
-BlockSpare provides you with lots of great blocks to create awesome posts, pages, and front pages for you.
-
-**Do I need any third-party page builder plugins?**
-
-Not, only you do not need to install any third-party page builder plugin but you must also have the latest WordPress that supports block editor, namely Gutenberg.
-
-**Can I use this with other plugins?**
-
-Oh yeah! With other, BlockSpare is performing well.
-
-**Can I use BlockSpare with any WordPress theme?**
-
-Since BlockSpare has its own designed components for websites, it can be used for WordPress themes of any kind.
-
-**Can I use Blockpare on client websites?**
-
-Yes! You will use Blockpare on yours, as well as the websites of your client.
-
-**Will Blockpare slow down my website?**
-
-There's just no! The structure of the package and clean code keep it lightweight and simple. Blockpare is designed with ease and performance in mind. Therefore, it can in no way impact the pace and efficiency of your website.
-
-**Is BlockSpare free?**
-
-Yes, BlockSpare is a free website building Plugin for WordPress Websites. But definitely, you can get more awesome premium templates and blocks on <a href="https://www.blockspare.com/pricing/" target="_blank" rel="">BlockSpare Pro</a>
-
-**Can I explore the demos?**
-
-Definitely, you can explore all of the demos on <a href="https://www.blockspare.com/starter-templates/" target="_blank" rel="">BlockSpare Website.</a>
-
+---
 
 == Screenshots ==
-1. Build Your Blog, News, Magazine, and Agency Websites with Expert-Designed Templates
-2. Forget About Starting From Scratch. 30+ Expert-designed Starter Sites, 300+ Templates
-3. Expert-Designed Templates - General, Sport, Fashion, Agency, Lawyer, Restaurant
-4. Expert-Designed Templates - Recipe, Arabic, Chinese, Apps, Education, Fitness
-5. Expert-Designed Templates - Real Estate, Medical, Charity, Pet care, Gadgets, Construction
-6. Expert-Designed Templates - Flower, Auto Service, Auto Deal, Garderner, Montessori, Travel
-7. Expert-Designed Templates - Cinema Hall, Dental, Interior, Yoga, Hair Salon, and More to come
-8. Let’s Start Designing Your Dream Site in Minutes!
-9. Transform Your WordPress Site-Building Experience Using BlockSpare
-10. Lots Of Blocks For Your News Magazine, and Business Websites That Fit Your Need.
-11. Post Blocks - Hero Banners, Main Banners
-12. Post Blocks - Post Grid, Post List, Express Grid and List, Ticker News, Masonry 
-13. Post Blocks - Trending Posts, Large Post Grid, Post Slider, Post Tile, Image Blocks, 
-14. General Blocks - Accordion, Button, Call to Action, Counter, Container, Content Box, Icon List
-15. General Blocks - Price Table, Services, Progress Bar, Notice Bar, Search, Section Header
-16. General Blocks - Social Links, Social Share, Star Rating, Testimonials, Tabs, User Profile
-
+1. Editor view — BlockSpare blocks in Gutenberg (screenshot-1).  
+2. Starter templates gallery (screenshot-2).  
+3. Sample homepage imported from a template (screenshot-3).  
+4. Post Grid and Post Slider examples (screenshot-4).  
+5. Hero Banner + Trending section (screenshot-5).  
+6. Image carousel and masonry gallery (screenshot-6).  
+7. Business blocks: Pricing table & Testimonials (screenshot-7).  
+8. Patterns Library import flow (screenshot-8).  
+9. Block controls and responsive options (screenshot-9).  
+10. Save & reuse patterns (screenshot-10).
 
 == Changelog ==
+= 3.2.14 =
+* Update: Readme improvement
+
+
 = 3.2.13 =
 * Update: Security improvement
 * Update: New patterns on library
