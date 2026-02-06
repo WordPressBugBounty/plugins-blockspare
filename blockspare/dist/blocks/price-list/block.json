@@ -1,0 +1,56 @@
+{
+  "name": "blockspare/blockspare-price-list",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "align": {
+      "type": "string"
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "wide"
+    },
+    "uniqueId": {
+      "type": "string",
+      "default": ""
+    },
+    "defaultItems": {
+      "type": "number",
+      "default": 3
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "transparent"
+    },
+    "backgroundTransparent": {
+      "type": "boolean",
+      "default": false
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    }
+  }
+}

@@ -1,14 +1,9 @@
 {
-  "category": "blockspare",
+  "category": "blockspare-post",
   "title": "Main Hero Banners",
   "description": "Display Main Hero Banners from Selected Post Categories",
   "textdomain": "blockspare",
-  "keywords": [
-    "Main",
-    "Hero",
-    "Blockspare",
-    "Banner"
-  ],
+  "keywords": ["Main", "Hero", "Blockspare", "Banner"],
   "attributes": {
     "className": {
       "type": "string"
@@ -331,7 +326,7 @@
     },
     "sliderCategoryFontSize": {
       "type": "number",
-      "default": 10
+      "default": 12
     },
     "sliderCategoryFontFamily": {
       "type": "string",
@@ -489,7 +484,7 @@
     },
     "editorCategoryFontSize": {
       "type": "number",
-      "default": 10
+      "default": 12
     },
     "editorCategoryFontFamily": {
       "type": "string",
@@ -716,7 +711,7 @@
     },
     "trendingCategoryFontSize": {
       "type": "number",
-      "default": 10
+      "default": 12
     },
     "trendingCategoryFontFamily": {
       "type": "string",
@@ -1150,3 +1145,4 @@
     }
   }
 }
+

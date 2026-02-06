@@ -5,9 +5,9 @@ Contributors: blockspare, afthemes
 Donate link: https://www.blockspare.com/pricing/
 Tags: blog, news, magazine, gutenberg blocks, starter templates
 Requires at least: 4.9
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.3
-Stable tag: 3.2.14
+Stable tag: 3.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -154,9 +154,24 @@ Yes, BlockSpare can be used on personal and client projects.
 10. Save & reuse patterns (screenshot-10).
 
 == Changelog ==
+= 3.3.0 =
+* Update: Multiple accessibility improvements across blocks (pricing table, price list, icon list, progress bar, content box, CTA, accordion, buttons, date & time, social share, slider buttons).
+* Update: Added missing alt tags, aria-hidden attributes, and aria-labels for improved screen reader compatibility.
+* Update: Improved color contrast and fixed minor accessibility errors.
+* Update: Added sprintf usage and fixed text-domain issues.
+* Update: Added register_block_type for all blocks and introduced new block category.
+* Update: Grouped banner blocks into a single unified block.
+* Update: Flash news CSS refinements and reverted incorrect CSS change.
+* Fix: Twitter color issue, progress bar issue, and flash news spacing issue.
+* Fix: Date and time console error.
+* Update: Updated category font sizes.
+* Update: Added frontend JS to assets folder.
+* Update: Fix Canvas template and Full Width template, including improvements to both.
+* Update: README file updates.
+
+
 = 3.2.14 =
 * Update: Readme improvement
-
 
 = 3.2.13 =
 * Update: Security improvement

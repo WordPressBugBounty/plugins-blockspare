@@ -1,0 +1,191 @@
+{
+  "name": "blockspare/user-profile",
+  "category": "blockspare",
+  "attributes": {
+    "profileContent": {
+      "type": "string",
+      "default": ""
+    },
+    "profileContentFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "profileBackgroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "profileTextColor": {
+      "type": "string",
+      "default": "#6d6d6d"
+    },
+    "facebook": {
+      "type": "url",
+      "default": "facebook.com"
+    },
+    "twitter": {
+      "type": "url",
+      "default": "twitter.com"
+    },
+    "instagram": {
+      "type": "url"
+    },
+    "linkedin": {
+      "type": "url",
+      "default": "linkedin.com"
+    },
+    "youtube": {
+      "type": "url"
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 10
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 10
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 10
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 10
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "iconColorOption": {
+      "type": "string",
+      "default": "blockspare-default-official-color"
+    },
+    "customfontColorOption": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "custombackgroundColorOption": {
+      "type": "string",
+      "default": "#404040"
+    },
+    "buttonShapes": {
+      "type": "string",
+      "default": "blockspare-social-icon-square"
+    },
+    "buttonSizes": {
+      "type": "string",
+      "default": "blockspare-social-icon-small"
+    },
+    "buttonFills": {
+      "type": "string",
+      "default": "blockspare-social-icon-solid"
+    },
+    "headermarginTop": {
+      "type": "number",
+      "default": 0
+    },
+    "headermarginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "headermarginBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "headermarginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "descriptionFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "descriptionFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "descriptionFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionFontSubset": {
+      "type": "string"
+    },
+    "descriptionFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "descriptionFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "descriptionFontSizeTablet": {
+      "type": "number",
+      "default": 14
+    },
+    "descriptionLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "descriptionMarginTop": {
+      "type": "number",
+      "default": 0
+    },
+    "descriptionMarginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "descriptionMarginBottom": {
+      "type": "number",
+      "default": 10
+    },
+    "descriptionMarginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    },
+    "iconLayoutType": {
+      "type": "string",
+      "default": "blockspare-social-links-horizontal"
+    },
+    "buttonOptions": {
+      "type": "string",
+      "default": "blockspare-icon-only"
+    },
+    "imageHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

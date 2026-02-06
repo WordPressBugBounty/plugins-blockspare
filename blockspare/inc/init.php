@@ -1,5 +1,4 @@
 <?php
-
 //Exit if directly acess
 defined('ABSPATH') or die('No script kiddies please!');
 
@@ -38,23 +37,50 @@ if (!class_exists('BlockspareInit')) {
 
     public function blockspare_blocks_block_assets()
     {
-      wp_register_style(
-        'fontawesome',
-        plugins_url('assets/fontawesome/css/all.css', dirname(__FILE__)),
-        array()
+      // wp_register_style(
+      //   'fontawesome',
+      //   plugins_url('assets/fontawesome/css/all.css', dirname(__FILE__)),
+      //   array()
 
-      );
-      // Load the compiled styles.
-      wp_enqueue_style(
-        'blockspare-frontend-block-style-css',
-        plugins_url('dist/style-blocks.css', dirname(__FILE__)),
-        array()
-      );
+      // );
+      // // Load the compiled styles.
+      // wp_enqueue_style(
+      //   'blockspare-frontend-block-style-css',
+      //   plugins_url('dist/style-blocks.css', dirname(__FILE__)),
+      //   array()
+      // );
 
-      wp_register_style('slick', BLOCKSPARE_PLUGIN_URL . 'assets/slick/css/slick.css', array(), '', 'all');
-      if (is_admin()) {
-        wp_enqueue_style('slick');
-      }
+
+      // wp_register_style('slick', BLOCKSPARE_PLUGIN_URL . 'assets/slick/css/slick.css', array(), '', 'all');
+      // if (is_admin()) {
+      //   wp_enqueue_style('slick');
+      // }
+
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/accordion');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/button');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/call-to-action');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/content-box');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/container');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/counter');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/icon-set');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/image-carousel');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/linear-progressbar');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/list');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/logos');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/image-masonry');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/notice-bar');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/price-list');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/pricing-table');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/social-links');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/section-header');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/services');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/image-slider');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/star-ratings');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/testimonial');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/user-profile');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/shape-divider');
+      register_block_type(BLOCKSPARE_PLUGIN_DIR . 'dist/blocks/empty-section');
+
       include BLOCKSPARE_PLUGIN_DIR . '/admin/notice-setup.php';
       include BLOCKSPARE_PLUGIN_DIR . '/admin/notice-upgrade.php';
     }
@@ -74,6 +100,13 @@ if (!class_exists('BlockspareInit')) {
         plugins_url('dist/style-blocks.css', dirname(__FILE__)),
         array()
       );
+
+      wp_enqueue_style(
+        'blockspare-frontend-banner-style-css',
+        plugins_url('dist/style-banner_group.css', dirname(__FILE__)),
+        array()
+      );
+
 
       wp_register_style('slick', BLOCKSPARE_PLUGIN_URL . 'assets/slick/css/slick.css', array(), '', 'all');
       if (is_admin()) {
@@ -137,6 +170,17 @@ if (!class_exists('BlockspareInit')) {
         // Enqueue the script in the footer.
       );
 
+      wp_enqueue_script(
+        'blockspare-banner-group-js', // Handle.
+        BLOCKSPARE_PLUGIN_URL . 'dist/banner_group.js',
+        $script_dep, // Dependencies, defined above.
+        $script_info['version'], // AFT_PRICING_TABLE_VERSION.
+        true
+        // Enqueue the script in the footer.
+      );
+
+
+
       if (is_admin()):
         wp_enqueue_style('fontawesome');
         wp_enqueue_style(
@@ -144,6 +188,12 @@ if (!class_exists('BlockspareInit')) {
           BLOCKSPARE_PLUGIN_URL . 'dist/blocks.css',
           array('wp-edit-blocks')
         );
+        wp_enqueue_style(
+          'blockspare-banner-edit-style',
+          BLOCKSPARE_PLUGIN_URL . 'dist/banner_group.css',
+          array('wp-edit-blocks')
+        );
+
         wp_enqueue_script('blockspare-design-btn', BLOCKSPARE_PLUGIN_URL . 'dist/block_design_btn.js', array('blockspare-blocks-block-js'), $script_info['version'], true);
         wp_enqueue_script('blockspare-design', BLOCKSPARE_PLUGIN_URL . 'dist/block_design.js', array('blockspare-blocks-block-js'), $script_info['version'], true);
         wp_enqueue_style('blockspare-design', BLOCKSPARE_PLUGIN_URL . 'dist/block_design.css', array('blockspare-block-edit-style'));

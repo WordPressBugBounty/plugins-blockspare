@@ -1,0 +1,54 @@
+{
+  "name": "blockspare/blockspare-pricing",
+  "category": "blockspare",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 3
+    },
+    "columnsGap": {
+      "type": "number",
+      "default": 1
+    },
+    "align": {
+      "type": "string",
+      "default": "wide"
+    },
+    "defaultItems": {
+      "type": "number",
+      "default": 3
+    },
+    "blockLayout": {
+      "type": "string",
+      "default": "bs-layout-1"
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "pricingLayout": {
+      "type": "string",
+      "default": "blockspare-pricing-table-layout-1"
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "blockspare/blockspare-masonry",
+  "category": "blockspare",
+  "attributes": {
+    "gridSize": {
+      "type": "string",
+      "default": "xlrg"
+    },
+    "uniqueClass": {
+      "type": "string"
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    },
+    "imageHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

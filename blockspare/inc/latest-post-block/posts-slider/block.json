@@ -1,15 +1,10 @@
 {
   "name": "blockspare/blockspare-posts-block-slider",
-  "category": "blockspare",
+  "category": "blockspare-post",
   "title": "Posts Slider",
   "description": "Display Posts Slider from Selected Categories.",
   "textdomain": "blockspare",
-  "keywords": [
-		"Posts",
-    "Slider",
-    "Carousel",
-    "Grid"
-	],
+  "keywords": ["Posts", "Slider", "Carousel", "Grid"],
   "attributes": {
     "categories": {
       "type": "array",
@@ -542,7 +537,7 @@
     },
     "postCategoryFontSize": {
       "type": "number",
-      "default": 10
+      "default": 12
     },
     "postCategoryFontFamily": {
       "type": "string",
@@ -550,7 +545,7 @@
     },
     "postCategoryFontWeight": {
       "type": "string",
-      "default": "600"
+      "default": "400"
     },
     "postCategoryFontSubset": {
       "type": "string"
@@ -612,3 +607,4 @@
     }
   }
 }
+

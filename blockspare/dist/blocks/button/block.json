@@ -1,0 +1,38 @@
+{
+  "name": "blockspare/blockspare-buttons",
+  "category": "blockspare",
+  "attributes": {
+    "paddingTop": {
+      "type": "number",
+      "default": 12
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 22
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 12
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 22
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    }
+  }
+}

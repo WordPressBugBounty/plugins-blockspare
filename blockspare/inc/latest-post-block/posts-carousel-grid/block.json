@@ -1,6 +1,6 @@
 {
   "name": "blockspare/latest-posts-block-carousel-grid",
-  "category": "blockspare",
+  "category": "blockspare-post",
   "title": "Posts Carousel Grid",
   "description": "Display Posts Carousel from Selected Categories.",
   "textdomain": "blockspare",
@@ -498,7 +498,7 @@
     },
     "postCategoryFontSize": {
       "type": "number",
-      "default": 10
+      "default": 12
     },
     "postCategoryFontFamily": {
       "type": "string",
@@ -506,7 +506,7 @@
     },
     "postCategoryFontWeight": {
       "type": "string",
-      "default": "600"
+      "default": "400"
     },
     "postCategoryFontSubset": {
       "type": "string"

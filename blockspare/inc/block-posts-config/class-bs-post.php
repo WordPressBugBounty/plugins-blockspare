@@ -272,8 +272,7 @@ function blockspare_post_image($attributes, $post_id, $cat_class, $blockName = '
   if (isset($attributes['enableFeatureImage']) && $attributes['enableFeatureImage'] == 'true') {
   ?>
     <figure class="blockspare-posts-block-post-img hover-child">
-      <a href="<?php echo esc_url(get_permalink($post_id)); ?>" rel="bookmark" aria-hidden="true"
-        tabindex="-1">
+      <a href="<?php echo esc_url(get_permalink($post_id)); ?>" aria-label="<?php echo esc_attr(get_the_title($post_id)); ?>">
         <?php
         if (has_post_thumbnail($post_id)) {
 
@@ -328,12 +327,12 @@ function blockspare_post_content($attributes, $post_id, $cat_class, $blockName =
       <?php } ?>
       <!-- blockspare-posts-block-post-grid-title -->
 
-      <h4 class="blockspare-posts-block-post-grid-title">
+      <h2 class="blockspare-posts-block-post-grid-title">
         <a href="<?php echo esc_url(get_permalink($post_id)); ?>" class="blockspare-posts-block-title-link"
-          rel="bookmark">
+          aria-label="<?php echo esc_attr(get_the_title($post_id)); ?>">
           <span><?php echo get_the_title(); ?></span>
         </a>
-      </h4>
+      </h2>
 
       <!-- blockspare-posts-block-post-grid-title -->
 
@@ -360,13 +359,15 @@ function blockspare_post_content($attributes, $post_id, $cat_class, $blockName =
 
         <!-- blockspare-posts-block-post-grid-date -->
         <?php if (isset($attributes['displayPostDate']) && $attributes['displayPostDate'] == 'true') { ?>
-          <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished"><i class="<?php echo esc_attr($attributes['dateIcon']); ?>"></i><?php echo esc_html(get_the_date('', $post_id)); ?></time>
+          <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished"><i class="<?php echo esc_attr($attributes['dateIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_the_date('', $post_id)); ?></time>
         <?php } ?>
         <!-- blockspare-posts-block-post-grid-date -->
 
         <!-- comment_count -->
         <?php if ($attributes['enableComment'] == 'true') { ?>
-          <span class="comment_count"><i class='<?php echo esc_attr($attributes['commentIcon']); ?>'></i><?php echo esc_html(get_comments_number($post_id)); ?></span>
+          <span class="comment_count" aria-label="<?php echo esc_attr(get_comments_number($post_id) . ' comments'); ?>">
+            <i class='<?php echo esc_attr($attributes['commentIcon']); ?>'></i>
+            <?php echo esc_html(get_comments_number($post_id)); ?></span>
         <?php } ?>
         <!-- comment_count -->
       </div>
@@ -390,9 +391,11 @@ function blockspare_post_content($attributes, $post_id, $cat_class, $blockName =
         <!-- blockspare-posts-block-post-grid-more-link -->
         <?php if (isset($attributes['displayPostLink']) && $attributes['displayPostLink'] == 'true') { ?>
           <p>
-            <a class="blockspare-posts-block-post-grid-more-link blockspare-posts-block-text-link"
-              href="<?php echo esc_url(get_permalink($post_id)); ?>" rel="bookmark">
-              <span><?php echo esc_html($attributes['readMoreText']); ?></span>
+            <a
+              class="blockspare-posts-block-post-grid-more-link blockspare-posts-block-text-link"
+              href="<?php echo esc_url(get_permalink($post_id)); ?>"
+              aria-label="<?php echo sprintf(esc_attr__('Read more about %s', 'blockspare'), esc_html(get_the_title($post_id))); ?>">
+              <span aria-hidden="true"><?php echo esc_html($attributes['readMoreText']); ?></span>
             </a>
           </p>
         <?php } ?>

@@ -1,0 +1,141 @@
+{
+  "name": "blockspare/blockspare-notice-bar",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "textsColor": {
+      "type": "string",
+      "default": "#4c4c4c"
+    },
+    "fontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "titleFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "titleFontSubset": {
+      "type": "string"
+    },
+    "titleFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "titleFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "titleFontSizeTablet": {
+      "type": "number",
+      "default": 16
+    },
+    "titleLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "backGroundColor": {
+      "type": "string",
+      "default": "#f9f9f9"
+    },
+    "boxBorderColor": {
+      "type": "string",
+      "default": "#3c1a5b"
+    },
+    "noticeContent": {
+      "type": "string",
+      "default": "Add your notice here...."
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 10
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 20
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 10
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 20
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "enableButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "enableNoticeIcons": {
+      "type": "boolean",
+      "default": false
+    },
+    "name": {
+      "type": "string",
+      "default": "blockspare-notice-bell"
+    },
+    "iconColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "iconSize": {
+      "type": "number",
+      "default": "15"
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": false
+    },
+    "imgURL": {
+      "type": "string"
+    },
+    "imgID": {
+      "type": "number"
+    },
+    "imgAlt": {
+      "type": "string"
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

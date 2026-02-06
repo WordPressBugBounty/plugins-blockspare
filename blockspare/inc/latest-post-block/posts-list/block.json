@@ -1,15 +1,10 @@
 {
   "name": "blockspare/blockspare-latest-posts-list",
-  "category": "blockspare",
+  "category": "blockspare-post",
   "title": "Posts List",
   "description": "Display Posts List from Selected Categories.",
   "textdomain": "blockspare",
-  "keywords": [
-		"Posts",
-    "List",
-    "Column",
-    "Grid"
-	],
+  "keywords": ["Posts", "List", "Column", "Grid"],
   "attributes": {
     "categories": {
       "type": "array",
@@ -514,7 +509,7 @@
     },
     "postCategoryFontSize": {
       "type": "number",
-      "default": 10
+      "default": 12
     },
     "postCategoryFontFamily": {
       "type": "string",
@@ -522,7 +517,7 @@
     },
     "postCategoryFontWeight": {
       "type": "string",
-      "default": "600"
+      "default": "400"
     },
     "postCategoryFontSubset": {
       "type": "string"
@@ -584,3 +579,4 @@
     }
   }
 }
+

@@ -1,0 +1,92 @@
+{
+    "name": "blockspare/blockspare-logos",
+    "category": "blockspare",
+    "attributes": {
+        "align": {
+            "type": "string"
+        },
+        "uniqueClass": {
+            "type": "string"
+        },
+        "animation": {
+            "type": "string",
+            "default": ""
+        },
+        "images": {
+            "type": "array",
+            "default": [],
+            "selector": "img",
+            "query": {
+                "url": {
+                    "type": "string",
+                    "source": "attribute",
+                    "attribute": "src"
+                },
+                "alt": {
+                    "type": "string",
+                    "source": "attribute",
+                    "attribute": "alt",
+                    "default": ""
+                },
+                "id": {
+                    "type": "string",
+                    "source": "attribute",
+                    "attribute": "data-id"
+                },
+                "width": {
+                    "type": "string",
+                    "source": "attribute",
+                    "attribute": "data-width"
+                }
+            }
+        },
+        "columns": {
+            "type": "number",
+            "default": 4
+        },
+        "gutter": {
+            "type": "number",
+            "default": 15
+        },
+        "paddingTop": {
+            "type": "number",
+            "default": 0
+        },
+        "paddingRight": {
+            "type": "number",
+            "default": 0
+        },
+        "paddingBottom": {
+            "type": "number",
+            "default": 0
+        },
+        "paddingLeft": {
+            "type": "number",
+            "default": 0
+        },
+        "marginTop": {
+            "type": "number",
+            "default": 30
+        },
+        "marginRight": {
+            "type": "number",
+            "default": 0
+        },
+        "marginBottom": {
+            "type": "number",
+            "default": 30
+        },
+        "marginLeft": {
+            "type": "number",
+            "default": 0
+        },
+        "blockHoverEffect": {
+            "type": "string",
+            "default": ""
+        },
+        "imageHoverEffect": {
+            "type": "string",
+            "default": ""
+          }
+    }
+}

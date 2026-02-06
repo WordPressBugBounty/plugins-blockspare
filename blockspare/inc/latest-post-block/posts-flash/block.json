@@ -1,14 +1,10 @@
 {
   "name": "blockspare/latest-posts-flash",
-  "category": "blockspare",
+  "category": "blockspare-post",
   "title": "Latest Post Flash",
   "description": "Display Ticker Posts (Flash) from Selected Categories.",
   "textdomain": "blockspare",
-  "keywords": [
-		"Posts",
-    "Ticker",
-    "Flash"
-	],
+  "keywords": ["Posts", "Ticker", "Flash"],
   "attributes": {
     "align": {
       "type": "string",

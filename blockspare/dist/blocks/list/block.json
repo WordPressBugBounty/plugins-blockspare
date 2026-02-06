@@ -1,0 +1,126 @@
+{
+  "name": "blockspare/blockspare-list",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "listBackGroundColor": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "default": "blockspare-list-check"
+    },
+    "listData": {
+      "type": "string",
+      "source": "html",
+      "selector": "ol,ul",
+      "multiline": "li",
+      "default": "List item content"
+    },
+    "listType": {
+      "type": "string",
+      "default": "ul"
+    },
+    "orderListStyle": {
+      "type": "string",
+      "default": "blockspare-style1"
+    },
+    "color": {
+      "type": "string",
+      "default": "#404040"
+    },
+    "descriptionIconColor": {
+      "type": "string",
+      "default": "#404040"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "descriptionFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "descriptionFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "descriptionFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionFontSubset": {
+      "type": "string"
+    },
+    "descriptionFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "descriptionFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "descriptionFontSizeTablet": {
+      "type": "number",
+      "default": 14
+    },
+    "descriptionLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

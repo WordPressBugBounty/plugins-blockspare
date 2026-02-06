@@ -1,0 +1,133 @@
+{
+  "name": "blockspare/blockspare-carousel",
+  "category": "blockspare",
+  "attributes": {
+    "align": {
+      "type": "string"
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "images": {
+      "type": "array",
+      "default": [],
+      "selector": "img",
+      "query": {
+        "url": {
+          "type": "string",
+          "source": "attribute",
+          "attribute": "src"
+        },
+        "alt": {
+          "type": "string",
+          "source": "attribute",
+          "attribute": "alt",
+          "default": ""
+        },
+        "id": {
+          "type": "string",
+          "source": "attribute",
+          "attribute": "data-id"
+        },
+        "width": {
+          "type": "string",
+          "source": "attribute",
+          "attribute": "data-width"
+        }
+      }
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "thumbnail"
+    },
+    "showsliderNextPrev": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDots": {
+      "type": "boolean",
+      "default": false
+    },
+    "numberofSlide": {
+      "type": "number",
+      "default": 2
+    },
+    "enableAutoPlay": {
+      "type": "boolean",
+      "default": true
+    },
+    "carouselSpeed": {
+      "type": "number",
+      "default": "1000"
+    },
+    "carouselNextIcon": {
+      "type": "string",
+      "default": "fas fa-chevron-right"
+    },
+    "navigationColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "gutterSpace": {
+      "type": "number",
+      "default": 1
+    },
+    "colorFilter": {
+      "type": "string",
+      "default": "blockspare-original"
+    },
+    "showOriginalOnHover": {
+      "type": "boolean",
+      "default": false
+    },
+    "navigationSize": {
+      "type": "string",
+      "default": "blockspare-navigation-small"
+    },
+    "navigationShape": {
+      "type": "string",
+      "default": "lpc-navigation-1"
+    },
+    "navigationShapeColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "enableEqualHeight": {
+      "type": "boolean",
+      "default": true
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    },
+    "imageHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

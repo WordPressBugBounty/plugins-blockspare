@@ -257,10 +257,11 @@ if (!function_exists('blockspare_render_social_sharing_block_item')) {
 				<a
 					href="%1$s"
 					class="%3$s"
-					title="%2$s" 
+				
+          aria-label="%2$s"
 					>
 					<span class="blockspare-social-icons">
-					<i class="%4$s"></i> <span class="blockspare-social-text">%2$s</span>
+					<i class="%4$s"  aria-hidden="true"></i> <span class="blockspare-social-text">%2$s</span>
 					</span>
 				</a>
 			</li>',
@@ -282,9 +283,10 @@ if (!function_exists('blockspare_render_social_sharing_block_item')) {
 				<a
 					%1$s
 					class="%3$s"
-					title="%2$s" 
+				
+          aria-label=" %2$s"
 					><span class="blockspare-social-icons">
-					<i class="%4$s"></i> <span class="blockspare-social-text">%2$s</span>
+					<i class="%4$s"  aria-hidden="true"></i> <span class="blockspare-social-text">%2$s</span>
 					</span>
 				</a>
 			</li>',

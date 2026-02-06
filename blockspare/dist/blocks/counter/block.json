@@ -1,0 +1,199 @@
+{
+  "name": "blockspare/blockspare-counter",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "counter": {
+      "type": "number",
+      "default": 25
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "counterFontColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "backGroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "full"
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "imgIconOption": {
+      "type": "string",
+      "default": "icon"
+    },
+    "name": {
+      "type": "string",
+      "default": "fas fa-chart-line"
+    },
+    "iconSize": {
+      "type": "string",
+      "default": "blockspare-icon-size-small"
+    },
+    "iconStyles": {
+      "type": "string",
+      "default": "blockspare-icon-style2"
+    },
+    "iconBackgroundColor": {
+      "type": "string",
+      "default": "#8b249c"
+    },
+    "iconBorderColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "iconColor": {
+      "type": "string"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 50
+    },
+    "design": {
+      "type": "string",
+      "default": "blockspare-layout1"
+    },
+    "blockBorderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "headertitleColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "headersubtitleColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "headermarginTop": {
+      "type": "number",
+      "default": 5
+    },
+    "headermarginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "headermarginBottom": {
+      "type": "number",
+      "default": 5
+    },
+    "headermarginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 20
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 20
+    },
+    "counterMarginTop": {
+      "type": "number",
+      "default": 0
+    },
+    "counterMarginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "counterMarginBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "counterMarginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "iconMarginTop": {
+      "type": "number",
+      "default": 0
+    },
+    "iconMarginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "iconMarginBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "iconMarginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "iconPaddingTop": {
+      "type": "number",
+      "default": 30
+    },
+    "iconPaddingBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "iconPaddingLeft": {
+      "type": "number",
+      "default": 30
+    },
+    "iconPaddingRight": {
+      "type": "number",
+      "default": 30
+    },
+    "openPopover": {
+      "type": "boolean",
+      "default": false
+    },
+    "counterFontSize": {
+      "type": "number",
+      "default": 32
+    },
+    "counterFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "counterFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "counterFontSubset": {
+      "type": "string"
+    },
+    "counterFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "counterFontSizeMobile": {
+      "type": "number",
+      "default": 20
+    },
+    "counterFontSizeTablet": {
+      "type": "number",
+      "default": 26
+    },
+    "counterLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    },
+    "backgroundOpacity": {
+      "type": "number",
+      "default": 1
+    }
+  }
+}

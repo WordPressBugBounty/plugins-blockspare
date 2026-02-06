@@ -1,14 +1,10 @@
 {
-  "name": "blockspare/latest-posts-express-grid",  
+  "name": "blockspare/latest-posts-express-grid",
   "title": "Posts Express Grid",
   "description": "Display Posts Express Grid from Selected Categories.",
-  "category": "blockspare",
+  "category": "blockspare-post",
   "textdomain": "blockspare",
-  "keywords": [
-		"Posts",
-    "Express",
-    "Grid"
-	],
+  "keywords": ["Posts", "Express", "Grid"],
   "attributes": {
     "categories": {
       "type": "array",
@@ -568,7 +564,7 @@
     },
     "postCategoryFontSize": {
       "type": "number",
-      "default": 10
+      "default": 12
     },
     "postCategoryFontFamily": {
       "type": "string",
@@ -576,7 +572,7 @@
     },
     "postCategoryFontWeight": {
       "type": "string",
-      "default": "600"
+      "default": "400"
     },
     "postCategoryFontSubset": {
       "type": "string"
@@ -638,3 +634,4 @@
     }
   }
 }
+

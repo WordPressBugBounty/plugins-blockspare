@@ -1,54 +1,48 @@
 <?php
-if (!defined('ABSPATH')) {
-	exit; // Exit if accessed directly.
+/**
+ * Template Name: Page Builder Full Width
+ *
+ * A safe full-width template that works with any theme.
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
 }
 
+// Detect block themes safely
+function blockspare_is_true_block_theme() {
+    return function_exists( 'wp_is_block_theme' )
+        && wp_is_block_theme()
+        && file_exists( get_theme_file_path( 'theme.json' ) );
+}
+
+// Load Header
+if ( blockspare_is_true_block_theme() ) {
+    block_template_part( 'header' );
+} else {
+    get_header();
+}
 ?>
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
 
-<head>
-	<meta charset="<?php bloginfo('charset'); ?>">
-	<?php if (!current_theme_supports('title-tag')) : ?>
-		<title><?php echo wp_get_document_title(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
-				?></title>
-	<?php
-	endif; ?>
-	<?php wp_head(); ?>
-
-</head>
-
-<body <?php body_class('blockspare-blank-canvas'); ?>>
-	<?php
-	if (function_exists('wp_is_block_theme')) {
-		if (wp_is_block_theme()) {
-			block_template_part('header');
-			
-		} else {
-			get_header();
-		}
-	} else {
-		get_header();
-	}
-	?>
-	<div class="blockspare-page-section">
-		<?php the_content(); ?>
-	</div>
-	<?php
+    <main id="main" class="site-main" role="main">
+        <?php
+        if ( have_posts() ) :
+            while ( have_posts() ) :
+                the_post();
+                the_content(); // Page builder content area
+            endwhile;
+        endif;
+        ?>
+    </main>
 
 
-	if (function_exists('wp_is_block_theme')) {
-		if (wp_is_block_theme()) {
-			block_template_part('footer');
-		} else {
-			get_footer();
-		}
-	} else {
-		get_footer();
-	}
+<?php
+// Load Footer
+if ( blockspare_is_true_block_theme() ) {
+    block_template_part( 'footer' );
+} else {
+    get_footer();
+}
 
-	wp_footer();
-	?>
-</body>
-
-</html>
+// No manual wp_footer(), body, html closing
+// Theme already handles it
