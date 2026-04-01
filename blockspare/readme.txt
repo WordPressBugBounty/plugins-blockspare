@@ -2,103 +2,199 @@
 Author URI: https://www.blockspare.com/
 Plugin URI: https://www.blockspare.com/
 Contributors: blockspare, afthemes
-Donate link: https://www.blockspare.com/pricing/
+Donate link: https://www.blockspare.com/
 Tags: blog, news, magazine, gutenberg blocks, starter templates
 Requires at least: 4.9
 Tested up to: 6.9
 Requires PHP: 5.3
-Stable tag: 3.3.0
+Stable tag: 3.3.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Build blogs, magazines, and business sites with ready-to-use Gutenberg blocks and starter templates. No coding needed.
+Highly customizable Gutenberg blocks and starter templates to build blogs, magazines, and business websites. Create post grids, sliders, filters, and complete layouts — no coding required.
 
 == Description ==
 
-Creating a professional blog, news or business site can take a lot of time: design, layout, post presentation, and responsive adjustments are all needed before you can launch. Many users want great-looking results but don’t want to write code or build layouts from scratch.
+Building a professional **blog, news, magazine, or business website** often requires a lot of time spent on layouts, post presentation, responsiveness, and design consistency. Many users want polished results without writing custom code or assembling everything from scratch.
+
+[**BlockSpare**](https://blockspare.com/) helps you build faster by providing a growing library of **ready-to-use Gutenberg blocks, patterns, and starter templates** — designed specifically for content-rich and business websites.
 
 ### The BlockSpare approach
-BlockSpare provides a library of **starter templates**, **Gutenberg blocks**, and **patterns** so you can assemble production-ready pages quickly. Instead of starting from an empty canvas, start from a thoughtfully designed block or template and adapt it for your brand.
+Instead of starting with a blank editor, BlockSpare lets you start with **structured, production-ready layouts** that you can customize visually using the WordPress Block Editor.
+
+BlockSpare focuses on:
+✅ Practical layouts for **real websites**
+✅ Flexible post display and filtering
+✅ Reusable patterns and templates
+✅ Clean output and editor-first workflow
 
 [youtube https://www.youtube.com/watch?v=JHNIdv4C690]
 
-BlockSpare delivers:
-* A large starter templates library (industry & niche specific)
-* Post presentation blocks (grids, sliders, carousels, masonry)
-* Business and utility blocks (pricing, testimonials, counters, CTAs)
-* Image & gallery blocks (carousel, masonry, logo grid)
-* One-click import and copy/paste patterns for fast builds
+---
 
-This lets you focus on content and customization — not repetitive layout work.
+### What you can build with BlockSpare
+BlockSpare includes blocks and templates designed for:
+👉 [Blogs & personal websites](https://demos.afthemes.com/covernews/my-portfolio/)
+👉 [News & magazine portals](https://demos.afthemes.com/morenews/moreblock/)
+👉 [Business & agency websites](https://demos.afthemes.com/reviewnews/ministry-of-culture/)
+👉 [Landing pages & marketing sections](https://demos.afthemes.com/covernews/pizzaworld/)
+👉 [Content-heavy editorial layouts](https://demos.afthemes.com/reviewnews/gutenberg/)
+
+It allows you to assemble pages quickly while keeping full control over typography, spacing, colors, and responsiveness.
 
 ---
 
 ### Key features
-* **Starter Templates:** 425+ pre-built pages, 125+ landing pages, 270+ sections, 55+ header/footer templates.  
-* **Post Presentation:** Post Grid, Post List, Post Tile, Post Slider, Post Carousel, Post Masonry, Trending/Ticker.  
-* **Image & Gallery Blocks:** Image Slider, Image Carousel, Masonry gallery, Logo grid.  
-* **Business & Utility Blocks:** Services, Pricing Table, Price List, Testimonial, Call-to-Action, Counter, Progress Bar, Tabs, Accordion.  
-* **Customization Controls:** Typography, color, spacing (gaps), box-shadow, borders, image radius, responsive settings.  
-* **Performance:** Designed with lightweight code and minimal runtime overhead.  
-* **Compatibility:** Works with Gutenberg-compatible themes and other editor plugins.  
-* **Workflow:** Save and reuse templates (My Patterns), copy/paste sections between posts/pages, and one-click starter template imports.
+**Starter Templates:** 
+👉 500+ pre-built pages 
+👉 100+ landing pages
+👉 200+ sections
+👉 50+ header/footer templates 
+👉 One-click import or copy/paste into any page
+
+**Post Presentation:** 
+👉 Post Grid, Post List, Post Tile
+👉 Post Slider, Post Carousel 
+👉 Masonry Layout
+👉 Trending posts and news Ticker
+👉 Timeline and large featured layouts 
+
+**Image & Gallery Blocks:** 
+👉 Image Slider 
+👉 Image Carousel
+👉 Masonry Gallery
+👉 Logo grid
+
+**Business & Utility Blocks:** 
+👉 Pricing Table & Price List
+👉 Testimonial
+👉 Services & Content Boxes
+👉 Call-to-Action
+👉 Counter & Progress Bar
+👉 Tabs & Accordion
+👉 Notice Bar, Date & Time
+
+  
+**Customization & Controls:** 
+👉 Multiple layouts
+👉 Typography settings
+👉 Colors and backgrounds
+👉 Spacing and gaps
+👉 Border, radius, and shadow controls
+👉 Responsive visibility options
+
+**Customization & Controls:** 
+👉 Save your own reusable patterns
+👉 Copy/paste sections between pages
+👉 Build layouts visually using Gutenberg
+👉 No lock-in, no shortcodes
+
+**Performance & Compatibility:** 
+👉 Lightweight and optimized codebase 
+👉 Works with any Gutenberg-compatible theme
+👉 Compatible with other block plugins
 
 ---
 
 ### Starter templates & demos (highlights)
-Choose a starter tailored to your site type — import in one click and edit.
+Import a complete starter layout and customize it for your content:
 
-- **News & Magazine:** General News, Sports, Entertainment  
-- **Lifestyle:** Fashion & Lifestyle, Travel, Recipes  
-- **Business & Agency:** Corporate, Agency, Legal, Construction  
-- **Education & Nonprofit:** Education, Montessori, Charity  
-- **Healthcare & Services:** Medical, Fitness, Dentist  
-- **Other niches:** Real Estate, Restaurant, Auto Service, Pet Care, Technology
+- **News & Magazine:** [General News](https://demos.afthemes.com/morenews/horizon-times/), [Sports](https://demos.afthemes.com/covernews/hybridnews-dark/), [Entertainment](https://demos.afthemes.com/morenews/info-update/)  
+- **Lifestyle:** [Fashion & Lifestyle](https://demos.afthemes.com/morenews-pro/news-nova/), [Travel](https://demos.afthemes.com/newsever-pro/birds-blog/), [Recipes](https://demos.afthemes.com/covernews/pizzaworld/)  
+- **Business & Agency:** [Corporate](https://demos.afthemes.com/reviewnews-pro/generic/), [Agency](https://demos.afthemes.com/morenews-pro/business/), [Legal](https://demos.afthemes.com/covernews/human-rights/), [Construction](https://demos.afthemes.com/covernews/real-estate/)  
+- **Education & Nonprofit:** [Education](https://demos.afthemes.com/reviewnews/generic/), [Montessori](https://demos.afthemes.com/morenews/child-centered-education/), [Charity](https://demos.afthemes.com/morenews-pro/ngo/)  
+- **Healthcare & Services:** [Medical](https://demos.afthemes.com/morenews-pro/health-horizon/), [Fitness](https://demos.afthemes.com/morenews-pro/om-balance/), [Dentist](https://demos.afthemes.com/covernews-pro/dental-glow/)  
+- **Other niches:** [Real Estate](https://demos.afthemes.com/morenews-pro/engineering/), [Restaurant](https://demos.afthemes.com/covernews-pro/foodinn/), [Auto Service](https://demos.afthemes.com/morenews-pro/vehicle-trade/), [Pet Care](https://demos.afthemes.com/morenews-pro/pet-palace/), [Technology](https://demos.afthemes.com/covernews/apps/)
 
-Browse all starter templates: https://www.blockspare.com/starter-templates/
+Browse all starter templates: https://www.blockspare.com/
 
 [youtube https://www.youtube.com/watch?v=elLCTqnQMI0]
 
 ---
 
-### Blocks & Layouts (examples)
+### Blocks & Layouts
 **Post / News blocks**
-* Hero banners (multiple layouts)  
-* Flash Posts / News Ticker  
-* Trending Posts carousel  
-* Post Grid / Post Tile / Post List / Post Express Grid & List  
-* Post Slider & Post Carousel  
-* Post Timeline / Post Full / Post Large (Full)
+✔ Hero banner layouts
+✔ Flash posts & news ticker
+✔ Trending posts carousel
+✔ Post Grid, Tile, List, Express Grid 
+✔ Post Slider & Carousel
+✔ Timeline and full-width layouts
 
-**Image & media**
-* Image Carousel  
-* Image Masonry  
-* Image Slider  
-* Logo Grid
+**Image & Media**
+✔ Image Carousel  
+✔ Image Masonry  
+✔ Image Slider  
+✔ Logo Grid
 
-**Business & general**
-* Section Header  
-* Content Box / Container  
-* Button, Icon, Icon List  
-* Counter, Progress Bar  
-* Pricing Table, Price List  
-* Testimonial, User Profile / Author box  
-* Tabs, Accordion, Notice Bar, Date & Time
+**Business & General**
+✔ Section Header  
+✔ Container & Content Box
+✔ Button, Icon, Icon List  
+✔ Counter, Progress Bar  
+✔ Pricing Table, Price List  
+✔ Testimonial, User Profile / Author box  
+✔ Tabs, Accordion, Notice Bar, Date & Time
 
 [youtube https://www.youtube.com/watch?v=keMO48vPIxY]
 
-(Individual block demos: https://www.blockspare.com/blocks/)
+---
+
+### Advanced post queries builder
+
+BlockSpare includes **AJAX-powered post queries builder**, allowing visitors to browse posts without reloading the page.
+
+✔ Display Posts by Category
+✔ Display Posts by Tags
+✔ Display Posts by Modified Date
+✔ A–Z / Z–A ordering
+✔ Ascending / Descending
+✔ Menu Order
+✔ Random order
+
+**AJAX pagination** helps users explore more content within the same section.
+
+
+	
+[**Try it Now**](https://www.blockspare.com/)
 
 ---
 
-### How it works (three steps)
+### How it works (3 simple steps)
 1. **Choose a template or block** from the Patterns Library or demo gallery.  
-2. **Import or copy** the pattern into a page or post.  
-3. **Customize** typography, colors, and content with Gutenberg and publish.
+2. **Import or copy** it into your page or post
+3. **Customize** content and design using Gutenberg
 
 [youtube https://www.youtube.com/watch?v=jmuK1o6U9mQ]
 
 
+**Recommended Themes**
+
+BlockSpare works with all modern WordPress themes and has been tested with:
+
+✔ [CoverNews](https://wordpress.org/themes/covernews/) 
+✔ [ChromeNews](https://wordpress.org/themes/chromenews/) 
+✔ [MoreNews](https://wordpress.org/themes/morenews/)
+✔ [ReviewNews](https://wordpress.org/themes/reviewnews/) 
+✔ [Newsphere](https://wordpress.org/themes/newsphere/) 
+✔ Twenty Twenty-Five
+✔ Astra
+✔ Ocean WP
+✔ Blocksy
+✔ Kadence
+✔ Generatepress
+✔ Neve
+✔ [And all themes from AF Themes](https://wordpress.org/themes/author/afthemes/) 
+
+## Other Plugins by AF themes
+
+If you find BlockSpare useful, you may also like:
+
+[**TemplateSpare:**](https://wordpress.org/plugins/templatespare/) 1000+ starter templates and full site import/export solution.
+
+[**EleSpare:**](https://wordpress.org/plugins/elespare/) News, magazine, and blog addons for Elementor.
+
+[**WP Post Author:**](https://wordpress.org/plugins/wp-post-author/) Author box, co-authors, and guest author management.
 
 ---
 
@@ -129,7 +225,7 @@ Yes. BlockSpare works with any modern Gutenberg-compatible theme.
 BlockSpare is built with performance in mind. Blocks load only where used; templates are static HTML/CSS markup in the editor. However, performance also depends on server and theme choices.
 
 = Is BlockSpare free? =  
-Yes — the plugin and many templates/blocks are free. A Pro plan is available for additional templates and premium features: https://www.blockspare.com/pricing/
+Yes — the plugin and many templates/blocks are free. A Pro plan is available for additional templates and premium features: https://www.blockspare.com/
 
 = Where can I see the demos and documentation? =  
 Demos: https://www.blockspare.com/starter-templates/  

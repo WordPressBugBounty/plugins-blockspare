@@ -29,7 +29,7 @@ class Blockspare_Setup
         $this->type = $type;
         $this->dismiss_url = $dismiss_url;
         $this->temporary_dismiss_url = $temporary_dismiss_url;
-        $this->pricing_url = 'https://www.blockspare.com/pricing/';
+        $this->pricing_url = 'https://www.blockspare.com/';
         $this->current_user_id = get_current_user_id();
 
         // Notice markup.
@@ -238,7 +238,7 @@ class Blockspare_Setup_Notice extends Blockspare_Setup {
                             <div class='bs-welcome-panel-column-content'>
                                 <h3><?php esc_html_e('Effortless Website Crafting Continues!','blockspare'); ?></h3>
                                 
-                                <a href="<?php echo esc_url('https://www.blockspare.com/pricing/')?>" target="_blank" class="blockspare-notice-link"><?php esc_html_e('Upgrade Now','blockspare'); ?></a>
+                                <a href="<?php echo esc_url('https://www.blockspare.com/')?>" target="_blank" class="blockspare-notice-link"><?php esc_html_e('Upgrade Now','blockspare'); ?></a>
                             </div>
                         </div>    
                 </div>

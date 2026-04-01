@@ -81,7 +81,7 @@ if(!function_exists('blockspare_dashboard_widget_content')){
                             <div class='bs-welcome-panel-column-content'>
                                 <h3><?php esc_html_e('Effortless Website Crafting Continues Here!','blockspare'); ?></h3>
                                 <p><?php esc_html_e('Unlock Annual and Lifetime Premium Plans for Enhanced Website Building Experiences and Extra Benefits!','blockspare'); ?></p>
-                                <a href="<?php echo esc_url('https://www.blockspare.com/pricing/')?>" target="_blank"><?php esc_html_e('Upgrade Now','blockspare'); ?></a>
+                                <a href="<?php echo esc_url('https://www.blockspare.com/')?>" target="_blank"><?php esc_html_e('Upgrade Now','blockspare'); ?></a>
                             </div>
                         </div>   
                         

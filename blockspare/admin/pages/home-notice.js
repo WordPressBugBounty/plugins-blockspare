@@ -64,7 +64,7 @@ const Homenotice = () => {
                             <h3>{__('Seamless Website Crafting Unleashed!', 'blockspare')} </h3>
                             <p>{__('Access All Templates, Unlock Annual and Lifetime Premium Plans for Enhanced Website Building Experiences and Extra Benefits!', 'blockspare')} </p>
 
-                            <a href="https://www.blockspare.com/pricing/" target="_blank" class="blockspare-notice-link">{__('Unlock All 425+ Templates', 'blockspare')}</a>
+                            <a href="https://www.blockspare.com/" target="_blank" class="blockspare-notice-link">{__('Unlock All 425+ Templates', 'blockspare')}</a>
                         </div>
                     </div>
                 </div>

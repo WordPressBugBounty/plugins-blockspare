@@ -28,7 +28,7 @@ class Blockspare_Notice
         $this->type = $type;
         $this->dismiss_url = $dismiss_url;
         $this->temporary_dismiss_url = $temporary_dismiss_url;
-        $this->pricing_url = 'https://www.blockspare.com/pricing/';
+        $this->pricing_url = 'https://www.blockspare.com/';
         $this->current_user_id = get_current_user_id();
 
         // Notice markup.
@@ -177,7 +177,7 @@ class Blockspare_Upgrade_Notice extends Blockspare_Notice {
                     ),
                     '<h2 class="blockspare-notice-title">Hello ' . esc_html( $current_user->display_name ) . ', you are awesome for using Blockspare Pro!</h2>',
                     '<p><strong>Blockspare</strong>',
-                    '<strong><a target="_blank" href="https://www.blockspare.com/pricing/">Blockspare Pro</a></strong>',
+                    '<strong><a target="_blank" href="https://www.blockspare.com/">Blockspare Pro</a></strong>',
                     '<strong><a href="https://wordpress.org/support/plugin/blockspare/reviews/?filter=5#new-post" target="_blank">',
                     '</a></strong>',
                     '<br>',

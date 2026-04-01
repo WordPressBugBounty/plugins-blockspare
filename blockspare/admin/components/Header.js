@@ -19,7 +19,7 @@ const Header = ({current, activeNavHandler}) => {
                         <Navs activeNavHandler={activeNavHandler} current={current} />
                     </div> */}
                     <div className="bs-dashboard-upgrade-button links-panel">
-                        <a className="bs-dashboard__button bs-upgrade-button" href='https://www.blockspare.com/pricing/' target='_blank'>
+                        <a className="bs-dashboard__button bs-upgrade-button" href='https://www.blockspare.com/' target='_blank'>
                             {icons.diamond}
                             {__('Unlock All Features', 'blockspare')}
                         </a>

@@ -32,7 +32,7 @@ if (!class_exists('Blockspare_Admin_Dashboard')) {
 
             array_unshift($links, $settings_link);
 
-            $links['bspro'] = sprintf('<a href="%1$s" target="_blank" class="blockspare-pro-link">%2$s</a>', 'https://www.blockspare.com/pricing/', esc_html__('Get Blockspare Pro', 'blockspare'));
+            $links['bspro'] = sprintf('<a href="%1$s" target="_blank" class="blockspare-pro-link">%2$s</a>', 'https://www.blockspare.com/', esc_html__('Get Blockspare Pro', 'blockspare'));
 
             return $links;
         }
