@@ -6,7 +6,7 @@ function blockspare_save_templates_rest_controller() {
         'callback'            => 'blockspare_save_templates_callback',
         'permission_callback' => function ($request) {
             $nonce = $request->get_header( 'X-WP-Nonce' );
-            if ( ! wp_verify_nonce( $nonce, 'wp_rest' ) && !current_user_can( 'edit_posts' ) ) {
+            if ( ! wp_verify_nonce( $nonce, 'wp_rest' ) || !current_user_can( 'edit_posts' ) ) {
                 return new WP_Error( 'rest_forbidden', 'Validation Failed', array( 'status' => 200 ) );
             }
     
