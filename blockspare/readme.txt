@@ -5,9 +5,9 @@ Contributors: blockspare, afthemes
 Donate link: https://www.blockspare.com/
 Tags: blog, news, magazine, gutenberg blocks, starter templates
 Requires at least: 4.9
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.3
-Stable tag: 3.3.4
+Stable tag: 3.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
