@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-masonry",
+  "category": "blockspare",
+  "attributes": {
+    "uniqueClass": {
+      "type": "string"
+    },
+    "gridSize": {
+      "type": "string",
+      "default": "xlrg"
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    },
+    "imageHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

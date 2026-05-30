@@ -2,214 +2,222 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-class Blockspare_Notice
-{
-    public $name;
-    public $type;
-    public $dismiss_url;
-    public $temporary_dismiss_url;
-    public $pricing_url;
-    public $current_user_id;
+class Blockspare_Upgrade_Notice extends Blockspare_Setup {
 
-    /**
-     * The constructor.
-     *
-     * @param string $name Notice Name.
-     * @param string $type Notice type.
-     * @param string $dismiss_url Notice permanent dismiss URL.
-     * @param string $temporary_dismiss_url Notice temporary dismiss URL.
-     *
-     * @since 1.4.7
-     *
-     */
-    public function __construct($name, $type, $dismiss_url, $temporary_dismiss_url)
-    {
-        $this->name = $name;
-        $this->type = $type;
-        $this->dismiss_url = $dismiss_url;
-        $this->temporary_dismiss_url = $temporary_dismiss_url;
-        $this->pricing_url = 'https://www.blockspare.com/';
-        $this->current_user_id = get_current_user_id();
+	/**
+	 * Constructor.
+	 */
+	public function __construct() {
 
-        // Notice markup.
-        add_action('admin_notices', array($this, 'notice'));
+		$dismiss_url = wp_nonce_url(
+			add_query_arg(
+				'blockspare_notice_dismiss',
+				'upgrade',
+				admin_url()
+			),
+			'blockspare_upgrade_notice_dismiss_nonce',
+			'_blockspare_upgrade_notice_dismiss_nonce'
+		);
 
-        $this->dismiss_notice();
-        $this->dismiss_notice_temporary();
-    }
+		$temporary_dismiss_url = wp_nonce_url(
+			add_query_arg(
+				'blockspare_notice_dismiss_temporary',
+				'upgrade',
+				admin_url()
+			),
+			'blockspare_upgrade_notice_dismiss_temporary_nonce',
+			'_blockspare_upgrade_notice_dismiss_temporary_nonce'
+		);
 
-    public function notice()
-    {
-        if (!$this->is_dismiss_notice()) {
-            $this->notice_markup();
-        }
-    }
+		parent::__construct(
+			'upgrade',
+			'info',
+			$dismiss_url,
+			$temporary_dismiss_url
+		);
 
-    private function is_dismiss_notice()
-    {
-        return apply_filters('blockspare_' . $this->name . '_notice_dismiss', true);
-    }
+		$this->set_notice_time();
+		$this->set_temporary_dismiss_notice_time();
+		$this->set_dismiss_notice();
+	}
 
-    public function notice_markup()
-    {
-        echo '';
-    }
+	/**
+	 * Set initial notice time.
+	 */
+	private function set_notice_time() {
 
-    /**
-     * Hide a notice if the GET variable is set.
-     */
-    public function dismiss_notice()
-    {
-        if (isset($_GET['blockspare_notice_dismiss']) && isset($_GET['_blockspare_upgrade_notice_dismiss_nonce'])) { // WPCS: input var ok.
-            if (!wp_verify_nonce(wp_unslash($_GET['_blockspare_upgrade_notice_dismiss_nonce']), 'blockspare_upgrade_notice_dismiss_nonce')) { // phpcs:ignore WordPress.VIP.ValidatedSanitizedInput.InputNotSanitized
-                wp_die(__('Action failed. Please refresh the page and retry.', 'blockspare')); // WPCS: xss ok.
-            }
+		if ( ! get_option( 'blockspare_upgrade_notice_start_time' ) ) {
+			update_option( 'blockspare_upgrade_notice_start_time', time() );
+		}
+	}
 
-            if (!current_user_can('publish_posts')) {
-                wp_die(__('Cheatin&#8217; huh?', 'blockspare')); // WPCS: xss ok.
-            }
+	/**
+	 * Set temporary dismiss time.
+	 */
+	private function set_temporary_dismiss_notice_time() {
 
-            $dismiss_notice = sanitize_text_field(wp_unslash($_GET['blockspare_notice_dismiss']));
+		if (
+			isset( $_GET['blockspare_notice_dismiss_temporary'] ) &&
+			'upgrade' === $_GET['blockspare_notice_dismiss_temporary']
+		) {
+			update_user_meta(
+				$this->current_user_id,
+				'blockspare_upgrade_notice_dismiss_temporary_start_time',
+				time()
+			);
+		}
+	}
 
-            // Hide.
-            if ($dismiss_notice === $_GET['blockspare_notice_dismiss']) {
-                add_user_meta(get_current_user_id(), 'blockspare_' . $dismiss_notice . '_notice_dismiss', 'yes', true);
-            }
-        }
-    }
+	/**
+	 * Set dismiss conditions.
+	 */
+	public function set_dismiss_notice() {
 
-    public function dismiss_notice_temporary()
-    {
-        if (isset($_GET['blockspare_notice_dismiss_temporary']) && isset($_GET['_blockspare_upgrade_notice_dismiss_temporary_nonce'])) { // WPCS: input var ok.
-            if (!wp_verify_nonce(wp_unslash($_GET['_blockspare_upgrade_notice_dismiss_temporary_nonce']), 'blockspare_upgrade_notice_dismiss_temporary_nonce')) { // phpcs:ignore WordPress.VIP.ValidatedSanitizedInput.InputNotSanitized
-                wp_die(__('Action failed. Please refresh the page and retry.', 'blockspare')); // WPCS: xss ok.
-            }
+		if (
+			get_option( 'blockspare_upgrade_notice_start_time' ) > strtotime( '-1 min' ) ||
+			get_user_meta(
+				get_current_user_id(),
+				'blockspare_upgrade_notice_dismiss',
+				true
+			) ||
+			get_user_meta(
+				get_current_user_id(),
+				'blockspare_upgrade_notice_dismiss_temporary_start_time',
+				true
+			) > strtotime( '-2 days' )
+		) {
+			add_filter(
+				'blockspare_upgrade_notice_dismiss',
+				'__return_true'
+			);
+		} else {
+			add_filter(
+				'blockspare_upgrade_notice_dismiss',
+				'__return_false'
+			);
+		}
+	}
 
-            if (!current_user_can('publish_posts')) {
-                wp_die(__('Cheatin&#8217; huh?', 'blockspare')); // WPCS: xss ok.
-            }
+	/**
+	 * Notice markup.
+	 */
+	public function notice_markup() {
+		?>
+		<div class="notice notice-info blockspare-notice-upgrade" style="padding:24px; position:relative; border-left:4px solid #2271b1; background:#fff;">
 
-            $dismiss_notice = sanitize_text_field(wp_unslash($_GET['blockspare_notice_dismiss_temporary']));
+			<div style="display:flex; justify-content:space-between; gap:28px; align-items:flex-start; flex-wrap:wrap;">
 
-            // Hide.
-            if ($dismiss_notice === $_GET['blockspare_notice_dismiss_temporary']) {
-                add_user_meta(get_current_user_id(), 'blockspare_' . $dismiss_notice . '_notice_dismiss_temporary', 'yes', true);
-            }
-        }
-    }
+				<div style="flex:1; min-width:300px;">
+
+					<div style="display:inline-block; background:#e8f2ff; color:#2271b1; padding:4px 10px; border-radius:30px; font-size:12px; font-weight:600; margin-bottom:14px;">
+						<?php esc_html_e( 'Upgrade Available', 'blockspare' ); ?>
+					</div>
+
+					<h2 style="margin:0 0 12px; font-size:24px; line-height:1.4; font-weight:700;">
+						<?php esc_html_e( 'Unlock More Power with Blockspare Pro', 'blockspare' ); ?>
+					</h2>
+
+					<p style="margin:0 0 16px; font-size:14px; color:#555; max-width:920px; line-height:1.8;">
+						<?php esc_html_e( 'Get access to premium templates, advanced post layouts, extra design blocks, and more control over how your content looks. Blockspare Pro helps you build faster and create richer pages with less effort.', 'blockspare' ); ?>
+					</p>
+
+					<div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px;">
+
+						<span style="background:#f6f7f7; padding:7px 12px; border-radius:5px; font-size:12px;">
+							<?php esc_html_e( 'Premium Templates', 'blockspare' ); ?>
+						</span>
+
+						<span style="background:#f6f7f7; padding:7px 12px; border-radius:5px; font-size:12px;">
+							<?php esc_html_e( 'Advanced Post Layouts', 'blockspare' ); ?>
+						</span>
+
+						<span style="background:#f6f7f7; padding:7px 12px; border-radius:5px; font-size:12px;">
+							<?php esc_html_e( 'More Blocks & Sections', 'blockspare' ); ?>
+						</span>
+
+						<span style="background:#f6f7f7; padding:7px 12px; border-radius:5px; font-size:12px;">
+							<?php esc_html_e( 'Extra Design Controls', 'blockspare' ); ?>
+						</span>
+
+						<span style="background:#f6f7f7; padding:7px 12px; border-radius:5px; font-size:12px;">
+							<?php esc_html_e( 'Faster Website Building', 'blockspare' ); ?>
+						</span>
+
+					</div>
+
+					<div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center;">
+
+						<a
+							class="button button-primary"
+							href="<?php echo esc_url( $this->pricing_url ); ?>"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<?php esc_html_e( 'Upgrade to Pro', 'blockspare' ); ?>
+						</a>
+
+						<a
+							class="button"
+							href="<?php echo esc_url( 'https://www.blockspare.com/' ); ?>"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<?php esc_html_e( 'View Features', 'blockspare' ); ?>
+						</a>
+
+						<a
+							class="button button-secondary plain"
+							href="<?php echo esc_url( $this->temporary_dismiss_url ); ?>"
+						>
+							<?php esc_html_e( 'Maybe later', 'blockspare' ); ?>
+						</a>
+
+						<a
+							class="button button-secondary plain"
+							href="<?php echo esc_url( 'https://afthemes.com/supports/' ); ?>"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<?php esc_html_e( 'Need help?', 'blockspare' ); ?>
+						</a>
+
+					</div>
+
+				</div>
+
+				<div style="width:240px; background:#f8fbff; border:1px solid #dcdcde; border-radius:12px; padding:18px;">
+
+					<div style="font-size:13px; font-weight:600; color:#2271b1; margin-bottom:12px;">
+						<?php esc_html_e( 'Why upgrade?', 'blockspare' ); ?>
+					</div>
+
+					<ul style="margin:0; padding-left:18px; color:#555; line-height:1.8; font-size:13px;">
+						<li><?php esc_html_e( 'Access premium layouts and demos', 'blockspare' ); ?></li>
+						<li><?php esc_html_e( 'Create richer post displays', 'blockspare' ); ?></li>
+						<li><?php esc_html_e( 'Get more design flexibility', 'blockspare' ); ?></li>
+						<li><?php esc_html_e( 'Build pages faster with less effort', 'blockspare' ); ?></li>
+					</ul>
+
+				</div>
+
+			</div>
+
+			<a class="blockspare-notice-dismiss notice-dismiss" href="<?php echo esc_url( $this->dismiss_url ); ?>"></a>
+		</div>
+		<?php
+	}
 }
 
+/**
+ * Initialize notice.
+ */
+function blockspare_upgrade_notice_init() {
 
-class Blockspare_Upgrade_Notice extends Blockspare_Notice {
+	if ( ! is_admin() ) {
+		return;
+	}
 
-    public function __construct() {
-        if ( ! current_user_can( 'publish_posts' ) ) {
-            return;
-        }
-
-        $dismiss_url = wp_nonce_url(
-            add_query_arg( 'blockspare_notice_dismiss', 'upgrade', admin_url() ),
-            'blockspare_upgrade_notice_dismiss_nonce',
-            '_blockspare_upgrade_notice_dismiss_nonce'
-        );
-
-        $temporary_dismiss_url = wp_nonce_url(
-            add_query_arg( 'blockspare_notice_dismiss_temporary', 'upgrade', admin_url() ),
-            'blockspare_upgrade_notice_dismiss_temporary_nonce',
-            '_blockspare_upgrade_notice_dismiss_temporary_nonce'
-        );
-
-        parent::__construct( 'upgrade', 'info', $dismiss_url, $temporary_dismiss_url );
-
-        $this->set_notice_time();
-
-        $this->set_temporary_dismiss_notice_time();
-
-        $this->set_dismiss_notice();
-    }
-
-    private function set_notice_time() {
-        if ( ! get_option( 'blockspare_upgrade_notice_start_time' ) ) {
-            update_option( 'blockspare_upgrade_notice_start_time', time() );
-        }
-    }
-
-    private function set_temporary_dismiss_notice_time() {
-        if ( isset( $_GET['blockspare_notice_dismiss_temporary'] ) && 'upgrade' === $_GET['blockspare_notice_dismiss_temporary'] ) {
-            update_user_meta( $this->current_user_id, 'blockspare_upgrade_notice_dismiss_temporary_start_time', time() );
-        }
-    }
-
-    public function set_dismiss_notice() {
-
-        /**
-         * Do not show notice if:
-         *
-         * 1. It has not been 5 days since the plugin is activated.
-         * 2. If the user has ignored the message partially for 2 days.
-         * 3. Dismiss always if clicked on 'Dismiss' button.
-         */
-        if ( get_option( 'blockspare_upgrade_notice_start_time' ) > strtotime( '-2 days' )
-            || get_user_meta( get_current_user_id(), 'blockspare_upgrade_notice_dismiss', true )
-            || get_user_meta( get_current_user_id(), 'blockspare_upgrade_notice_dismiss_temporary_start_time', true ) > strtotime( '-2 days' )
-        ) {
-            add_filter( 'blockspare_upgrade_notice_dismiss', '__return_true' );
-        } else {
-            add_filter( 'blockspare_upgrade_notice_dismiss', '__return_false' );
-        }
-    }
-
-    public function notice_markup() {
-        ?>
-        <div class="notice notice-success blockspare-notice" >
-            <div class="blockspare-notice__logo">
-                <svg fill="url(#blockspare-gradient)" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="blockspare-svg blockspare-svg-blockspare" aria-hidden="true" focusable="false"><g class="blockspare-logo"><g><path class="st0" d="M1.6,9.2v21.4l18.3-9.2L20.2,0L1.6,9.2z M16.9,19.8L4.9,26V10.9l12-6.1V19.8z"></path><polygon id="XMLID_3_" class="st1" points="19.9,21.4 16.9,23 26,27.7 13.8,33.8 4.9,29 1.6,30.7 13.9,36.9 32.4,27.7      "></polygon></g><g><polygon id="XMLID_2_" class="st0" points="23,1.5 23,19.8 32.4,24.6 32.4,9.4 35.3,10.9 35.3,29 38.4,30.7 38.4,9.2 29.4,4.8  29.2,19.7 26,18.4 26,3.1        "></polygon><polygon id="XMLID_1_" class="st1" points="17,38.4 19.9,40 38.4,30.7 35.3,29        "></polygon></g></g></svg>
-            </div>
-            <div class="blockspare-notice__content">
-                <?php
-                $current_user = wp_get_current_user();
-
-                printf(
-                /* Translators: %1$s current user display name., %2$s this plugin name., %3$s discount coupon code., %4$s discount percentage. */
-                   esc_html__(
-                        '%1$s %7$s We would appreciate it if you can %4$s rate us on WordPress.org%5$s! By spreading the love, we will continue to create thrilling new features for free in the future. Enjoy! %8$s',
-                        'blockspare'
-                    ),
-                    '<h2 class="blockspare-notice-title">Hello ' . esc_html( $current_user->display_name ) . ', you are awesome for using Blockspare Pro!</h2>',
-                    '<p><strong>Blockspare</strong>',
-                    '<strong><a target="_blank" href="https://www.blockspare.com/">Blockspare Pro</a></strong>',
-                    '<strong><a href="https://wordpress.org/support/plugin/blockspare/reviews/?filter=5#new-post" target="_blank">',
-                    '</a></strong>',
-                    '<br>',
-                    '<p class="blockspare-notice-description">',
-                    '</p>',
-                );
-
-                ?>
-                <div class="links">
-                    <a href="https://wordpress.org/support/plugin/blockspare/reviews/?filter=5#new-post" class="button button-primary" target="_blank">
-                        <span><?php esc_html_e( 'Sure thing', 'blockspare' ); ?></span>
-                    </a>   
-                    <a href="<?php echo esc_url( $this->pricing_url ); ?>" class="button button-secondary" target="_blank">
-                        <span><?php esc_html_e( 'Unlock All Features', 'blockspare' ); ?></span>
-                    </a>           
-    
-                    <a href="<?php echo esc_url( $this->temporary_dismiss_url ); ?>" class="button button-secondary plain">
-                        <span><?php esc_html_e( 'Maybe later', 'blockspare' ); ?></span>
-                    </a>
-    
-                    <a href="https://afthemes.com/supports/" class="button button-secondary plain" target="_blank">
-                        <span><?php esc_html_e( 'Need help?', 'blockspare' ); ?></span>
-                    </a>                           
-                </div>
-            </div>
-            <div class="bs-notice-image">
-                <img src='<?php echo BLOCKSPARE_PLUGIN_URL ."admin/assets/images/review.webp";?>'/>
-            </div>
-            <a class="blockspare-notice-dismiss notice-dismiss" href="<?php echo esc_url( $this->dismiss_url ); ?>"></a>
-        </div> <!-- /blockspare-notice -->
-        <?php
-    }
+	new Blockspare_Upgrade_Notice();
 }
 
-new Blockspare_Upgrade_Notice();
+add_action( 'admin_init', 'blockspare_upgrade_notice_init' );

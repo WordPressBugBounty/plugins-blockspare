@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-empty-section",
+  "category": "blockspare",
+  "supports": {
+    "align": [
+      "wide",
+      "full",
+      "center"
+    ]
+  },
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "height": {
+      "type": "number",
+      "default": 10
+    },
+    "backGroundColor": {
+      "type": "string",
+      "default": "#f9f9f9"
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "fillType": {
+      "type": "string",
+      "default": ""
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js"
+}

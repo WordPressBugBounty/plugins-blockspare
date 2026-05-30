@@ -1,0 +1,108 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-accordion",
+  "category": "blockspare",
+  "supports": {
+    "align": [
+      "wide",
+      "full",
+      "center"
+    ]
+  },
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "uniqueClass": {
+      "type": "string"
+    },
+    "className": {
+      "type": "string"
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "defaultItems": {
+      "type": "number",
+      "default": 3
+    },
+    "uniqueId": {
+      "type": "string",
+      "default": ""
+    },
+    "itemToggle": {
+      "type": "boolean",
+      "default": true
+    },
+    "titleFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "titleFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "titleFontSubset": {
+      "type": "string"
+    },
+    "titleFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "titleFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "titleFontSizeTablet": {
+      "type": "number",
+      "default": 16
+    },
+    "titleLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 20
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 20
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

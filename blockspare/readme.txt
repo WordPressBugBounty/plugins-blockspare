@@ -7,7 +7,7 @@ Tags: blog, news, magazine, gutenberg blocks, starter templates
 Requires at least: 4.9
 Tested up to: 7.0
 Requires PHP: 5.3
-Stable tag: 3.3.5
+Stable tag: 4.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -250,6 +250,80 @@ Yes, BlockSpare can be used on personal and client projects.
 10. Save & reuse patterns (screenshot-10).
 
 == Changelog ==
+
+= 4.0.0 =
+* Added new default designs for Post Grid, Post List, Express List, Post Carousel, and Trending Carousel blocks.
+* Added new default styles for Flash News, Latest Post, Post Full, and Post Slider blocks.
+* Added redesigned Banner block layouts for Banner 1–12.
+* Added default masonry and tile masonry layout designs.
+* Added dashboard icons and improved empty state icons.
+* Added admin menu enhancements and updated demo template links.
+* Added deprecated handling and transform support for Pricing Table description blocks.
+* Added attempt recovery improvements and updated translation makepot support.
+* Added webpack start support for development workflow.
+
+* Improved Trending Carousel thumbnail sizing and layout consistency.
+* Improved Express Grid and Express List mobile responsiveness.
+* Improved branding colors and overall block styling consistency.
+* Improved Post Slider Wide and Exclusive Text layout presentation.
+* Improved Banner block default appearances and style reviews.
+* Improved code structure and optimized development workflow.
+* Improved compatibility with WordPress 7.0 changes.
+
+* Fixed icon display issues across blocks and dashboard.
+* Fixed masonry layout and image masonry rendering issues.
+* Fixed feature image upload issues.
+* Fixed font family styling issues.
+* Fixed Pricing Table “Add More” functionality issue.
+* Fixed webpack/build-related issues.
+* Fixed styling inconsistencies across multiple blocks.
+* Fixed attempt recovery handling.
+* Fixed deprecated functionality and compatibility issues.
+* Fixed various layout and design inconsistencies in carousel, banner, and masonry blocks.
+
+* Updated demo links and template resources.
+* Updated default layout styling for multiple content blocks.
+
+* Added modern block architecture and upgraded core plugin structure.
+* Added new display options for Banner and Latest Post blocks.
+* Added dashboard icons and improved admin menu experience.
+* Added styles design component, popovers, and device visibility controls.
+* Added date range controls and improved responsive display options.
+* Added demo template/page links and updated demo data.
+* Added support for useBlockProps() in layouts.
+* Added translation improvements with makepot support.
+* Added recovery handling for failed attempts.
+
+* Improved branding colors and dashboard UI styling.
+* Improved line-height and typography styling across blocks.
+* Improved block editor experience and empty state icons.
+* Improved image handling and optimized asset imports.
+* Improved webpack development workflow and package configuration.
+* Updated Slick slider library from v1.8.0 to v1.8.1.
+
+* Fixed pricing table “Add More” issue.
+* Fixed icon display issues in blocks and dashboard.
+* Fixed “No Posts Found” block selection issue.
+* Fixed category filtering issues.
+* Fixed masonry layout and image masonry issues.
+* Fixed excerpt rendering issue.
+* Fixed banner navigation colors and trending carousel arrow colors.
+* Fixed font family dropdown styling issue.
+* Fixed Flash News font styling issue.
+* Fixed shape divider color issue.
+* Fixed pricing header issue.
+* Fixed editor image hover issue.
+* Fixed duplicate errors and webpack-related issues.
+* Fixed button styling issues.
+* Fixed image path and import-related issues.
+* Fixed block creation issues and block JSON inconsistencies.
+
+* Removed unused banner layout images.
+* Removed unnecessary Pro option references.
+* Removed date icon from UI where unnecessary.
+* Removed deprecated imports and unused webpack configurations.
+* Removed build folder and stopped tracking package-lock.json.
+
 = 3.3.0 =
 * Update: Multiple accessibility improvements across blocks (pricing table, price list, icon list, progress bar, content box, CTA, accordion, buttons, date & time, social share, slider buttons).
 * Update: Added missing alt tags, aria-hidden attributes, and aria-labels for improved screen reader compatibility.

@@ -1,14 +1,13 @@
 <?php
-if (!defined('ABSPATH')) {
+if (! defined('ABSPATH')) {
   exit; // Exit if accessed directly.
 }
 
+
 function blockspare_post_query($attributes)
 {
-
   $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-
-  if (isset($attributes['categories']) && !empty($attributes['categories']) && is_array($attributes['categories'])) {
+  if (isset($attributes['categories']) && ! empty($attributes['categories']) && is_array($attributes['categories'])) {
     $categories = array();
     $i = 1;
     foreach ($attributes['categories'] as $key => $value) {
@@ -18,7 +17,7 @@ function blockspare_post_query($attributes)
     $categories = array();
   }
 
-  if (isset($attributes['tags']) && !empty($attributes['tags']) && is_array($attributes['tags'])) {
+  if (isset($attributes['tags']) && ! empty($attributes['tags']) && is_array($attributes['tags'])) {
     $tags = array();
     $i = 1;
     foreach ($attributes['tags'] as $key => $value) {
@@ -39,8 +38,11 @@ function blockspare_post_query($attributes)
     'post_type' => $attributes['postType'],
     'ignore_sticky_posts' => 1,
     'paged' => $paged,
-    'post__not_in' => array($currentID),
+    'post__not_in' => array($currentID)
   );
+
+
+
 
   if ('post' != $attributes['postType']) {
 
@@ -49,9 +51,9 @@ function blockspare_post_query($attributes)
       if (!empty($categories)) {
         $query_args['tax_query'][] = array(
           'taxonomy' => (isset($tax_type)) ? $tax_type : 'category',
-          'field' => 'id',
-          'terms' => $categories,
-          'operator' => 'IN',
+          'field'    => 'id',
+          'terms'    => $categories,
+          'operator' =>  'IN',
         );
       }
     }
@@ -64,9 +66,9 @@ function blockspare_post_query($attributes)
       if (!empty($categories)) {
         $query_args['tax_query'][] = array(
           'taxonomy' => (isset($tax_type)) ? $tax_type : 'category',
-          'field' => 'id',
-          'terms' => $categories,
-          'operator' => 'IN',
+          'field'    => 'id',
+          'terms'    => $categories,
+          'operator' =>  'IN',
         );
       } else {
 
@@ -76,7 +78,7 @@ function blockspare_post_query($attributes)
           $query_args['tax_query'][] = array(
             'taxonomy' => (isset($tax_type)) ? $tax_type : 'category',
             'field' => 'slug',
-            'terms' => wp_list_pluck($terms, 'slug'),
+            'terms' => wp_list_pluck($terms, 'slug')
 
           );
         }
@@ -85,33 +87,25 @@ function blockspare_post_query($attributes)
   }
 
   if ($attributes['taxType'] == 'category') {
-    $query_args['category__in'] = $categories;
+    $query_args['category__in']  = $categories;
   }
   if ($attributes['taxType'] == 'post_tag') {
-    $query_args['tag__in'] = $tags;
-  }
-
-  if ($attributes['taxType'] != 'category' && $attributes['taxType'] != 'post_tag') {
-
-    $tax_type = $attributes['taxType'];
-    if ($tax_type) {
-      if (!empty($categories)) {
-        $query_args['tax_query'][] = array(
-          'taxonomy' => (isset($tax_type)) ? $tax_type : 'category',
-          'field' => 'id',
-          'terms' => $categories,
-          'operator' => 'IN',
-        );
-      }
-    }
+    $query_args['tag__in']  = $tags;
   }
   /* Setup the query */
   $grid_query = new WP_Query($query_args);
   return $grid_query;
 }
 
-function blockspare_query_loop_and_wrapper($attributes, $blockclass = '', $design = '', $blockName = '', $layoutClass = false)
+function blockspare_query_loop_and_wrapper($attributes, $blockclass = '', $design = '', $blockName = '', $paged = '', $layoutClass = false)
 {
+
+  if ($attributes['enablePagination']) {
+    wp_enqueue_script('blockspare-pagination-js');
+  }
+
+
+
   $unq_class = mt_rand(100000, 999999);
   $blockuniqueclass = '';
 
@@ -122,8 +116,12 @@ function blockspare_query_loop_and_wrapper($attributes, $blockclass = '', $desig
   }
 
   $grid_query = blockspare_post_query($attributes);
+
+
   if ($grid_query->have_posts()) {
+
     $alignclass = blockspare_checkalignment($attributes['align']);
+
 
     /* Build the block classes */
     $class = "wp-block-blockspare-posts-block-blockspare-posts-block-latest-posts align" . $alignclass . " " . $attributes['blockHoverEffect'];
@@ -132,33 +130,53 @@ function blockspare_query_loop_and_wrapper($attributes, $blockclass = '', $desig
       $class .= ' ' . $attributes['className'];
     }
 
+
     if ($attributes['animation']) {
       $class .= ' blockspare-block-animation';
     }
 
+
+
     $list_layout_class = $design;
     $listgridClass = $blockclass . " ";
+
+
 
     // if($blockName=='' ){
     //     $listgridClass .= "column-" . $attributes['columns'];
     // }
 
+
     /* Layout orientation class */
-    $grid_class = 'blockspare-posts-block-latest-post-wrap ' . $listgridClass . ' ' . $list_layout_class;
+    $grid_class = 'blockspare-posts-block-latest-post-wrap '  . $listgridClass . ' ' . $list_layout_class;
+    // if ($blockName != 'post-grid-masonry'){
+    //     $grid_class .= ' ' . $blockuniqueclass;
+    // }else{
     $class .= ' ' . $blockuniqueclass;
+    // }
     $category_class = 'blockspare-posts-block-post-category';
 
     if ($attributes['categoryLayoutOption'] == 'none') {
       $category_class .= ' has-no-category-style';
-    } ?>
-    <!-- <div class="<?php echo esc_attr($class); ?>" blockspare-animation="<?php echo esc_attr($attributes['animation']); ?>"> -->
+    }
+
+    $enableFeatureImage = true;
+    if (isset($attributes['enableFeatureImage'])) {
+      $enableFeatureImage = $attributes['enableFeatureImage'];
+    }
+
+?>
+
     <section class="blockspare-posts-block-post-wrap">
       <div class="<?php echo esc_attr($grid_class); ?>">
-        <?php while ($grid_query->have_posts()) {
+        <?php
+        $count = 0;
+        while ($grid_query->have_posts()) {
           $grid_query->the_post();
 
           /* Setup the post ID */
           $post_id = get_the_ID();
+
 
           /* Setup the featured image ID */
           $post_thumb_id = get_post_thumbnail_id($post_id);
@@ -166,18 +184,21 @@ function blockspare_query_loop_and_wrapper($attributes, $blockclass = '', $desig
           $has_img_class = '';
 
           if (!$post_thumb_id) {
-            $has_img_class = "post-has-no-image";
+            $has_img_class = "post-has-no-image ";
           }
 
-          // if(isset($attributes['full'])){
-          //     if($attributes['full']== 'blockspare-posts-block-full-layout-4' ){
-          //         $attributes['enableEqualHeight'] = false;
-          //     }
 
-          // }
+
+
+          if (isset($attributes['full'])) {
+            if ($attributes['full'] == 'blockspare-posts-block-full-layout-4') {
+              $attributes['enableEqualHeight'] = false;
+            }
+          }
+
 
           if ($attributes['enableEqualHeight']) {
-            $has_img_class .= ' bs-has-equal-height';
+            $has_img_class .= 'bs-has-equal-height';
           }
           $contentOrderClass = '';
           if ($attributes['contentOrder'] == 'content-order-1') {
@@ -197,7 +218,6 @@ function blockspare_query_loop_and_wrapper($attributes, $blockclass = '', $desig
           }
 
           $className = '';
-
           if (isset($attributes['full'])) {
             if ($attributes['full'] == 'blockspare-posts-block-full-layout-6') {
               $post_classes .= ' blockspare-hover-child';
@@ -205,23 +225,35 @@ function blockspare_query_loop_and_wrapper($attributes, $blockclass = '', $desig
             }
           }
 
+
+
+
           /* Add sticky class */
           if (is_sticky($post_id)) {
             $post_classes .= ' sticky';
           } else {
             $post_classes .= null;
           }
-          $post_classes .= ' has-background';
+          if ($blockName == 'post-grid-masonry') {
         ?>
-          <div id="<?php echo esc_attr($post_id); ?>" class="<?php echo esc_attr($post_classes) . ' ' . $has_img_class; ?>">
-            <?php blockspare_post_image($attributes, $post_id, $category_class, $blockName, $className); ?>
-            <?php blockspare_post_content($attributes, $post_id, $category_class, $blockName, $className); ?>
-          </div>
-
-        <?php
+            <div class="blockspare-posts-masonry-item-wrapper">
+            <?php } ?>
+            <div id="<?php echo esc_attr($post_id); ?>" class="<?php echo esc_attr($post_classes) . ' ' . $has_img_class; ?>">
+              <?php blockspare_post_image($attributes, $post_id, $category_class, $blockName, $count, $enableFeatureImage); ?>
+              <?php blockspare_post_content($attributes, $post_id, $category_class, $blockName, $className); ?>
+            </div>
+            <?php
+            if ($blockName == 'post-grid-masonry') {
+            ?>
+            </div>
+          <?php } ?>
+        <?php $count++;
         } ?>
 
+
+
       </div>
+
       <?php
       if ($attributes['enablePagination'] == 'true' && $grid_query->max_num_pages > 1) {
         $loadmore_class = '';
@@ -229,10 +261,15 @@ function blockspare_query_loop_and_wrapper($attributes, $blockclass = '', $desig
           $loadmore_class = $attributes['loadMoreStyle'];
         }
         if ($attributes['loadMoreAlignment']) {
-          $loadmore_class .= ' bs_blockspare_loadmore_' . $attributes['loadMoreAlignment'];
+          $loadmore_class .=  ' bs_blockspare_loadmore_' . $attributes['loadMoreAlignment'];
         }
+
+
+
+
+
       ?>
-        <div class="bs_blockspare_loadmore blockspare-readmore-wrapper <?php echo esc_attr($loadmore_class); ?>" data-layout="<?php echo $layoutClass; ?>" block-name="<?php echo esc_attr($blockName) ?>" data-page='2' blockspare-att=<?php echo "'" . esc_attr(wp_json_encode($attributes)) . "'"; ?> max-paged="<?php echo $grid_query->max_num_pages; ?>">
+        <div class="bs_blockspare_loadmore blockspare-readmore-wrapper <?php echo esc_attr($loadmore_class); ?>" data-layout="<?php echo $layoutClass; ?>" block-name="<?php echo $blockName; ?>" data-page='2' blockspare-att=<?php echo "'" .  esc_attr(wp_json_encode($attributes)) . "'"; ?> max-paged="<?php echo $grid_query->max_num_pages; ?>">
           <a href="#" class="blockspare-readmore">
             <div class="load-btn "><?php echo ($attributes['loadMoreText']); ?><span class="ajax-loader"></span></div>
           </a>
@@ -240,18 +277,23 @@ function blockspare_query_loop_and_wrapper($attributes, $blockclass = '', $desig
             }
               ?>
     </section>
-    <!-- </div> -->
-  <?php
-  }
 
+
+
+  <?php }
   wp_reset_postdata();
 }
 
-function blockspare_post_image($attributes, $post_id, $cat_class, $blockName = '')
+
+function blockspare_post_image($attributes, $post_id, $cat_class, $blockName = '', $count = '', $enableFeatureImage = '')
 {
+
+
+
 
   /* Setup the featured image ID */
   $post_thumb_id = get_post_thumbnail_id($post_id);
+
 
   if (!empty($attributes['imageSize'])) {
     $post_thumb_size = $attributes['imageSize'];
@@ -262,14 +304,31 @@ function blockspare_post_image($attributes, $post_id, $cat_class, $blockName = '
     $content_order = true;
   }
   if ($blockName == 'full') {
-    $content_order = true;
+    $content_order =  true;
   }
 
-  if (!empty($attributes['imageSize'])) {
-    $post_thumb_size = $attributes['imageSize'];
+  $express_layout = false;
+  if (isset($attributes['expressList'])) {
+    if ($attributes['expressList'] == 'blockspare-posts-block-express-layout-3' || $attributes['expressList'] == 'blockspare-posts-block-express-layout-6') {
+      $express_layout = true;
+    }
   }
 
-  if (isset($attributes['enableFeatureImage']) && $attributes['enableFeatureImage'] == 'true') {
+  if ($blockName == 'express-post-list') {
+    if ($express_layout && $count <= 1) {
+      $post_thumb_size  = $attributes['spotlightImageSize'];
+    } elseif ($express_layout == false && $count === 0) {
+      $post_thumb_size  = $attributes['spotlightImageSize'];
+    } else {
+      $post_thumb_size = $attributes['imageSize'];
+    }
+  }
+
+  // if (!empty($attributes['imageSize'])) {
+  //     $post_thumb_size = $attributes['imageSize'];
+  // }
+
+  if ($attributes['enableFeatureImage'] == 'true') {
   ?>
     <figure class="blockspare-posts-block-post-img hover-child">
       <a href="<?php echo esc_url(get_permalink($post_id)); ?>" aria-label="<?php echo esc_attr(get_the_title($post_id)); ?>">
@@ -279,14 +338,12 @@ function blockspare_post_image($attributes, $post_id, $cat_class, $blockName = '
           echo wp_kses_post(wp_get_attachment_image($post_thumb_id, $post_thumb_size));
         } else { ?>
           <div class="bs-no-thumbnail-img"> </div>
-        <?php } ?>
+        <?php  } ?>
       </a>
       <?php if ($attributes['displayPostCategory'] == 'true' && $content_order == true) { ?>
         <!-- Category     -->
         <div class="<?php echo esc_attr($cat_class); ?>">
-          <?php
-
-          blockspare_get_cat_tax_tags($attributes['taxType'], $post_id, $attributes['postType']); ?>
+          <?php blockspare_get_cat_tax_tags($attributes['taxType'], $post_id, $attributes['postType']); ?>
         </div>
         <!-- Category     -->
       <?php } ?>
@@ -304,6 +361,7 @@ function blockspare_post_content($attributes, $post_id, $cat_class, $blockName =
   if ($blockName == 'full') {
     $content_order = false;
   }
+
   ?>
   <div class="blockspare-posts-block-post-content <?php echo esc_attr($className); ?> <?php echo esc_attr($attributes['contentOrder']); ?> <?php echo esc_attr($attributes['titleOnHover']) ?>">
     <div class="blockspare-posts-block-bg-overlay"></div>
@@ -326,14 +384,15 @@ function blockspare_post_content($attributes, $post_id, $cat_class, $blockName =
         <!-- Category     -->
       <?php } ?>
       <!-- blockspare-posts-block-post-grid-title -->
-
-      <h2 class="blockspare-posts-block-post-grid-title">
-        <a href="<?php echo esc_url(get_permalink($post_id)); ?>" class="blockspare-posts-block-title-link"
-          aria-label="<?php echo esc_attr(get_the_title($post_id)); ?>">
-          <span><?php echo get_the_title(); ?></span>
-        </a>
-      </h2>
-
+      <?php
+      if (isset($attributes['displayPostTitle']) && $attributes['displayPostTitle'] == 'true') { ?>
+        <h2 class="blockspare-posts-block-post-grid-title">
+          <a href="<?php echo esc_url(get_permalink($post_id)); ?>" class="blockspare-posts-block-title-link"
+            rel="bookmark">
+            <span><?php echo get_the_title(); ?></span>
+          </a>
+        </h2>
+      <?php } ?>
       <!-- blockspare-posts-block-post-grid-title -->
 
       <!-- blockspare-posts-block-post-grid-byline -->
@@ -345,29 +404,27 @@ function blockspare_post_content($attributes, $post_id, $cat_class, $blockName =
                                         itemprop="url" rel="author">
                                         <span itemprop="name">
                                             <i class="<?php echo esc_attr($attributes['authorIcon']); ?>"></i>
-                                            <?php echo esc_html(get_the_author_meta('display_name', get_the_author_meta('ID'))); ?>
+                                            <?php echo (get_the_author_meta('display_name', get_the_author_meta('ID'))); ?>
                                         </span>
                                     </a> -->
             <?php
             $author_id = get_post_field('post_author', $post_id);
-            $blockspare_get_multiauthor = new BlocksapreMultiAuthorForFrontend();
-            $blockspare_get_multiauthor->blockspare_front_by_author($post_id, $attributes['authorIcon'], $author_id);
-            ?>
+            $blockspare_get_multiauthor =  new BlocksapreMultiAuthorForFrontend();
+            $blockspare_get_multiauthor->blockspare_front_by_author($post_id, $attributes['authorIcon'], $author_id); ?>
           </div>
         <?php } ?>
         <!-- blockspare-posts-block-post-grid-author -->
 
         <!-- blockspare-posts-block-post-grid-date -->
         <?php if (isset($attributes['displayPostDate']) && $attributes['displayPostDate'] == 'true') { ?>
-          <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished"><i class="<?php echo esc_attr($attributes['dateIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_the_date('', $post_id)); ?></time>
+          <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished"><i class="<?php echo esc_attr($attributes['dateIcon']); ?>" aria-hidden="true"></i><?php $bs_meta_date = get_the_date('', $post_id);
+                                                                                                                                                                                                                                          echo trim($bs_meta_date); ?></time>
         <?php } ?>
         <!-- blockspare-posts-block-post-grid-date -->
 
         <!-- comment_count -->
         <?php if ($attributes['enableComment'] == 'true') { ?>
-          <span class="comment_count" aria-label="<?php echo esc_attr(get_comments_number($post_id) . ' comments'); ?>">
-            <i class='<?php echo esc_attr($attributes['commentIcon']); ?>'></i>
-            <?php echo esc_html(get_comments_number($post_id)); ?></span>
+          <span class="comment_count"><i class='<?php echo esc_attr($attributes['commentIcon']); ?>' aria-hidden="true"></i><?php echo trim(esc_html(get_comments_number($post_id))); ?></span>
         <?php } ?>
         <!-- comment_count -->
       </div>
@@ -397,6 +454,7 @@ function blockspare_post_content($attributes, $post_id, $cat_class, $blockName =
               aria-label="<?php echo sprintf(esc_attr__('Read more about %s', 'blockspare'), esc_html(get_the_title($post_id))); ?>">
               <span aria-hidden="true"><?php echo esc_html($attributes['readMoreText']); ?></span>
             </a>
+
           </p>
         <?php } ?>
         <!-- blockspare-posts-block-post-grid-more-link -->
@@ -405,28 +463,32 @@ function blockspare_post_content($attributes, $post_id, $cat_class, $blockName =
     <!-- blockspare-posts-block-post-grid-excerpt -->
 
   </div>
-<?php
-}
+<?php }
+
 
 function bscheckFontfamily($fontFamily)
 {
 
   $fonts = '';
   if ($fontFamily != 'Default' && $fontFamily != "undefined") {
-    $fonts = 'font-family:' . $fontFamily;
+    $fonts =  'font-family:' . $fontFamily;
   }
   return $fonts;
 }
 
+
 function bscheckFontfamilyWeight($fontFamilyWeight)
 {
 
+
+
   $fontsweight = '';
   if ($fontFamilyWeight != '' && $fontFamilyWeight != "undefined") {
-    $fontsweight = 'font-weight:' . $fontFamilyWeight;
+    $fontsweight =  'font-weight:' . $fontFamilyWeight;
   }
   return $fontsweight;
 }
+
 
 function blockspare_excerpt($post_id, $length = '')
 {
@@ -435,15 +497,13 @@ function blockspare_excerpt($post_id, $length = '')
     $post_id,
     'display'
   );
-
   $excerpt = preg_replace('~^(\s*(?:&nbsp;)?)*~i', '', $excerpt);
-
   if (empty($excerpt)) {
     $excerpt = preg_replace(
       array(
         '/\<figcaption>.*\<\/figcaption>/',
         '/\[caption.*\[\/caption\]/',
-        '`[[^]]*]`',
+        '`[[^]]*]`'
       ),
       '',
       get_the_content()

@@ -4,7 +4,7 @@
  * Plugin Name:       BlockSpare - Gutenberg Site Builder Blocks & Starter Sites
  * Plugin URI:        https://blockspare.com/
  * Description:       Gutenberg Blocks & Patterns for Blogs, Magazines, Business Sites – Post Grids, Sliders, Carousels, Counters, Page Builder & Starter Site Imports, No Coding Needed
- * Version:           3.3.5
+ * Version:           4.0.0
  * Author:            BlockSpare
  * Author URI:        https://blockspare.com/
  * Text Domain:       blockspare
@@ -28,9 +28,9 @@ defined('BLOCKSPARE_VERSION') || define('BLOCKSPARE_VERSION',  '3.3.0');
 
 
 if (!version_compare(PHP_VERSION, '5.6', '>=')) {
-  add_action('admin_notices', 'blockspare_fail_php_version');
+  add_action('admin_notices', 'blockspare_fail_php_free_version');
 } elseif (!version_compare(get_bloginfo('version'), '4.7', '>=')) {
-  add_action('admin_notices', 'blockspare_fail_wp_version');
+  add_action('admin_notices', 'blockspare_fail_wp_free_version');
 } else {
   /**
    * Freemius.
@@ -44,10 +44,10 @@ if (!version_compare(PHP_VERSION, '5.6', '>=')) {
   include_once BLOCKSPARE_PLUGIN_DIR . 'inc/init.php';
   include_once BLOCKSPARE_PLUGIN_DIR . 'inc/welcome.php';
   include_once BLOCKSPARE_PLUGIN_DIR . 'inc/fonts.php';
+  
 }
 
-
-function blockspare_fail_php_version()
+function blockspare_fail_php_free_version()
 {
   /* translators: %s: PHP version */
   $message      = sprintf(esc_html__('BlockSpare for Gutenberg requires PHP version %s+, plugin is currently NOT RUNNING.', 'blockspare'), '5.6');
@@ -55,7 +55,7 @@ function blockspare_fail_php_version()
   echo wp_kses_post($html_message);
 }
 
-function blockspare_fail_wp_version()
+function blockspare_fail_wp_free_version()
 {
   /* translators: %s: WordPress version */
   $message      = sprintf(esc_html__('BlockSpare for Gutenberg requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING.', 'blockspare'), '4.7');

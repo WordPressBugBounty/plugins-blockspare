@@ -1,0 +1,208 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-tabs",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "uniqueClass": {
+      "type": "string"
+    },
+    "uniqueID": {
+      "type": "string",
+      "default": ""
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "tabAlignment": {
+      "type": "string",
+      "default": "blockspare-left"
+    },
+    "tabCount": {
+      "type": "number",
+      "default": 3
+    },
+    "blockAlignment": {
+      "type": "string",
+      "default": "none"
+    },
+    "titles": {
+      "type": "array",
+      "default": [
+        {
+          "text": "Tab 1",
+          "icon": "",
+          "iconSide": "right",
+          "onlyIcon": false,
+          "subText": "",
+          "anchor": ""
+        },
+        {
+          "text": "Tab 2",
+          "icon": "",
+          "iconSide": "right",
+          "onlyIcon": false,
+          "subText": "",
+          "anchor": ""
+        },
+        {
+          "text": "Tab 3",
+          "icon": "",
+          "iconSide": "right",
+          "onlyIcon": false,
+          "subText": "",
+          "anchor": ""
+        }
+      ]
+    },
+    "layout": {
+      "type": "string",
+      "default": "blockspare-layout1"
+    },
+    "tabStyle": {
+      "type": "string",
+      "default": "blockspare-horizontal"
+    },
+    "iSize": {
+      "type": "number",
+      "default": 14
+    },
+    "startTab": {
+      "type": "number"
+    },
+    "enableSubtitle": {
+      "type": "boolean",
+      "default": false
+    },
+    "widthType": {
+      "type": "string",
+      "default": "normal"
+    },
+    "tabWidth": {
+      "type": "array",
+      "default": [
+        4,
+        "",
+        ""
+      ]
+    },
+    "currentTab": {
+      "type": "number",
+      "default": 1
+    },
+    "tabBackGroundColor": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "activeTabBackgroundColor": {
+      "type": "string",
+      "default": "#ce242c"
+    },
+    "tabTextColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "activetabTextColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "tabFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "tabFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "tabFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "tabFontSubset": {
+      "type": "string"
+    },
+    "tabFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "tabFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "tabFontSizeTablet": {
+      "type": "number",
+      "default": 14
+    },
+    "tabLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "contentPaddingTop": {
+      "type": "number",
+      "default": 20
+    },
+    "contentPaddingLeft": {
+      "type": "number",
+      "default": 20
+    },
+    "contentPaddingBottom": {
+      "type": "number",
+      "default": 20
+    },
+    "contentPaddingRight": {
+      "type": "number",
+      "default": 20
+    },
+    "border": {
+      "type": "boolean",
+      "default": true
+    },
+    "borderWidth": {
+      "type": "number",
+      "default": 1
+    },
+    "borderStyle": {
+      "type": "string",
+      "default": "solid"
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "#dee2e6"
+    },
+    "contentBackgroundColor": {
+      "type": "string"
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,1 @@
+!function(){function e(){const e=document.querySelectorAll(".blockspare-masonry-wrapper ul");e.length&&e.forEach(e=>{imagesLoaded(e,function(){new Masonry(e,{itemSelector:".blockspare-gallery-item",transitionDuration:"0.2s",percentPosition:!0})})})}"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):e()}();

@@ -1,0 +1,65 @@
+{
+  "name": "blockspare/blockspare-services-inner",
+  "category": "blockspare",
+  "attributes": {
+    "itemBorderWidth": {
+      "type": "number",
+      "default": 1
+    },
+    "itemBorderColor": {
+      "type": "string",
+      "default": "#ececec"
+    },
+    "itemBorderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "itemBackgroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "alignment": {
+      "type": "string"
+    },
+    "itemPadding": {
+      "type": "number",
+      "default": 0
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "headerAlignPosition": {
+      "type": "string",
+      "default": "center"
+    },
+    "enableSectionHeader": {
+      "type": "boolean",
+      "default": true
+    },
+    "servicesLayout": {
+      "type": "string",
+      "default": "bsl-1"
+    },
+    "primaryColor": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "default": "#F3F3F3"
+    },
+    "tertianeryColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    },
+    "imageHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

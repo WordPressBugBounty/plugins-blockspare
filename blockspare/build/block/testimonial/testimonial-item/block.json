@@ -1,0 +1,133 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-testimonial-item",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "testimonialDescription": {
+      "type": "string",
+      "default": "Donec odit magni, nesciunt pariatur! Nec, purus voluptate ridiculus odit nobis euismod, ac laudantium facere perferendis! "
+    },
+    "testimonialDescriptionTextSize": {
+      "type": "number",
+      "default": 16
+    },
+    "testimonialDescriptionTextColor": {
+      "type": "string",
+      "default": "#6d6d6d"
+    },
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "starCount": {
+      "type": "number",
+      "default": 5
+    },
+    "starSize": {
+      "type": "number",
+      "default": 20
+    },
+    "starGap": {
+      "type": "number",
+      "default": 3
+    },
+    "starColor": {
+      "type": "string",
+      "default": "#fbd012"
+    },
+    "selectedStars": {
+      "type": "number",
+      "default": 3
+    },
+    "emptyStarColor": {
+      "type": "string",
+      "default": "#d5d3d3"
+    },
+    "enableRatings": {
+      "type": "boolean",
+      "default": false
+    },
+    "backGroundColor": {
+      "type": "string",
+      "default": "#f9f9f9"
+    },
+    "borderWidth": {
+      "type": "number",
+      "default": 1
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "#ececec"
+    },
+    "padding": {
+      "type": "number",
+      "default": 15
+    },
+    "headermarginTop": {
+      "type": "number",
+      "default": 5
+    },
+    "headermarginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "headermarginBottom": {
+      "type": "number",
+      "default": 5
+    },
+    "headermarginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "descriptionFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "descriptionFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "descriptionFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionFontSubset": {
+      "type": "string"
+    },
+    "descriptionFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "descriptionFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "descriptionFontSizeTablet": {
+      "type": "number",
+      "default": 14
+    },
+    "descriptionLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "imageHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,7 +1,7 @@
 
 :root {
-    --blockspare-primary-color: #8B249C;
-    --blockspare-secondary-color: #3B1A5B;
+    --blockspare-primary-color: #ce242c;
+    --blockspare-secondary-color: #141618;
     --blockspare-text-accent: #1f2937;
     --blockspare-text-primary: #4b5563:
 }
@@ -585,28 +585,28 @@
 
 
 .blockspare-notice .button-primary {
-    background-color: #8b249c;
-    border-color: #8b249c;
+    background-color: #ce242c;
+    border-color: #ce242c;
 }
 .blockspare-notice .button-primary:hover {
-    background-color: #3B1A5B;
-    border-color: #3B1A5B;
+    background-color: #141618;
+    border-color: #141618;
 }
 .blockspare-notice .button-secondary {
-    color: #8b249c;
-    border-color: #8b249c;
+    color: #ce242c;
+    border-color: #ce242c;
 }
 
 .blockspare-notice .button-secondary:hover {
-    color: #3B1A5B;
-    border-color: #3B1A5B;
+    color: #141618;
+    border-color: #141618;
 }
 
 .blockspare-pro-link {
-    color: #8b249c;
+    color: #ce242c;
     font-weight: bold;
   }
   .blockspare-pro-link:hover, 
   .blockspare-pro-link:focus {
-    color: #8b249c;
+    color: #ce242c;
   }

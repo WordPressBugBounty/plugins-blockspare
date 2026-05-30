@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".bs-date-time-widget").forEach(function(t){!function(t){const e=t.getAttribute("bs-isenabled");if(t&&e){setInterval(function(){!function(){const e=new Date,n=t.querySelector(".bs-time-text"),o=n.getAttribute("bs-format");n.innerHTML=e.toLocaleTimeString("en-US",{timeFormat:o})}()},100)}}(t)})});

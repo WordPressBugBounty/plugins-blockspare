@@ -2,11 +2,13 @@
 if (!function_exists('blockspare_get_slider_template')) {
   function blockspare_get_slider_template($attributes)
   {
-    wp_enqueue_script('slick');
+
     wp_enqueue_style('slick');
+    wp_enqueue_script('slick');
     $slider_categories = isset($attributes['sliderCategory']) ? $attributes['sliderCategory'] : '';
     $query = array(
       'post_type' => 'post',
+      'post_status' => 'publish',
       'posts_per_page' => $attributes['sliderPostsToShow'],
       'cat' => $slider_categories,
       'order' => $attributes['sliderOrder'],
@@ -59,13 +61,15 @@ if (!function_exists('blockspare_get_slider_template')) {
             <div class='blockspare-post-items'>
               <div class='blockspare-post-data'>
                 <figure class="blockspare-posts-block-post-img hover-child">
-                  <a href="<?php echo get_the_permalink(); ?>" aria-label="<?php the_title(); ?>"></a>
-                  <?php
-                  if (has_post_thumbnail($post_id)) {
-                    echo wp_kses_post(wp_get_attachment_image($post_thumb_id, 'large'));
-                  } else { ?>
-                    <div class="bs-no-thumbnail-img"> </div>
-                  <?php } ?>
+                  <a href="<?php echo get_the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post_id)); ?>">
+                    <?php
+                    if (has_post_thumbnail($post_id)) {
+                      echo wp_kses_post(wp_get_attachment_image($post_thumb_id, 'large'));
+                    } else { ?>
+                      <div class=" bs-no-thumbnail-img">
+                      </div>
+                    <?php } ?>
+                  </a>
                 </figure>
                 <div class='blockspare-posts-block-post-content <?php echo esc_attr($titleHoverClass); ?>'>
                   <?php if ($attributes['sliderDisplayPostCategory']) { ?>
@@ -79,17 +83,20 @@ if (!function_exists('blockspare_get_slider_template')) {
                       ?>
                     </div>
                   <?php } ?>
-                  <h2 class="blockspare-posts-block-post-grid-title">
-                    <a href="<?php echo get_the_permalink(); ?>" class="blockspare-posts-block-title-link" aria-label="<?php the_title(); ?>">
-                      <span><?php the_title(); ?></span>
-                    </a>
-                  </h2>
+                  <?php
+                  if (isset($attributes['sliderDisplayPostTitle']) && $attributes['sliderDisplayPostTitle'] == 'true') { ?>
+                    <h2 class="blockspare-posts-block-post-grid-title">
+                      <a href="<?php echo get_the_permalink(); ?>" class="blockspare-posts-block-title-link">
+                        <span><?php the_title(); ?></span>
+                      </a>
+                    </h2>
+                  <?php } ?>
                   <?php if ($attributes['sliderDisplayPostAuthor'] || $attributes['sliderDisplayPostDate'] || $attributes['sliderEnableComment']) { ?>
                     <div class="blockspare-posts-block-post-grid-byline">
                       <?php if ($attributes['sliderDisplayPostAuthor']) { ?>
                         <!-- <span class="blockspare-posts-block-post-grid-author">
 	                                            <a class="blockspare-posts-block-text-link" href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>" itemprop="url" rel="author">
-	                                                <span itemprop="name"><i class="<?php echo esc_attr($attributes['sliderAuthorIcon']); ?>"></i><?php echo esc_html(get_the_author_meta('display_name', get_the_author_meta('ID'))); ?></span>
+	                                                <span itemprop="name"><i class="<?php echo esc_attr($attributes['sliderAuthorIcon']); ?>" aria-hidden=""></i><?php echo esc_html(get_the_author_meta('display_name', get_the_author_meta('ID'))); ?></span>
 	                                            </a> -->
                         <span class="blockspare-posts-block-post-grid-author">
                           <?php
@@ -103,9 +110,7 @@ if (!function_exists('blockspare_get_slider_template')) {
                         <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished"><i class="<?php echo esc_attr($attributes['sliderDateIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_the_date('', $post_id)); ?></time>
                       <?php } ?>
                       <?php if ($attributes['sliderEnableComment']) { ?>
-                        <span class="comment_count" aria-label="<?php echo esc_attr(get_comments_number($post_id) . ' comments'); ?>">
-                          <i class="<?php echo esc_attr($attributes['sliderCommentIcon']); ?>" aria-hidden="true"></i>
-                          <?php echo esc_html(get_comments_number($post_id)); ?></span>
+                        <span class="comment_count"><i class="<?php echo esc_attr($attributes['sliderCommentIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_comments_number($post_id)); ?></span>
                       <?php } ?>
                     </div>
                   <?php } ?>
@@ -135,6 +140,7 @@ if (!function_exists('blocspare_get_trending_template')) {
 
     $trending_query = array(
       'post_type' => 'post',
+      'post_status' => 'publish',
       'posts_per_page' => $attributes['trendingPostToshow'],
       'cat' => $trending_categories,
       'order' => $attributes['sliderOrder'],
@@ -159,7 +165,8 @@ if (!function_exists('blocspare_get_trending_template')) {
     $trending_classes = "blockspare-banner-trending-carousel-wrapper ";
     $trending_classes .= ' ' . $attributes['trendingNavigationShape'];
     $trending_classes .= ' ' . $attributes['trendingNavigationSize'];
-    $trending_classes .= ' ' . 'has-gutter-space-' . $attributes['trendingGutterSpace'];
+    $trending_classes .= ' ' . 'has-gutter-space-' . $attributes['gutter'];
+    $trending_classes .= ' ' . 'trending-slides-num-' . $attributes['numberofSlideTrending'];
 
     if ($attributes['trendingEnableNavInHover']) {
       $trending_classes .= ' nav-on-hover';
@@ -179,6 +186,7 @@ if (!function_exists('blocspare_get_trending_template')) {
     if (!str_contains($desingParmeter, 'has-bg-layout')) {
       $childHover = 'blockspare-hover-child';
     }
+
     $trending_args_encoded = wp_json_encode($trending_slider_args); ?>
     <div class="<?php echo esc_attr($trending_classes) ?>">
       <div class="banner-trending-carousel" data-slick="<?php echo esc_attr($trending_args_encoded) ?>"
@@ -187,17 +195,19 @@ if (!function_exists('blocspare_get_trending_template')) {
           $post_thumb_id = get_post_thumbnail_id(get_the_ID());
           $post_id = get_the_ID();
         ?>
+
           <div>
             <div class='blockspare-post-items blockspare-hover-item <?php echo esc_attr($desingParmeter) ?> <?php echo esc_attr($childHover) ?>'>
               <div class='blockspare-post-data'>
                 <figure class="blockspare-posts-block-post-img hover-child">
-                  <a href="<?php echo get_the_permalink(); ?>" aria-hidden="true" tabindex="-1"></a>
-                  <?php
-                  if (has_post_thumbnail($post_id)) {
-                    echo wp_kses_post(wp_get_attachment_image($post_thumb_id, 'thumbnail'));
-                  } else { ?>
-                    <div class="bs-no-thumbnail-img"> </div>
-                  <?php } ?>
+                  <a href="<?php echo get_the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post_id)); ?>">
+                    <?php
+                    if (has_post_thumbnail($post_id)) {
+                      echo wp_kses_post(wp_get_attachment_image($post_thumb_id, 'thumbnail'));
+                    } else { ?>
+                      <div class="bs-no-thumbnail-img"> </div>
+                    <?php } ?>
+                  </a>
                 </figure>
                 <div class='blockspare-posts-block-post-content <?php echo esc_attr($trendingHoverClass); ?>'>
                   <?php if ($attributes['trendingDisplayPostCategory']) { ?>
@@ -211,11 +221,14 @@ if (!function_exists('blocspare_get_trending_template')) {
                       ?>
                     </div>
                   <?php } ?>
-                  <h2 class="blockspare-posts-block-post-grid-title">
-                    <a href="<?php echo get_the_permalink(); ?>" class="blockspare-posts-block-title-link" aria-label="<?php the_title(); ?>">
-                      <span><?php the_title(); ?></span>
-                    </a>
-                  </h2>
+                  <?php
+                  if (isset($attributes['trendingDisplayPostTitle']) && $attributes['trendingDisplayPostTitle'] == 'true') { ?>
+                    <h2 class="blockspare-posts-block-post-grid-title">
+                      <a href="<?php echo get_the_permalink(); ?>" class="blockspare-posts-block-title-link">
+                        <span><?php the_title(); ?></span>
+                      </a>
+                    </h2>
+                  <?php } ?>
                   <?php if ($attributes['trendingDisplayPostAuthor'] || $attributes['trendingDisplayPostDate'] || $attributes['trendingEnableComment']) { ?>
                     <div class="blockspare-posts-block-post-grid-byline">
                       <?php if ($attributes['trendingDisplayPostAuthor']) { ?>
@@ -232,16 +245,10 @@ if (!function_exists('blocspare_get_trending_template')) {
                         </span>
                       <?php } ?>
                       <?php if ($attributes['trendingDisplayPostDate']) { ?>
-                        <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished">
-                          <i class="<?php echo esc_attr($attributes['trendingDateIcon']); ?>" aria-hidden="true"></i>
-                          <?php echo esc_html(get_the_date('', $post_id)); ?>
-                        </time>
+                        <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished"><i class="<?php echo esc_attr($attributes['trendingDateIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_the_date('', $post_id)); ?></time>
                       <?php } ?>
                       <?php if ($attributes['trendingEnableComment']) { ?>
-                        <span class="comment_count" aria-label="<?php echo esc_attr(get_comments_number($post_id) . ' comments'); ?>">
-                          <i class="<?php echo esc_attr($attributes['trendingCommentIcon']); ?>" aria-hidden="true"></i>
-                          <?php echo esc_html(get_comments_number($post_id)); ?>
-                        </span>
+                        <span class="comment_count"><i class="<?php echo esc_attr($attributes['trendingCommentIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_comments_number($post_id)); ?></span>
                       <?php } ?>
                     </div>
                   <?php } ?>
@@ -268,6 +275,7 @@ if (!function_exists('blocspare_get_vertical_trending_template')) {
 
     $trending_query = array(
       'post_type' => 'post',
+      'post_status' => 'publish',
       'posts_per_page' => $attributes['trendingPostToshow'],
       'cat' => $trending_categories,
       'order' => $attributes['sliderOrder'],
@@ -293,7 +301,8 @@ if (!function_exists('blocspare_get_vertical_trending_template')) {
     $trending_classes = "blockspare-banner-trending-carousel-wrapper ";
     $trending_classes .= ' ' . $attributes['trendingNavigationShape'];
     $trending_classes .= ' ' . $attributes['trendingNavigationSize'];
-    $trending_classes .= ' ' . 'has-gutter-space-' . $attributes['trendingGutterSpace'];
+    $trending_classes .= ' ' . 'has-gutter-space-' . $attributes['gutter'];
+    $trending_classes .= ' ' . 'trending-slides-num-' . $noSlides;
 
     if ($attributes['trendingEnableNavInHover']) {
       $trending_classes .= ' nav-on-hover';
@@ -322,13 +331,14 @@ if (!function_exists('blocspare_get_vertical_trending_template')) {
             <div class='blockspare-post-items blockspare-hover-item <?php echo esc_attr($desingParmeter) ?>'>
               <div class='blockspare-post-data'>
                 <figure class="blockspare-posts-block-post-img hover-child">
-                  <a href="<?php echo get_the_permalink(); ?>" aria-label="<?php the_title(); ?>"></a>
-                  <?php
-                  if (has_post_thumbnail($post_id)) {
-                    echo wp_kses_post(wp_get_attachment_image($post_thumb_id, 'thumbnail'));
-                  } else { ?>
-                    <div class="bs-no-thumbnail-img"> </div>
-                  <?php } ?>
+                  <a href="<?php echo get_the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post_id)); ?>">
+                    <?php
+                    if (has_post_thumbnail($post_id)) {
+                      echo wp_kses_post(wp_get_attachment_image($post_thumb_id, 'thumbnail'));
+                    } else { ?>
+                      <div class="bs-no-thumbnail-img"> </div>
+                    <?php } ?>
+                  </a>
                 </figure>
                 <div class='blockspare-posts-block-post-content <?php echo esc_attr($trendingHoverClass); ?>'>
                   <?php if ($attributes['trendingDisplayPostCategory']) { ?>
@@ -342,11 +352,14 @@ if (!function_exists('blocspare_get_vertical_trending_template')) {
                       ?>
                     </div>
                   <?php } ?>
-                  <h2 class="blockspare-posts-block-post-grid-title">
-                    <a href="<?php echo get_the_permalink(); ?>" class="blockspare-posts-block-title-link" aria-label="<?php the_title(); ?>">
-                      <span><?php the_title(); ?></span>
-                    </a>
-                  </h2>
+                  <?php
+                  if (isset($attributes['trendingDisplayPostTitle']) && $attributes['trendingDisplayPostTitle'] == 'true') { ?>
+                    <h2 class="blockspare-posts-block-post-grid-title">
+                      <a href="<?php echo get_the_permalink(); ?>" class="blockspare-posts-block-title-link">
+                        <span><?php the_title(); ?></span>
+                      </a>
+                    </h2>
+                  <?php } ?>
                   <?php if ($attributes['trendingDisplayPostAuthor'] || $attributes['trendingDisplayPostDate'] || $attributes['trendingEnableComment']) { ?>
                     <div class="blockspare-posts-block-post-grid-byline">
                       <?php if ($attributes['trendingDisplayPostAuthor']) { ?>
@@ -363,16 +376,10 @@ if (!function_exists('blocspare_get_vertical_trending_template')) {
                         </span>
                       <?php } ?>
                       <?php if ($attributes['trendingDisplayPostDate']) { ?>
-                        <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished">
-                          <i class="<?php echo esc_attr($attributes['trendingDateIcon']); ?>" aria-hidden="true"></i>
-                          <?php echo esc_html(get_the_date('', $post_id)); ?>
-                        </time>
+                        <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished"><i class="<?php echo esc_attr($attributes['trendingDateIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_the_date('', $post_id)); ?></time>
                       <?php } ?>
                       <?php if ($attributes['trendingEnableComment']) { ?>
-                        <span class="comment_count" aria-label="<?php echo esc_attr(get_comments_number($post_id) . ' comments'); ?>">
-                          <i class="<?php echo esc_attr($attributes['trendingCommentIcon']); ?>" aria-hidden="true"></i>
-                          <?php echo esc_html(get_comments_number($post_id)); ?>
-                        </span>
+                        <span class="comment_count"><i class="<?php echo esc_attr($attributes['trendingCommentIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_comments_number($post_id)); ?></span>
                       <?php } ?>
                     </div>
                   <?php } ?>
@@ -393,12 +400,14 @@ if (!function_exists('blocspare_get_vertical_trending_template')) {
 
 //  Trending tab-content Html
 if (!function_exists('blocspare_render_trending_tab_content')) {
-  function blocspare_render_trending_tab_content($attributes, $desingParmeter, $bsitem)
+  function blocspare_render_trending_tab_content($attributes, $desingParmeter, $bsitem, $tab = '')
   {
+
     $trending_categories = isset($attributes['trendingCategory']) ? $attributes['trendingCategory'] : '';
     $trendingPostsToShows = $bsitem;
     $trending_query = array(
       'post_type' => 'post',
+      'post_status' => 'publish',
       'posts_per_page' => $trendingPostsToShows,
       'cat' => $trending_categories,
       'order' => $attributes['sliderOrder'],
@@ -406,7 +415,16 @@ if (!function_exists('blocspare_render_trending_tab_content')) {
       'ignore_sticky_posts' => 1,
     );
 
-    $blockspare_trending_result = new WP_Query($trending_query);
+    if ($tab == 'popular') {
+      $trending_query['order'] = 'desc';
+      $trending_query['orderby'] = 'comment_count';
+      $blockspare_trending_result = new WP_Query($trending_query);
+    }
+    if ($tab == 'latest') {
+      $trending_query['order'] = $attributes['trendingOrder'];
+      $trending_query['orderby'] = $attributes['trendingOrderBy'];
+      $blockspare_trending_result = new WP_Query($trending_query);
+    }
 
     $trendingHoverClass = '';
     if ($attributes['trendingTitleOnHover'] !== '') {
@@ -428,13 +446,14 @@ if (!function_exists('blocspare_render_trending_tab_content')) {
         <div class='blockspare-post-items blockspare-hover-item <?php echo esc_attr($desingParmeter) ?>'>
           <div class='blockspare-post-data'>
             <figure class="blockspare-posts-block-post-img hover-child">
-              <a href="<?php echo get_the_permalink(); ?>"></a>
-              <?php
-              if (has_post_thumbnail($post_id)) {
-                echo wp_kses_post(wp_get_attachment_image($post_thumb_id, 'thumbnail'));
-              } else { ?>
-                <div class="bs-no-thumbnail-img"> </div>
-              <?php } ?>
+              <a href="<?php echo get_the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post_id)); ?>">
+                <?php
+                if (has_post_thumbnail($post_id)) {
+                  echo wp_kses_post(wp_get_attachment_image($post_thumb_id, 'thumbnail'));
+                } else { ?>
+                  <div class="bs-no-thumbnail-img"> </div>
+                <?php } ?>
+              </a>
             </figure>
             <div class='blockspare-posts-block-post-content <?php echo esc_attr($trendingHoverClass); ?>'>
               <?php if ($attributes['trendingDisplayPostCategory']) { ?>
@@ -448,11 +467,14 @@ if (!function_exists('blocspare_render_trending_tab_content')) {
                   ?>
                 </div>
               <?php } ?>
-              <h2 class="blockspare-posts-block-post-grid-title">
-                <a href="<?php echo get_the_permalink(); ?>" class="blockspare-posts-block-title-link" aria-label="<?php the_title(); ?>">
-                  <span><?php the_title(); ?></span>
-                </a>
-              </h2>
+              <?php
+              if (isset($attributes['trendingDisplayPostTitle']) && $attributes['trendingDisplayPostTitle'] == 'true') { ?>
+                <h2 class="blockspare-posts-block-post-grid-title">
+                  <a href="<?php echo get_the_permalink(); ?>" class="blockspare-posts-block-title-link">
+                    <span><?php the_title(); ?></span>
+                  </a>
+                </h2>
+              <?php } ?>
               <?php if ($attributes['trendingDisplayPostAuthor'] || $attributes['trendingDisplayPostDate'] || $attributes['trendingEnableComment']) { ?>
                 <div class="blockspare-posts-block-post-grid-byline">
                   <?php if ($attributes['trendingDisplayPostAuthor']) { ?>
@@ -469,16 +491,10 @@ if (!function_exists('blocspare_render_trending_tab_content')) {
                     </span>
                   <?php } ?>
                   <?php if ($attributes['trendingDisplayPostDate']) { ?>
-                    <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished">
-                      <i class="<?php echo esc_attr($attributes['trendingDateIcon']); ?>" aria-hidden="true"></i>
-                      <?php echo esc_html(get_the_date('', $post_id)); ?>
-                    </time>
+                    <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished"><i class="<?php echo esc_attr($attributes['trendingDateIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_the_date('', $post_id)); ?></time>
                   <?php } ?>
                   <?php if ($attributes['trendingEnableComment']) { ?>
-                    <span class="comment_count" aria-label="<?php echo esc_attr(get_comments_number($post_id) . ' comments'); ?>">
-                      <i class="<?php echo esc_attr($attributes['trendingCommentIcon']); ?>" aria-hidden="true"></i>
-                      <?php echo esc_html(get_comments_number($post_id)); ?>
-                    </span>
+                    <span class="comment_count"><i class="<?php echo esc_attr($attributes['trendingCommentIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_comments_number($post_id)); ?></span>
                   <?php } ?>
                 </div>
               <?php } ?>
@@ -502,7 +518,7 @@ if (!function_exists('blocspare_get_trending_tabed_posts')) {
     $trending_classes = "blockspare-banner-trending-carousel-wrapper ";
     $trending_classes .= ' ' . $attributes['trendingNavigationShape'];
     $trending_classes .= ' ' . $attributes['trendingNavigationSize'];
-    $trending_classes .= ' ' . 'has-gutter-space-' . $attributes['trendingGutterSpace'];
+    $trending_classes .= ' ' . 'has-gutter-space-' . $attributes['gutter'];
 
     if ($attributes['trendingEnableNavInHover']) {
       $trending_classes .= ' nav-on-hover';
@@ -516,12 +532,14 @@ if (!function_exists('blocspare_get_trending_tabed_posts')) {
         </div>
         <div id="latest" class="bs-tab-content active-tab">
           <?php
-          blocspare_render_trending_tab_content($attributes, $desingParmeter, $bsitem);
+          $tab1 = 'latest';
+          blocspare_render_trending_tab_content($attributes, $desingParmeter, $bsitem, $tab1);
           ?>
         </div>
         <div id="popular" class="bs-tab-content">
           <?php
-          blocspare_render_trending_tab_content($attributes, $desingParmeter, $bsitem);
+          $tab = 'popular';
+          blocspare_render_trending_tab_content($attributes, $desingParmeter, $bsitem, $tab);
           ?>
         </div>
       </div>
@@ -538,6 +556,7 @@ if (!function_exists('blocspare_get_editor_template')) {
     $editorPostsToShows = $bsitem;
     $editor_query = array(
       'post_type' => 'post',
+      'post_status' => 'publish',
       'posts_per_page' => $editorPostsToShows, //$attributes['editorPostsToShow']
       'cat' => $editor_categories,
       'order' => $attributes['editorOrder'],
@@ -578,13 +597,14 @@ if (!function_exists('blocspare_get_editor_template')) {
           <div class='blockspare-post-items blockspare-hover-item'>
             <div class='blockspare-post-data'>
               <figure class="blockspare-posts-block-post-img">
-                <a href="<?php echo get_the_permalink(); ?>" aria-label="<?php the_title(); ?>"></a>
-                <?php
-                if (has_post_thumbnail($post_id)) {
-                  echo wp_kses_post(wp_get_attachment_image($post_thumb_id, $blockspare_image_size));
-                } else { ?>
-                  <div class="bs-no-thumbnail-img"> </div>
-                <?php } ?>
+                <a href="<?php echo get_the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($post_id)); ?>">
+                  <?php
+                  if (has_post_thumbnail($post_id)) {
+                    echo wp_kses_post(wp_get_attachment_image($post_thumb_id, $blockspare_image_size));
+                  } else { ?>
+                    <div class="bs-no-thumbnail-img"> </div>
+                  <?php } ?>
+                </a>
               </figure>
               <div class='blockspare-posts-block-post-content <?php echo esc_attr($editorHoverClass); ?>'>
                 <?php if ($attributes['editorDisplayPostCategory']) { ?>
@@ -598,11 +618,14 @@ if (!function_exists('blocspare_get_editor_template')) {
                     ?>
                   </div>
                 <?php } ?>
-                <h2 class="blockspare-posts-block-post-grid-title">
-                  <a href="<?php echo get_the_permalink(); ?>" class="blockspare-posts-block-title-link" aria-label="<?php the_title(); ?>">
-                    <span><?php the_title(); ?></span>
-                  </a>
-                </h2>
+                <?php
+                if (isset($attributes['editorDisplayPostTitle']) && $attributes['editorDisplayPostTitle'] == 'true') { ?>
+                  <h2 class="blockspare-posts-block-post-grid-title">
+                    <a href="<?php echo get_the_permalink(); ?>" class="blockspare-posts-block-title-link">
+                      <span><?php the_title(); ?></span>
+                    </a>
+                  </h2>
+                <?php } ?>
                 <?php if ($attributes['editorDisplayPostAuthor'] || $attributes['editorDisplayPostDate'] || $attributes['editorEnableComment']) { ?>
                   <div class="blockspare-posts-block-post-grid-byline">
                     <?php if ($attributes['editorDisplayPostAuthor']) { ?>
@@ -622,8 +645,7 @@ if (!function_exists('blocspare_get_editor_template')) {
                       <time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>" class="blockspare-posts-block-post-grid-date" itemprop="datePublished"><i class="<?php echo esc_attr($attributes['editorDateIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_the_date('', $post_id)); ?></time>
                     <?php } ?>
                     <?php if ($attributes['editorEnableComment']) { ?>
-                      <span class="comment_count" aria-label="<?php echo esc_attr(get_comments_number($post_id) . ' comments'); ?>">
-                        <i class="<?php echo esc_attr($attributes['editorCommentIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_comments_number($post_id)); ?></span>
+                      <span class="comment_count"><i class="<?php echo esc_attr($attributes['editorCommentIcon']); ?>" aria-hidden="true"></i><?php echo esc_html(get_comments_number($post_id)); ?></span>
                     <?php } ?>
                   </div>
                 <?php } ?>

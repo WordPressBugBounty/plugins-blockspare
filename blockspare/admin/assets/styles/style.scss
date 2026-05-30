@@ -1,6 +1,6 @@
 //variables-----------------------------------------
 $primary-color: rgba(139, 37, 156, 1);
-$secondary-color: #3B1A5B;
+$secondary-color: #141618;
 $transparent-primary-color: rgba(139, 37, 156, 0.1);
 $text-color: rgba(17, 24, 39, 1);
 $text-color-2: rgba(156, 163, 175, 1);
@@ -958,7 +958,7 @@ body {
                 width: 45px;
                 height: 45px;
                 border-radius: 50%;
-                // background: #8b259c;
+                // background: #ce242c;
                 align-items: center;
                 justify-content: center;
     
@@ -1055,7 +1055,7 @@ body {
 			justify-content: center;
 			height: 40px;
 			width: 40px;
-			// color: #8b259c;
+			// color: #ce242c;
 			padding: 0;
 
 			&:hover, &:active {
@@ -1311,7 +1311,7 @@ body {
 		position: absolute;
 		right: 7px;
 		top: 7px;
-		background-color: #8b259c;
+		background-color: #ce242c;
 		color: #fff;
 		padding: 5px 8px;
 		line-height: 1;

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "category": "blockspare",
+  "attributes": {
+    "uniqueId": {
+      "type": "string",
+      "default": ""
+    },
+    "itemNumber": {
+      "type": "number"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Accordion Item"
+    },
+    "active": {
+      "type": "boolean",
+      "default": false
+    },
+    "defaultText": {
+      "type": "string",
+      "default": ""
+    },
+    "fillType": {
+      "type": "string",
+      "default": "fill"
+    },
+    "openFirstItem": {
+      "type": "boolean",
+      "default": true
+    },
+    "name": {
+      "type": "string",
+      "default": "fa fa-plus"
+    },
+    "iconPosition": {
+      "type": "string",
+      "default": "blockspare-right"
+    },
+    "panelColor": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "panelActiveColor": {
+      "type": "string",
+      "default": "#ce242c"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 10
+    },
+    "activeTextColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "panelBackGroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

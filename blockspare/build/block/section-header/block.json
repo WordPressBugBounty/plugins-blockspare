@@ -1,0 +1,188 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-section-header",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "headerTitle": {
+      "type": "string",
+      "default": "Enter Title"
+    },
+    "titleFontSize": {
+      "type": "number",
+      "default": 24
+    },
+    "headerSubTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "headerboxColor": {
+      "type": "string",
+      "default": "transparent"
+    },
+    "headertitleColor": {
+      "type": "string",
+      "default": "#404040"
+    },
+    "headertitleColorDark": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "headersubtitleColor": {
+      "type": "string",
+      "default": "#6d6d6d"
+    },
+    "headertitleDashColor": {
+      "type": "string",
+      "default": "#6d6d6d"
+    },
+    "headermarginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "headermarginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "headermarginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "headermarginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "headerlayoutOption": {
+      "type": "string",
+      "default": "blockspare-style1"
+    },
+    "headerTagOption": {
+      "type": "string",
+      "default": "h2"
+    },
+    "titlePaddingTop": {
+      "type": "number",
+      "default": 0
+    },
+    "titlePaddingRight": {
+      "type": "number",
+      "default": 0
+    },
+    "titlePaddingBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "titlePaddingLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "subtitlePaddingTop": {
+      "type": "number",
+      "default": 0
+    },
+    "subtitlePaddingRight": {
+      "type": "number",
+      "default": 0
+    },
+    "subtitlePaddingBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "subtitlePaddingLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "dashColor": {
+      "type": "string",
+      "default": "#ce242c"
+    },
+    "dashColor2": {
+      "type": "string",
+      "default": "#E5EFE3"
+    },
+    "titleFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "titleFontSubset": {
+      "type": "string"
+    },
+    "titleFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "titleFontSizeMobile": {
+      "type": "number",
+      "default": 20
+    },
+    "titleFontSizeTablet": {
+      "type": "number",
+      "default": 22
+    },
+    "titleLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "subTitleFontSize": {
+      "type": "number",
+      "default": 14
+    },
+    "subTitleFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "subTitleFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "subTitleFontSubset": {
+      "type": "string"
+    },
+    "subTitleFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "subTitleFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "subTitleFontSizeTablet": {
+      "type": "number",
+      "default": 14
+    },
+    "subTitleLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

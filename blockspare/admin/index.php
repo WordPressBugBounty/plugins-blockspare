@@ -1,62 +1,67 @@
 <?php
+
 /**
  * Welcome screen.
  */
 
 // Exit if accessed directly.
 if (!defined('ABSPATH')) {
-    exit;
+  exit;
 }
 
 if (!class_exists('Blockspare_Admin_Dashboard')) {
-    class Blockspare_Admin_Dashboard
+  class Blockspare_Admin_Dashboard
+  {
+    public function __construct()
     {
-        public function __construct()
-        {
-            add_action('admin_menu', array($this, 'add_dashboard_page'));
+      add_action('admin_menu', array($this, 'add_dashboard_page'));
 
-            add_action('admin_enqueue_scripts', array($this, 'enqueue_dashboard_script'));
+      add_action('admin_enqueue_scripts', array($this, 'enqueue_dashboard_script'));
 
-            add_action('admin_init', array($this, 'redirect_to_blockspare_page'));
+      add_action('admin_init', array($this, 'redirect_to_blockspare_page'));
 
-            //add_action( 'init', array($this,'blockspare_load_api_files'));
+      //add_action( 'init', array($this,'blockspare_load_api_files'));
 
-            add_filter('plugin_row_meta', [$this, 'plugin_row_meta'], 10, 2);
+      add_filter('plugin_row_meta', [$this, 'plugin_row_meta'], 10, 2);
 
-            add_filter('plugin_action_links_' . BLOCKSPARE_PLUGIN_BASE, [$this, 'plugin_action_links']);
-        }
+      add_filter('plugin_action_links_' . BLOCKSPARE_PLUGIN_BASE, [$this, 'plugin_action_links']);
 
-        public function plugin_action_links($links)
-        {
-            $settings_link = sprintf('<a href="%1$s">%2$s</a>', admin_url('admin.php?page=blockspare'), esc_html__('Patterns Library', 'blockspare'));
+      include_once BLOCKSPARE_PLUGIN_DIR . 'admin/notice-setup.php';
+      include_once BLOCKSPARE_PLUGIN_DIR . 'admin/notice-theme.php';
+      include_once BLOCKSPARE_PLUGIN_DIR . 'admin/notice-upgrade.php';
+    }
 
-            array_unshift($links, $settings_link);
+    public function plugin_action_links($links)
+    {
+      $settings_link = sprintf('<a href="%1$s">%2$s</a>', admin_url('admin.php?page=blockspare'), esc_html__('Patterns Library', 'blockspare'));
 
-            $links['bspro'] = sprintf('<a href="%1$s" target="_blank" class="blockspare-pro-link">%2$s</a>', 'https://www.blockspare.com/', esc_html__('Get Blockspare Pro', 'blockspare'));
+      array_unshift($links, $settings_link);
 
-            return $links;
-        }
-        public function plugin_row_meta($plugin_meta, $plugin_file)
-        {
-            if (BLOCKSPARE_PLUGIN_BASE === $plugin_file) {
-                $row_meta = [
-                    'starter' => '<a href="https://www.blockspare.com/starter-templates/" aria-label="' . esc_attr(esc_html__('View Blockspare Patterns Library', 'blockspare')) . '" target="_blank">' . esc_html__('Demos', 'blockspare') . '</a>',
-                    'docs' => '<a href="https://www.blockspare.com/docs/" aria-label="' . esc_attr(esc_html__('View Blockspare Documentation', 'blockspare')) . '" target="_blank">' . esc_html__('Docs', 'blockspare') . '</a>',
-                    'video' => '<a href="https://afthemes.com/all-themes-plan/" aria-label="' . esc_attr(esc_html__('Access All Themes and Plugins', 'blockspare')) . '" target="_blank">' . esc_html__('All Themes & Plugins', 'blockspare') . '</a>',
-                    'support' => '<a href="https://afthemes.com/supports/" aria-label="' . esc_attr(esc_html__('Need help for Blockspare?', 'blockspare')) . '" target="_blank">' . esc_html__('Need Help?', 'blockspare') . '</a>',
-                ];
+      $links['bspro'] = sprintf('<a href="%1$s" target="_blank" class="blockspare-pro-link">%2$s</a>', 'https://www.blockspare.com/', esc_html__('Get Blockspare Pro', 'blockspare'));
 
-                $plugin_meta = array_merge($plugin_meta, $row_meta);
-            }
+      return $links;
+    }
+    public function plugin_row_meta($plugin_meta, $plugin_file)
+    {
+      if (BLOCKSPARE_PLUGIN_BASE === $plugin_file) {
+        $row_meta = [
+          'starter' => '<a href="https://www.blockspare.com/starter-templates/" aria-label="' . esc_attr(esc_html__('View Blockspare Patterns Library', 'blockspare')) . '" target="_blank">' . esc_html__('Demos', 'blockspare') . '</a>',
+          'docs' => '<a href="https://www.blockspare.com/docs/" aria-label="' . esc_attr(esc_html__('View Blockspare Documentation', 'blockspare')) . '" target="_blank">' . esc_html__('Docs', 'blockspare') . '</a>',
+          'video' => '<a href="https://afthemes.com/all-themes-plan/" aria-label="' . esc_attr(esc_html__('Access All Themes and Plugins', 'blockspare')) . '" target="_blank">' . esc_html__('All Themes & Plugins', 'blockspare') . '</a>',
+          'support' => '<a href="https://afthemes.com/supports/" aria-label="' . esc_attr(esc_html__('Need help for Blockspare?', 'blockspare')) . '" target="_blank">' . esc_html__('Need Help?', 'blockspare') . '</a>',
+        ];
 
-            return $plugin_meta;
-        }
+        $plugin_meta = array_merge($plugin_meta, $row_meta);
+      }
 
-        public function add_dashboard_page()
-        {
+      return $plugin_meta;
+    }
 
-            // @see images/blockspare-icon.svg
-            $svg = <<< SVG
+    public function add_dashboard_page()
+    {
+
+      // @see images/blockspare-icon.svg
+      $svg = <<< SVG
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
 <g>
@@ -73,91 +78,90 @@ if (!class_exists('Blockspare_Admin_Dashboard')) {
 </svg>
 SVG;
 
-            add_menu_page(
-                __('Blockspare', 'blockspare'), // Page Title.
-                __('Blockspare', 'blockspare'), // Menu Title.
-                'edit_posts', // Capability.
-                'blockspare', // Menu slug.
-                array($this, 'blockspare_admin_dashboard'), // Action.
-                'data:image/svg+xml;base64,' . base64_encode($svg), // Blockspare icon.
-                25
-            );
+      add_menu_page(
+        __('Blockspare', 'blockspare'), // Page Title.
+        __('Blockspare', 'blockspare'), // Menu Title.
+        'edit_posts', // Capability.
+        'blockspare', // Menu slug.
+        array($this, 'blockspare_admin_dashboard'), // Action.
+        'data:image/svg+xml;base64,' . base64_encode($svg), // Blockspare icon.
+        25
+      );
 
-            // Our getting started page.
-            add_submenu_page(
-                'blockspare', // Parent slug.
-                __('Patterns Library', 'blockspare'), // Page title.
-                __('Patterns Library', 'blockspare'), // Menu title.
-                'manage_options', // Capability.
-                'blockspare', // Menu slug.
-                array($this, 'blockspare_admin_dashboard'), // Callback function.
-                1// Position
-            );
+      // Our getting started page.
+      add_submenu_page(
+        'blockspare', // Parent slug.
+        __('Patterns Library', 'blockspare'), // Page title.
+        __('Patterns Library', 'blockspare'), // Menu title.
+        'manage_options', // Capability.
+        'blockspare', // Menu slug.
+        array($this, 'blockspare_admin_dashboard'), // Callback function.
+        1 // Position
+      );
 
-            add_submenu_page(
-                'blockspare', // Parent slug.
-                __('My Patterns', 'blockspare'), // Page title.
-                __('My Patterns', 'blockspare'), // Menu title.
-                'manage_options', // Capability.
-                'edit.php?post_type=bs_templates', // Menu slug.
+      add_submenu_page(
+        'blockspare', // Parent slug.
+        __('My Patterns', 'blockspare'), // Page title.
+        __('My Patterns', 'blockspare'), // Menu title.
+        'manage_options', // Capability.
+        'edit.php?post_type=bs_templates', // Menu slug.
 
-            );
-        }
-
-        public function enqueue_dashboard_script($hook)
-        {
-            wp_enqueue_style('blockspare-admin', BLOCKSPARE_PLUGIN_URL . 'admin/assets/css/style.css', '', '');
-            wp_enqueue_script('blockspare_dashboard_js', BLOCKSPARE_PLUGIN_URL . 'dist/block_admin_dashboard.js', array('react', 'react-dom', 'wp-components', 'wp-element', 'wp-api-fetch', 'wp-polyfill'), '1.0');
-            wp_enqueue_style('blockspare-admin-css', BLOCKSPARE_PLUGIN_URL . 'dist/style-block_admin_dashboard.css');
-            $blockspare_dashboard_logo = BLOCKSPARE_PLUGIN_URL . 'admin/assets/images/blockspare-logo.png';
-            wp_localize_script(
-                'blockspare_dashboard_js',
-                'blockspare_dashboard',
-                array(
-
-                    'logo' => $blockspare_dashboard_logo,
-                    "imagePath" => "https://raw.githubusercontent.com/afthemes/blockspare-demo-data/master/blocks/",
-                    "static_img" => BLOCKSPARE_PLUGIN_URL,
-                    'newPageUrl' => admin_url('post-new.php?post_type=page&blockspare_create_block'),
-                    'adminPath' => admin_url('post-new.php?post_type=page&blockspare_show_intro=true'),
-                    'pluginVesion' => BLOCKSPARE_VERSION,
-
-                )
-            );
-        }
-
-        public function blockspare_admin_dashboard()
-        {
-            ?>
-            <div id="bs-dashboard"></div>
-
-            <?php
-}
-
-        /**
-         * Adds a marker to remember to redirect after activation.
-         * Redirecting right away will not work.
-         */
-        public static function start_redirect_to_blockspare_page()
-        {
-            update_option('blockspare_redirect_to_welcome', '1');
-        }
-
-        /**
-         * Redirect to the welcome screen if our marker exists.
-         */
-        public function redirect_to_blockspare_page()
-        {
-            if (get_option('blockspare_redirect_to_welcome')) {
-                delete_option('blockspare_redirect_to_welcome');
-                wp_redirect(esc_url(admin_url('admin.php?page=blockspare')));
-                die();
-            }
-        }
-
+      );
     }
 
-    new Blockspare_Admin_Dashboard();
+    public function enqueue_dashboard_script($hook)
+    {
+      wp_enqueue_style('blockspare-admin', BLOCKSPARE_PLUGIN_URL . 'admin/assets/css/style.css', '', '');
+      wp_enqueue_script('blockspare_dashboard_js', BLOCKSPARE_PLUGIN_URL . 'dist/block_admin_dashboard.js', array('react', 'react-dom', 'wp-components', 'wp-element', 'wp-api-fetch', 'wp-polyfill'), '1.0');
+      wp_enqueue_style('blockspare-admin-css', BLOCKSPARE_PLUGIN_URL . 'dist/dashboard_css.css');
+      $blockspare_dashboard_logo = BLOCKSPARE_PLUGIN_URL . 'admin/assets/images/blockspare-logo.png';
+      wp_localize_script(
+        'blockspare_dashboard_js',
+        'blockspare_dashboard',
+        array(
+
+          'logo' => $blockspare_dashboard_logo,
+          "imagePath" => "https://raw.githubusercontent.com/afthemes/blockspare-demo-data/master/blocks/new/",
+          "static_img" => BLOCKSPARE_PLUGIN_URL,
+          'newPageUrl' => admin_url('post-new.php?post_type=page&blockspare_create_block'),
+          'adminPath' => admin_url('post-new.php?post_type=page&blockspare_show_intro=true'),
+          'pluginVesion' => BLOCKSPARE_VERSION,
+
+        )
+      );
+    }
+
+    public function blockspare_admin_dashboard()
+    {
+?>
+      <div id="bs-dashboard"></div>
+
+<?php
+    }
+
+    /**
+     * Adds a marker to remember to redirect after activation.
+     * Redirecting right away will not work.
+     */
+    public static function start_redirect_to_blockspare_page()
+    {
+      update_option('blockspare_redirect_to_welcome', '1');
+    }
+
+    /**
+     * Redirect to the welcome screen if our marker exists.
+     */
+    public function redirect_to_blockspare_page()
+    {
+      if (get_option('blockspare_redirect_to_welcome')) {
+        delete_option('blockspare_redirect_to_welcome');
+        wp_redirect(esc_url(admin_url('admin.php?page=blockspare')));
+        die();
+      }
+    }
+  }
+
+  new Blockspare_Admin_Dashboard();
 }
 
 // Redirect to the welcome screen.

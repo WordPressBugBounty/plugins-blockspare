@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-testimonial",
+  "category": "blockspare",
+  "attributes": {
+    "serviceItems": {
+      "type": "number",
+      "default": 3
+    },
+    "columns": {
+      "type": "number",
+      "default": 3
+    },
+    "columnsGap": {
+      "type": "number",
+      "default": 1
+    },
+    "blockLayout": {
+      "type": "string",
+      "default": "bs-layout-1"
+    },
+    "align": {
+      "type": "string",
+      "default": "wide"
+    },
+    "defaultItems": {
+      "type": "number",
+      "default": 3
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "layoutOption": {
+      "type": "string",
+      "default": ""
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

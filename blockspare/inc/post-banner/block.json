@@ -1,12 +1,12 @@
 {
   "category": "blockspare-post",
-  "title": "Main Hero Banners",
-  "description": "Display Main Hero Banners from Selected Post Categories",
-  "textdomain": "blockspare",
-  "keywords": ["Main", "Hero", "Blockspare", "Banner"],
   "attributes": {
     "className": {
       "type": "string"
+    },
+    "showPresets": {
+      "type": "boolean",
+      "default": false
     },
     "align": {
       "type": "string",
@@ -293,6 +293,10 @@
       "type": "string",
       "default": "#fff"
     },
+    "sliderDisplayPostTitle": {
+      "type": "boolean",
+      "default": true
+    },
     "sliderDisplayPostCategory": {
       "type": "boolean",
       "default": true
@@ -334,7 +338,7 @@
     },
     "sliderCategoryFontWeight": {
       "type": "string",
-      "default": "600"
+      "default": "400"
     },
     "sliderCategoryFontSubset": {
       "type": "string"
@@ -492,7 +496,7 @@
     },
     "editorCategoryFontWeight": {
       "type": "string",
-      "default": "600"
+      "default": "400"
     },
     "editorCategoryFontSubset": {
       "type": "string"
@@ -547,6 +551,10 @@
     "editorTitleLineHeight": {
       "type": "number",
       "default": 1.5
+    },
+    "editorDisplayPostTitle": {
+      "type": "boolean",
+      "default": true
     },
     "editorDisplayPostCategory": {
       "type": "boolean",
@@ -705,6 +713,10 @@
       "type": "number",
       "default": 1.5
     },
+    "trendingDisplayPostTitle": {
+      "type": "boolean",
+      "default": true
+    },
     "trendingDisplayPostCategory": {
       "type": "boolean",
       "default": false
@@ -719,7 +731,7 @@
     },
     "trendingCategoryFontWeight": {
       "type": "string",
-      "default": "600"
+      "default": "400"
     },
     "trendingCategoryFontSubset": {
       "type": "string"

@@ -1,0 +1,230 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-price-list-item",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "priceTitle": {
+      "type": "string",
+      "default": "Enter Title"
+    },
+    "priceDescription": {
+      "type": "string",
+      "default": "Add your item description..."
+    },
+    "priceUnit": {
+      "type": "string",
+      "default": "$"
+    },
+    "price": {
+      "type": "string",
+      "default": "100"
+    },
+    "ImgURL": {
+      "type": "string"
+    },
+    "ImgAlt": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "figure img",
+      "attribute": "alt",
+      "default": ""
+    },
+    "ImgID": {
+      "type": "number"
+    },
+    "layoutOptions": {
+      "type": "string",
+      "default": "blockspare-layout1"
+    },
+    "imageOption": {
+      "type": "string",
+      "default": "blockspare-img-square"
+    },
+    "priceUnitPosition": {
+      "type": "string",
+      "default": "blockspare-before-price"
+    },
+    "showDots": {
+      "type": "boolean",
+      "default": true
+    },
+    "priceTitleColor": {
+      "type": "string",
+      "default": "#404040"
+    },
+    "priceColor": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "priceUnitColor": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "priceDescriptionColor": {
+      "type": "string",
+      "default": "#6d6d6d"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "imgIconOption": {
+      "type": "string",
+      "default": "image"
+    },
+    "name": {
+      "type": "string",
+      "default": "fas fa-rocket"
+    },
+    "iconSize": {
+      "type": "string",
+      "default": "blockspare-icon-size-small"
+    },
+    "iconStyles": {
+      "type": "string",
+      "default": "blockspare-icon-style2"
+    },
+    "iconBackgroundColor": {
+      "type": "string",
+      "default": "#ce242c"
+    },
+    "iconBorderColor": {
+      "type": "string",
+      "default": "#ce242c"
+    },
+    "iconColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 50
+    },
+    "blockBorderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "titleFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "titleFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "titleFontSubset": {
+      "type": "string"
+    },
+    "titleFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "titleFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "titleFontSizeTablet": {
+      "type": "number",
+      "default": 16
+    },
+    "titleLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "priceUnitFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "priceUnitFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "priceUnitFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "priceUnitFontSubset": {
+      "type": "string"
+    },
+    "priceUnitFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "priceUnitFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "priceUnitFontSizeTablet": {
+      "type": "number",
+      "default": 16
+    },
+    "priceUnitLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "descriptionFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "descriptionFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "descriptionFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionFontSubset": {
+      "type": "string"
+    },
+    "descriptionFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "descriptionFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "descriptionFontSizeTablet": {
+      "type": "number",
+      "default": 16
+    },
+    "descriptionLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    },
+    "backgroundOpacity": {
+      "type": "number",
+      "default": 1
+    },
+    "imageHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js"
+}

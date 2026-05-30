@@ -6,7 +6,7 @@ function blockspare_save_templates_rest_controller() {
         'callback'            => 'blockspare_save_templates_callback',
         'permission_callback' => function ($request) {
             $nonce = $request->get_header( 'X-WP-Nonce' );
-            if ( ! wp_verify_nonce( $nonce, 'wp_rest' ) || !current_user_can( 'edit_posts' ) ) {
+            if ( ! wp_verify_nonce( $nonce, 'wp_rest' ) && !current_user_can( 'edit_posts' )) {
                 return new WP_Error( 'rest_forbidden', 'Validation Failed', array( 'status' => 200 ) );
             }
     
@@ -19,7 +19,7 @@ if(!function_exists('blockspare_custom_post_type')){
     function blockspare_save_templates_callback(\WP_REST_Request $request) {
         $params = $request->get_params();
         $post_content = $params['data'];
-        $post_title = $params['title'];
+        $post_title = sanitize_text_field($params['title']);
         $category = $params['category'];
         
         $new_post = array(
@@ -47,14 +47,14 @@ if(!function_exists('blockspare_custom_post_type')){
     function blockspare_custom_post_type() {
 
         $labels = array(
-            'name'                  => _x( 'My Patterns', 'Post Type General Name', 'blockspare' ),
-            'singular_name'         => _x( 'My Patterns', 'Post Type Singular Name', 'blockspare' ),
-            'menu_name'             => __( 'My Patterns', 'blockspare' ),
+            'name'                  => _x( 'My Templates', 'Post Type General Name', 'blockspare' ),
+            'singular_name'         => _x( 'My Templates', 'Post Type Singular Name', 'blockspare' ),
+            'menu_name'             => __( 'My Templates', 'blockspare' ),
             'parent_item_colon'     => __( 'My Parent Item:', 'blockspare' ),
 
         );
         $args = array(
-            'label'                 => __( 'My Patterns', 'blockspare' ),
+            'label'                 => __( 'My Templates', 'blockspare' ),
             'description'           => __( 'Tempaltes created by users', 'blockspare' ),
             'labels'                => $labels,
             'supports'              => array( 'title', 'editor', 'thumbnail','blockeditor' ),

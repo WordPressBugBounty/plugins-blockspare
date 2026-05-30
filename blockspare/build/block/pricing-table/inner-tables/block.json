@@ -1,0 +1,140 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-pricing-inner-item",
+  "category": "blockspare",
+  "attributes": {
+    "itemborderWidth": {
+      "type": "number",
+      "default": 0
+    },
+    "itemborderColor": {
+      "type": "string",
+      "default": "#ececec"
+    },
+    "itemborderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "itembackgroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "alignment": {
+      "type": "string"
+    },
+    "headerAlignPosition": {
+      "type": "string",
+      "default": "center"
+    },
+    "itempadding": {
+      "type": "number",
+      "default": 0
+    },
+    "sectionScale": {
+      "type": "number",
+      "default": 0
+    },
+    "enableBadge": {
+      "type": "boolean",
+      "default": false
+    },
+    "badgeText": {
+      "type": "string",
+      "default": "Badge Text"
+    },
+    "badgeStyle": {
+      "type": "string",
+      "default": "blockspare-badge-style1"
+    },
+    "badgeOption": {
+      "type": "string",
+      "default": "badge-text"
+    },
+    "imgURL1": {
+      "type": "string"
+    },
+    "imgID1": {
+      "type": "number"
+    },
+    "imgAlt1": {
+      "type": "string"
+    },
+    "badgeTextColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "badgeBackGroundColor": {
+      "type": "string",
+      "default": "#ce242c"
+    },
+    "badgeImgSize": {
+      "type": "number",
+      "default": 100
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "enableSectionHeader": {
+      "type": "boolean",
+      "default": true
+    },
+    "badgeFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "badgeFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "badgeFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "badgeFontSubset": {
+      "type": "string"
+    },
+    "badgeFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "badgeFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "badgeFontSizeTablet": {
+      "type": "number",
+      "default": 14
+    },
+    "badgeLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "pricingLayout": {
+      "type": "string",
+      "default": "bpl-1"
+    },
+    "primaryColor": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "default": "#F3F3F3"
+    },
+    "tertianeryColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    },
+    "imageHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js"
+}

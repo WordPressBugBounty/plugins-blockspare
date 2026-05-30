@@ -1,0 +1,238 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-container",
+  "category": "blockspare",
+  "supports": {
+    "align": [
+      "center",
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "align": {
+      "type": "string",
+      "default": "full"
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "imgURL": {
+      "type": "string"
+    },
+    "imgID": {
+      "type": "number"
+    },
+    "imgAlt": {
+      "type": "string"
+    },
+    "opacityRatio": {
+      "type": "number",
+      "default": 100
+    },
+    "backGroundColor": {
+      "type": "string",
+      "default": "#f9f9f9"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "backgroundFix": {
+      "type": "boolean",
+      "default": false
+    },
+    "separatorEnable": {
+      "type": "boolean",
+      "default": false
+    },
+    "showFront": {
+      "type": "boolean",
+      "default": false
+    },
+    "zindexDivider": {
+      "type": "number",
+      "default": 20
+    },
+    "verticalFlip": {
+      "type": "boolean",
+      "default": true
+    },
+    "horizontalFlip": {
+      "type": "boolean",
+      "default": false
+    },
+    "dividerPosition": {
+      "type": "string",
+      "default": "has-separator-top"
+    },
+    "topDividerMargin": {
+      "type": "number",
+      "default": 0
+    },
+    "bottomDividerMargin": {
+      "type": "number",
+      "default": 0
+    },
+    "enableGap": {
+      "type": "boolean",
+      "default": false
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    },
+    "design": {
+      "type": "string",
+      "default": "double-wave"
+    },
+    "layer1Shadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "width": {
+      "type": "number",
+      "default": 1
+    },
+    "height": {
+      "type": "number",
+      "default": 150
+    },
+    "color": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "enableBottomSeperator": {
+      "type": "boolean",
+      "default": false
+    },
+    "bottomDesign": {
+      "type": "string",
+      "default": "double-wave"
+    },
+    "bottomWidth": {
+      "type": "number",
+      "default": 1
+    },
+    "bottomHeight": {
+      "type": "number",
+      "default": 150
+    },
+    "bottomColor": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "shapeVerticalFlip": {
+      "type": "boolean",
+      "default": false
+    },
+    "shapeHorizontalFlip": {
+      "type": "boolean",
+      "default": false
+    },
+    "showBottomFront": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableBottomGap": {
+      "type": "boolean",
+      "default": false
+    },
+    "bottomZindexDivider": {
+      "type": "number",
+      "default": 20
+    },
+    "enableGradient": {
+      "type": "boolean",
+      "default": false
+    },
+    "backgroundColor1": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "backgroundColor2": {
+      "type": "string",
+      "default": "#ce242c"
+    },
+    "gradientAngle": {
+      "type": "number",
+      "default": -90
+    },
+    "colorLocation1": {
+      "type": "number",
+      "default": 30
+    },
+    "colorLocation2": {
+      "type": "number",
+      "default": 70
+    },
+    "enableBoxShadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "xOffset": {
+      "type": "number",
+      "default": 0
+    },
+    "yOffset": {
+      "type": "number",
+      "default": 6
+    },
+    "blur": {
+      "type": "number",
+      "default": 12
+    },
+    "spread": {
+      "type": "number",
+      "default": -10
+    },
+    "shadowColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 20
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 20
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 20
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 20
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

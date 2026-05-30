@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-skillbar",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": "Enter title"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#404040"
+    },
+    "textSize": {
+      "type": "number",
+      "default": 20
+    },
+    "titleFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "titleFontSubset": {
+      "type": "string"
+    },
+    "titleFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "titleFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "titleFontSizeTablet": {
+      "type": "number",
+      "default": 16
+    },
+    "titleLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "percentageTextColor": {
+      "type": "string",
+      "default": "#ce242c"
+    },
+    "percentage": {
+      "type": "number",
+      "default": 25
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "barColor": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#D6D6D6"
+    },
+    "barThickness": {
+      "type": "number",
+      "default": 2
+    },
+    "blockHoverEffect": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js"
+}
