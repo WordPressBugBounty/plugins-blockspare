@@ -15,9 +15,9 @@ class Blockspare_Init
     // 1. Hooks
     add_action('init', [$this, 'blockspare_plugin_init']);
     add_action('admin_enqueue_scripts', [$this, 'blockspare_enqueue_editor_assets']);
-    // add_action('enqueue_block_assets', [$this, 'blockspare_blocks_register_blocks']);
+    add_action('customize_controls_enqueue_scripts', [$this, 'blockspare_enqueue_customizer_assets']);
     add_action('enqueue_block_assets', [$this, 'blockspare_fb_enqueue_frontend_assets']);
-    //add_action('enqueue_block_editor_assets', [$this, 'blockspare_fb_enqueue_frontend_assets']);
+
     add_action('wp_enqueue_scripts', [$this, 'blockspare_enqueue_frontend_script']);
     add_filter('block_categories_all', [$this, 'blockspare_register_custom_categories'], 10, 2);
     add_action('plugins_loaded', [$this, 'blockspare_load_dynamic_blocks']);
@@ -215,73 +215,15 @@ class Blockspare_Init
       true
     );
 
-
-
-
-
-    $blockspare_priview_img_url = BLOCKSPARE_PLUGIN_URL . 'assets/blockspare-placeholder-img.jpg';
-    $blockspare_food_img_url    = BLOCKSPARE_PLUGIN_URL . 'assets/blockspare-placeholder-img-square.jpg';
-    $blockspare_promo_img       = BLOCKSPARE_PLUGIN_URL . 'assets/banner-promo-1120-wu-1.png';
-    $date                       = wp_kses_post(date_i18n(get_option('date_format')));
-    $date_format                = date_i18n(get_option('date_format'), current_time('timestamp'));
-
-    $open_design = isset($_GET['blockspare_show_intro']) && $_GET['blockspare_show_intro'] === 'true';
-
-    $blockData = '';
-    if (isset($_GET['blockspare_create_block'])) {
-      $blockName  = sanitize_text_field($_GET['blockspare_create_block']);
-      $filterdata = apply_filters('blockspare_template_library', []);
-
-      foreach ($filterdata as $block) {
-        if (isset($block['key']) && $block['key'] === $blockName) {
-          $blockData = $block['content'];
-          break;
-        }
-      }
-    }
-
     global $pagenow;
     $loadscripton = ($pagenow === 'widgets.php' || is_customize_preview());
 
-    $blockspare_current_wp_version = get_bloginfo('version');
-
-
-    $globals = [
-      'srcUrl'            => untrailingslashit(plugins_url('/', BLOCKSPARE_BASE_DIR . '/build/')),
-      'rest_url'          => esc_url(rest_url()),
-      'nonce'             => wp_create_nonce('wp_rest'),
-      'img'               => $blockspare_priview_img_url,
-      'menu_img_url'      => $blockspare_food_img_url,
-      'block_key'         => '',
-      'homeUrl'           => home_url(),
-      'blogUrl'           => get_site_url(),
-      'postTypes'         => self::get_post_types(),
-      'taxonomies'        => self::get_taxonomies(),
-      'postQueryEndpoint' => 'aft/v1/post-query',
-      'config'            => '',
-      'configuration'     => '',
-      'settings'          => '',
-      'bs_date'           => $date,
-      'promo_img'         => $blockspare_promo_img,
-      'imagePath'         => 'https:raw.githubusercontent.com/afthemes/blockspare-demo-data/master/blocks/new/',
-      'open_design'       => $open_design,
-      'date_format'       => $date_format,
-      'blockData'         => $blockData,
-      'template_link'     => admin_url('edit.php?post_type=bs_templates'),
-      'newTemlateUrl'     => admin_url('post-new.php?post_type=bs_templates&blockspare_create_block&blockspare_show_intro=true'),
-      'loadscripton'      => $loadscripton,
-      'wpversion'         => (version_compare($blockspare_current_wp_version, '6.6') >= 0) ? 'true' : 'false',
-      'inspector_imgs' => BLOCKSPARE_PLUGIN_URL . 'assets/images',
-      'upgradeUrl' => 'https://afthemes.com/blockspare-pro/',
-
-    ];
-
-    // Attach globals to wp-blocks (WordPress default Gutenberg handle)
     wp_add_inline_script(
       'wp-blocks',
-      'var blockspare_globals = ' . wp_json_encode($globals) . ';',
-      'before' // make sure it runs before wp-blocks executes
+      'var blockspare_globals = ' . wp_json_encode($this->blockspare_get_globals()) . ';',
+      'before'
     );
+
 
     wp_enqueue_script('blockspare-category');
 
@@ -311,6 +253,106 @@ class Blockspare_Init
     wp_localize_script('blockspare-category', 'cbvData', [
       'isLoggedIn' => is_user_logged_in(),
     ]);
+  }
+
+  public function blockspare_enqueue_customizer_assets()
+  {
+    // Register globals as a standalone no-file script
+    wp_register_script(
+      'blockspare-globals',
+      false,   // ← no actual JS file
+      [],
+      null,
+      false
+    );
+
+    wp_add_inline_script(
+      'blockspare-globals',
+      'var blockspare_globals = ' . wp_json_encode($this->blockspare_get_globals()) . ';'
+    );
+
+    wp_enqueue_script('blockspare-globals');
+
+    // Also enqueue your category script for the widgets customizer
+    wp_enqueue_script(
+      'blockspare-category',
+      BLOCKSPARE_PLUGIN_URL . 'dist/block_category.js',
+      [
+        'blockspare-globals', // ← depends on globals, so globals loads first
+        'wp-blocks',
+        'wp-i18n',
+        'wp-element',
+        'wp-components',
+        'wp-block-editor',
+        'wp-api-fetch',
+        'wp-plugins',
+        'wp-edit-post',
+      ],
+      BLOCKSPARE_VERSION,
+      true
+    );
+
+    wp_enqueue_style(
+      'blockspare-panel',
+      BLOCKSPARE_PLUGIN_URL . 'dist/panel.css',
+      ['wp-edit-blocks'],
+      BLOCKSPARE_VERSION
+    );
+  }
+
+  private function blockspare_get_globals(): array
+  {
+    $blockspare_priview_img_url = BLOCKSPARE_PLUGIN_URL . 'assets/blockspare-placeholder-img.jpg';
+    $blockspare_food_img_url    = BLOCKSPARE_PLUGIN_URL . 'assets/blockspare-placeholder-img-square.jpg';
+    $blockspare_promo_img       = BLOCKSPARE_PLUGIN_URL . 'assets/banner-promo-1120-wu-1.png';
+    $date                       = wp_kses_post(date_i18n(get_option('date_format')));
+    $date_format                = date_i18n(get_option('date_format'), current_time('timestamp'));
+    $open_design                = isset($_GET['blockspare_show_intro']) && $_GET['blockspare_show_intro'] === 'true';
+    $blockData                  = '';
+
+    if (isset($_GET['blockspare_create_block'])) {
+      $blockName  = sanitize_text_field($_GET['blockspare_create_block']);
+      $filterdata = apply_filters('blockspare_template_library', []);
+      foreach ($filterdata as $block) {
+        if (isset($block['key']) && $block['key'] === $blockName) {
+          $blockData = $block['content'];
+          break;
+        }
+      }
+    }
+
+    $blockspare_current_wp_version = get_bloginfo('version');
+    $loadscripton = (isset($GLOBALS['pagenow']) && $GLOBALS['pagenow'] === 'widgets.php') || is_customize_preview();
+
+    return [
+      'srcUrl'            => untrailingslashit(plugins_url('/', BLOCKSPARE_BASE_DIR . '/build/')),
+      'rest_url'          => esc_url(rest_url()),
+      'nonce'             => wp_create_nonce('wp_rest'),
+      'img'               => $blockspare_priview_img_url,
+      'menu_img_url'      => $blockspare_food_img_url,
+      'block_key'         => '',
+      'homeUrl'           => home_url(),
+      'blogUrl'           => get_site_url(),
+      'postTypes'         => self::get_post_types(),
+      'taxonomies'        => self::get_taxonomies(),
+      'postQueryEndpoint' => 'aft/v1/post-query',
+      'config'            => '',
+      'configuration'     => '',
+      'settings'          => '',
+      'bs_date'           => $date,
+      'promo_img'         => $blockspare_promo_img,
+      'imagePath'         => 'https:raw.githubusercontent.com/afthemes/blockspare-demo-data/master/blocks/new/',
+      'open_design'       => $open_design,
+      'date_format'       => $date_format,
+      'blockData'         => $blockData,
+      'template_link'     => admin_url('edit.php?post_type=bs_templates'),
+      'newTemlateUrl'     => admin_url('post-new.php?post_type=bs_templates&blockspare_create_block&blockspare_show_intro=true'),
+      'loadscripton'      => $loadscripton,
+      'wpversion'         => (version_compare($blockspare_current_wp_version, '6.6') >= 0) ? 'true' : 'false',
+      'inspector_imgs'    => BLOCKSPARE_PLUGIN_URL . 'assets/images',
+      'upgradeUrl'        => 'https://afthemes.com/blockspare-pro/',
+      'isPro'             => false,
+    ];
   }
 
   public function blockspare_fb_enqueue_frontend_assets()
@@ -358,7 +400,7 @@ class Blockspare_Init
         'title' => __('Business', 'blockspare'),
 
       ],
-      
+
     ];
 
     return array_merge($custom, $categories);

@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: BlockSpare - Gutenberg Site Builder Blocks & Starter Sites 4.0.0\n"
+"Project-Id-Version: BlockSpare - Gutenberg Site Builder Blocks & Starter Sites 4.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/blockspare\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-05-30T04:50:05+00:00\n"
+"POT-Creation-Date: 2026-06-01T15:11:13+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: blockspare\n"
@@ -200,7 +200,7 @@ msgid "Blockspare"
 msgstr ""
 
 #: admin/admin-init.php:46
-#: admin/notice-setup.php:290
+#: admin/notice-setup.php:270
 #: admin/pages/home-notice.js:17
 #: src/block/button/index.js:34
 msgid "Get Started"
@@ -240,6 +240,8 @@ msgid "Unlock Annual and Lifetime Premium Plans for Enhanced Website Building Ex
 msgstr ""
 
 #: admin/admin-init.php:84
+#: dist/block_category.js:2
+#: src/utils/upgrade-to-pro.js:46
 msgid "Upgrade Now"
 msgstr ""
 
@@ -300,53 +302,53 @@ msgstr ""
 msgid "My Patterns"
 msgstr ""
 
-#: admin/notice-setup.php:95
-#: admin/notice-setup.php:133
+#: admin/notice-setup.php:90
+#: admin/notice-setup.php:129
 msgid "Action failed. Please refresh the page and retry."
 msgstr ""
 
-#: admin/notice-setup.php:99
-#: admin/notice-setup.php:137
+#: admin/notice-setup.php:94
+#: admin/notice-setup.php:133
 msgid "Cheatin&#8217; huh?"
 msgstr ""
 
-#: admin/notice-setup.php:277
+#: admin/notice-setup.php:257
 msgid "Welcome to BlockSpare 👋"
 msgstr ""
 
-#: admin/notice-setup.php:281
+#: admin/notice-setup.php:261
 msgid "Build professional news, magazine, blog, and business websites faster using ready-made Gutenberg blocks, starter templates, and content-focused layouts."
 msgstr ""
 
-#: admin/notice-setup.php:297
+#: admin/notice-setup.php:277
 #: src/block/layouts/components/layout/layout-modal.js:220
 msgid "Browse Templates"
 msgstr ""
 
-#: admin/notice-setup.php:305
+#: admin/notice-setup.php:285
 #: admin/pages/demo/premium-text.js:18
 #: admin/pages/home-notice.js:18
 #: src/block/layouts/components/layout/layout-library-item-card.js:129
 msgid "Learn More"
 msgstr ""
 
-#: admin/notice-setup.php:322
+#: admin/notice-setup.php:301
 msgid "Quick Setup"
 msgstr ""
 
-#: admin/notice-setup.php:326
+#: admin/notice-setup.php:305
 msgid "Takes less than 2 minutes"
 msgstr ""
 
-#: admin/notice-theme.php:117
+#: admin/notice-theme.php:118
 msgid "Open Site Editor"
 msgstr ""
 
-#: admin/notice-theme.php:129
+#: admin/notice-theme.php:130
 msgid "Activate NewSpare"
 msgstr ""
 
-#: admin/notice-theme.php:139
+#: admin/notice-theme.php:140
 msgid "Install & Activate NewSpare"
 msgstr ""
 
@@ -370,91 +372,93 @@ msgstr ""
 msgid "Live Preview"
 msgstr ""
 
-#: admin/notice-theme.php:303
+#: admin/notice-theme.php:302
 msgid "Why NewSpare?"
 msgstr ""
 
-#: admin/notice-theme.php:315
+#: admin/notice-theme.php:314
 msgid "Designed for Gutenberg"
 msgstr ""
 
-#: admin/notice-theme.php:316
+#: admin/notice-theme.php:315
 msgid "Works perfectly with BlockSpare"
 msgstr ""
 
-#: admin/notice-theme.php:317
+#: admin/notice-theme.php:316
 msgid "Professional starter sites included"
 msgstr ""
 
-#: admin/notice-theme.php:318
+#: admin/notice-theme.php:317
 msgid "Optimized for speed & SEO"
 msgstr ""
 
-#: admin/notice-upgrade.php:113
+#: admin/notice-upgrade.php:102
 msgid "Upgrade Available"
 msgstr ""
 
-#: admin/notice-upgrade.php:117
+#: admin/notice-upgrade.php:106
 msgid "Unlock More Power with Blockspare Pro"
 msgstr ""
 
-#: admin/notice-upgrade.php:121
+#: admin/notice-upgrade.php:110
 msgid "Get access to premium templates, advanced post layouts, extra design blocks, and more control over how your content looks. Blockspare Pro helps you build faster and create richer pages with less effort."
 msgstr ""
 
-#: admin/notice-upgrade.php:127
+#: admin/notice-upgrade.php:116
 msgid "Premium Templates"
 msgstr ""
 
-#: admin/notice-upgrade.php:131
+#: admin/notice-upgrade.php:120
 msgid "Advanced Post Layouts"
 msgstr ""
 
-#: admin/notice-upgrade.php:135
+#: admin/notice-upgrade.php:124
 msgid "More Blocks & Sections"
 msgstr ""
 
-#: admin/notice-upgrade.php:139
+#: admin/notice-upgrade.php:128
 msgid "Extra Design Controls"
 msgstr ""
 
-#: admin/notice-upgrade.php:143
+#: admin/notice-upgrade.php:132
 msgid "Faster Website Building"
 msgstr ""
 
-#: admin/notice-upgrade.php:156
+#: admin/notice-upgrade.php:145
+#: dist/block_category.js:2
+#: src/utils/upgrade-to-pro.js:25
 msgid "Upgrade to Pro"
 msgstr ""
 
-#: admin/notice-upgrade.php:165
+#: admin/notice-upgrade.php:154
 msgid "View Features"
 msgstr ""
 
-#: admin/notice-upgrade.php:172
+#: admin/notice-upgrade.php:161
 msgid "Maybe later"
 msgstr ""
 
-#: admin/notice-upgrade.php:181
+#: admin/notice-upgrade.php:170
 msgid "Need help?"
 msgstr ""
 
-#: admin/notice-upgrade.php:191
+#: admin/notice-upgrade.php:180
 msgid "Why upgrade?"
 msgstr ""
 
-#: admin/notice-upgrade.php:195
+#: admin/notice-upgrade.php:184
 msgid "Access premium layouts and demos"
 msgstr ""
 
-#: admin/notice-upgrade.php:196
+#: admin/notice-upgrade.php:185
 msgid "Create richer post displays"
 msgstr ""
 
-#: admin/notice-upgrade.php:197
+#: admin/notice-upgrade.php:186
 msgid "Get more design flexibility"
 msgstr ""
 
-#: admin/notice-upgrade.php:198
+#: admin/notice-upgrade.php:187
 msgid "Build pages faster with less effort"
 msgstr ""
 
@@ -488,11 +492,11 @@ msgstr ""
 msgid "Read more about %s"
 msgstr ""
 
-#: inc/init.php:353
+#: inc/init.php:395
 msgid "News and Magazine"
 msgstr ""
 
-#: inc/init.php:358
+#: inc/init.php:400
 msgid "Business"
 msgstr ""
 
@@ -1987,6 +1991,16 @@ msgstr ""
 #: dist/block_category.js:2
 #: src/utils/custom-block-visibility/editor.js:132
 msgid "Hide on Mobile ( ≤ 767px )"
+msgstr ""
+
+#: dist/block_category.js:2
+#: src/utils/upgrade-to-pro.js:35
+msgid "Upgrade to BlockSpare Pro"
+msgstr ""
+
+#: dist/block_category.js:2
+#: src/utils/upgrade-to-pro.js:39
+msgid "Unlock all features, blocks, templates and customization options at a single price."
 msgstr ""
 
 #: dist/block_design_btn.js:2
@@ -7382,4 +7396,8 @@ msgstr ""
 
 #: src/utils/post/tax-query-inspector/tax-query-inspector.js:138
 msgid "Filter by Tag"
+msgstr ""
+
+#: src/utils/ProFeatureNotice.js:9
+msgid "Available in Pro version"
 msgstr ""

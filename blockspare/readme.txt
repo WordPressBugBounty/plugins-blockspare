@@ -1,17 +1,17 @@
-﻿=== BlockSpare — News, Magazine and Blog Addons for (Gutenberg) Block Editor===
+﻿=== BlockSpare - Gutenberg Post Grid Blocks for News, Magazine & Blog Websites ===
 Author URI: https://www.blockspare.com/
 Plugin URI: https://www.blockspare.com/
 Contributors: blockspare, afthemes
 Donate link: https://www.blockspare.com/
-Tags: blog, news, magazine, gutenberg blocks, starter templates
+Tags: post grid, gutenberg blocks, post carousel, news magazine, post list
 Requires at least: 4.9
 Tested up to: 7.0
 Requires PHP: 5.3
-Stable tag: 4.0.0
+Stable tag: 4.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Highly customizable Gutenberg blocks and starter templates to build blogs, magazines, and business websites. Create post grids, sliders, filters, and complete layouts — no coding required.
+Create post grids, sliders, filters, tickers and magazine layouts with Gutenberg blocks for news, magazine and blog websites.
 
 == Description ==
 
