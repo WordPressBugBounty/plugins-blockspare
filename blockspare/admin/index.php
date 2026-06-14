@@ -29,11 +29,12 @@ if (!class_exists('Blockspare_Admin_Dashboard')) {
       include_once BLOCKSPARE_PLUGIN_DIR . 'admin/notice-setup.php';
       include_once BLOCKSPARE_PLUGIN_DIR . 'admin/notice-theme.php';
       include_once BLOCKSPARE_PLUGIN_DIR . 'admin/notice-upgrade.php';
+      include_once BLOCKSPARE_PLUGIN_DIR . 'admin/notice-review.php';
     }
 
     public function plugin_action_links($links)
     {
-      $settings_link = sprintf('<a href="%1$s">%2$s</a>', admin_url('admin.php?page=blockspare'), esc_html__('Patterns Library', 'blockspare'));
+      $settings_link = sprintf('<a href="%1$s">%2$s</a>', admin_url('admin.php?page=blockspare'), esc_html__('Templates Library', 'blockspare'));
 
       array_unshift($links, $settings_link);
 
@@ -45,7 +46,7 @@ if (!class_exists('Blockspare_Admin_Dashboard')) {
     {
       if (BLOCKSPARE_PLUGIN_BASE === $plugin_file) {
         $row_meta = [
-          'starter' => '<a href="https://www.blockspare.com/starter-templates/" aria-label="' . esc_attr(esc_html__('View Blockspare Patterns Library', 'blockspare')) . '" target="_blank">' . esc_html__('Demos', 'blockspare') . '</a>',
+          'starter' => '<a href="https://www.blockspare.com/starter-templates/" aria-label="' . esc_attr(esc_html__('View Blockspare Templates Library', 'blockspare')) . '" target="_blank">' . esc_html__('Demos', 'blockspare') . '</a>',
           'docs' => '<a href="https://www.blockspare.com/docs/" aria-label="' . esc_attr(esc_html__('View Blockspare Documentation', 'blockspare')) . '" target="_blank">' . esc_html__('Docs', 'blockspare') . '</a>',
           'video' => '<a href="https://afthemes.com/all-themes-plan/" aria-label="' . esc_attr(esc_html__('Access All Themes and Plugins', 'blockspare')) . '" target="_blank">' . esc_html__('All Themes & Plugins', 'blockspare') . '</a>',
           'support' => '<a href="https://afthemes.com/supports/" aria-label="' . esc_attr(esc_html__('Need help for Blockspare?', 'blockspare')) . '" target="_blank">' . esc_html__('Need Help?', 'blockspare') . '</a>',
@@ -91,8 +92,8 @@ SVG;
       // Our getting started page.
       add_submenu_page(
         'blockspare', // Parent slug.
-        __('Patterns Library', 'blockspare'), // Page title.
-        __('Patterns Library', 'blockspare'), // Menu title.
+        __('Starter Templates', 'blockspare'), // Page title.
+        __('Starter Templates', 'blockspare'), // Menu title.
         'manage_options', // Capability.
         'blockspare', // Menu slug.
         array($this, 'blockspare_admin_dashboard'), // Callback function.
@@ -101,8 +102,8 @@ SVG;
 
       add_submenu_page(
         'blockspare', // Parent slug.
-        __('My Patterns', 'blockspare'), // Page title.
-        __('My Patterns', 'blockspare'), // Menu title.
+        __('Saved Templates', 'blockspare'), // Page title.
+        __('Saved Templates', 'blockspare'), // Menu title.
         'manage_options', // Capability.
         'edit.php?post_type=bs_templates', // Menu slug.
 

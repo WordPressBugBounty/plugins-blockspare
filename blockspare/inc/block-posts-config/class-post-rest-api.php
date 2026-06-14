@@ -426,71 +426,71 @@ if (!class_exists('Aft_Post_Rest_Controller')) {
       $query_params  = parent::get_collection_params();
 
       $query_params[self::PROP_TYPE] = array(
-        'description' => __('Limit results to items of a specific post type.', 'latest-posts-block'),
+        'description' => __('Limit results to items of a specific post type.', 'blockspare'),
         'type'        => 'string',
         'sanitize_callback' => array($this, 'sanitize_post_type_string'),
         'validate_callback' => array($this, 'validate_post_type_string'),
       );
 
       $query_params[self::PROP_INCLUDE] = array(
-        'description' => __('Include posts by ID.', 'latest-posts-block'),
+        'description' => __('Include posts by ID.', 'blockspare'),
         'type'        => 'array',
         'validate_callback' => array($this, 'validate_post_ids'),
         'sanitize_callback' => array($this, 'sanitize_post_ids'),
       );
       $query_params[self::PROP_PER_PAGE] = array(
-        'description' => __('Number of results to return.', 'latest-posts-block'),
+        'description' => __('Number of results to return.', 'blockspare'),
         'type'        => 'number',
         'sanitize_callback' => array($this, 'sanitize_post_perpage'),
         'default' => 25,
       );
       $query_params[self::PROP_QUERY] = array(
-        'description' => __('Define Type of Query.', 'latest-posts-block'),
+        'description' => __('Define Type of Query.', 'blockspare'),
         'type'        => 'string',
       );
       $query_params[self::PROP_ORDER] = array(
-        'description' => __('Define Query Order.', 'latest-posts-block'),
+        'description' => __('Define Query Order.', 'blockspare'),
         'type'        => 'string',
       );
       $query_params[self::PROP_ORDER_BY] = array(
-        'description' => __('Define Query Order By.', 'latest-posts-block'),
+        'description' => __('Define Query Order By.', 'blockspare'),
         'type'        => 'string',
       );
       $query_params[self::PROP_ALLOW_STICKY] = array(
-        'description'       => __('Allow Sticky in Query.', 'latest-posts-block'),
+        'description'       => __('Allow Sticky in Query.', 'blockspare'),
         'type'              => 'boolean',
         'sanitize_callback' => array($this, 'sanitize_allow_sticky'),
       );
       $query_params[self::PROP_EXCLUDE] = array(
-        'description' => __('Exclude Category.', 'latest-posts-block'),
+        'description' => __('Exclude Category.', 'blockspare'),
         'type'        => 'string',
       );
       $query_params[self::PROP_OFFSET] = array(
-        'description' => __('Number of items to offset in query.', 'latest-posts-block'),
+        'description' => __('Number of items to offset in query.', 'blockspare'),
         'type'        => 'number',
         'sanitize_callback' => array($this, 'sanitize_results_page_number'),
         'default' => 0,
       );
       $query_params[self::PROP_POST_ID] = array(
-        'description' => __('The Current Post ID.', 'latest-posts-block'),
+        'description' => __('The Current Post ID.', 'blockspare'),
         'type'        => 'number',
       );
       $query_params[self::PROP_CUSTOM_TAX] = array(
-        'description' => __('Check if using a custom Taxonomy', 'latest-posts-block'),
+        'description' => __('Check if using a custom Taxonomy', 'blockspare'),
         'type'              => 'boolean',
         'sanitize_callback' => array($this, 'sanitize_allow_sticky'),
       );
       $query_params[self::PROP_TAX_TYPE] = array(
-        'description' => __('Define Query Order By.', 'latest-posts-block'),
+        'description' => __('Define Query Order By.', 'blockspare'),
         'type'        => 'string',
       );
       $query_params[self::PROP_CATEGORY] = array(
-        'description' => __('Include posts category.', 'latest-posts-block'),
+        'description' => __('Include posts category.', 'blockspare'),
         'type'              => 'string',
         'sanitize_callback' => 'wp_parse_id_list',
       );
       $query_params[self::PROP_TAGS] = array(
-        'description' => __('Include posts tags.', 'latest-posts-block'),
+        'description' => __('Include posts tags.', 'blockspare'),
         'type'              => 'string',
         'sanitize_callback' => 'wp_parse_id_list',
       );

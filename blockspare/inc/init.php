@@ -257,6 +257,10 @@ class Blockspare_Init
 
   public function blockspare_enqueue_customizer_assets()
   {
+    global $pagenow;
+    if (!in_array($pagenow, ['customize.php'])) {
+      return;
+    }
     // Register globals as a standalone no-file script
     wp_register_script(
       'blockspare-globals',
