@@ -356,7 +356,12 @@ class Blockspare_Init
       'inspector_imgs'    => BLOCKSPARE_PLUGIN_URL . 'assets/images',
       'upgradeUrl'        => 'https://afthemes.com/blockspare-pro/',
       'isPro'             => false,
+      'allowedFonts' => $this->blockspare_allow_fonts()
     ];
+  }
+  public function blockspare_allow_fonts()
+  {
+    return ['ABeeZee', 'Abel', 'Lato', 'Oswald'];
   }
 
   public function blockspare_fb_enqueue_frontend_assets()

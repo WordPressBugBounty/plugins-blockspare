@@ -6,8 +6,8 @@ Donate link: https://www.blockspare.com/
 Tags: post grid, gutenberg blocks, post carousel, news magazine, post list
 Requires at least: 4.9
 Tested up to: 7.0
-Requires PHP: 5.3
-Stable tag: 4.1.0
+Requires PHP: 5.0
+Stable tag: 4.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -250,6 +250,32 @@ Yes, BlockSpare can be used on personal and client projects.
 10. Save & reuse patterns (screenshot-10).
 
 == Changelog ==
+= 4.2.0 =
+* Improved query builder with enhanced taxonomy and author filtering.
+* Improved typography controls and cross-device editor experience.
+* Improved banner typography with compact layouts.
+* Improved latest post, Express List, and Full Style CSS.
+* Improved inspector panel design and overall editor UI.
+* Improved customizer compatibility and REST field handling.
+* Improved package configuration and build process.
+
+* Fixed taxonomy query and exclude query issues.
+* Fixed exclude functionality with pagination.
+* Fixed Flash News exclude queries and title tags.
+* Fixed vertical Trending block edit query.
+* Fixed frontend query handling across blocks.
+* Fixed array-to-string conversion issues.
+* Fixed Customizer scripts and settings issues.
+* Fixed typography CSS inconsistencies.
+* Fixed meta URL handling.
+* Fixed icon typos and miscellaneous editor errors.
+* Fixed title tag support in Post Grid and Flash News.
+* Fixed feature compatibility with WordPress editor updates.
+
+* Optimized CSS across Latest Post and Express List layouts.
+* Optimized inspector styles and overall editor performance.
+* Removed unused code, console logs, and unnecessary components.
+* Reduced default post query limit for improved editor performance.
 
 = 4.0.0 =
 * Added new default designs for Post Grid, Post List, Express List, Post Carousel, and Trending Carousel blocks.

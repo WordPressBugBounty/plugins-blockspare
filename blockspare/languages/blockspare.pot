@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: BlockSpare - Gutenberg Site Builder Blocks & Starter Sites 4.1.0\n"
+"Project-Id-Version: BlockSpare - Gutenberg Site Builder Blocks & Starter Sites 4.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/blockspare\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-13T17:01:38+00:00\n"
+"POT-Creation-Date: 2026-06-19T18:29:41+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: blockspare\n"
@@ -264,9 +264,7 @@ msgid "Support"
 msgstr ""
 
 #: admin/index.php:37
-#: admin/index.php:95
-#: admin/index.php:96
-msgid "Patterns Library"
+msgid "Templates Library"
 msgstr ""
 
 #: admin/index.php:41
@@ -274,7 +272,7 @@ msgid "Get Blockspare Pro"
 msgstr ""
 
 #: admin/index.php:49
-msgid "View Blockspare Patterns Library"
+msgid "View Blockspare Templates Library"
 msgstr ""
 
 #: admin/index.php:50
@@ -297,40 +295,46 @@ msgstr ""
 msgid "Need Help?"
 msgstr ""
 
-#: admin/index.php:105
-#: admin/index.php:106
-msgid "My Patterns"
+#: admin/index.php:95
+#: admin/index.php:96
+#: src/block/layouts/components/layout/layout-modal.js:35
+msgid "Starter Templates"
 msgstr ""
 
-#: admin/notice-review.php:107
+#: admin/index.php:105
+#: admin/index.php:106
+msgid "Saved Templates"
+msgstr ""
+
+#: admin/notice-review.php:108
 msgid "Loving Blockspare?"
 msgstr ""
 
-#: admin/notice-review.php:111
+#: admin/notice-review.php:112
 msgid "Share Your Experience with the WordPress Community!"
 msgstr ""
 
-#: admin/notice-review.php:115
+#: admin/notice-review.php:116
 msgid "We hope Blockspare is helping you build beautiful web pages effortlessly. As an independent team, your feedback keeps us motivated to push new features, keep updates free, and maintain great performance. If you enjoy using it, would you mind spending 1 minute to leave us a review?"
 msgstr ""
 
-#: admin/notice-review.php:127
+#: admin/notice-review.php:128
 msgid "Leave a Review"
 msgstr ""
 
-#: admin/notice-review.php:134
+#: admin/notice-review.php:135
 msgid "Maybe later, remind me"
 msgstr ""
 
-#: admin/notice-review.php:142
+#: admin/notice-review.php:143
 msgid "No thanks, don't show again"
 msgstr ""
 
-#: admin/notice-review.php:160
+#: admin/notice-review.php:161
 msgid "Help Us Grow"
 msgstr ""
 
-#: admin/notice-review.php:164
+#: admin/notice-review.php:165
 msgid "Every review brings valuable visibility to our free plugin."
 msgstr ""
 
@@ -577,11 +581,11 @@ msgstr ""
 msgid "Include posts tags."
 msgstr ""
 
-#: inc/init.php:399
+#: inc/init.php:404
 msgid "News and Magazine"
 msgstr ""
 
-#: inc/init.php:404
+#: inc/init.php:409
 msgid "Business"
 msgstr ""
 
@@ -724,7 +728,7 @@ msgid "Close"
 msgstr ""
 
 #: admin/components/Header.js:24
-msgid "Unlock All Features"
+msgid "Get All Templates"
 msgstr ""
 
 #: admin/pages/Blocks.js:38
@@ -745,7 +749,7 @@ msgid "View"
 msgstr ""
 
 #: admin/pages/demo/demo-pages.js:129
-msgid "Patterns"
+msgid "Templates"
 msgstr ""
 
 #: admin/pages/demo/demo-pages.js:152
@@ -754,7 +758,7 @@ msgid "Back"
 msgstr ""
 
 #: admin/pages/demo/Designs.js:42
-msgid "All Patterns"
+msgid "All Templates"
 msgstr ""
 
 #: admin/pages/demo/Designs.js:50
@@ -841,28 +845,28 @@ msgid "Tile"
 msgstr ""
 
 #: assets/images/inspector.js:284
-#: src/block/latest-posts-carousel-grid/components/inspector.js:312
+#: src/block/latest-posts-carousel-grid/components/inspector.js:336
 #: src/block/latest-posts-express-grid/components/inspector.js:294
 #: src/block/latest-posts-express-list/components/inspector.js:281
 #: src/block/latest-posts-full/components/inspector.js:298
 #: src/block/latest-posts-grid/components/inspector.js:278
 #: src/block/latest-posts-list/components/inspector.js:292
 #: src/block/latest-posts-masonry/components/inspector.js:269
-#: src/block/latest-posts-slider/components/inspector.js:397
+#: src/block/latest-posts-slider/components/inspector.js:398
 #: src/block/latest-posts-trending-carousel/components/inspector.js:325
 #: src/block/price-list/list-item/components/inspector.js:431
 msgid "General Color"
 msgstr ""
 
 #: assets/images/inspector.js:290
-#: src/block/latest-posts-carousel-grid/components/inspector.js:318
+#: src/block/latest-posts-carousel-grid/components/inspector.js:342
 #: src/block/latest-posts-express-grid/components/inspector.js:300
 #: src/block/latest-posts-express-list/components/inspector.js:286
 #: src/block/latest-posts-full/components/inspector.js:304
 #: src/block/latest-posts-grid/components/inspector.js:284
 #: src/block/latest-posts-list/components/inspector.js:298
 #: src/block/latest-posts-masonry/components/inspector.js:275
-#: src/block/latest-posts-slider/components/inspector.js:403
+#: src/block/latest-posts-slider/components/inspector.js:404
 #: src/block/latest-posts-trending-carousel/components/inspector.js:331
 #: src/utils/component/banner-settings-tabs/banner-post-colors-tabs.js:229
 #: src/utils/component/banner-settings-tabs/banner-post-colors-tabs.js:235
@@ -885,8 +889,8 @@ msgstr ""
 #: src/block/empty-section/components/inspector.js:65
 #: src/block/icon-set/components/icon-settings.js:147
 #: src/block/icon-set/components/icon-settings.js:153
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1021
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1027
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1072
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1078
 #: src/block/latest-posts-express-grid/components/inspector.js:314
 #: src/block/latest-posts-express-grid/components/inspector.js:1011
 #: src/block/latest-posts-express-list/components/inspector.js:296
@@ -904,8 +908,8 @@ msgstr ""
 #: src/block/latest-posts-masonry/components/inspector.js:974
 #: src/block/latest-posts-masonry/components/inspector.js:993
 #: src/block/latest-posts-masonry/components/inspector.js:999
-#: src/block/latest-posts-slider/components/inspector.js:1158
-#: src/block/latest-posts-slider/components/inspector.js:1164
+#: src/block/latest-posts-slider/components/inspector.js:1157
+#: src/block/latest-posts-slider/components/inspector.js:1163
 #: src/block/latest-posts-tile-masonry/components/inspector.js:970
 #: src/block/latest-posts-tile/components/inspector.js:1020
 #: src/block/latest-posts-trending-carousel/components/inspector.js:359
@@ -966,7 +970,7 @@ msgid "Text Over Border Color"
 msgstr ""
 
 #: assets/images/inspector.js:326
-#: src/block/latest-posts-carousel-grid/components/inspector.js:306
+#: src/block/latest-posts-carousel-grid/components/inspector.js:330
 #: src/block/latest-posts-express-grid/components/inspector.js:306
 #: src/block/latest-posts-express-list/components/inspector.js:291
 #: src/block/latest-posts-flash/components/inspector.js:217
@@ -974,7 +978,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:290
 #: src/block/latest-posts-list/components/inspector.js:304
 #: src/block/latest-posts-masonry/components/inspector.js:281
-#: src/block/latest-posts-slider/components/inspector.js:391
+#: src/block/latest-posts-slider/components/inspector.js:392
 #: src/block/latest-posts-trending-carousel/components/inspector.js:319
 #: src/block/linear-progressbar/progressbar/components/inspector.js:129
 #: src/block/price-list/list-item/components/inspector.js:410
@@ -991,7 +995,7 @@ msgstr ""
 
 #: assets/images/inspector.js:334
 #: src/block/latest-posts-full/components/inspector.js:317
-#: src/block/latest-posts-slider/components/inspector.js:411
+#: src/block/latest-posts-slider/components/inspector.js:412
 #: src/block/latest-posts-tile-masonry/components/inspector.js:281
 #: src/block/latest-posts-tile/components/inspector.js:278
 msgid "Title Over Image Color"
@@ -1000,7 +1004,7 @@ msgstr ""
 #: assets/images/inspector.js:345
 #: assets/images/inspector.js:368
 #: src/block/latest-posts-full/components/inspector.js:326
-#: src/block/latest-posts-slider/components/inspector.js:422
+#: src/block/latest-posts-slider/components/inspector.js:423
 #: src/block/latest-posts-tile-masonry/components/inspector.js:290
 #: src/block/latest-posts-tile/components/inspector.js:287
 msgid "Text Over General  Color"
@@ -1009,7 +1013,7 @@ msgstr ""
 #: assets/images/inspector.js:351
 #: assets/images/inspector.js:362
 #: src/block/latest-posts-full/components/inspector.js:332
-#: src/block/latest-posts-slider/components/inspector.js:428
+#: src/block/latest-posts-slider/components/inspector.js:429
 #: src/block/latest-posts-tile-masonry/components/inspector.js:296
 #: src/block/latest-posts-tile/components/inspector.js:293
 msgid "Text Over Link Color"
@@ -1028,14 +1032,14 @@ msgstr ""
 #: src/block/banner-10/components/inspector.js:52
 #: src/block/banner-11/components/inspector.js:51
 #: src/block/banner-12/components/inspector.js:51
-#: src/block/latest-posts-carousel-grid/components/inspector.js:344
+#: src/block/latest-posts-carousel-grid/components/inspector.js:387
 #: src/block/latest-posts-express-grid/components/inspector.js:348
 #: src/block/latest-posts-express-list/components/inspector.js:323
 #: src/block/latest-posts-full/components/inspector.js:363
 #: src/block/latest-posts-grid/components/inspector.js:319
 #: src/block/latest-posts-list/components/inspector.js:356
 #: src/block/latest-posts-masonry/components/inspector.js:322
-#: src/block/latest-posts-slider/components/inspector.js:461
+#: src/block/latest-posts-slider/components/inspector.js:462
 #: src/block/latest-posts-tile-masonry/components/inspector.js:336
 #: src/block/latest-posts-tile/components/inspector.js:315
 #: src/block/latest-posts-trending-carousel/components/inspector.js:372
@@ -1088,28 +1092,28 @@ msgid "List Style 6"
 msgstr ""
 
 #: assets/images/inspector.js:485
-#: src/block/latest-posts-carousel-grid/components/inspector.js:354
+#: src/block/latest-posts-carousel-grid/components/inspector.js:397
 #: src/block/latest-posts-grid/components/inspector.js:329
 #: src/block/latest-posts-masonry/components/inspector.js:331
 msgid "Grid Style 1"
 msgstr ""
 
 #: assets/images/inspector.js:493
-#: src/block/latest-posts-carousel-grid/components/inspector.js:359
+#: src/block/latest-posts-carousel-grid/components/inspector.js:402
 #: src/block/latest-posts-grid/components/inspector.js:334
 #: src/block/latest-posts-masonry/components/inspector.js:336
 msgid "Grid Style 2"
 msgstr ""
 
 #: assets/images/inspector.js:501
-#: src/block/latest-posts-carousel-grid/components/inspector.js:364
+#: src/block/latest-posts-carousel-grid/components/inspector.js:407
 #: src/block/latest-posts-grid/components/inspector.js:339
 #: src/block/latest-posts-masonry/components/inspector.js:341
 msgid "Grid Style 3"
 msgstr ""
 
 #: assets/images/inspector.js:509
-#: src/block/latest-posts-carousel-grid/components/inspector.js:369
+#: src/block/latest-posts-carousel-grid/components/inspector.js:412
 #: src/block/latest-posts-grid/components/inspector.js:344
 #: src/block/latest-posts-masonry/components/inspector.js:346
 msgid "Grid Style 4"
@@ -1239,14 +1243,14 @@ msgstr ""
 #: src/block/banner-10/components/inspector.js:103
 #: src/block/banner-11/components/inspector.js:104
 #: src/block/banner-12/components/inspector.js:104
-#: src/block/latest-posts-carousel-grid/components/inspector.js:544
+#: src/block/latest-posts-carousel-grid/components/inspector.js:595
 #: src/block/latest-posts-express-grid/components/inspector.js:461
 #: src/block/latest-posts-express-list/components/inspector.js:410
 #: src/block/latest-posts-full/components/inspector.js:448
 #: src/block/latest-posts-grid/components/inspector.js:431
 #: src/block/latest-posts-list/components/inspector.js:468
 #: src/block/latest-posts-masonry/components/inspector.js:407
-#: src/block/latest-posts-slider/components/inspector.js:653
+#: src/block/latest-posts-slider/components/inspector.js:652
 #: src/block/latest-posts-tile-masonry/components/inspector.js:389
 #: src/block/latest-posts-tile/components/inspector.js:400
 #: src/block/latest-posts-trending-carousel/components/inspector.js:550
@@ -1255,7 +1259,7 @@ msgid "Post Settings"
 msgstr ""
 
 #: assets/images/inspector.js:773
-#: src/block/latest-posts-carousel-grid/components/inspector.js:631
+#: src/block/latest-posts-carousel-grid/components/inspector.js:682
 #: src/block/latest-posts-express-grid/components/inspector.js:615
 #: src/block/latest-posts-express-list/components/inspector.js:557
 #: src/block/latest-posts-flash/components/inspector.js:602
@@ -1263,7 +1267,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:585
 #: src/block/latest-posts-list/components/inspector.js:622
 #: src/block/latest-posts-masonry/components/inspector.js:560
-#: src/block/latest-posts-slider/components/inspector.js:740
+#: src/block/latest-posts-slider/components/inspector.js:739
 #: src/block/latest-posts-tile-masonry/components/inspector.js:541
 #: src/block/latest-posts-tile/components/inspector.js:552
 #: src/block/latest-posts-trending-carousel/components/inspector.js:636
@@ -1287,14 +1291,14 @@ msgstr ""
 #: src/block/content-box/components/inspector.js:316
 #: src/block/date-time/components/inspector.js:247
 #: src/block/empty-section/components/inspector.js:31
-#: src/block/latest-posts-carousel-grid/components/inspector.js:640
+#: src/block/latest-posts-carousel-grid/components/inspector.js:691
 #: src/block/latest-posts-express-grid/components/inspector.js:625
 #: src/block/latest-posts-express-list/components/inspector.js:567
 #: src/block/latest-posts-full/components/inspector.js:610
 #: src/block/latest-posts-grid/components/inspector.js:595
 #: src/block/latest-posts-list/components/inspector.js:632
 #: src/block/latest-posts-masonry/components/inspector.js:570
-#: src/block/latest-posts-slider/components/inspector.js:749
+#: src/block/latest-posts-slider/components/inspector.js:748
 #: src/block/latest-posts-tile-masonry/components/inspector.js:551
 #: src/block/latest-posts-tile/components/inspector.js:562
 #: src/block/latest-posts-trending-carousel/components/inspector.js:645
@@ -1313,7 +1317,7 @@ msgid "Block Settings"
 msgstr ""
 
 #: assets/images/inspector.js:794
-#: src/block/latest-posts-carousel-grid/components/inspector.js:655
+#: src/block/latest-posts-carousel-grid/components/inspector.js:706
 #: src/block/latest-posts-express-grid/components/tabs.js:123
 #: src/block/latest-posts-express-grid/components/tabs.js:241
 #: src/block/latest-posts-express-list/components/tabs.js:151
@@ -1322,7 +1326,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:610
 #: src/block/latest-posts-list/components/inspector.js:648
 #: src/block/latest-posts-masonry/components/inspector.js:574
-#: src/block/latest-posts-slider/components/inspector.js:754
+#: src/block/latest-posts-slider/components/inspector.js:753
 #: src/block/latest-posts-tile-masonry/components/inspector.js:555
 #: src/block/latest-posts-tile/components/inspector.js:566
 #: src/block/latest-posts-trending-carousel/components/inspector.js:649
@@ -1366,7 +1370,7 @@ msgid "Display Title"
 msgstr ""
 
 #: assets/images/inspector.js:861
-#: src/block/latest-posts-carousel-grid/components/inspector.js:689
+#: src/block/latest-posts-carousel-grid/components/inspector.js:740
 #: src/block/latest-posts-express-grid/components/tabs.js:153
 #: src/block/latest-posts-express-grid/components/tabs.js:266
 #: src/block/latest-posts-express-list/components/tabs.js:189
@@ -1375,7 +1379,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:664
 #: src/block/latest-posts-list/components/inspector.js:734
 #: src/block/latest-posts-masonry/components/inspector.js:623
-#: src/block/latest-posts-slider/components/inspector.js:779
+#: src/block/latest-posts-slider/components/inspector.js:778
 #: src/block/latest-posts-tile-masonry/components/inspector.js:604
 #: src/block/latest-posts-tile/components/inspector.js:614
 #: src/block/latest-posts-trending-carousel/components/inspector.js:687
@@ -1386,7 +1390,7 @@ msgid "Display Category"
 msgstr ""
 
 #: assets/images/inspector.js:871
-#: src/block/latest-posts-carousel-grid/components/inspector.js:699
+#: src/block/latest-posts-carousel-grid/components/inspector.js:750
 #: src/block/latest-posts-express-grid/components/tabs.js:162
 #: src/block/latest-posts-express-grid/components/tabs.js:275
 #: src/block/latest-posts-express-list/components/tabs.js:199
@@ -1395,7 +1399,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:674
 #: src/block/latest-posts-list/components/inspector.js:744
 #: src/block/latest-posts-masonry/components/inspector.js:633
-#: src/block/latest-posts-slider/components/inspector.js:788
+#: src/block/latest-posts-slider/components/inspector.js:787
 #: src/block/latest-posts-tile-masonry/components/inspector.js:614
 #: src/block/latest-posts-tile/components/inspector.js:624
 #: src/block/latest-posts-trending-carousel/components/inspector.js:697
@@ -1406,7 +1410,7 @@ msgid "Display Author"
 msgstr ""
 
 #: assets/images/inspector.js:881
-#: src/block/latest-posts-carousel-grid/components/inspector.js:709
+#: src/block/latest-posts-carousel-grid/components/inspector.js:760
 #: src/block/latest-posts-express-grid/components/tabs.js:172
 #: src/block/latest-posts-express-grid/components/tabs.js:285
 #: src/block/latest-posts-express-list/components/tabs.js:210
@@ -1415,7 +1419,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:684
 #: src/block/latest-posts-list/components/inspector.js:754
 #: src/block/latest-posts-masonry/components/inspector.js:643
-#: src/block/latest-posts-slider/components/inspector.js:798
+#: src/block/latest-posts-slider/components/inspector.js:797
 #: src/block/latest-posts-tile-masonry/components/inspector.js:624
 #: src/block/latest-posts-tile/components/inspector.js:634
 #: src/block/latest-posts-trending-carousel/components/inspector.js:707
@@ -1426,7 +1430,7 @@ msgid "Display Date"
 msgstr ""
 
 #: assets/images/inspector.js:891
-#: src/block/latest-posts-carousel-grid/components/inspector.js:719
+#: src/block/latest-posts-carousel-grid/components/inspector.js:770
 #: src/block/latest-posts-express-grid/components/tabs.js:181
 #: src/block/latest-posts-express-grid/components/tabs.js:294
 #: src/block/latest-posts-express-list/components/tabs.js:220
@@ -1435,7 +1439,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:694
 #: src/block/latest-posts-list/components/inspector.js:764
 #: src/block/latest-posts-masonry/components/inspector.js:653
-#: src/block/latest-posts-slider/components/inspector.js:808
+#: src/block/latest-posts-slider/components/inspector.js:807
 #: src/block/latest-posts-tile-masonry/components/inspector.js:634
 #: src/block/latest-posts-tile/components/inspector.js:644
 #: src/block/latest-posts-trending-carousel/components/inspector.js:717
@@ -1443,7 +1447,7 @@ msgid "Display Comment Count"
 msgstr ""
 
 #: assets/images/inspector.js:904
-#: src/block/latest-posts-carousel-grid/components/inspector.js:729
+#: src/block/latest-posts-carousel-grid/components/inspector.js:780
 #: src/block/latest-posts-express-grid/components/tabs.js:190
 #: src/block/latest-posts-express-grid/components/tabs.js:304
 #: src/block/latest-posts-express-list/components/tabs.js:233
@@ -1452,7 +1456,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:704
 #: src/block/latest-posts-list/components/inspector.js:774
 #: src/block/latest-posts-masonry/components/inspector.js:663
-#: src/block/latest-posts-slider/components/inspector.js:818
+#: src/block/latest-posts-slider/components/inspector.js:817
 #: src/block/latest-posts-tile-masonry/components/inspector.js:644
 #: src/block/latest-posts-tile/components/inspector.js:654
 msgid "Display Excerpt"
@@ -1469,7 +1473,7 @@ msgid "Display Excerpt On Spotlight Only"
 msgstr ""
 
 #: assets/images/inspector.js:955
-#: src/block/latest-posts-carousel-grid/components/inspector.js:740
+#: src/block/latest-posts-carousel-grid/components/inspector.js:791
 #: src/block/latest-posts-express-grid/components/tabs.js:200
 #: src/block/latest-posts-express-grid/components/tabs.js:314
 #: src/block/latest-posts-express-list/components/tabs.js:244
@@ -1478,14 +1482,14 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:715
 #: src/block/latest-posts-list/components/inspector.js:784
 #: src/block/latest-posts-masonry/components/inspector.js:674
-#: src/block/latest-posts-slider/components/inspector.js:829
+#: src/block/latest-posts-slider/components/inspector.js:828
 #: src/block/latest-posts-tile-masonry/components/inspector.js:670
 #: src/block/latest-posts-tile/components/inspector.js:680
 msgid "Excerpt Length"
 msgstr ""
 
 #: assets/images/inspector.js:966
-#: src/block/latest-posts-carousel-grid/components/inspector.js:750
+#: src/block/latest-posts-carousel-grid/components/inspector.js:801
 #: src/block/latest-posts-express-grid/components/tabs.js:213
 #: src/block/latest-posts-express-grid/components/tabs.js:328
 #: src/block/latest-posts-express-list/components/tabs.js:260
@@ -1494,14 +1498,14 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:725
 #: src/block/latest-posts-list/components/inspector.js:794
 #: src/block/latest-posts-masonry/components/inspector.js:684
-#: src/block/latest-posts-slider/components/inspector.js:839
+#: src/block/latest-posts-slider/components/inspector.js:838
 #: src/block/latest-posts-tile-masonry/components/inspector.js:680
 #: src/block/latest-posts-tile/components/inspector.js:690
 msgid "Display Read More Link"
 msgstr ""
 
 #: assets/images/inspector.js:979
-#: src/block/latest-posts-carousel-grid/components/inspector.js:761
+#: src/block/latest-posts-carousel-grid/components/inspector.js:812
 #: src/block/latest-posts-express-grid/components/tabs.js:224
 #: src/block/latest-posts-express-grid/components/tabs.js:339
 #: src/block/latest-posts-express-list/components/tabs.js:276
@@ -1510,7 +1514,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:736
 #: src/block/latest-posts-list/components/inspector.js:805
 #: src/block/latest-posts-masonry/components/inspector.js:695
-#: src/block/latest-posts-slider/components/inspector.js:850
+#: src/block/latest-posts-slider/components/inspector.js:849
 #: src/block/latest-posts-tile-masonry/components/inspector.js:691
 #: src/block/latest-posts-tile/components/inspector.js:701
 msgid "Customize Continue Reading Text"
@@ -1518,14 +1522,14 @@ msgstr ""
 
 #: assets/images/inspector.js:1065
 #: assets/images/inspector.js:1084
-#: src/block/latest-posts-carousel-grid/components/inspector.js:783
+#: src/block/latest-posts-carousel-grid/components/inspector.js:834
 #: src/block/latest-posts-express-grid/components/inspector.js:653
 #: src/block/latest-posts-express-list/components/inspector.js:594
 #: src/block/latest-posts-full/components/inspector.js:737
 #: src/block/latest-posts-grid/components/inspector.js:748
 #: src/block/latest-posts-list/components/inspector.js:817
 #: src/block/latest-posts-masonry/components/inspector.js:707
-#: src/block/latest-posts-slider/components/inspector.js:872
+#: src/block/latest-posts-slider/components/inspector.js:871
 #: src/block/latest-posts-tile-masonry/components/inspector.js:703
 #: src/block/latest-posts-tile/components/inspector.js:713
 #: src/block/latest-posts-trending-carousel/components/inspector.js:788
@@ -1539,7 +1543,7 @@ msgstr ""
 #: src/block/container/components/inspector.js:219
 #: src/block/content-box/components/inspector.js:421
 #: src/block/counter/components/inspector.js:273
-#: src/block/latest-posts-carousel-grid/components/inspector.js:773
+#: src/block/latest-posts-carousel-grid/components/inspector.js:824
 #: src/block/latest-posts-express-grid/components/inspector.js:672
 #: src/block/latest-posts-express-list/components/inspector.js:608
 #: src/block/latest-posts-full/components/inspector.js:763
@@ -1586,7 +1590,7 @@ msgstr ""
 #: assets/images/inspector.js:1264
 #: src/block/button/button-settings.js:107
 #: src/block/icon-set/components/icon-settings.js:69
-#: src/block/latest-posts-carousel-grid/components/inspector.js:242
+#: src/block/latest-posts-carousel-grid/components/inspector.js:266
 #: src/block/latest-posts-express-grid/components/inspector.js:216
 #: src/block/latest-posts-express-grid/components/inspector.js:224
 #: src/block/latest-posts-express-grid/components/tabs.js:87
@@ -1618,7 +1622,7 @@ msgstr ""
 #: assets/images/inspector.js:1269
 #: src/block/button/button-settings.js:121
 #: src/block/icon-set/components/icon-settings.js:62
-#: src/block/latest-posts-carousel-grid/components/inspector.js:243
+#: src/block/latest-posts-carousel-grid/components/inspector.js:267
 #: src/block/latest-posts-express-grid/components/inspector.js:217
 #: src/block/latest-posts-express-grid/components/inspector.js:221
 #: src/block/latest-posts-express-grid/components/tabs.js:88
@@ -1657,14 +1661,14 @@ msgstr ""
 #: assets/images/inspector.js:1290
 #: src/block/content-box/components/inspector.js:171
 #: src/block/date-time/components/inspector.js:104
-#: src/block/latest-posts-carousel-grid/components/inspector.js:389
+#: src/block/latest-posts-carousel-grid/components/inspector.js:432
 #: src/block/latest-posts-express-grid/components/inspector.js:408
 #: src/block/latest-posts-express-list/components/inspector.js:371
 #: src/block/latest-posts-full/components/inspector.js:410
 #: src/block/latest-posts-grid/components/inspector.js:378
 #: src/block/latest-posts-list/components/inspector.js:415
 #: src/block/latest-posts-masonry/components/inspector.js:369
-#: src/block/latest-posts-slider/components/inspector.js:520
+#: src/block/latest-posts-slider/components/inspector.js:521
 #: src/block/latest-posts-tile-masonry/components/inspector.js:368
 #: src/block/latest-posts-tile/components/inspector.js:362
 #: src/block/pricing-table/inner-tables/inspector.js:266
@@ -1676,14 +1680,14 @@ msgstr ""
 #: assets/images/inspector.js:1296
 #: src/block/content-box/components/inspector.js:175
 #: src/block/date-time/components/inspector.js:108
-#: src/block/latest-posts-carousel-grid/components/inspector.js:395
+#: src/block/latest-posts-carousel-grid/components/inspector.js:438
 #: src/block/latest-posts-express-grid/components/inspector.js:414
 #: src/block/latest-posts-express-list/components/inspector.js:377
 #: src/block/latest-posts-full/components/inspector.js:416
 #: src/block/latest-posts-grid/components/inspector.js:384
 #: src/block/latest-posts-list/components/inspector.js:421
 #: src/block/latest-posts-masonry/components/inspector.js:375
-#: src/block/latest-posts-slider/components/inspector.js:526
+#: src/block/latest-posts-slider/components/inspector.js:527
 #: src/block/latest-posts-tile-masonry/components/inspector.js:374
 #: src/block/latest-posts-tile/components/inspector.js:368
 #: src/block/pricing-table/inner-tables/inspector.js:270
@@ -1694,14 +1698,14 @@ msgstr ""
 
 #: assets/images/inspector.js:1302
 #: src/block/date-time/components/inspector.js:112
-#: src/block/latest-posts-carousel-grid/components/inspector.js:401
+#: src/block/latest-posts-carousel-grid/components/inspector.js:444
 #: src/block/latest-posts-express-grid/components/inspector.js:420
 #: src/block/latest-posts-express-list/components/inspector.js:383
 #: src/block/latest-posts-full/components/inspector.js:422
 #: src/block/latest-posts-grid/components/inspector.js:390
 #: src/block/latest-posts-list/components/inspector.js:427
 #: src/block/latest-posts-masonry/components/inspector.js:381
-#: src/block/latest-posts-slider/components/inspector.js:532
+#: src/block/latest-posts-slider/components/inspector.js:533
 #: src/block/latest-posts-tile-masonry/components/inspector.js:380
 #: src/block/latest-posts-tile/components/inspector.js:374
 #: src/block/pricing-table/inner-tables/inspector.js:274
@@ -1712,14 +1716,14 @@ msgstr ""
 
 #: assets/images/inspector.js:1308
 #: src/block/date-time/components/inspector.js:116
-#: src/block/latest-posts-carousel-grid/components/inspector.js:408
+#: src/block/latest-posts-carousel-grid/components/inspector.js:451
 #: src/block/latest-posts-express-grid/components/inspector.js:427
 #: src/block/latest-posts-express-list/components/inspector.js:389
 #: src/block/latest-posts-full/components/inspector.js:428
 #: src/block/latest-posts-grid/components/inspector.js:397
 #: src/block/latest-posts-list/components/inspector.js:434
 #: src/block/latest-posts-masonry/components/inspector.js:387
-#: src/block/latest-posts-slider/components/inspector.js:539
+#: src/block/latest-posts-slider/components/inspector.js:540
 #: src/block/latest-posts-tile/components/inspector.js:380
 #: src/block/pricing-table/inner-tables/inspector.js:368
 #: src/block/services/inner-services/inspector.js:213
@@ -1728,14 +1732,14 @@ msgstr ""
 
 #: assets/images/inspector.js:1313
 #: src/block/date-time/components/inspector.js:120
-#: src/block/latest-posts-carousel-grid/components/inspector.js:414
+#: src/block/latest-posts-carousel-grid/components/inspector.js:457
 #: src/block/latest-posts-express-grid/components/inspector.js:433
 #: src/block/latest-posts-express-list/components/inspector.js:394
 #: src/block/latest-posts-full/components/inspector.js:433
 #: src/block/latest-posts-grid/components/inspector.js:403
 #: src/block/latest-posts-list/components/inspector.js:440
 #: src/block/latest-posts-masonry/components/inspector.js:392
-#: src/block/latest-posts-slider/components/inspector.js:545
+#: src/block/latest-posts-slider/components/inspector.js:546
 #: src/block/latest-posts-tile/components/inspector.js:385
 #: src/block/pricing-table/inner-tables/inspector.js:373
 #: src/block/services/inner-services/inspector.js:218
@@ -1744,14 +1748,14 @@ msgstr ""
 
 #: assets/images/inspector.js:1319
 #: src/block/date-time/components/inspector.js:124
-#: src/block/latest-posts-carousel-grid/components/inspector.js:421
+#: src/block/latest-posts-carousel-grid/components/inspector.js:464
 #: src/block/latest-posts-express-grid/components/inspector.js:440
 #: src/block/latest-posts-express-list/components/inspector.js:400
 #: src/block/latest-posts-full/components/inspector.js:439
 #: src/block/latest-posts-grid/components/inspector.js:410
 #: src/block/latest-posts-list/components/inspector.js:447
 #: src/block/latest-posts-masonry/components/inspector.js:398
-#: src/block/latest-posts-slider/components/inspector.js:552
+#: src/block/latest-posts-slider/components/inspector.js:553
 #: src/block/latest-posts-tile/components/inspector.js:391
 #: src/block/pricing-table/inner-tables/inspector.js:378
 #: src/block/services/inner-services/inspector.js:223
@@ -1775,7 +1779,7 @@ msgstr ""
 #: src/block/call-to-action/components/inspector.js:229
 #: src/block/content-box/components/inspector.js:458
 #: src/block/counter/components/inspector.js:343
-#: src/block/latest-posts-carousel-grid/components/inspector.js:818
+#: src/block/latest-posts-carousel-grid/components/inspector.js:869
 #: src/block/latest-posts-express-grid/components/inspector.js:708
 #: src/block/latest-posts-express-list/components/inspector.js:638
 #: src/block/latest-posts-full/components/inspector.js:792
@@ -1815,7 +1819,7 @@ msgstr ""
 #: src/block/counter/components/inspector.js:554
 #: src/block/date-time/components/inspector.js:457
 #: src/block/latest-popular-tags/components/inspector.js:499
-#: src/block/latest-posts-carousel-grid/components/inspector.js:955
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1006
 #: src/block/latest-posts-express-grid/components/inspector.js:901
 #: src/block/latest-posts-express-list/components/inspector.js:826
 #: src/block/latest-posts-flash/components/inspector.js:755
@@ -1823,7 +1827,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:942
 #: src/block/latest-posts-list/components/inspector.js:1013
 #: src/block/latest-posts-masonry/components/inspector.js:891
-#: src/block/latest-posts-slider/components/inspector.js:1044
+#: src/block/latest-posts-slider/components/inspector.js:1043
 #: src/block/latest-posts-tile-masonry/components/inspector.js:887
 #: src/block/latest-posts-tile/components/inspector.js:937
 #: src/block/latest-posts-trending-carousel/components/inspector.js:899
@@ -1846,7 +1850,7 @@ msgstr ""
 #: assets/images/inspector.js:1542
 #: assets/images/inspector.js:1603
 #: src/block/latest-popular-tags/components/inspector.js:502
-#: src/block/latest-posts-carousel-grid/components/inspector.js:960
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1011
 #: src/block/latest-posts-express-grid/components/inspector.js:919
 #: src/block/latest-posts-express-list/components/inspector.js:843
 #: src/block/latest-posts-flash/components/inspector.js:760
@@ -1854,7 +1858,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:954
 #: src/block/latest-posts-list/components/inspector.js:1024
 #: src/block/latest-posts-masonry/components/inspector.js:901
-#: src/block/latest-posts-slider/components/inspector.js:1049
+#: src/block/latest-posts-slider/components/inspector.js:1048
 #: src/block/latest-posts-tile-masonry/components/inspector.js:897
 #: src/block/latest-posts-tile/components/inspector.js:947
 #: src/block/latest-posts-trending-carousel/components/inspector.js:903
@@ -1893,15 +1897,15 @@ msgstr ""
 
 #: assets/images/inspector.js:1913
 #: src/block/icon-set/components/inspector.js:144
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1102
-#: src/block/latest-posts-express-grid/components/inspector.js:1072
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1156
+#: src/block/latest-posts-express-grid/components/inspector.js:1075
 #: src/block/latest-posts-express-list/components/inspector.js:985
 #: src/block/latest-posts-flash/components/inspector.js:790
 #: src/block/latest-posts-full/components/inspector.js:1132
-#: src/block/latest-posts-grid/components/inspector.js:1110
-#: src/block/latest-posts-list/components/inspector.js:1181
+#: src/block/latest-posts-grid/components/inspector.js:1112
+#: src/block/latest-posts-list/components/inspector.js:1184
 #: src/block/latest-posts-masonry/components/inspector.js:1041
-#: src/block/latest-posts-slider/components/inspector.js:1215
+#: src/block/latest-posts-slider/components/inspector.js:1217
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1023
 #: src/block/latest-posts-tile/components/inspector.js:1073
 #: src/block/latest-posts-trending-carousel/components/inspector.js:1022
@@ -1916,13 +1920,13 @@ msgstr ""
 #: src/block/content-box/components/inspector.js:880
 #: src/block/counter/components/inspector.js:582
 #: src/block/icon-set/components/inspector.js:148
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1105
-#: src/block/latest-posts-express-grid/components/inspector.js:1075
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1159
+#: src/block/latest-posts-express-grid/components/inspector.js:1078
 #: src/block/latest-posts-express-list/components/inspector.js:986
 #: src/block/latest-posts-full/components/inspector.js:1133
-#: src/block/latest-posts-grid/components/inspector.js:1113
-#: src/block/latest-posts-list/components/inspector.js:1184
-#: src/block/latest-posts-slider/components/inspector.js:1218
+#: src/block/latest-posts-grid/components/inspector.js:1115
+#: src/block/latest-posts-list/components/inspector.js:1187
+#: src/block/latest-posts-slider/components/inspector.js:1220
 #: src/block/latest-posts-tile/components/inspector.js:1074
 #: src/block/latest-posts-trending-carousel/components/inspector.js:1023
 #: src/block/logos/component/inspector.js:70
@@ -1937,14 +1941,14 @@ msgstr ""
 #: src/block/content-box/components/inspector.js:912
 #: src/block/counter/components/inspector.js:615
 #: src/block/icon-set/components/inspector.js:186
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1139
-#: src/block/latest-posts-express-grid/components/inspector.js:1110
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1193
+#: src/block/latest-posts-express-grid/components/inspector.js:1113
 #: src/block/latest-posts-express-list/components/inspector.js:1012
 #: src/block/latest-posts-full/components/inspector.js:1162
-#: src/block/latest-posts-grid/components/inspector.js:1147
-#: src/block/latest-posts-list/components/inspector.js:1218
+#: src/block/latest-posts-grid/components/inspector.js:1149
+#: src/block/latest-posts-list/components/inspector.js:1221
 #: src/block/latest-posts-masonry/components/inspector.js:1108
-#: src/block/latest-posts-slider/components/inspector.js:1252
+#: src/block/latest-posts-slider/components/inspector.js:1254
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1090
 #: src/block/latest-posts-tile/components/inspector.js:1103
 #: src/block/latest-posts-trending-carousel/components/inspector.js:1052
@@ -1955,14 +1959,14 @@ msgid "Content Gaps"
 msgstr ""
 
 #: assets/images/inspector.js:2010
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1195
-#: src/block/latest-posts-express-grid/components/inspector.js:1168
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1249
+#: src/block/latest-posts-express-grid/components/inspector.js:1171
 #: src/block/latest-posts-express-list/components/inspector.js:1065
 #: src/block/latest-posts-full/components/inspector.js:1216
-#: src/block/latest-posts-grid/components/inspector.js:1204
-#: src/block/latest-posts-list/components/inspector.js:1275
+#: src/block/latest-posts-grid/components/inspector.js:1206
+#: src/block/latest-posts-list/components/inspector.js:1278
 #: src/block/latest-posts-masonry/components/inspector.js:1162
-#: src/block/latest-posts-slider/components/inspector.js:1308
+#: src/block/latest-posts-slider/components/inspector.js:1310
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1144
 #: src/block/latest-posts-tile/components/inspector.js:1157
 #: src/block/latest-posts-trending-carousel/components/inspector.js:1106
@@ -1981,14 +1985,14 @@ msgid "Category Gap"
 msgstr ""
 
 #: assets/images/inspector.js:2068
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1235
-#: src/block/latest-posts-express-grid/components/inspector.js:1219
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1289
+#: src/block/latest-posts-express-grid/components/inspector.js:1222
 #: src/block/latest-posts-express-list/components/inspector.js:1102
 #: src/block/latest-posts-full/components/inspector.js:1249
-#: src/block/latest-posts-grid/components/inspector.js:1247
-#: src/block/latest-posts-list/components/inspector.js:1318
+#: src/block/latest-posts-grid/components/inspector.js:1249
+#: src/block/latest-posts-list/components/inspector.js:1321
 #: src/block/latest-posts-masonry/components/inspector.js:1195
-#: src/block/latest-posts-slider/components/inspector.js:1348
+#: src/block/latest-posts-slider/components/inspector.js:1350
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1177
 #: src/block/latest-posts-tile/components/inspector.js:1190
 #: src/block/latest-posts-trending-carousel/components/inspector.js:1138
@@ -1999,14 +2003,14 @@ msgid "Meta Gap"
 msgstr ""
 
 #: assets/images/inspector.js:2094
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1275
-#: src/block/latest-posts-express-grid/components/inspector.js:1259
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1329
+#: src/block/latest-posts-express-grid/components/inspector.js:1262
 #: src/block/latest-posts-express-list/components/inspector.js:1129
 #: src/block/latest-posts-full/components/inspector.js:1280
-#: src/block/latest-posts-grid/components/inspector.js:1287
-#: src/block/latest-posts-list/components/inspector.js:1358
+#: src/block/latest-posts-grid/components/inspector.js:1289
+#: src/block/latest-posts-list/components/inspector.js:1361
 #: src/block/latest-posts-masonry/components/inspector.js:1226
-#: src/block/latest-posts-slider/components/inspector.js:1388
+#: src/block/latest-posts-slider/components/inspector.js:1390
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1208
 #: src/block/latest-posts-tile/components/inspector.js:1221
 #: src/block/latest-posts-trending-carousel/components/inspector.js:1169
@@ -2014,14 +2018,14 @@ msgid "Excerpt Gap"
 msgstr ""
 
 #: assets/images/inspector.js:2121
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1316
-#: src/block/latest-posts-express-grid/components/inspector.js:1300
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1370
+#: src/block/latest-posts-express-grid/components/inspector.js:1303
 #: src/block/latest-posts-express-list/components/inspector.js:1158
 #: src/block/latest-posts-full/components/inspector.js:1312
-#: src/block/latest-posts-grid/components/inspector.js:1328
-#: src/block/latest-posts-list/components/inspector.js:1399
+#: src/block/latest-posts-grid/components/inspector.js:1330
+#: src/block/latest-posts-list/components/inspector.js:1402
 #: src/block/latest-posts-masonry/components/inspector.js:1258
-#: src/block/latest-posts-slider/components/inspector.js:1429
+#: src/block/latest-posts-slider/components/inspector.js:1431
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1240
 #: src/block/latest-posts-tile/components/inspector.js:1253
 #: src/block/latest-posts-trending-carousel/components/inspector.js:1201
@@ -2090,7 +2094,7 @@ msgstr ""
 
 #: dist/block_category.js:2
 #: src/utils/upgrade-to-pro.js:40
-msgid "Unlock all features, blocks, templates and customization options at a single price."
+msgid "Unlock pro features, blocks, templates and customization options at a single price."
 msgstr ""
 
 #: dist/block_design_btn.js:2
@@ -2272,19 +2276,19 @@ msgstr ""
 #: src/block/date-time/components/inspector.js:673
 #: src/block/empty-section/components/inspector.js:81
 #: src/block/icon-set/components/inspector.js:137
-#: src/block/image-carousel/components/inspector.js:328
+#: src/block/image-carousel/components/inspector.js:331
 #: src/block/image-masonry/components/inspector.js:170
-#: src/block/image-slider/components/inspector.js:349
+#: src/block/image-slider/components/inspector.js:352
 #: src/block/latest-popular-tags/components/inspector.js:592
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1094
-#: src/block/latest-posts-express-grid/components/inspector.js:1064
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1148
+#: src/block/latest-posts-express-grid/components/inspector.js:1067
 #: src/block/latest-posts-express-list/components/inspector.js:980
 #: src/block/latest-posts-flash/components/inspector.js:783
 #: src/block/latest-posts-full/components/inspector.js:1127
-#: src/block/latest-posts-grid/components/inspector.js:1102
-#: src/block/latest-posts-list/components/inspector.js:1173
+#: src/block/latest-posts-grid/components/inspector.js:1104
+#: src/block/latest-posts-list/components/inspector.js:1176
 #: src/block/latest-posts-masonry/components/inspector.js:1036
-#: src/block/latest-posts-slider/components/inspector.js:1207
+#: src/block/latest-posts-slider/components/inspector.js:1209
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1018
 #: src/block/latest-posts-tile/components/inspector.js:1068
 #: src/block/latest-posts-trending-carousel/components/inspector.js:1017
@@ -2336,19 +2340,19 @@ msgstr ""
 #: src/block/date-time/components/inspector.js:666
 #: src/block/empty-section/components/inspector.js:75
 #: src/block/icon-set/components/inspector.js:131
-#: src/block/image-carousel/components/inspector.js:322
+#: src/block/image-carousel/components/inspector.js:324
 #: src/block/image-masonry/components/inspector.js:164
-#: src/block/image-slider/components/inspector.js:343
+#: src/block/image-slider/components/inspector.js:345
 #: src/block/latest-popular-tags/components/inspector.js:587
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1087
-#: src/block/latest-posts-express-grid/components/inspector.js:1057
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1141
+#: src/block/latest-posts-express-grid/components/inspector.js:1060
 #: src/block/latest-posts-express-list/components/inspector.js:976
 #: src/block/latest-posts-flash/components/inspector.js:776
 #: src/block/latest-posts-full/components/inspector.js:1123
-#: src/block/latest-posts-grid/components/inspector.js:1096
-#: src/block/latest-posts-list/components/inspector.js:1166
+#: src/block/latest-posts-grid/components/inspector.js:1098
+#: src/block/latest-posts-list/components/inspector.js:1169
 #: src/block/latest-posts-masonry/components/inspector.js:1033
-#: src/block/latest-posts-slider/components/inspector.js:1200
+#: src/block/latest-posts-slider/components/inspector.js:1202
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1014
 #: src/block/latest-posts-tile/components/inspector.js:1064
 #: src/block/latest-posts-trending-carousel/components/inspector.js:1013
@@ -2707,16 +2711,16 @@ msgstr ""
 #: src/block/icon-set/components/icon-settings.js:43
 #: src/block/image-carousel/components/inspector.js:121
 #: src/block/image-masonry/components/inspector.js:56
-#: src/block/image-slider/components/inspector.js:150
-#: src/block/latest-posts-carousel-grid/components/inspector.js:220
+#: src/block/image-slider/components/inspector.js:151
+#: src/block/latest-posts-carousel-grid/components/inspector.js:232
 #: src/block/latest-posts-masonry/components/inspector.js:302
-#: src/block/latest-posts-slider/components/inspector.js:239
+#: src/block/latest-posts-slider/components/inspector.js:240
 #: src/block/latest-posts-tile-masonry/components/inspector.js:316
 #: src/block/latest-posts-trending-carousel/components/inspector.js:215
 #: src/block/social-links/components/inspector.js:68
 #: src/block/social-sharing/components/inspector.js:73
 #: src/block/user-profile/components/inspector.js:176
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:70
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:82
 msgid "Small"
 msgstr ""
 
@@ -2724,24 +2728,24 @@ msgstr ""
 #: src/block/button/button-settings.js:77
 #: src/block/icon-set/components/icon-settings.js:47
 #: src/block/image-masonry/components/inspector.js:57
-#: src/block/latest-posts-carousel-grid/components/inspector.js:224
+#: src/block/latest-posts-carousel-grid/components/inspector.js:236
 #: src/block/latest-posts-masonry/components/inspector.js:307
 #: src/block/latest-posts-tile-masonry/components/inspector.js:321
 #: src/block/latest-posts-trending-carousel/components/inspector.js:219
 #: src/block/user-profile/components/inspector.js:180
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:71
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:83
 msgid "Medium"
 msgstr ""
 
 #. translators: visual style option
 #: src/block/button/button-settings.js:81
 #: src/block/image-masonry/components/inspector.js:58
-#: src/block/latest-posts-carousel-grid/components/inspector.js:228
+#: src/block/latest-posts-carousel-grid/components/inspector.js:240
 #: src/block/latest-posts-masonry/components/inspector.js:312
 #: src/block/latest-posts-tile-masonry/components/inspector.js:326
 #: src/block/latest-posts-trending-carousel/components/inspector.js:223
 #: src/block/user-profile/components/inspector.js:184
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:72
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:84
 msgid "Large"
 msgstr ""
 
@@ -3183,8 +3187,8 @@ msgstr ""
 #: src/block/content-box/components/inspector.js:406
 #: src/block/counter/components/inspector.js:261
 #: src/block/date-time/components/inspector.js:260
-#: src/block/image-carousel/components/inspector.js:309
-#: src/block/image-slider/components/inspector.js:333
+#: src/block/image-carousel/components/inspector.js:311
+#: src/block/image-slider/components/inspector.js:335
 #: src/block/latest-popular-tags/components/inspector.js:326
 #: src/block/latest-posts-flash/components/inspector.js:464
 #: src/block/latest-posts-flash/components/inspector.js:615
@@ -3570,9 +3574,6 @@ msgid "After Date text"
 msgstr ""
 
 #: src/block/date-time/components/inspector.js:361
-#: src/utils/component/banner-settings-tabs/meta-icon-tabs.js:119
-#: src/utils/component/banner-settings-tabs/meta-icon-tabs.js:151
-#: src/utils/component/banner-settings-tabs/meta-icon-tabs.js:183
 msgid "Date Icon"
 msgstr ""
 
@@ -3629,8 +3630,8 @@ msgstr ""
 
 #: src/block/icon-set/components/icon-settings.js:51
 #: src/block/image-carousel/components/inspector.js:129
-#: src/block/image-slider/components/inspector.js:158
-#: src/block/latest-posts-slider/components/inspector.js:248
+#: src/block/image-slider/components/inspector.js:159
+#: src/block/latest-posts-slider/components/inspector.js:249
 #: src/block/social-links/components/inspector.js:77
 #: src/block/social-sharing/components/inspector.js:82
 msgid "Large (🔒 pro version)"
@@ -3728,6 +3729,7 @@ msgstr ""
 #: src/block/image-carousel/components/inspector.js:52
 #: src/block/image-masonry/components/inspector.js:70
 #: src/block/image-slider/components/inspector.js:69
+#: src/utils/component/hover/image-hover-control.js:40
 msgid "Sepia (🔒 pro version)"
 msgstr ""
 
@@ -3768,207 +3770,220 @@ msgid "Angle"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:91
-#: src/block/image-slider/components/inspector.js:120
-#: src/block/latest-posts-carousel-grid/components/inspector.js:200
-#: src/block/latest-posts-slider/components/inspector.js:208
 #: src/block/latest-posts-trending-carousel/components/inspector.js:194
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:47
 msgid "Chevron Circle"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:95
-#: src/block/image-slider/components/inspector.js:124
-#: src/block/latest-posts-slider/components/inspector.js:212
+#: src/block/image-slider/components/inspector.js:125
+#: src/block/latest-posts-carousel-grid/components/inspector.js:205
+#: src/block/latest-posts-slider/components/inspector.js:213
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:52
 msgid "Caret (🔒 pro version)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:100
-#: src/block/image-slider/components/inspector.js:129
-#: src/block/latest-posts-slider/components/inspector.js:217
+#: src/block/image-slider/components/inspector.js:130
+#: src/block/latest-posts-carousel-grid/components/inspector.js:210
+#: src/block/latest-posts-slider/components/inspector.js:218
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:57
 msgid "Caret Square (🔒 pro version)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:105
-#: src/block/image-slider/components/inspector.js:134
-#: src/block/latest-posts-slider/components/inspector.js:222
+#: src/block/image-slider/components/inspector.js:135
+#: src/block/latest-posts-carousel-grid/components/inspector.js:215
+#: src/block/latest-posts-slider/components/inspector.js:223
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:62
+#: src/utils/component/hover/image-hover-control.js:65
 msgid "Circle (🔒 pro version)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:110
-#: src/block/image-slider/components/inspector.js:139
-#: src/block/latest-posts-slider/components/inspector.js:227
+#: src/block/image-slider/components/inspector.js:140
+#: src/block/latest-posts-carousel-grid/components/inspector.js:220
+#: src/block/latest-posts-slider/components/inspector.js:228
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:67
 msgid "Arrow (🔒 pro version)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:115
-#: src/block/image-slider/components/inspector.js:144
-#: src/block/latest-posts-slider/components/inspector.js:232
+#: src/block/image-slider/components/inspector.js:145
+#: src/block/latest-posts-carousel-grid/components/inspector.js:225
+#: src/block/latest-posts-slider/components/inspector.js:233
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:72
 msgid "Long Arrow (🔒 pro version)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:124
-#: src/block/image-slider/components/inspector.js:153
-#: src/block/latest-posts-slider/components/inspector.js:243
+#: src/block/image-slider/components/inspector.js:154
+#: src/block/latest-posts-slider/components/inspector.js:244
 #: src/block/social-links/components/inspector.js:72
 #: src/block/social-sharing/components/inspector.js:77
 msgid "Medium (🔒 pro version)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:135
-#: src/block/image-slider/components/inspector.js:164
-#: src/block/latest-posts-carousel-grid/components/inspector.js:233
-#: src/block/latest-posts-slider/components/inspector.js:254
+#: src/block/image-slider/components/inspector.js:165
+#: src/block/latest-posts-carousel-grid/components/inspector.js:245
+#: src/block/latest-posts-slider/components/inspector.js:255
 #: src/block/latest-posts-trending-carousel/components/inspector.js:228
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:81
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:93
 msgid "Shape 1"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:138
-#: src/block/image-slider/components/inspector.js:167
-#: src/block/latest-posts-slider/components/inspector.js:257
-msgid "Shape 2 (🔒 pro version)"
+#: src/block/image-slider/components/inspector.js:168
+#: src/block/latest-posts-carousel-grid/components/inspector.js:246
+#: src/block/latest-posts-slider/components/inspector.js:258
+#: src/block/latest-posts-trending-carousel/components/inspector.js:229
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:94
+msgid "Shape 2"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:143
+#: src/block/image-carousel/components/inspector.js:142
 #: src/block/image-slider/components/inspector.js:172
 #: src/block/latest-posts-slider/components/inspector.js:262
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:97
 msgid "Shape 3 (🔒 pro version)"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:148
+#: src/block/image-carousel/components/inspector.js:147
 #: src/block/image-slider/components/inspector.js:177
 #: src/block/latest-posts-slider/components/inspector.js:267
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:102
 msgid "Shape 4 (🔒 pro version)"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:153
+#: src/block/image-carousel/components/inspector.js:152
 #: src/block/image-slider/components/inspector.js:182
 #: src/block/latest-posts-slider/components/inspector.js:272
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:107
 msgid "Shape 5 (🔒 pro version)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:196
-#: src/block/latest-posts-carousel-grid/components/inspector.js:442
+#: src/block/latest-posts-carousel-grid/components/inspector.js:485
 #: src/block/latest-posts-trending-carousel/components/inspector.js:414
 msgid "Carousel Settings"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:199
-#: src/block/latest-posts-carousel-grid/components/inspector.js:446
+#: src/block/image-carousel/components/inspector.js:200
+#: src/block/latest-posts-carousel-grid/components/inspector.js:489
 #: src/block/latest-posts-trending-carousel/components/inspector.js:427
 #: src/block/latest-posts-trending-carousel/components/inspector.js:440
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:259
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:283
 msgid "Number of slide to show"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:207
+#: src/block/image-carousel/components/inspector.js:208
 #: src/utils/component/banner-settings-tabs/block-post-settigns.js:379
 #: src/utils/post/gutterspace.js:11
 msgid "Gutter Space"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:215
-#: src/block/image-slider/components/inspector.js:219
-#: src/block/latest-posts-carousel-grid/components/inspector.js:667
+#: src/block/image-carousel/components/inspector.js:216
+#: src/block/image-slider/components/inspector.js:221
+#: src/block/latest-posts-carousel-grid/components/inspector.js:718
 #: src/block/latest-posts-express-grid/components/inspector.js:640
 #: src/block/latest-posts-express-list/components/inspector.js:581
 #: src/block/latest-posts-full/components/inspector.js:621
 #: src/block/latest-posts-grid/components/inspector.js:634
 #: src/block/latest-posts-list/components/inspector.js:703
-#: src/block/latest-posts-slider/components/inspector.js:768
+#: src/block/latest-posts-slider/components/inspector.js:767
 #: src/block/latest-posts-tile/components/inspector.js:582
 #: src/block/latest-posts-trending-carousel/components/inspector.js:657
 msgid "Enable Equal Height"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:223
-#: src/block/image-slider/components/inspector.js:229
-#: src/block/latest-posts-carousel-grid/components/inspector.js:462
-#: src/block/latest-posts-slider/components/inspector.js:577
+#: src/block/image-carousel/components/inspector.js:224
+#: src/block/image-slider/components/inspector.js:231
+#: src/block/latest-posts-carousel-grid/components/inspector.js:505
+#: src/block/latest-posts-slider/components/inspector.js:578
 #: src/block/latest-posts-trending-carousel/components/inspector.js:461
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:143
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:276
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:186
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:296
 msgid "Enable Autoplay"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:229
-#: src/block/image-slider/components/inspector.js:246
-#: src/block/latest-posts-carousel-grid/components/inspector.js:483
-#: src/block/latest-posts-slider/components/inspector.js:598
+#: src/block/image-carousel/components/inspector.js:230
+#: src/block/image-slider/components/inspector.js:248
+#: src/block/latest-posts-carousel-grid/components/inspector.js:526
+#: src/block/latest-posts-slider/components/inspector.js:599
 #: src/block/latest-posts-trending-carousel/components/inspector.js:482
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:163
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:296
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:203
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:313
 msgid "Display Navigation"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:237
-#: src/block/image-slider/components/inspector.js:256
-#: src/block/latest-posts-carousel-grid/components/inspector.js:500
-#: src/block/latest-posts-slider/components/inspector.js:615
+#: src/block/image-carousel/components/inspector.js:238
+#: src/block/image-slider/components/inspector.js:258
+#: src/block/latest-posts-carousel-grid/components/inspector.js:543
+#: src/block/latest-posts-slider/components/inspector.js:616
 #: src/block/latest-posts-trending-carousel/components/inspector.js:503
 #: src/block/price-list/list-item/components/inspector.js:223
 msgid "Display Dots"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:248
-#: src/block/image-slider/components/inspector.js:267
-#: src/block/latest-posts-carousel-grid/components/inspector.js:508
-#: src/block/latest-posts-slider/components/inspector.js:624
+#: src/block/image-carousel/components/inspector.js:249
+#: src/block/image-slider/components/inspector.js:269
+#: src/block/latest-posts-carousel-grid/components/inspector.js:551
+#: src/block/latest-posts-slider/components/inspector.js:625
 #: src/block/latest-posts-trending-carousel/components/inspector.js:514
 msgid "Navigation Style"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:257
-#: src/block/image-slider/components/inspector.js:276
-#: src/block/latest-posts-carousel-grid/components/inspector.js:520
-#: src/block/latest-posts-slider/components/inspector.js:633
+#: src/block/image-carousel/components/inspector.js:258
+#: src/block/image-slider/components/inspector.js:278
+#: src/block/latest-posts-carousel-grid/components/inspector.js:567
+#: src/block/latest-posts-slider/components/inspector.js:634
 #: src/block/latest-posts-trending-carousel/components/inspector.js:526
 msgid "Navigation Size"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:266
-#: src/block/image-slider/components/inspector.js:286
-#: src/block/latest-posts-carousel-grid/components/inspector.js:532
+#: src/block/image-carousel/components/inspector.js:267
+#: src/block/image-slider/components/inspector.js:288
+#: src/block/latest-posts-carousel-grid/components/inspector.js:579
 #: src/block/latest-posts-slider/components/inspector.js:643
 #: src/block/latest-posts-trending-carousel/components/inspector.js:538
 msgid "Navigation Shapes"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:274
-#: src/block/image-carousel/components/inspector.js:280
-#: src/block/image-slider/components/inspector.js:296
-#: src/block/image-slider/components/inspector.js:302
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1000
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1006
-#: src/block/latest-posts-slider/components/inspector.js:1139
-#: src/block/latest-posts-slider/components/inspector.js:1145
+#: src/block/image-carousel/components/inspector.js:275
+#: src/block/image-carousel/components/inspector.js:281
+#: src/block/image-slider/components/inspector.js:298
+#: src/block/image-slider/components/inspector.js:304
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1051
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1057
+#: src/block/latest-posts-slider/components/inspector.js:1138
+#: src/block/latest-posts-slider/components/inspector.js:1144
 #: src/block/latest-posts-trending-carousel/components/inspector.js:945
 #: src/block/latest-posts-trending-carousel/components/inspector.js:951
 msgid "Navigation/Dots Color"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:285
-#: src/block/image-slider/components/inspector.js:307
-#: src/block/latest-posts-carousel-grid/components/inspector.js:1011
-#: src/block/latest-posts-slider/components/inspector.js:1150
+#: src/block/image-carousel/components/inspector.js:286
+#: src/block/image-slider/components/inspector.js:309
+#: src/block/latest-posts-carousel-grid/components/inspector.js:1062
+#: src/block/latest-posts-slider/components/inspector.js:1149
 #: src/block/latest-posts-trending-carousel/components/inspector.js:956
 msgid "Navigation Shape Color"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:290
+#: src/block/image-carousel/components/inspector.js:292
 #: src/block/image-masonry/components/inspector.js:143
-#: src/block/image-slider/components/inspector.js:314
+#: src/block/image-slider/components/inspector.js:316
 msgid "Filter"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:298
+#: src/block/image-carousel/components/inspector.js:300
 #: src/block/image-masonry/components/inspector.js:150
-#: src/block/image-slider/components/inspector.js:322
+#: src/block/image-slider/components/inspector.js:324
 msgid "Original Image On Hover"
 msgstr ""
 
-#: src/block/image-carousel/components/inspector.js:335
-#: src/block/image-slider/components/inspector.js:356
+#: src/block/image-carousel/components/inspector.js:339
+#: src/block/image-slider/components/inspector.js:360
 #: src/block/list/components/inspector.js:205
 #: src/block/notice-bar/components/inspector.js:536
 #: src/block/price-list/inspector.js:53
@@ -4072,17 +4087,24 @@ msgstr ""
 msgid "Slider"
 msgstr ""
 
-#: src/block/image-slider/components/inspector.js:216
-#: src/block/latest-posts-slider/components/inspector.js:573
+#: src/block/image-slider/components/inspector.js:120
+#: src/block/latest-posts-carousel-grid/components/inspector.js:200
+#: src/block/latest-posts-slider/components/inspector.js:208
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:47
+msgid "Chevron Circle (🔒 pro version)"
+msgstr ""
+
+#: src/block/image-slider/components/inspector.js:217
+#: src/block/latest-posts-slider/components/inspector.js:574
 msgid "Slider Settings"
 msgstr ""
 
-#: src/block/image-slider/components/inspector.js:239
-#: src/block/latest-posts-carousel-grid/components/inspector.js:472
-#: src/block/latest-posts-slider/components/inspector.js:587
+#: src/block/image-slider/components/inspector.js:241
+#: src/block/latest-posts-carousel-grid/components/inspector.js:515
+#: src/block/latest-posts-slider/components/inspector.js:588
 #: src/block/latest-posts-trending-carousel/components/inspector.js:471
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:154
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:287
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:196
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:306
 msgid "Slide Speed"
 msgstr ""
 
@@ -4252,7 +4274,7 @@ msgid "Filter by"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:364
-#: src/block/latest-posts-carousel-grid/components/inspector.js:560
+#: src/block/latest-posts-carousel-grid/components/inspector.js:611
 #: src/block/latest-posts-express-grid/components/inspector.js:477
 #: src/block/latest-posts-express-list/components/inspector.js:425
 #: src/block/latest-posts-flash/components/inspector.js:538
@@ -4260,7 +4282,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:447
 #: src/block/latest-posts-list/components/inspector.js:484
 #: src/block/latest-posts-masonry/components/inspector.js:422
-#: src/block/latest-posts-slider/components/inspector.js:669
+#: src/block/latest-posts-slider/components/inspector.js:668
 #: src/block/latest-posts-tile-masonry/components/inspector.js:404
 #: src/block/latest-posts-tile/components/inspector.js:415
 #: src/block/latest-posts-trending-carousel/components/inspector.js:565
@@ -4314,66 +4336,22 @@ msgstr ""
 msgid "(Untitled)"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:202
-#: src/block/latest-posts-trending-carousel/components/inspector.js:196
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:49
-msgid "Caret"
-msgstr ""
-
-#: src/block/latest-posts-carousel-grid/components/inspector.js:205
-#: src/block/latest-posts-trending-carousel/components/inspector.js:199
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:52
-msgid "Caret Square"
-msgstr ""
-
-#: src/block/latest-posts-carousel-grid/components/inspector.js:209
-#: src/block/latest-posts-trending-carousel/components/inspector.js:203
-#: src/block/latest-posts-trending-carousel/components/inspector.js:242
-#: src/block/social-links/components/inspector.js:57
-#: src/block/social-sharing/components/inspector.js:63
-#: src/block/user-profile/components/inspector.js:166
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:56
-#: src/utils/component/hover/image-hover-control.js:33
-msgid "Circle"
-msgstr ""
-
-#: src/block/latest-posts-carousel-grid/components/inspector.js:211
-#: src/block/latest-posts-trending-carousel/components/inspector.js:205
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:58
-msgid "Arrow"
-msgstr ""
-
-#: src/block/latest-posts-carousel-grid/components/inspector.js:214
-#: src/block/latest-posts-trending-carousel/components/inspector.js:208
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:61
-msgid "Long Arrow"
-msgstr ""
-
-#: src/block/latest-posts-carousel-grid/components/inspector.js:234
-#: src/block/latest-posts-trending-carousel/components/inspector.js:229
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:82
-msgid "Shape 2"
-msgstr ""
-
-#: src/block/latest-posts-carousel-grid/components/inspector.js:235
+#: src/block/latest-posts-carousel-grid/components/inspector.js:249
 #: src/block/latest-posts-trending-carousel/components/inspector.js:230
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:83
 msgid "Shape 3"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:236
+#: src/block/latest-posts-carousel-grid/components/inspector.js:254
 #: src/block/latest-posts-trending-carousel/components/inspector.js:231
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:84
 msgid "Shape 4"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:237
+#: src/block/latest-posts-carousel-grid/components/inspector.js:259
 #: src/block/latest-posts-trending-carousel/components/inspector.js:232
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:85
 msgid "Shape 5"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:241
+#: src/block/latest-posts-carousel-grid/components/inspector.js:265
 #: src/block/latest-posts-express-grid/components/inspector.js:215
 #: src/block/latest-posts-express-grid/components/tabs.js:86
 #: src/block/latest-posts-express-list/components/tabs.js:91
@@ -4389,7 +4367,7 @@ msgstr ""
 msgid "Hover"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:327
+#: src/block/latest-posts-carousel-grid/components/inspector.js:351
 #: src/block/latest-posts-express-grid/components/inspector.js:323
 #: src/block/latest-posts-express-list/components/inspector.js:301
 #: src/block/latest-posts-full/components/inspector.js:340
@@ -4397,8 +4375,8 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:299
 #: src/block/latest-posts-list/components/inspector.js:313
 #: src/block/latest-posts-masonry/components/inspector.js:289
-#: src/block/latest-posts-slider/components/inspector.js:436
-#: src/block/latest-posts-slider/components/inspector.js:444
+#: src/block/latest-posts-slider/components/inspector.js:437
+#: src/block/latest-posts-slider/components/inspector.js:445
 #: src/block/latest-posts-tile-masonry/components/inspector.js:303
 #: src/block/latest-posts-tile/components/inspector.js:300
 #: src/block/latest-posts-trending-carousel/components/inspector.js:339
@@ -4408,20 +4386,20 @@ msgstr ""
 msgid "Title Hover Color"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:454
+#: src/block/latest-posts-carousel-grid/components/inspector.js:497
 #: src/block/latest-posts-trending-carousel/components/inspector.js:453
 msgid "Gutter Sapce"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:492
-#: src/block/latest-posts-slider/components/inspector.js:607
+#: src/block/latest-posts-carousel-grid/components/inspector.js:535
+#: src/block/latest-posts-slider/components/inspector.js:608
 #: src/block/latest-posts-trending-carousel/components/inspector.js:493
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:178
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:311
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:214
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:324
 msgid "Display Navigation On hover"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:549
+#: src/block/latest-posts-carousel-grid/components/inspector.js:600
 #: src/block/latest-posts-express-grid/components/inspector.js:466
 #: src/block/latest-posts-express-list/components/inspector.js:414
 #: src/block/latest-posts-flash/components/inspector.js:530
@@ -4429,14 +4407,14 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:436
 #: src/block/latest-posts-list/components/inspector.js:473
 #: src/block/latest-posts-masonry/components/inspector.js:411
-#: src/block/latest-posts-slider/components/inspector.js:658
+#: src/block/latest-posts-slider/components/inspector.js:657
 #: src/block/latest-posts-tile-masonry/components/inspector.js:393
 #: src/block/latest-posts-tile/components/inspector.js:404
 #: src/block/latest-posts-trending-carousel/components/inspector.js:554
 msgid "Select Posts Type:"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:563
+#: src/block/latest-posts-carousel-grid/components/inspector.js:614
 #: src/block/latest-posts-express-grid/components/inspector.js:480
 #: src/block/latest-posts-express-list/components/inspector.js:428
 #: src/block/latest-posts-flash/components/inspector.js:541
@@ -4444,14 +4422,14 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:450
 #: src/block/latest-posts-list/components/inspector.js:487
 #: src/block/latest-posts-masonry/components/inspector.js:425
-#: src/block/latest-posts-slider/components/inspector.js:672
+#: src/block/latest-posts-slider/components/inspector.js:671
 #: src/block/latest-posts-tile-masonry/components/inspector.js:407
 #: src/block/latest-posts-tile/components/inspector.js:418
 #: src/block/latest-posts-trending-carousel/components/inspector.js:568
 msgid "Newest to Oldest"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:567
+#: src/block/latest-posts-carousel-grid/components/inspector.js:618
 #: src/block/latest-posts-express-grid/components/inspector.js:484
 #: src/block/latest-posts-express-list/components/inspector.js:432
 #: src/block/latest-posts-flash/components/inspector.js:545
@@ -4459,14 +4437,14 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:454
 #: src/block/latest-posts-list/components/inspector.js:491
 #: src/block/latest-posts-masonry/components/inspector.js:429
-#: src/block/latest-posts-slider/components/inspector.js:676
+#: src/block/latest-posts-slider/components/inspector.js:675
 #: src/block/latest-posts-tile-masonry/components/inspector.js:411
 #: src/block/latest-posts-tile/components/inspector.js:422
 #: src/block/latest-posts-trending-carousel/components/inspector.js:572
 msgid "Oldest to Newest"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:571
+#: src/block/latest-posts-carousel-grid/components/inspector.js:622
 #: src/block/latest-posts-express-grid/components/inspector.js:488
 #: src/block/latest-posts-express-list/components/inspector.js:436
 #: src/block/latest-posts-flash/components/inspector.js:549
@@ -4474,14 +4452,14 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:458
 #: src/block/latest-posts-list/components/inspector.js:495
 #: src/block/latest-posts-masonry/components/inspector.js:433
-#: src/block/latest-posts-slider/components/inspector.js:680
+#: src/block/latest-posts-slider/components/inspector.js:679
 #: src/block/latest-posts-tile-masonry/components/inspector.js:415
 #: src/block/latest-posts-tile/components/inspector.js:426
 #: src/block/latest-posts-trending-carousel/components/inspector.js:576
 msgid "Modified Ascending"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:575
+#: src/block/latest-posts-carousel-grid/components/inspector.js:626
 #: src/block/latest-posts-express-grid/components/inspector.js:492
 #: src/block/latest-posts-express-list/components/inspector.js:440
 #: src/block/latest-posts-flash/components/inspector.js:553
@@ -4489,7 +4467,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:462
 #: src/block/latest-posts-list/components/inspector.js:499
 #: src/block/latest-posts-masonry/components/inspector.js:437
-#: src/block/latest-posts-slider/components/inspector.js:684
+#: src/block/latest-posts-slider/components/inspector.js:683
 #: src/block/latest-posts-tile-masonry/components/inspector.js:419
 #: src/block/latest-posts-tile/components/inspector.js:430
 #: src/block/latest-posts-trending-carousel/components/inspector.js:580
@@ -4497,7 +4475,7 @@ msgid "Modified Decending"
 msgstr ""
 
 #. translators: label for ordering posts by title in ascending order
-#: src/block/latest-posts-carousel-grid/components/inspector.js:580
+#: src/block/latest-posts-carousel-grid/components/inspector.js:631
 #: src/block/latest-posts-express-grid/components/inspector.js:497
 #: src/block/latest-posts-express-list/components/inspector.js:444
 #: src/block/latest-posts-flash/components/inspector.js:558
@@ -4505,7 +4483,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:467
 #: src/block/latest-posts-list/components/inspector.js:504
 #: src/block/latest-posts-masonry/components/inspector.js:442
-#: src/block/latest-posts-slider/components/inspector.js:689
+#: src/block/latest-posts-slider/components/inspector.js:688
 #: src/block/latest-posts-tile-masonry/components/inspector.js:424
 #: src/block/latest-posts-tile/components/inspector.js:435
 #: src/block/latest-posts-trending-carousel/components/inspector.js:585
@@ -4513,7 +4491,7 @@ msgid "A → Z"
 msgstr ""
 
 #. translators: label for ordering posts by title in descending order
-#: src/block/latest-posts-carousel-grid/components/inspector.js:585
+#: src/block/latest-posts-carousel-grid/components/inspector.js:636
 #: src/block/latest-posts-express-grid/components/inspector.js:502
 #: src/block/latest-posts-express-list/components/inspector.js:448
 #: src/block/latest-posts-flash/components/inspector.js:563
@@ -4521,7 +4499,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:472
 #: src/block/latest-posts-list/components/inspector.js:509
 #: src/block/latest-posts-masonry/components/inspector.js:447
-#: src/block/latest-posts-slider/components/inspector.js:694
+#: src/block/latest-posts-slider/components/inspector.js:693
 #: src/block/latest-posts-tile-masonry/components/inspector.js:429
 #: src/block/latest-posts-tile/components/inspector.js:440
 #: src/block/latest-posts-trending-carousel/components/inspector.js:590
@@ -4529,7 +4507,7 @@ msgid "Z → A"
 msgstr ""
 
 #. translators: label for ordering posts by title in descending order
-#: src/block/latest-posts-carousel-grid/components/inspector.js:590
+#: src/block/latest-posts-carousel-grid/components/inspector.js:641
 #: src/block/latest-posts-express-grid/components/inspector.js:507
 #: src/block/latest-posts-express-list/components/inspector.js:452
 #: src/block/latest-posts-flash/components/inspector.js:568
@@ -4537,7 +4515,7 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:477
 #: src/block/latest-posts-list/components/inspector.js:514
 #: src/block/latest-posts-masonry/components/inspector.js:452
-#: src/block/latest-posts-slider/components/inspector.js:699
+#: src/block/latest-posts-slider/components/inspector.js:698
 #: src/block/latest-posts-tile-masonry/components/inspector.js:434
 #: src/block/latest-posts-tile/components/inspector.js:445
 #: src/block/latest-posts-trending-carousel/components/inspector.js:595
@@ -4545,7 +4523,7 @@ msgid "Menu Order"
 msgstr ""
 
 #. translators: label for ordering posts by title in descending order
-#: src/block/latest-posts-carousel-grid/components/inspector.js:595
+#: src/block/latest-posts-carousel-grid/components/inspector.js:646
 #: src/block/latest-posts-express-grid/components/inspector.js:512
 #: src/block/latest-posts-express-list/components/inspector.js:456
 #: src/block/latest-posts-flash/components/inspector.js:573
@@ -4553,14 +4531,14 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:482
 #: src/block/latest-posts-list/components/inspector.js:519
 #: src/block/latest-posts-masonry/components/inspector.js:457
-#: src/block/latest-posts-slider/components/inspector.js:704
+#: src/block/latest-posts-slider/components/inspector.js:703
 #: src/block/latest-posts-tile-masonry/components/inspector.js:439
 #: src/block/latest-posts-tile/components/inspector.js:450
 #: src/block/latest-posts-trending-carousel/components/inspector.js:600
 msgid "Random"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:623
+#: src/block/latest-posts-carousel-grid/components/inspector.js:674
 #: src/block/latest-posts-express-grid/components/inspector.js:540
 #: src/block/latest-posts-express-list/components/inspector.js:485
 #: src/block/latest-posts-flash/components/inspector.js:594
@@ -4568,14 +4546,14 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:510
 #: src/block/latest-posts-list/components/inspector.js:547
 #: src/block/latest-posts-masonry/components/inspector.js:485
-#: src/block/latest-posts-slider/components/inspector.js:732
+#: src/block/latest-posts-slider/components/inspector.js:731
 #: src/block/latest-posts-tile-masonry/components/inspector.js:466
 #: src/block/latest-posts-tile/components/inspector.js:477
 #: src/block/latest-posts-trending-carousel/components/inspector.js:628
 msgid "Number of posts"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:645
+#: src/block/latest-posts-carousel-grid/components/inspector.js:696
 #: src/block/latest-posts-express-grid/components/inspector.js:630
 #: src/block/latest-posts-express-list/components/inspector.js:571
 #: src/block/latest-posts-grid/components/inspector.js:600
@@ -4583,7 +4561,7 @@ msgstr ""
 msgid "Enable feature Image"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:679
+#: src/block/latest-posts-carousel-grid/components/inspector.js:730
 #: src/block/latest-posts-express-grid/components/tabs.js:143
 #: src/block/latest-posts-express-grid/components/tabs.js:256
 #: src/block/latest-posts-express-list/components/tabs.js:174
@@ -4592,14 +4570,14 @@ msgstr ""
 #: src/block/latest-posts-grid/components/inspector.js:653
 #: src/block/latest-posts-list/components/inspector.js:723
 #: src/block/latest-posts-masonry/components/inspector.js:612
-#: src/block/latest-posts-slider/components/inspector.js:761
+#: src/block/latest-posts-slider/components/inspector.js:760
 #: src/block/latest-posts-tile-masonry/components/inspector.js:593
 #: src/block/latest-posts-tile/components/inspector.js:603
 #: src/block/latest-posts-trending-carousel/components/inspector.js:667
 msgid "Title On Hover"
 msgstr ""
 
-#: src/block/latest-posts-carousel-grid/components/inspector.js:945
+#: src/block/latest-posts-carousel-grid/components/inspector.js:996
 #: src/block/latest-posts-express-grid/components/inspector.js:886
 #: src/block/latest-posts-express-list/components/inspector.js:815
 #: src/block/latest-posts-flash/components/inspector.js:745
@@ -4926,11 +4904,11 @@ msgstr ""
 msgid "Loader Color"
 msgstr ""
 
-#: src/block/latest-posts-express-grid/components/inspector.js:1114
+#: src/block/latest-posts-express-grid/components/inspector.js:1117
 #: src/block/latest-posts-express-list/components/inspector.js:1014
 #: src/block/latest-posts-full/components/inspector.js:1164
-#: src/block/latest-posts-grid/components/inspector.js:1151
-#: src/block/latest-posts-list/components/inspector.js:1222
+#: src/block/latest-posts-grid/components/inspector.js:1153
+#: src/block/latest-posts-list/components/inspector.js:1225
 #: src/block/latest-posts-masonry/components/inspector.js:1072
 #: src/block/latest-posts-masonry/components/inspector.js:1110
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1054
@@ -4948,11 +4926,11 @@ msgstr ""
 msgid "Padding Top"
 msgstr ""
 
-#: src/block/latest-posts-express-grid/components/inspector.js:1127
+#: src/block/latest-posts-express-grid/components/inspector.js:1130
 #: src/block/latest-posts-express-list/components/inspector.js:1026
 #: src/block/latest-posts-full/components/inspector.js:1177
-#: src/block/latest-posts-grid/components/inspector.js:1164
-#: src/block/latest-posts-list/components/inspector.js:1235
+#: src/block/latest-posts-grid/components/inspector.js:1166
+#: src/block/latest-posts-list/components/inspector.js:1238
 #: src/block/latest-posts-masonry/components/inspector.js:1081
 #: src/block/latest-posts-masonry/components/inspector.js:1123
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1063
@@ -4968,11 +4946,11 @@ msgstr ""
 msgid "Padding Right"
 msgstr ""
 
-#: src/block/latest-posts-express-grid/components/inspector.js:1140
+#: src/block/latest-posts-express-grid/components/inspector.js:1143
 #: src/block/latest-posts-express-list/components/inspector.js:1038
 #: src/block/latest-posts-full/components/inspector.js:1190
-#: src/block/latest-posts-grid/components/inspector.js:1177
-#: src/block/latest-posts-list/components/inspector.js:1248
+#: src/block/latest-posts-grid/components/inspector.js:1179
+#: src/block/latest-posts-list/components/inspector.js:1251
 #: src/block/latest-posts-masonry/components/inspector.js:1090
 #: src/block/latest-posts-masonry/components/inspector.js:1136
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1072
@@ -4990,11 +4968,11 @@ msgstr ""
 msgid "Padding Bottom"
 msgstr ""
 
-#: src/block/latest-posts-express-grid/components/inspector.js:1153
+#: src/block/latest-posts-express-grid/components/inspector.js:1156
 #: src/block/latest-posts-express-list/components/inspector.js:1050
 #: src/block/latest-posts-full/components/inspector.js:1203
-#: src/block/latest-posts-grid/components/inspector.js:1190
-#: src/block/latest-posts-list/components/inspector.js:1261
+#: src/block/latest-posts-grid/components/inspector.js:1192
+#: src/block/latest-posts-list/components/inspector.js:1264
 #: src/block/latest-posts-masonry/components/inspector.js:1099
 #: src/block/latest-posts-masonry/components/inspector.js:1149
 #: src/block/latest-posts-tile-masonry/components/inspector.js:1081
@@ -5309,27 +5287,27 @@ msgstr ""
 msgid "None (🔒 pro version)"
 msgstr ""
 
-#: src/block/latest-posts-slider/components/inspector.js:471
+#: src/block/latest-posts-slider/components/inspector.js:472
 msgid "Slider Style 1"
 msgstr ""
 
-#: src/block/latest-posts-slider/components/inspector.js:476
+#: src/block/latest-posts-slider/components/inspector.js:477
 msgid "Slider Style 2"
 msgstr ""
 
-#: src/block/latest-posts-slider/components/inspector.js:481
+#: src/block/latest-posts-slider/components/inspector.js:482
 msgid "Slider Style 3"
 msgstr ""
 
-#: src/block/latest-posts-slider/components/inspector.js:486
+#: src/block/latest-posts-slider/components/inspector.js:487
 msgid "Slider Style 4"
 msgstr ""
 
-#: src/block/latest-posts-slider/components/inspector.js:491
+#: src/block/latest-posts-slider/components/inspector.js:492
 msgid "Slider Style 5"
 msgstr ""
 
-#: src/block/latest-posts-slider/components/inspector.js:497
+#: src/block/latest-posts-slider/components/inspector.js:498
 msgid "Slider Style 6"
 msgstr ""
 
@@ -5352,6 +5330,30 @@ msgstr ""
 
 #: src/block/latest-posts-trending-carousel/components/edit.js:271
 msgid "Latest Posts Trending Carousel"
+msgstr ""
+
+#: src/block/latest-posts-trending-carousel/components/inspector.js:196
+msgid "Caret"
+msgstr ""
+
+#: src/block/latest-posts-trending-carousel/components/inspector.js:199
+msgid "Caret Square"
+msgstr ""
+
+#: src/block/latest-posts-trending-carousel/components/inspector.js:203
+#: src/block/latest-posts-trending-carousel/components/inspector.js:242
+#: src/block/social-links/components/inspector.js:57
+#: src/block/social-sharing/components/inspector.js:63
+#: src/block/user-profile/components/inspector.js:166
+msgid "Circle"
+msgstr ""
+
+#: src/block/latest-posts-trending-carousel/components/inspector.js:205
+msgid "Arrow"
+msgstr ""
+
+#: src/block/latest-posts-trending-carousel/components/inspector.js:208
+msgid "Long Arrow"
 msgstr ""
 
 #: src/block/latest-posts-trending-carousel/components/inspector.js:248
@@ -5461,10 +5463,6 @@ msgstr ""
 
 #: src/block/layouts/components/layout/layout-library.js:369
 msgid "Load More"
-msgstr ""
-
-#: src/block/layouts/components/layout/layout-modal.js:35
-msgid "Starter Templates"
 msgstr ""
 
 #: src/block/layouts/components/layout/layout-modal.js:72
@@ -6932,18 +6930,6 @@ msgstr ""
 msgid "Icon size"
 msgstr ""
 
-#: src/utils/component/banner-settings-tabs/meta-icon-tabs.js:110
-#: src/utils/component/banner-settings-tabs/meta-icon-tabs.js:142
-#: src/utils/component/banner-settings-tabs/meta-icon-tabs.js:174
-msgid "Author Icon"
-msgstr ""
-
-#: src/utils/component/banner-settings-tabs/meta-icon-tabs.js:128
-#: src/utils/component/banner-settings-tabs/meta-icon-tabs.js:160
-#: src/utils/component/banner-settings-tabs/meta-icon-tabs.js:192
-msgid "Comment Icon"
-msgstr ""
-
 #: src/utils/component/banner-settings-tabs/post-categories-tabs.js:64
 #: src/utils/component/cateogory-control/index.js:38
 msgid "Underline"
@@ -7018,18 +7004,19 @@ msgstr ""
 msgid "Tab Fonts"
 msgstr ""
 
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:194
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:327
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:226
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:336
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:352
 msgid " Navigation Style"
 msgstr ""
 
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:211
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:344
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:242
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:368
 msgid " Navigation Size"
 msgstr ""
 
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:228
-#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:363
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:254
+#: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:380
 msgid " Navigation Shapes"
 msgstr ""
 
@@ -7050,7 +7037,6 @@ msgid "Y Offset"
 msgstr ""
 
 #: src/utils/component/boxshadow/index.js:76
-#: src/utils/component/hover/image-hover-control.js:23
 msgid "Blur"
 msgstr ""
 
@@ -7179,99 +7165,99 @@ msgstr ""
 msgid "Location #2"
 msgstr ""
 
-#: src/utils/component/hover/hover-control.js:18
-msgid "Shrink"
-msgstr ""
-
-#: src/utils/component/hover/hover-control.js:19
-msgid "Pulse"
-msgstr ""
-
 #: src/utils/component/hover/hover-control.js:20
-msgid "Pulse Grow"
-msgstr ""
-
-#: src/utils/component/hover/hover-control.js:23
-msgid "Pulse Shrink"
+msgid "Shrink (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:25
-msgid "Push"
-msgstr ""
-
-#: src/utils/component/hover/hover-control.js:26
-msgid "Pop"
-msgstr ""
-
-#: src/utils/component/hover/hover-control.js:27
-msgid "Bounce In"
+msgid "Pulse (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:30
-msgid " Bounce Out (🔒 pro version)"
+msgid "Pulse Grow (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:35
-msgid " Rotate (🔒 pro version)"
+msgid "Pulse Shrink"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:40
-msgid " Grow Rotate (🔒 pro version)"
+msgid "Push (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:45
-msgid " Float (🔒 pro version)"
+msgid "Pop (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:50
-msgid " Sink (🔒 pro version)"
+msgid "Bounce In (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:55
-msgid " Bob (🔒 pro version)"
+msgid " Bounce Out (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:60
-msgid " Hang (🔒 pro version)"
+msgid " Rotate (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:65
-msgid " Skew (🔒 pro version)"
+msgid " Grow Rotate (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:70
-msgid " Skew Forward (🔒 pro version)"
+msgid " Float (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:75
-msgid " Skew Backward (🔒 pro version)"
+msgid " Sink (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:80
-msgid " Wobble Vertical (🔒 pro version)"
+msgid " Bob (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:85
-msgid " Wobble Horizontal (🔒 pro version)"
+msgid " Hang (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:90
-msgid " Wobble To Bottom Right (🔒 pro version)"
+msgid " Skew (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:95
-msgid " Wobble To Top Right (🔒 pro version)"
+msgid " Skew Forward (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:100
-msgid " Wobble Top (🔒 pro version)"
+msgid " Skew Backward (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:105
+msgid " Wobble Vertical (🔒 pro version)"
+msgstr ""
+
+#: src/utils/component/hover/hover-control.js:110
+msgid " Wobble Horizontal (🔒 pro version)"
+msgstr ""
+
+#: src/utils/component/hover/hover-control.js:115
+msgid " Wobble To Bottom Right (🔒 pro version)"
+msgstr ""
+
+#: src/utils/component/hover/hover-control.js:120
+msgid " Wobble To Top Right (🔒 pro version)"
+msgstr ""
+
+#: src/utils/component/hover/hover-control.js:125
+msgid " Wobble Top (🔒 pro version)"
+msgstr ""
+
+#: src/utils/component/hover/hover-control.js:130
 msgid " Wobble Bottom (🔒 pro version)"
 msgstr ""
 
-#: src/utils/component/hover/hover-control.js:122
+#: src/utils/component/hover/hover-control.js:147
 msgid "Block Hover Style"
 msgstr ""
 
@@ -7283,39 +7269,39 @@ msgstr ""
 msgid "Zoom Out"
 msgstr ""
 
-#: src/utils/component/hover/image-hover-control.js:18
-msgid "Slide"
-msgstr ""
-
-#: src/utils/component/hover/image-hover-control.js:21
-msgid "Rotate + Zoom Out"
-msgstr ""
-
-#: src/utils/component/hover/image-hover-control.js:24
-msgid "Gray Scale"
+#: src/utils/component/hover/image-hover-control.js:20
+msgid "Slide (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:25
-msgid "Sepia"
-msgstr ""
-
-#: src/utils/component/hover/image-hover-control.js:28
-msgid "Blur + Gray Scale"
+msgid "Rotate + Zoom Out (🔒 pro version)"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:30
-msgid "Opacity"
+msgid "Blur (🔒 pro version)"
 msgstr ""
 
-#: src/utils/component/hover/image-hover-control.js:31
-msgid "Flashing"
+#: src/utils/component/hover/image-hover-control.js:35
+msgid "Gray Scale (🔒 pro version)"
 msgstr ""
 
-#: src/utils/component/hover/image-hover-control.js:32
-msgid "Shine"
+#: src/utils/component/hover/image-hover-control.js:45
+msgid "Blur + Gray Scale (🔒 pro version)"
 msgstr ""
 
-#: src/utils/component/hover/image-hover-control.js:38
+#: src/utils/component/hover/image-hover-control.js:50
+msgid "Opacity (🔒 pro version)"
+msgstr ""
+
+#: src/utils/component/hover/image-hover-control.js:55
+msgid "Flashing (🔒 pro version)"
+msgstr ""
+
+#: src/utils/component/hover/image-hover-control.js:60
+msgid "Shine (🔒 pro version)"
+msgstr ""
+
+#: src/utils/component/hover/image-hover-control.js:81
 msgid "Image Hover Style"
 msgstr ""
 
