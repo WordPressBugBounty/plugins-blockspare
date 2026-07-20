@@ -313,7 +313,7 @@ class Blockspare_NewSpare_Notice extends Blockspare_Setup {
                     >
                         <li><?php esc_html_e( 'Designed for Gutenberg', 'blockspare' ); ?></li>
                         <li><?php esc_html_e( 'Works perfectly with BlockSpare', 'blockspare' ); ?></li>
-                        <li><?php esc_html_e( 'Professional starter sites included', 'blockspare' ); ?></li>
+                        <li><?php esc_html_e( 'Professional starter templates included', 'blockspare' ); ?></li>
                         <li><?php esc_html_e( 'Optimized for speed & SEO', 'blockspare' ); ?></li>
                     </ul>
 

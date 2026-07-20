@@ -5,6 +5,12 @@ object-assign
 */
 
 /*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/*!
  * Masonry v4.2.2
  * Cascading grid layout library
  * https://masonry.desandro.com
@@ -29,6 +35,8 @@ object-assign
  * JavaScript is all like "You images are done yet or what?"
  * MIT License
  */
+
+/*! @license DOMPurify 3.4.12 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/3.4.12/LICENSE */
 
 /**
  * @license React

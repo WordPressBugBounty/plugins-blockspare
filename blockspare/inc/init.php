@@ -315,12 +315,32 @@ class Blockspare_Init
     $blockData                  = '';
 
     if (isset($_GET['blockspare_create_block'])) {
+
       $blockName  = sanitize_text_field($_GET['blockspare_create_block']);
+      $blockTitle = sanitize_text_field($_GET['post_title']);
+
+      // Get from template library filter
       $filterdata = apply_filters('blockspare_template_library', []);
+
       foreach ($filterdata as $block) {
         if (isset($block['key']) && $block['key'] === $blockName) {
           $blockData = $block['content'];
           break;
+        }
+      }
+
+      // Get from bs_templates post type if not found
+      if (empty($blockData) && ! empty($blockTitle)) {
+
+        $templates = get_posts([
+          'post_type'      => 'bs_templates',
+          'post_status'    => 'publish',
+          'title'          => $blockTitle,
+          'posts_per_page' => 1,
+        ]);
+
+        if (! empty($templates)) {
+          $blockData = $templates[0]->post_content;
         }
       }
     }
@@ -401,12 +421,12 @@ class Blockspare_Init
     $custom = [
       [
         'slug'  => 'blockspare-post',
-        'title' => __('News and Magazine', 'blockspare'),
+        'title' => __('Editorial & Content', 'blockspare'),
 
       ],
       [
         'slug'  => 'blockspare',
-        'title' => __('Business', 'blockspare'),
+        'title' => __('Business & Layout', 'blockspare'),
 
       ],
 

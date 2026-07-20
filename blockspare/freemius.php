@@ -14,6 +14,7 @@ if ( ! function_exists( 'blockspare_fs' ) ) {
                 'premium_slug'        => 'blockspare-pro',
                 'type'                => 'plugin',
                 'public_key'          => 'pk_29829adcdce7852dbe329f64cd6f3',
+                'coupon'              => 'ReadyMadeWebistes',
                 'is_premium'          => false,
                 'is_premium_only'     => false,
                 'has_addons'          => false,

@@ -1,0 +1,195 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "blockspare/blockspare-dynamic-buttons",
+  "category": "blockspare",
+  "supports": {
+    "align": [
+      "wide",
+      "full",
+      "center"
+    ]
+  },
+  "attributes": {
+    "sectionAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "animation": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Get Started"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonBackgroundColor": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "buttonSize": {
+      "type": "string",
+      "default": "blockspare-button-size-small"
+    },
+    "buttonShape": {
+      "type": "string",
+      "default": "blockspare-button-shape-rounded"
+    },
+    "buttonTarget": {
+      "type": "boolean",
+      "default": false
+    },
+    "buttonStyle": {
+      "type": "string",
+      "default": "none"
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "borderBtnTextColor": {
+      "type": "string",
+      "default": "#404040"
+    },
+    "enableGradient": {
+      "type": "boolean",
+      "default": false
+    },
+    "backgroundColor1": {
+      "type": "string",
+      "default": "#141618"
+    },
+    "backgroundColor2": {
+      "type": "string",
+      "default": "#ce242c"
+    },
+    "gradientAngle": {
+      "type": "number",
+      "default": -90
+    },
+    "colorLocation1": {
+      "type": "number",
+      "default": 30
+    },
+    "colorLocation2": {
+      "type": "number",
+      "default": 70
+    },
+    "btnBorderWidth": {
+      "type": "number",
+      "default": 2
+    },
+    "btnFontWeight": {
+      "type": "string",
+      "default": "normal"
+    },
+    "buttonHoverEffect": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "buttonFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "buttonFontWeight": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonFontSubset": {
+      "type": "string"
+    },
+    "buttonFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "buttonFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "buttonFontSizeTablet": {
+      "type": "number",
+      "default": 14
+    },
+    "buttonLoadGoogleFonts": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableButtonIcon": {
+      "type": "boolean",
+      "default": false
+    },
+    "buttonIconPosition": {
+      "type": "string",
+      "default": "btn-icon-left"
+    },
+    "buttonIcon": {
+      "type": "string",
+      "default": "fas fa-rocket"
+    },
+    "buttonIconColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "borderbuttonIconColor": {
+      "type": "string",
+      "default": "#404040"
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 12
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 22
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 12
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 22
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "marginLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "marginRight": {
+      "type": "number",
+      "default": 0
+    },
+    "btnText": {
+      "type": "string",
+      "default": ""
+    },
+    "btnUrl": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js"
+}
