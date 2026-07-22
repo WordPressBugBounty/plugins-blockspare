@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-section-header",
+  "title": "Section Header",
   "category": "blockspare",
+  "description": "Create styled headings with sub-titles, badges, and divider lines for page sections.",
   "attributes": {
     "className": {
       "type": "string"
@@ -184,5 +186,6 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css"
+  "style": "file:./style-index.css",
+  "icon": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"#141618\" class=\"blockspare-svg\"><g id=\"XMLID_2_\"><path id=\"XMLID_3_\" d=\"M17,2.2v15.6h-4.3v-6.3H7.4v6.3H3V2.2h4.3V8h5.3V2.2H17z\"/></g></svg>"
 }

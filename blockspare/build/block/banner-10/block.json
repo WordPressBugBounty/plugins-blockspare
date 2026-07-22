@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-banner-10",
+  "tiile": "Hero Banner(10)",
   "category": "blockspare-post",
+  "description": "Display a full-height hero, center cards, and post carousel list.",
   "attributes": {
     "className": {
       "type": "string"
@@ -1159,5 +1161,6 @@
       "default": "bs-single-color"
     }
   },
-  "editorScript": "file:./index.js"
+  "editorScript": "file:./index.js",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 199.94 100\"><g fill=\"#AD2531\"><rect x=\"155.74\" y=\"0.09\" width=\"23.56\" height=\"26.91\"/><rect x=\"183.65\" y=\"6.92\" width=\"13.26\" height=\"5\"/><rect x=\"183.65\" y=\"17.64\" width=\"16.29\" height=\"5\"/><rect x=\"155.74\" y=\"73.09\" width=\"23.56\" height=\"26.91\"/><rect x=\"183.65\" y=\"79.92\" width=\"13.26\" height=\"5\"/><rect x=\"183.65\" y=\"90.64\" width=\"16.29\" height=\"5\"/><rect x=\"155.74\" y=\"36.65\" width=\"23.56\" height=\"26.91\"/><rect x=\"183.65\" y=\"43.48\" width=\"13.26\" height=\"5\"/><rect x=\"183.65\" y=\"54.2\" width=\"16.29\" height=\"5\"/><rect width=\"62.46\" height=\"100\"/><rect x=\"72.18\" y=\"71.27\" width=\"32.17\" height=\"28.73\"/><rect x=\"72.18\" width=\"72.17\" height=\"58.93\"/><rect x=\"112.19\" y=\"71.27\" width=\"32.17\" height=\"28.73\"/></g></svg>"
 }

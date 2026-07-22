@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-posts-block-tile-masonry",
+  "title": "Latest Posts Tile Masonry",
   "category": "blockspare-post",
+  "description": "Display your latest posts in a dynamic tile layout with a staggered masonry flow.",
   "attributes": {
     "categories": {
       "type": "array",
@@ -651,5 +653,6 @@
       "default": "bs-single-color"
     }
   },
-  "editorScript": "file:./index.js"
+  "editorScript": "file:./index.js",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 141.28 100\" fill=\"#AD2531\"><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g id=\"post-tile-masonry\"><rect x=\"79.55\" width=\"61.87\" height=\"45.58\"/><rect y=\"95.57\" width=\"61.87\" height=\"45.58\"/><rect x=\"79.55\" y=\"61.86\" width=\"61.87\" height=\"79.42\"/><rect width=\"61.87\" height=\"79.42\"/></g></g></g></svg>"
 }

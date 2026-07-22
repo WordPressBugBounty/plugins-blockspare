@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-latest-posts-masonry",
+  "title": "Latest Posts Masonry",
   "category": "blockspare-post",
+  "description": "Display your latest posts in a dynamic, staggered masonry grid layout.",
   "attributes": {
     "categories": {
       "type": "array",
@@ -600,5 +602,6 @@
       "default": "bs-single-color"
     }
   },
-  "editorScript": "file:./index.js"
+  "editorScript": "file:./index.js",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 141.28 100\" fill=\"#AD2531\"><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g id=\"post-grid-masonry\"><g id=\"group\"><rect width=\"61.87\" height=\"41.15\"/><line x1=\"6.68\" y1=\"49.87\" x2=\"38.44\" y2=\"49.87\"/><rect x=\"6.68\" y=\"47.37\" width=\"31.76\" height=\"5\"/><line x1=\"6.68\" y1=\"60.59\" x2=\"45.71\" y2=\"60.59\"/><rect x=\"6.68\" y=\"58.09\" width=\"39.03\" height=\"5\"/><line x1=\"6.68\" y1=\"70.71\" x2=\"45.71\" y2=\"70.71\"/><rect x=\"6.68\" y=\"68.21\" width=\"39.03\" height=\"5\"/></g><g id=\"group-2\" data-name=\"group\"><rect x=\"79.55\" y=\"68.06\" width=\"61.87\" height=\"41.15\"/><line x1=\"86.23\" y1=\"117.93\" x2=\"117.99\" y2=\"117.93\"/><rect x=\"86.23\" y=\"115.43\" width=\"31.76\" height=\"5\"/><line x1=\"86.23\" y1=\"128.65\" x2=\"125.26\" y2=\"128.65\"/><rect x=\"86.23\" y=\"126.15\" width=\"39.03\" height=\"5\"/><line x1=\"86.23\" y1=\"138.77\" x2=\"125.26\" y2=\"138.77\"/><rect x=\"86.23\" y=\"136.27\" width=\"39.03\" height=\"5\"/></g><g id=\"group-3\" data-name=\"group\"><rect y=\"89.34\" width=\"61.87\" height=\"30.15\"/><line x1=\"6.68\" y1=\"128.2\" x2=\"38.44\" y2=\"128.2\"/><rect x=\"6.68\" y=\"125.7\" width=\"31.76\" height=\"5\"/><line x1=\"6.68\" y1=\"138.92\" x2=\"45.71\" y2=\"138.92\"/><rect x=\"6.68\" y=\"136.42\" width=\"39.03\" height=\"5\"/></g><g id=\"group-4\" data-name=\"group\"><rect x=\"79.55\" width=\"61.87\" height=\"30.15\"/><line x1=\"86.23\" y1=\"38.87\" x2=\"117.99\" y2=\"38.87\"/><rect x=\"86.23\" y=\"36.37\" width=\"31.76\" height=\"5\"/><line x1=\"86.23\" y1=\"49.59\" x2=\"125.26\" y2=\"49.59\"/><rect x=\"86.23\" y=\"47.09\" width=\"39.03\" height=\"5\"/></g></g></g></g></svg>"
 }

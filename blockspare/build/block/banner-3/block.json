@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-banner-3",
+  "tiile": "Hero Banner(3)",
   "category": "blockspare-post",
+  "description": "Featured main slider with stacked secondary and post grid.",
   "attributes": {
     "className": {
       "type": "string"
@@ -1159,5 +1161,6 @@
       "default": "bs-single-color"
     }
   },
-  "editorScript": "file:./index.js"
+  "editorScript": "file:./index.js",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\"><g fill=\"#AD2531\"><rect width=\"86.53\" height=\"100\"/><rect x=\"100\" y=\"71.28\" width=\"44.57\" height=\"28.73\"/><rect x=\"100\" width=\"100\" height=\"58.93\"/><rect x=\"155.43\" y=\"71.28\" width=\"44.57\" height=\"28.73\"/></g></svg>"
 }

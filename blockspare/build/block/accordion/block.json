@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-accordion",
+  "title": "Accordion",
   "category": "blockspare",
+  "description": "Create expandable accordion sections with customizable content and styling.",
   "supports": {
     "align": [
       "wide",
@@ -104,5 +106,6 @@
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
-  "viewScript": "file:./view.js"
+  "viewScript": "file:./view.js",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 21 21\"><g fill=\"#AD2531\"><rect y=\"8.1\" width=\"21\" height=\"12.9\"/><rect y=\"3.9\" width=\"21\" height=\"2.2\"/><rect width=\"21\" height=\"2.2\"/></g></svg>"
 }

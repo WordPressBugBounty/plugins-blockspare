@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/search",
+  "title": "Search",
   "category": "blockspare",
+  "description": "Add a customizable search bar to help users easily find content on your site.",
   "attributes": {
     "sectionTag": {
       "type": "string",
@@ -274,5 +276,6 @@
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
   "viewScript": "file:./view.js",
-  "render": "file:./render.php"
+  "render": "file:./render.php",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 82.97 82.97\" fill=\"#AD2531\"><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g id=\"search\"><path d=\"M58.81,54.57a33.3,33.3,0,1,0-4.24,4.24L78.72,83,83,78.73ZM6,33.27A27.27,27.27,0,1,1,33.27,60.54,27.3,27.3,0,0,1,6,33.27Z\"/></g></g></g></svg>"
 }

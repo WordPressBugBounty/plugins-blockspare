@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-call-to-action",
+  "title": "Call to Action",
   "category": "blockspare",
+  "description": "CTA sections with flexible text, buttons, and styling.",
   "supports": {
     "align": [
       "wide",
@@ -90,5 +92,6 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css"
+  "style": "file:./style-index.css",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><g fill=\"#AD2531\"><path d=\"M3.4,11.3H0.7C0.3,11.3,0,11,0,10.7l0-5.6c0-0.4,0.3-0.7,0.7-0.7h2.8c0.4,0,0.7,0.3,0.7,0.7v5.6C4.1,11,3.8,11.3,3.4,11.3z\"/><polygon points=\"9.3,12.7 5,11.9 5,4.1 9.3,3.4\"/><polygon points=\"4.9,12.7 9.1,13.5 9.1,18.7 4.9,18.7\"/><path d=\"M17.7,5.2c-0.3,0-0.5,0-0.8,0.1v-4L10.2,3v9.7l6.7,1.7V9.5c0.2,0.1,0.5,0.1,0.8,0.1c1.3,0,2.3-1,2.3-2.2S19,5.2,17.7,5.2z\"/></g></svg>"
 }

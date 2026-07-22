@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-posts-block-full",
+  "title": "Latest posts Large",
   "category": "blockspare-post",
+  "description": "Latest posts in a large, prominent featured layout.",
   "attributes": {
     "categories": {
       "type": "array",
@@ -619,5 +621,6 @@
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
-  "render": "file:./render.php"
+  "render": "file:./render.php",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 141.28 100\" fill=\"#AD2531\"><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g id=\"post-large_full\" data-name=\"post-large/full\"><g id=\"group\"><rect width=\"100\" height=\"78.06\"/><line x1=\"7.38\" y1=\"86.78\" x2=\"50\" y2=\"86.78\"/><rect x=\"7.38\" y=\"84.28\" width=\"42.62\" height=\"5\"/><line x1=\"7.38\" y1=\"97.5\" x2=\"82.41\" y2=\"97.5\"/><rect x=\"7.38\" y=\"95\" width=\"75.02\" height=\"5\"/></g></g></g></g></svg>"
 }

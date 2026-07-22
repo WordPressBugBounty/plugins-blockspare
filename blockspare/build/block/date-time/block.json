@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/date-time",
+  "title": "Date and Time",
   "category": "blockspare",
+  "description": "Display dynamic date and time with customizable formatting.",
   "attributes": {
     "className": {
       "type": "string"
@@ -255,5 +257,6 @@
   "editorScript": "file:./index.js",
   "style": "file:./style-index.css",
   "viewScript": "file:./view.js",
-  "render": "file:./render.php"
+  "render": "file:./render.php",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 142.39 134.03\"><g fill=\"#AD2531\">...</g></svg>"
 }

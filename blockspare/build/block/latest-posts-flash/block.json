@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/latest-posts-flash",
+  "title": "Latest Posts Flash",
   "category": "blockspare-post",
+  "description": "Urgent news and latest posts in a news-ticker layout.",
   "attributes": {
     "align": {
       "type": "string",
@@ -369,5 +371,6 @@
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
   "viewScript": "file:./view.js",
-  "render": "file:./render.php"
+  "render": "file:./render.php",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 141.28 100\" fill=\"#AD2531\"><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g id=\"post-flash\"><path d=\"M0,0V18.73H100V0ZM99.3,17.73H22.1l5.8-8.87L22.1,1H99.3Z\"/><rect x=\"34.15\" y=\"5.55\" width=\"7.63\" height=\"7.63\"/><rect x=\"44.85\" y=\"7.86\" width=\"47.97\" height=\"3\"/></g></g></g></svg>"
 }

@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-empty-section",
+  "title": "Spacer Section",
   "category": "blockspare",
+  "description": "Separate content sections using customizable colored background bands and borders.",
   "supports": {
     "align": [
       "wide",
@@ -39,5 +41,6 @@
       "default": ""
     }
   },
-  "editorScript": "file:./index.js"
+  "editorScript": "file:./index.js",
+  "icon": "<svg version=\"1.1\" class=\"blockspare-svg\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#AD2531\"><rect class=\"cls-1\" x=\"1.5\" y=\"1.5\" width=\"13\" height=\"13\"/></svg>"
 }

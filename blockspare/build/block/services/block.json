@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-services",
+  "title": "Services",
   "category": "blockspare",
+  "description": "Showcase your offerings, features, or solutions with customizable service blocks.",
   "attributes": {
     "serviceItems": {
       "type": "number",
@@ -59,5 +61,6 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css"
+  "style": "file:./style-index.css",
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 82.97 82.97\" fill=\"#AD2531\"><circle id=\"XMLID_1_\" cx=\"4.5\" cy=\"5\" r=\"3.4\"/><circle id=\"XMLID_9_\" cx=\"15.5\" cy=\"5\" r=\"3.4\"/><rect id=\"XMLID_2_\" y=\"10\" width=\"9\" height=\"1.7\"/><rect id=\"XMLID_8_\" x=\"11\" y=\"9.8\" width=\"9\" height=\"1.7\"/><rect id=\"XMLID_4_\" y=\"13.3\" width=\"9\" height=\"6.7\"/><rect id=\"XMLID_7_\" x=\"11\" y=\"13.1\" width=\"9\" height=\"6.9\"/></svg>"
 }

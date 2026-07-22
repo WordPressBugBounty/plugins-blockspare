@@ -6,7 +6,7 @@ Tags: gutenberg blocks, post grid, post slider, post carousel, starter templates
 Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 4.2.2
+Stable tag: 4.2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,7 @@ Build professional news, magazine, blog, editorial and business websites with po
 
 [**BlockSpare**](https://blockspare.com/) is a powerful Gutenberg blocks plugin built for publishers, bloggers, businesses, agencies, and content creators who want to build beautiful WordPress websites using the native Block Editor.
 
-Whether you're creating an **online newspaper, digital magazine, personal blog, business website, corporate site, portfolio, landing page, or editorial publication**, BlockSpare provides everything you need to build professional layouts without relying on heavy page builders or writing custom code.
+Whether you're creating an **[online newspaper](https://demos.blockspare.com/newspare/dailynews), [digital magazine](https://demos.blockspare.com/newspare/techwire), [personal blog](https://demos.blockspare.com/newspare/healthmag), [business website](https://demos.blockspare.com/newspare/enterprise), [corporate site](https://demos.blockspare.com/newspare/standard-solutions), [portfolio](https://demos.blockspare.com/newspare/prime-generic), [landing page](https://demos.blockspare.com/newspare/environment-care), or [editorial publication](https://demos.blockspare.com/newspare/espanol)**, BlockSpare provides everything you need to build professional layouts without relying on heavy page builders or writing custom code.
 
 Trusted by **16,000+ WordPress users**, BlockSpare includes **60+ Gutenberg blocks**, **137+ starter templates**, **270+ ready-made sections**, and powerful publishing tools—all built natively for Gutenberg.
 
@@ -184,7 +184,7 @@ Every block includes powerful customization options including:
 
 👉 Colors & Backgrounds
 
-👉 Backgrounds
+👉 Animations & Transitions
 
 👉 Spacing & Layout
 

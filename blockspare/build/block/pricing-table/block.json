@@ -2,7 +2,9 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-pricing",
+  "title": "Pricing Table",
   "category": "blockspare",
+  "description": "Display product tiers, subscription plans, and features in a clean pricing table.",
   "attributes": {
     "columns": {
       "type": "number",
@@ -55,5 +57,6 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css"
+  "style": "file:./style-index.css",
+  "icon": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-506.4 198.2 211.2 165.6\" fill=\"#AD2531\" class=\"blockspare-svg blockspare-svg-pricing-table\"><g><g><path d=\"M-411.6,363.8h-94.8V198.2h94.8V363.8z M-500.3,357.7h82.6V204.3h-82.6V357.7z\"/></g><g><path d=\"M-463.3,319.1v-12.7c-7.3-0.1-14.8-2.4-19.2-5.5l3-8.4c4.5,3,11,5.4,18,5.4c8.9,0,14.9-5.1,14.9-12.3c0-6.9-4.9-11.2-14.2-14.9c-12.8-5-20.7-10.8-20.7-21.7c0-10.4,7.4-18.3,18.9-20.2v-12.7h7.8v12.2c7.5,0.3,12.7,2.3,16.3,4.4l-3.1,8.3c-2.6-1.5-7.8-4.3-15.8-4.3c-9.7,0-13.3,5.8-13.3,10.8c0,6.5,4.6,9.8,15.5,14.3c12.9,5.3,19.4,11.8,19.4,22.9c0,9.9-6.9,19.2-19.8,21.3v13H-463.3z\"/></g><rect x=\"-488.6\" y=\"330.8\" width=\"59.3\" height=\"9.6\"/></g><g><g><path d=\"M-295.5,363.6h-94.8V198h94.8V363.6z M-384.2,357.6h82.6V204.1h-82.6V357.6z\"/></g><g><path d=\"M-347.2,318.9v-12.7c-7.3-0.1-14.8-2.4-19.2-5.5l3-8.4c4.5,3,11,5.4,18,5.4c8.9,0,14.9-5.1,14.9-12.3c0-6.9-4.9-11.2-14.2-14.9c-12.8-5-20.7-10.8-20.7-21.7c0-10.4,7.4-18.3,18.9-20.2V216h7.8v12.2c7.5,0.3,12.7,2.3,16.3,4.4l-3.1,8.3c-2.6-1.5-7.8-4.3-15.8-4.3c-9.7,0-13.3,5.8-13.3,10.8c0,6.5,4.6,9.8,15.5,14.3c12.9,5.3,19.4,11.8,19.4,22.9c0,9.9-6.9,19.2-19.8,21.3v13H-347.2z\"/></g><rect x=\"-372.6\" y=\"330.7\" width=\"59.3\" height=\"9.6\"/></g></svg>"
 }
