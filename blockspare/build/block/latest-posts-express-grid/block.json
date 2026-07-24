@@ -640,6 +640,5 @@
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
-  "render": "file:./render.php",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 141.28 100\" fill=\"#AD2531\"><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g id=\"post-express-grid\"><g id=\"group\"><rect width=\"83.79\" height=\"67.42\"/><line x1=\"6.99\" y1=\"76.14\" x2=\"54.58\" y2=\"76.14\"/><rect x=\"6.99\" y=\"73.64\" width=\"47.59\" height=\"5\"/><line x1=\"6.99\" y1=\"86.86\" x2=\"65.48\" y2=\"86.86\"/><rect x=\"6.99\" y=\"84.36\" width=\"58.48\" height=\"5\"/><line x1=\"6.99\" y1=\"97.5\" x2=\"65.48\" y2=\"97.5\"/><rect x=\"6.99\" y=\"95\" width=\"58.48\" height=\"5\"/></g><g id=\"group-2\" data-name=\"group\"><rect x=\"98.94\" width=\"42.34\" height=\"22.45\"/><line x1=\"103.51\" y1=\"31.16\" x2=\"125.24\" y2=\"31.16\"/><rect x=\"103.51\" y=\"28.66\" width=\"21.73\" height=\"5\"/><line x1=\"103.51\" y1=\"41.88\" x2=\"130.22\" y2=\"41.88\"/><rect x=\"103.51\" y=\"39.38\" width=\"26.71\" height=\"5\"/></g><g id=\"group-3\" data-name=\"group\"><rect x=\"98.94\" y=\"55.48\" width=\"42.34\" height=\"22.45\"/><line x1=\"103.51\" y1=\"86.65\" x2=\"125.24\" y2=\"86.65\"/><rect x=\"103.51\" y=\"84.15\" width=\"21.73\" height=\"5\"/><line x1=\"103.51\" y1=\"97.37\" x2=\"130.22\" y2=\"97.37\"/><rect x=\"103.51\" y=\"94.87\" width=\"26.71\" height=\"5\"/></g></g></g></g></svg>"
+  "render": "file:./render.php"
 }

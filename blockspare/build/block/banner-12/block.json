@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-banner-12",
-  "tiile": "Hero Banner(12)",
+  "title": "Hero Banner 12",
   "category": "blockspare-post",
   "description": "Display a main hero card, stacked center posts, and a structured right-side news list.",
   "attributes": {
@@ -1161,6 +1161,5 @@
       "default": "bs-single-color"
     }
   },
-  "editorScript": "file:./index.js",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 200.14 100\"><g fill=\"#AD2531\" id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g id=\"banner-12\"><g id=\"group\"><rect x=\"155.94\" y=\"17.95\" width=\"18.23\" height=\"22.09\"/><line x1=\"178.33\" y1=\"25.61\" x2=\"196.08\" y2=\"25.61\"/><rect x=\"178.33\" y=\"23.56\" width=\"17.74\" height=\"4.11\"/><line x1=\"178.33\" y1=\"34.41\" x2=\"200.14\" y2=\"34.41\"/><rect x=\"178.33\" y=\"32.36\" width=\"21.81\" height=\"4.11\"/></g><g id=\"group-2\" data-name=\"group\"><rect x=\"155.94\" y=\"77.87\" width=\"18.23\" height=\"22.09\"/><line x1=\"178.33\" y1=\"85.53\" x2=\"196.08\" y2=\"85.53\"/><rect x=\"178.33\" y=\"83.47\" width=\"17.75\" height=\"4.11\"/><line x1=\"178.33\" y1=\"94.33\" x2=\"200.14\" y2=\"94.33\"/><rect x=\"178.33\" y=\"92.27\" width=\"21.81\" height=\"4.11\"/></g><g id=\"group-3\" data-name=\"group\"><rect x=\"155.94\" y=\"47.96\" width=\"18.23\" height=\"22.09\"/><line x1=\"178.33\" y1=\"55.62\" x2=\"196.08\" y2=\"55.62\"/><rect x=\"178.33\" y=\"53.57\" width=\"17.75\" height=\"4.11\"/><line x1=\"178.33\" y1=\"64.42\" x2=\"200.14\" y2=\"64.42\"/><rect x=\"178.33\" y=\"62.37\" width=\"21.81\" height=\"4.11\"/></g><rect width=\"86\" height=\"100\"/><rect x=\"99.13\" width=\"44.4\" height=\"41.15\"/><rect x=\"99.13\" y=\"58.85\" width=\"44.4\" height=\"41.15\"/><rect x=\"155.94\" width=\"44.2\" height=\"9.73\"/></g></g></g></svg>"
+  "editorScript": "file:./index.js"
 }

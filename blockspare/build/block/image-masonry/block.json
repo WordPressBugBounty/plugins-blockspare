@@ -61,6 +61,5 @@
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
-  "viewScript": "file:./view.js",
-  "icon": "<svg version=\"1.1\" class=\"blockspare-svg blockspare-svg-masonry\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"#AD2531\"><rect id=\"XMLID_1_\" x=\"1.2\" y=\"11.2\" width=\"7.8\" height=\"7.6\"/><rect id=\"XMLID_4_\" x=\"1.2\" y=\"1.2\" width=\"7.8\" height=\"7.8\"/><rect id=\"XMLID_3_\" x=\"11\" y=\"1.2\" width=\"7.8\" height=\"5\"/><rect id=\"XMLID_5_\" x=\"11\" y=\"9\" width=\"7.8\" height=\"9.8\"/></svg>"
+  "viewScript": "file:./view.js"
 }

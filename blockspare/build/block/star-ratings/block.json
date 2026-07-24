@@ -72,6 +72,5 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css",
-  "icon": "<svg version=\"1.1\" class=\"blockspare-svg blockspare-svg-starrating\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"#AD2531\"><g><path d=\"M20.4,7.7l-7.2-1L10,0.1L6.8,6.6l-7.2,1l5.2,5.1l-1.2,7.2l6.4-3.4l6.4,3.4l-1.2-7.2L20.4,7.7z M15.2,18.2L10,15.5V2.1 l2.6,5.3l5.9,0.9l-4.2,4.1L15.2,18.2z\" /></g></svg>"
+  "style": "file:./style-index.css"
 }

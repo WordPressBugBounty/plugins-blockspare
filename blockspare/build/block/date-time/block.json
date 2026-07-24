@@ -257,6 +257,5 @@
   "editorScript": "file:./index.js",
   "style": "file:./style-index.css",
   "viewScript": "file:./view.js",
-  "render": "file:./render.php",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 142.39 134.03\"><g fill=\"#AD2531\">...</g></svg>"
+  "render": "file:./render.php"
 }

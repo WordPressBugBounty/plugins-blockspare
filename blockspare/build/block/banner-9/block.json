@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-banner-9",
-  "tiile": "Hero Banner(9)",
+  "title": "Hero Banner 9",
   "category": "blockspare-post",
   "description": "Featured main slider editor picks with a vertically scrolling carousel.",
   "attributes": {
@@ -1164,6 +1164,5 @@
   "editorScript": "file:./index.js",
   "style": "file:./style-index.css",
   "viewScript": "file:./view.js",
-  "render": "file:./render.php",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200.14 100\"><g fill=\"#AD2531\"><rect x=\"155.94\" y=\"0.04\" width=\"23.56\" height=\"26.91\"/><rect x=\"183.85\" y=\"6.87\" width=\"13.26\" height=\"5\"/><rect x=\"183.85\" y=\"17.59\" width=\"16.29\" height=\"5\"/><rect x=\"155.94\" y=\"36.61\" width=\"23.56\" height=\"26.91\"/><rect x=\"183.85\" y=\"43.43\" width=\"13.26\" height=\"5\"/><rect x=\"183.85\" y=\"54.16\" width=\"16.29\" height=\"5\"/><rect x=\"155.94\" y=\"73.04\" width=\"23.56\" height=\"26.91\"/><rect x=\"183.85\" y=\"79.87\" width=\"13.26\" height=\"5\"/><rect x=\"183.85\" y=\"90.6\" width=\"16.29\" height=\"5\"/><rect width=\"86\" height=\"100\"/><rect x=\"99.13\" width=\"44.4\" height=\"41.15\"/><rect x=\"99.13\" y=\"58.85\" width=\"44.4\" height=\"41.15\"/></g></svg>"
+  "render": "file:./render.php"
 }

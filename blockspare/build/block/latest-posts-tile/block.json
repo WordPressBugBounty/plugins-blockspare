@@ -637,6 +637,5 @@
       "default": "bs-single-color"
     }
   },
-  "editorScript": "file:./index.js",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 141.28 100\" fill=\"#AD2531\"><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g id=\"post-tile\"><rect width=\"61.87\" height=\"41.15\"/><rect x=\"79.55\" width=\"61.87\" height=\"41.15\"/><rect y=\"58.85\" width=\"61.87\" height=\"41.15\"/><rect x=\"79.55\" y=\"58.85\" width=\"61.87\" height=\"41.15\"/></g></g></g></svg>"
+  "editorScript": "file:./index.js"
 }

@@ -194,6 +194,5 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css",
-  "icon": "<svg version=\"1.1\" class=\"blockspare-svg blockspare-svg-starrating\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"#AD2531\"><g id=\"XMLID_1_\"><path id=\"XMLID_3_\" d=\"M13.1,2.5c1.7,1.7,1.7,4.5,0,6.3s-4.5,1.7-6.3,0s-1.7-4.5,0-6.3C8.6,0.7,11.4,0.7,13.1,2.5\" /><path id=\"XMLID_2_\" d=\"M16.8,13.2c-4-2.7-9.5-2.7-13.6,0c-0.6,0.4-1,1.1-1,1.8v3.8h15.5V15C17.7,14.3,17.4,13.6,16.8,13.2 L16.8,13.2z\" /></g></svg>"
+  "style": "file:./style-index.css"
 }

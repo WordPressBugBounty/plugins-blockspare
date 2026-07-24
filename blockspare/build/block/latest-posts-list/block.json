@@ -585,6 +585,5 @@
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
-  "render": "file:./render.php",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 141.28 100\" fill=\"#AD2531\"><g id=\"XMLID_1_\"><path id=\"XMLID_5_\" d=\"M6.8,8.3H0.9V2h5.9V8.3z\"/></g><g id=\"XMLID_2_\"><rect id=\"XMLID_3_\" x=\"8.7\" y=\"3.1\" width=\"8.5\" height=\"1.4\"/><rect id=\"XMLID_4_\" x=\"8.7\" y=\"5.8\" width=\"10.2\" height=\"1.4\"/></g><g id=\"XMLID_14_\"><path id=\"XMLID_15_\" d=\"M6.9,18.2H0.8v-6.6h6.1V18.2z\"/></g><g id=\"XMLID_11_\"><rect id=\"XMLID_13_\" x=\"8.7\" y=\"12.8\" width=\"8.5\" height=\"1.4\"/><rect id=\"XMLID_12_\" x=\"8.7\" y=\"15.5\" width=\"10.2\" height=\"1.4\"/></g></svg>"
+  "render": "file:./render.php"
 }

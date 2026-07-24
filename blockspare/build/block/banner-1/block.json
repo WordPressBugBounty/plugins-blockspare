@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-banner-1",
-  "title": "Hero Banner(1)",
+  "title": "Hero Banner 1",
   "category": "blockspare-post",
   "description": "Featured post slider on the left with curated Editors Choice sections.",
   "attributes": {
@@ -1164,6 +1164,5 @@
   "editorScript": "file:./index.js",
   "style": "file:./style-index.css",
   "viewScript": "file:./view.js",
-  "render": "file:./render.php",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\"><g fill=\"#AD2531\"><rect width=\"119.83\" height=\"100\"/><rect x=\"138.13\" width=\"61.87\" height=\"41.15\"/><rect x=\"138.13\" y=\"58.85\" width=\"61.87\" height=\"41.15\"/></g></svg>"
+  "render": "file:./render.php"
 }

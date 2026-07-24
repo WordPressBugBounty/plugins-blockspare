@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-banner-4",
-  "tiile": "Hero Banner(4)",
+  "title": "Hero Banner 4",
   "category": "blockspare-post",
   "description": "Featured main slider across a three-column layout with stacked end cards.",
   "attributes": {
@@ -1161,6 +1161,5 @@
       "default": "bs-single-color"
     }
   },
-  "editorScript": "file:./index.js",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\"><g fill=\"#AD2531\"><rect width=\"86.53\" height=\"100\"/><rect x=\"100\" width=\"44.57\" height=\"100\"/><rect x=\"155.43\" width=\"44.57\" height=\"41.15\"/><rect x=\"155.43\" y=\"58.85\" width=\"44.57\" height=\"41.15\"/></g></svg>"
+  "editorScript": "file:./index.js"
 }

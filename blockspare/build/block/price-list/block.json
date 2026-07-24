@@ -58,6 +58,5 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 141.28 100\" fill=\"#AD2531\"><circle cx=\"3.3\" cy=\"2.6\" r=\"2.6\"/><rect x=\"7.1\" y=\"1.4\" class=\"st0\" width=\"9.8\" height=\"0.8\"/><rect x=\"17.7\" y=\"1.4\" class=\"st0\" width=\"2.3\" height=\"0.8\"/><rect x=\"7.1\" y=\"3.1\" class=\"st0\" width=\"12.9\" height=\"0.8\"/><circle class=\"st0\" cx=\"3.3\" cy=\"9.7\" r=\"2.6\"/><rect x=\"7.1\" y=\"8.9\" class=\"st0\" width=\"9.8\" height=\"0.8\"/><rect x=\"17.7\" y=\"8.9\" class=\"st0\" width=\"2.3\" height=\"0.8\"/><rect x=\"7.1\" y=\"10.5\" class=\"st0\" width=\"12.9\" height=\"0.8\"/><circle class=\"st0\" cx=\"3.3\" cy=\"17.4\" r=\"2.6\"/><rect x=\"7.1\" y=\"16.3\" class=\"st0\" width=\"9.8\" height=\"0.8\"/><rect x=\"17.7\" y=\"16.3\" class=\"st0\" width=\"2.3\" height=\"0.8\"/><rect x=\"7.1\" y=\"17.9\" class=\"st0\" width=\"12.9\" height=\"0.8\"/></svg>"
+  "style": "file:./style-index.css"
 }

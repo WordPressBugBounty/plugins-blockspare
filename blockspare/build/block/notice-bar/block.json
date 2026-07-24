@@ -144,6 +144,5 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 141.28 100\" fill=\"#AD2531\"><g id=\"XMLID_4_\"></g><g id=\"XMLID_1_\"><path id=\"XMLID_3_\" class=\"st0\" d=\"M10,20C4.5,20,0,15.5,0,10C0,4.5,4.5,0,10,0c5.5,0,10,4.5,10,10C20,15.5,15.5,20,10,20z M10,1C5,1,1,5,1,10s4.1,9,9,9s9-4.1,9-9S15,1,10,1z\"/></g><path id=\"XMLID_10_\" class=\"st0\" d=\"M11.7,4.4C11.7,5.3,11,6,10,6C9,6,8.3,5.3,8.3,4.4C8.3,3.5,9,2.7,10,2.7C11,2.7,11.7,3.5,11.7,4.4z\"/><rect id=\"XMLID_9_\" x=\"8.8\" y=\"7.1\" class=\"st0\" width=\"2.5\" height=\"9.6\"/></svg>"
+  "style": "file:./style-index.css"
 }

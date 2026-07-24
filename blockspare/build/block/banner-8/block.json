@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "blockspare/blockspare-banner-8",
-  "tiile": "Hero Banner(8)",
+  "title": "Hero Banner 8",
   "category": "blockspare-post",
   "description": "Featured  main slider, stacked side posts, and a bottom post carousel.",
   "attributes": {
@@ -1161,6 +1161,5 @@
       "default": "bs-single-color"
     }
   },
-  "editorScript": "file:./index.js",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 141.42 100\"><g fill=\"#AD2531\"><rect width=\"61.19\" height=\"69.8\"/><rect x=\"70.71\" width=\"31.52\" height=\"69.8\"/><rect x=\"109.91\" width=\"31.52\" height=\"28.73\"/><rect x=\"109.91\" y=\"41.08\" width=\"31.52\" height=\"28.73\"/><rect y=\"82.54\" width=\"20.76\" height=\"17.46\"/><rect x=\"24.97\" y=\"88.17\" width=\"11.68\" height=\"2.64\"/><rect x=\"24.97\" y=\"93.83\" width=\"14.36\" height=\"2.64\"/><rect x=\"51.05\" y=\"82.54\" width=\"20.76\" height=\"17.46\"/><rect x=\"76.02\" y=\"88.17\" width=\"11.68\" height=\"2.64\"/><rect x=\"76.02\" y=\"93.83\" width=\"14.36\" height=\"2.64\"/><rect x=\"102.09\" y=\"82.54\" width=\"20.76\" height=\"17.46\"/><rect x=\"127.06\" y=\"88.17\" width=\"11.68\" height=\"2.64\"/><rect x=\"127.06\" y=\"93.83\" width=\"14.36\" height=\"2.64\"/></g></svg>"
+  "editorScript": "file:./index.js"
 }

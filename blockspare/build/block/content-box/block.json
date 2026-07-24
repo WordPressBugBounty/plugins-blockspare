@@ -148,6 +148,5 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><g fill=\"#AD2531\"><polygon points=\"21,13.8 21,29.3 55.3,29.3 55.3,70.7 21,70.7 21,86.2 88.7,86.2 88.7,13.8\"/><rect x=\"11.3\" y=\"38.6\" width=\"34.4\" height=\"22.8\"/></g></svg>"
+  "style": "file:./style-index.css"
 }

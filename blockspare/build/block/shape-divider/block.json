@@ -69,6 +69,5 @@
   },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
-  "style": "file:./style-index.css",
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"blockspare-svg\" viewBox=\"0 0 82.97 82.97\" fill=\"#AD2531\"><path id=\"XMLID_6_\" d=\"M20,20H0V0h20V20z M1,19h18V1H1V19z\"/><path id=\"XMLID_10_\" d=\"M0,10.8c0,0,6.3-3.3,10.6,1.1c5.3,5.5,9.4-2,9.4-2V20L0,20V10.8z\"/></svg>"
+  "style": "file:./style-index.css"
 }
