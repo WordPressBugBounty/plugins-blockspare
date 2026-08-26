@@ -26,10 +26,10 @@ if (!class_exists('Blockspare_Admin_Dashboard')) {
 
       add_filter('plugin_action_links_' . BLOCKSPARE_PLUGIN_BASE, [$this, 'plugin_action_links']);
 
-      include_once(BLOCKSPARE_PLUGIN_DIR . 'admin/notice-setup.php');
-      include_once(BLOCKSPARE_PLUGIN_DIR . 'admin/notice-theme.php');
-      include_once(BLOCKSPARE_PLUGIN_DIR . 'admin/notice-review.php');
-      include_once BLOCKSPARE_PLUGIN_DIR . 'admin/notice-upgrade.php';
+      // include_once(BLOCKSPARE_PLUGIN_DIR . 'admin/notice-setup.php');
+      // include_once(BLOCKSPARE_PLUGIN_DIR . 'admin/notice-theme.php');
+      // include_once(BLOCKSPARE_PLUGIN_DIR . 'admin/notice-review.php');
+      // include_once BLOCKSPARE_PLUGIN_DIR . 'admin/notice-upgrade.php';
       include_once(BLOCKSPARE_PLUGIN_DIR . 'admin/class-enable-disable-blocks.php');
     }
 

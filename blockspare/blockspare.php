@@ -4,7 +4,7 @@
  * Plugin Name:       BlockSpare - Gutenberg Site Builder Blocks & Starter Templates
  * Plugin URI:        https://blockspare.com/
  * Description:       Gutenberg Blocks & Patterns for Blogs, Magazines, Business Sites – Post Grids, Sliders, Carousels, Counters, Page Builder & Starter Site Imports, No Coding Needed
- * Version:           4.2.4
+ * Version:           4.2.5
  * Author:            BlockSpare
  * Author URI:        https://blockspare.com/
  * Text Domain:       blockspare
