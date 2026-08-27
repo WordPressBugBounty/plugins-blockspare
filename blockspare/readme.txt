@@ -4,9 +4,9 @@ Contributors: blockspare, afthemes
 Donate link: https://www.blockspare.com/
 Tags: gutenberg blocks, post grid, post slider, post carousel, starter templates
 Requires at least: 5.0
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 5.0
-Stable tag: 4.2.5
+Stable tag: 4.2.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
