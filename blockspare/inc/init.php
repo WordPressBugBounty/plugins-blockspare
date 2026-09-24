@@ -47,10 +47,18 @@ class Blockspare_Init
 
     $args = ['public' => true, 'show_in_rest' => true];
     $post_types = get_post_types($args, 'objects');
-
+    $excluded_post_types = [
+      'attachment',
+      'bs_templates',
+    ];
     $output = [];
+
+
     foreach ($post_types as $post_type) {
-      if ($post_type->name === 'attachment') continue;
+
+      if (in_array($post_type->name, $excluded_post_types, true)) {
+        continue;
+      }
 
       $output[] = [
         'value' => $post_type->name,

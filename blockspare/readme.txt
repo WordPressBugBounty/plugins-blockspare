@@ -1,4 +1,4 @@
-﻿=== BlockSpare – Gutenberg Blocks for News, Magazine, Blog & Business Websites ===
+﻿=== BlockSpare – Gutenberg Blocks, AI Content Generator & Site Builder for News, Magazine & Blogs ===
 
 Contributors: blockspare, afthemes
 Donate link: https://www.blockspare.com/
@@ -6,43 +6,62 @@ Tags: gutenberg blocks, post grid, post slider, post carousel, starter templates
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 5.0
-Stable tag: 4.2.6
+Stable tag: 5.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Build professional news, magazine, blog, editorial and business websites with powerful Gutenberg blocks, starter templates, advanced post layouts, sliders, news tickers and responsive design controls.
+Build news, magazine, blog, editorial and business websites with powerful Gutenberg blocks, AI tools, Site Builder, starter sites, post layouts and more.
+
+== Description ==
 
 == Description ==
 
 [**BlockSpare**](https://blockspare.com/) is a powerful Gutenberg blocks plugin built for publishers, bloggers, businesses, agencies, and content creators who want to build beautiful WordPress websites using the native Block Editor.
 
-Whether you're creating an **[online newspaper](https://demos.blockspare.com/newspare/dailynews), [digital magazine](https://demos.blockspare.com/newspare/techwire), [personal blog](https://demos.blockspare.com/newspare/healthmag), [business website](https://demos.blockspare.com/newspare/enterprise), [corporate site](https://demos.blockspare.com/newspare/standard-solutions), [portfolio](https://demos.blockspare.com/newspare/prime-generic), [landing page](https://demos.blockspare.com/newspare/environment-care), or [editorial publication](https://demos.blockspare.com/newspare/espanol)**, BlockSpare provides everything you need to build professional layouts without relying on heavy page builders or writing custom code.
+Whether you're creating an **[online newspaper](https://demos.blockspare.com/newspare/dailynews), [digital magazine](https://demos.blockspare.com/newspare/techwire), [personal blog](https://demos.blockspare.com/newspare/healthmag), [business website](https://demos.blockspare.com/newspare/enterprise), [corporate site](https://demos.blockspare.com/newspare/standard-solutions), [portfolio](https://demos.blockspare.com/newspare/prime-generic), [landing page](https://demos.blockspare.com/newspare/environment-care), or [editorial publication](https://demos.blockspare.com/newspare/espanol)**, BlockSpare provides the blocks, templates, layouts, and publishing tools you need to build professional websites without relying on heavy page builders or writing custom code.
 
-Trusted by **16,000+ WordPress users**, BlockSpare includes **60+ Gutenberg blocks**, **137+ starter templates**, **270+ ready-made sections**, and powerful publishing tools—all built natively for Gutenberg.
+Trusted by **17,000+ WordPress users**, BlockSpare includes **60+ Gutenberg blocks**, **137+ starter templates**, **270+ ready-made sections**, and powerful tools for building content-rich websites—all designed to work naturally with the WordPress Block Editor.
+
+With **BlockSpare Pro**, you can unlock **AI-powered content generation**, **AI summarization**, **AI Key Q&A**, **AI model selection**, an **advanced Site Builder**, **Header & Footer Builder**, premium starter sites, advanced post queries, dynamic content, smart visibility controls, AJAX post filters and Load More, breaking news tickers, advertisement blocks, and more.
 
 ## Why Choose BlockSpare?
 
-Unlike general-purpose block plugins, BlockSpare is designed specifically for content-rich websites and professional publishing.
+Unlike general-purpose block plugins, BlockSpare is designed specifically for content-rich websites, professional publishing, and flexible WordPress site building.
 
-✅ Purpose-built for news, magazine and editorial websites
+✅ Purpose-built for news, magazine, blog and editorial websites
 
 ✅ 60+ specialized Gutenberg blocks
 
-✅ 137+ professionally designed starter templates
+✅ 100+ professionally designed starter templates
 
-✅ 270+ ready-made sections
+✅ 300+ ready-made sections
 
-✅ Powerful post query builder
+✅ Powerful post query and content filtering tools
 
-✅ Dynamic content support (Pro)
+✅ AI-powered content generation with multiple AI models
 
-✅ Native Gutenberg performance
+✅ AI summarization and Key Q&A tools
+
+✅ AI connectors with configurable language and model settings
+
+✅ Advanced Site Builder for managing website templates
+
+✅ Header & Footer Builder
+
+✅ Dynamic content and smart visibility controls
+
+✅ AJAX post filters and Load More
+
+✅ Breaking News Ticker and Advertisement Blocks
+
+✅ Native Gutenberg experience
 
 ✅ No shortcode lock-in
 
-✅ Works with any modern theme
+✅ Works with modern WordPress themes
 
-✅ Built by the creators of popular [**AF themes**](https://afthemes.com/)
+✅ Built by the creators of popular [**AF Themes**](https://afthemes.com/)
+
 
 
 [youtube https://www.youtube.com/watch?v=JHNIdv4C690]
@@ -93,11 +112,59 @@ BlockSpare makes it easy to create professional layouts for:
 
 ## Everything You Need to Build Faster
 
-BlockSpare includes professionally designed Gutenberg blocks, starter templates and reusable sections that help you create beautiful websites in minutes instead of hours.
+BlockSpare brings together powerful Gutenberg blocks, AI-powered content tools, a flexible Site Builder, professionally designed starter sites, and reusable sections to help you build and publish WordPress websites faster.
+
+### AI-Powered Content Tools
+
+Create, improve, and understand your content with AI directly inside WordPress.
+
+✓ AI Content Generation
+
+✓ AI Content Summarization
+
+✓ AI Key Questions & Answers
+
+✓ Multiple AI Model Support
+
+✓ Custom AI Generation Prompts
+
+✓ Multiple Language Support
+
+Use your connected AI providers and preferred models to generate content, summarize posts, and discover useful questions and answers.
+
+### Advanced Site Builder
+
+Build and customize your website using the native WordPress Site Editor with flexible template controls.
+
+✓ All Templates
+
+✓ Header Templates
+
+✓ Footer Templates
+
+✓ Front Page Templates
+
+✓ Singular Templates
+
+✓ Archive Templates
+
+✓ Search Results Templates
+
+✓ Category Templates
+
+✓ Author Templates
+
+✓ Tag Templates
+
+✓ Date Archive Templates
+
+✓ 404 Page Templates
+
+Create and manage templates for different parts of your website without relying on heavy page builders or custom code.
 
 ### Professional Publishing Blocks
 
-Create engaging content layouts using:
+Create engaging news, magazine, blog, and editorial layouts using:
 
 ✓ Hero Banners
 
@@ -123,11 +190,11 @@ Create engaging content layouts using:
 
 ✓ Large Featured Sections
 
-Perfect for online newspapers, blogs and magazine homepages.
+Perfect for online newspapers, digital magazines, blogs, editorial websites, and other content-rich publications.
 
 ### Business & Utility Blocks
 
-Build professional business pages with:
+Build professional business pages and content sections with:
 
 ✓ Containers
 
@@ -161,9 +228,11 @@ Build professional business pages with:
 
 ✓ Author Profiles
 
+Create everything from business pages and landing pages to service sections, pricing pages, and calls to action.
+
 ### Image & Media Blocks
 
-Showcase visual content with:
+Showcase images and visual content with:
 
 ✓ Image Slider
 
@@ -175,10 +244,11 @@ Showcase visual content with:
 
 ✓ Responsive Media Layouts
 
+Create attractive visual sections while keeping your layouts responsive across devices.
 
 ### Flexible Design Controls
 
-Every block includes powerful customization options including:
+Customize your blocks and layouts with powerful design options including:
 
 👉 Typography & Fonts
 
@@ -196,12 +266,11 @@ Every block includes powerful customization options including:
 
 👉 Device Controls
 
+## Professional Starter Sites
 
-## Professional Starter Templates
+Start faster with over 137 professionally designed **starter templates** and 270+ reusable sections.
 
-Start with over 137 professionally designed **starter templates** and 270+ reusable sections.
-
-Import a complete website or individual layouts in just a few clicks.
+Import complete websites or individual layouts in just a few clicks.
 
 Build websites faster using:
 
@@ -225,14 +294,13 @@ Build websites faster using:
 
 👉 Reusable Content Sections
 
-Simply import, customize and publish.
-
+Simply import, customize, and publish.
 
 ## Powerful Post Query Builder
 
-Create intelligent news layouts using the powerful query builder.
+Create flexible content layouts using the powerful post query builder.
 
-Display posts by:
+Display and organize posts by:
 
 👉 Categories
 
@@ -254,12 +322,37 @@ Display posts by:
 
 👉 Include & Exclude Posts
 
-Choose from multiple layouts while keeping your pages fast and responsive.
+Choose from multiple layouts and control which content appears on your pages.
 
+## Dynamic Content & Visibility
+
+Create flexible content experiences with dynamic blocks and display controls.
+
+Use dynamic content to:
+
+👉 Display custom content and fields
+
+👉 Create dynamic buttons and labels
+
+👉 Build dynamic section headings
+
+👉 Customize content based on your data
+
+Control block visibility based on:
+
+👉 User Role
+
+👉 Device
+
+👉 Date Range
+
+👉 Display Conditions
+
+Create more flexible layouts that show the right content to the right visitors.
 
 ## Built for Performance
 
-BlockSpare is designed to work with the WordPress Block Editor without unnecessary complexity.
+BlockSpare is designed to work naturally with the WordPress Block Editor without unnecessary complexity.
 
 Features include:
 
@@ -267,15 +360,13 @@ Features include:
 
 ✓ Lightweight frontend output
 
-✓ Lazy loading compatible
-
 ✓ Responsive layouts
-
-✓ Developer friendly
 
 ✓ Clean HTML markup
 
 ✓ Optimized CSS
+
+✓ Lazy loading compatible
 
 ✓ SEO-friendly structure
 
@@ -285,7 +376,18 @@ Features include:
 
 ✓ RTL support
 
+✓ Developer friendly
+
 ✓ Compatible with caching plugins
+
+## Why Publishers Love BlockSpare
+
+Whether you're launching your first blog, building a business website, or managing a large online publication, BlockSpare gives you the tools to build and publish faster with Gutenberg.
+
+Create content with AI, build complete websites with the Site Builder, start from professionally designed templates, and create engaging news, magazine, blog, and business layouts with flexible Gutenberg blocks.
+
+From breaking news homepages and featured stories to business websites and landing pages, BlockSpare is designed to work seamlessly with the WordPress Block Editor.
+
 
 ## Why Publishers Love BlockSpare
 
@@ -296,96 +398,176 @@ From breaking news homepages and featured stories to business websites and landi
 
 ## Unlock More with BlockSpare Pro
 
-Upgrade to [**BlockSpare Pro**](https://afthemes.com/blockspare-pro/) to unlock advanced publishing tools, premium layouts, dynamic content, and complete starter websites for professional WordPress projects.
+Upgrade to [**BlockSpare Pro**](https://afthemes.com/blockspare-pro/) to unlock AI-powered content tools, advanced Site Builder features, premium starter sites, powerful publishing tools, dynamic content controls, and advanced design options for professional WordPress websites.
 
-### Premium Publishing Blocks
+### AI-Powered Content Tools
 
-✅  Exclusive Hero Layouts
+Create, improve, and understand your content directly inside WordPress with integrated AI tools.
 
-✅  Premium Post Grids
+✅  AI Content Generation
 
-✅  Premium Sliders
+✅  AI Content Generation Blocks
 
-✅  Advanced Carousels
+✅  AI Summarization
 
-✅  Additional Magazine Layouts
+✅  AI Key Q&A
 
-✅  Premium Featured Sections
+✅  Multiple AI Model Selection
 
-### More Starter Templates
+✅  AI Connector Support
 
-✅  Complete Website Templates
+✅  Configurable Default Language
 
-✅  Business Templates
+Use your preferred AI provider and model to generate content, summarize posts, and identify useful questions and answers from your content.
 
-✅  Landing Pages
+### Advanced Site Builder
+
+Build and manage templates for different parts of your website with the BlockSpare Site Builder.
+
+✅  All Templates
+
+✅  404 Page
+
+✅  Header
+
+✅  Footer
+
+✅  Front Page
+
+✅  Singular
+
+✅  Archive
+
+✅  Search Results
+
+✅  Category
+
+✅  Author
+
+✅  Tag
+
+✅  Date Archive
+
+Create and customize website templates using Gutenberg without relying on heavy page builders or custom code.
+
+### Premium Starter Sites
+
+Start your website with professionally designed complete websites and ready-made layouts.
+
+✅  137+ Starter Templates
+
+✅  Complete Website Designs
+
+✅  News & Magazine Websites
+
+✅  Blog Websites
+
+✅  Business Websites
 
 ✅  Corporate Websites
 
-✅  Agency Layouts
+✅  Agency Websites
 
-✅  Online Magazines
+✅  Landing Pages
 
 ✅  Portfolio Websites
 
-### Advanced Queries
+✅  Reusable Sections
 
-✅  AJAX Filters
+Import a complete starter site or individual sections, then customize everything with Gutenberg.
+
+### Advanced Publishing Tools
+
+Build powerful news, magazine, blog, and editorial layouts with advanced content tools.
+
+✅  Premium News & Magazine Blocks
+
+✅  Advanced Post Queries
+
+✅  AJAX Post Filters
 
 ✅  AJAX Load More
 
-✅  Query by Authors
+✅  Advanced Ordering
 
-✅  Query by Taxonomies
+✅  Author Queries
+
+✅  Taxonomy Queries
 
 ✅  Include & Exclude Posts
 
-✅  Advanced Ordering
+✅  Breaking News Ticker
 
-### Dynamic Content
+✅  Advertisement Blocks
 
-✅  Dynamic Blocks
+Create flexible content layouts and control exactly which posts and content appear on your pages.
 
-✅  ACF Integration
+### Dynamic Content & Visibility
+
+Create more flexible and personalized layouts using dynamic content and display controls.
+
+✅  Dynamic Content Blocks
 
 ✅  Custom Fields
 
-✅  Dynamic Visibility
+✅  ACF Integration
 
-✅  User-based Visibility
+✅  Dynamic Buttons & Labels
+
+✅  Dynamic Section Content
+
+✅  User Role Visibility
 
 ✅  Device Visibility
 
 ✅  Scheduled Visibility
 
-### More Design Controls
+✅  Conditional Display
 
-✅  Premium Block Styles
+Show the right content in the right place based on your content, visitors, devices, and display conditions.
+
+### Advanced Design Controls
+
+Get more control over the appearance and behavior of your Gutenberg layouts.
+
+✅  Premium Block Controls
 
 ✅  Advanced Typography
 
-✅  More Layout Variations
-
-✅  Additional Responsive Controls
-
 ✅  Advanced Container Settings
 
+✅  Responsive Controls
+
+✅  Block Animations
+
+✅  Block Hover Effects
+
+✅  Image Hover Effects
+
+✅  Additional Layout Options
+
+Create polished, responsive layouts with flexible controls directly in the WordPress Block Editor.
+
 ### Premium Experience
+
+Get more from BlockSpare with ongoing product improvements and dedicated support.
 
 ✅  Priority Support
 
 ✅  Regular Feature Updates
 
-✅  Early Access to New Features
-
 ---
 
-### How it works (3 simple steps)
-1. **Choose a template or block** from the Pre-made Design Library or demo gallery.  
+### How BlockSpare Pro Works
 
-2. **Import or copy** it into your page or post
+Build your website your way with Gutenberg.
 
-3. **Customize** content and design using Gutenberg
+1. **Start with AI, a starter site, template, or block** and choose the tools you need.
+
+2. **Build and customize your website** using the Site Builder, Gutenberg blocks, dynamic content, and advanced design controls.
+
+3. **Create, refine, and publish content** using AI-powered tools and advanced publishing features.
+
 
 [youtube https://www.youtube.com/watch?v=niy3RhamIOE]
 
@@ -438,94 +620,158 @@ If you find BlockSpare useful, you may also like:
 
 = What is BlockSpare? =
 
-BlockSpare is a Gutenberg blocks plugin for WordPress that helps you build professional news, magazine, blog, business, portfolio, landing page, and WooCommerce websites using the native Block Editor. It includes 60+ blocks, 137+ starter templates, 270+ ready-made sections, and powerful design controls.
+BlockSpare is a Gutenberg blocks plugin for WordPress that helps you build professional news, magazine, blog, editorial, business, portfolio, landing page, and content-rich websites using the native Block Editor. It includes 60+ blocks, 137+ starter templates, 270+ ready-made sections, and powerful publishing and design tools.
 
 = Who is BlockSpare designed for? =
 
-BlockSpare is ideal for bloggers, publishers, online magazines, news websites, businesses, agencies, freelancers, educators, nonprofits, and anyone who wants to build professional WordPress websites without coding.
+BlockSpare is designed for bloggers, publishers, online magazines, news websites, businesses, agencies, freelancers, educators, nonprofits, and anyone who wants to build professional WordPress websites with Gutenberg without relying on heavy page builders or custom code.
 
 = Can I create news and magazine websites with BlockSpare? =
 
-Yes. BlockSpare is purpose-built for news, magazine, editorial, and blog websites. It includes Hero Banners, Breaking News Tickers, Trending Posts, Post Grids, Post Lists, Sliders, Carousels, Masonry layouts, Timeline layouts, and other publishing-focused blocks.
+Yes. BlockSpare is purpose-built for news, magazine, editorial, and blog websites. It includes Hero Banners, Breaking News Tickers, Trending Posts, Post Grids, Post Lists, Sliders, Carousels, Masonry layouts, Timeline layouts, Featured Sections, and other publishing-focused blocks.
 
 = Can I build business websites and landing pages? =
 
-Absolutely. BlockSpare includes business-focused blocks such as Containers, Content Boxes, Pricing Tables, Testimonials, Services, Call-to-Action sections, Counters, Progress Bars, Tabs, Accordions, and Buttons for creating professional business websites and marketing pages.
+Yes. BlockSpare includes business-focused blocks such as Containers, Content Boxes, Pricing Tables, Testimonials, Services, Call-to-Action sections, Counters, Progress Bars, Tabs, Accordions, Buttons, and other flexible content blocks for creating professional business websites and landing pages.
+
+= What is BlockSpare Pro? =
+
+BlockSpare Pro adds advanced website-building and publishing features, including AI-powered content tools, AI model selection, the Site Builder, Header & Footer Builder, premium starter sites, advanced post queries, AJAX filters and Load More, dynamic content, smart visibility controls, advertisement blocks, and additional design controls.
+
+= What AI features does BlockSpare Pro include? =
+
+BlockSpare Pro includes AI-powered tools for creating and working with WordPress content.
+
+AI features include:
+
+* AI Content Generation
+* AI Summarization
+* AI Key Q&A
+* AI Content Generation Blocks
+* AI Model Selection
+* AI Connector Support
+* Configurable Default Language
+
+You can use connected AI providers and your preferred AI model to generate content, summarize posts, and identify useful questions and answers from your content.
+
+= Can I choose which AI model BlockSpare uses? =
+
+Yes. BlockSpare Pro provides AI model selection, allowing you to choose an available model from your connected AI provider for AI-powered content tools.
+
+= Can I generate content in different languages? =
+
+Yes. BlockSpare Pro includes a configurable Default Language setting for its AI content tools. The selected language is used when generating and working with content through the AI features.
+
+= What is the BlockSpare Site Builder? =
+
+The BlockSpare Site Builder helps you create and manage templates for different parts of your WordPress website using Gutenberg.
+
+The Site Builder supports:
+
+* All Templates
+* 404 Page
+* Header
+* Footer
+* Front Page
+* Singular
+* Archive
+* Search Results
+* Category
+* Author
+* Tag
+* Date Archive
+
+You can create and customize templates for different parts of your website without relying on heavy page builders or writing custom code.
+
+= Can I build custom headers and footers with BlockSpare Pro? =
+
+Yes. BlockSpare Pro includes Header & Footer Builder functionality through the Site Builder, allowing you to create and customize header and footer templates using Gutenberg.
 
 = What are Starter Templates? =
 
-Starter Templates are professionally designed website layouts that help you launch a website quickly. Import a complete website or individual pages, then customize everything using the WordPress Block Editor.
+Starter Templates are professionally designed website layouts that help you launch a website quickly. BlockSpare includes 137+ starter templates and 270+ ready-made sections. You can import complete website designs or individual layouts and customize them using Gutenberg.
 
 = Do I need coding knowledge? =
 
-No. BlockSpare is designed for visual editing with Gutenberg. You can build and customize complete websites without writing HTML, CSS, JavaScript, or PHP.
+No. BlockSpare is designed for visual editing with Gutenberg. You can build and customize websites without writing HTML, CSS, JavaScript, or PHP.
 
 = Does BlockSpare work with Full Site Editing (FSE)? =
 
-Yes. BlockSpare works with modern block themes and Full Site Editing (FSE) while remaining fully compatible with classic Gutenberg themes.
+Yes. BlockSpare works with modern block themes and Full Site Editing (FSE), while also providing Gutenberg blocks that can be used with compatible classic themes.
 
 = Does BlockSpare work with any WordPress theme? =
 
-Yes. BlockSpare works with most Gutenberg-compatible WordPress themes. It integrates especially well with [AF themes](https://afthemes.com/products/newspare/) while remaining compatible with other popular themes.
+BlockSpare is designed to work with modern Gutenberg-compatible WordPress themes. It integrates especially well with [AF Themes](https://afthemes.com/products/newspare/) while remaining usable with other compatible WordPress themes.
 
 = Is BlockSpare compatible with WooCommerce? =
 
-Yes. You can use BlockSpare to create WooCommerce shop pages, promotional sections, product landing pages, and business websites alongside WooCommerce.
+Yes. BlockSpare can be used alongside WooCommerce to create shop layouts, promotional sections, product landing pages, and other content sections.
 
 = Can I create post grids, sliders, carousels, and news tickers? =
 
-Yes. BlockSpare includes multiple blocks for Post Grids, Lists, Tiles, Sliders, Carousels, Breaking News Tickers, Trending Posts, Masonry layouts, Timeline layouts, and Featured Sections.
+Yes. BlockSpare includes multiple publishing blocks for Post Grids, Lists, Tiles, Sliders, Carousels, Breaking News Tickers, Trending Posts, Masonry layouts, Timeline layouts, and Featured Sections.
 
 = Does BlockSpare include a post query builder? =
 
-Yes. BlockSpare lets you display posts by categories, tags, dates, popularity, featured posts, random order, custom ordering, and more. BlockSpare Pro adds advanced query controls, AJAX filtering, and dynamic content options.
+Yes. BlockSpare provides post query options for displaying content by categories, tags, authors, dates, popularity, featured posts, random order, custom ordering, and other criteria. BlockSpare Pro adds advanced query controls, AJAX filtering, AJAX Load More, and additional content controls.
+
+= Can I filter posts with AJAX? =
+
+Yes. BlockSpare Pro includes AJAX post filters and AJAX Load More functionality, allowing visitors to browse and load additional content without a full page reload.
 
 = Can I use custom fields or ACF with BlockSpare? =
 
-Yes. BlockSpare Pro includes dynamic content support, including Advanced Custom Fields (ACF) integration and other dynamic content features.
+Yes. BlockSpare Pro includes dynamic content features and support for Advanced Custom Fields (ACF), allowing you to use custom field data in supported dynamic content features.
+
+= What are Dynamic Content and Smart Visibility? =
+
+BlockSpare Pro includes dynamic content and visibility controls that allow you to create more flexible layouts and control when and where content is displayed.
+
+Depending on the feature, you can use dynamic content with custom fields and control visibility based on user role, device, date range, and other display conditions.
 
 = Can I customize colors, typography, and layouts? =
 
-Yes. Every block includes flexible customization options such as typography, colors, spacing, backgrounds, borders, responsive visibility, layout settings, and more.
-
-= Will BlockSpare slow down my website? =
-
-No. BlockSpare is built with performance in mind. It uses native Gutenberg blocks and optimized frontend assets. Overall website performance also depends on your hosting, theme, images, caching, and other plugins.
-
-= Is BlockSpare SEO friendly? =
-
-Yes. BlockSpare generates clean Gutenberg-based markup and is designed to work well with popular SEO plugins while following WordPress best practices.
+Yes. BlockSpare provides flexible design controls for typography, colors, spacing, backgrounds, borders, layouts, responsive settings, hover effects, animations, and other block-specific options.
 
 = Is BlockSpare mobile responsive? =
 
-Yes. All blocks and starter templates are responsive and designed to work across desktop, tablet, and mobile devices.
+Yes. BlockSpare blocks and starter templates are designed to create responsive layouts that work across desktop, tablet, and mobile devices.
+
+= Will BlockSpare slow down my website? =
+
+BlockSpare is built with performance in mind and uses native Gutenberg blocks with optimized frontend assets. Actual website performance also depends on your hosting, theme, images, caching configuration, and other plugins.
+
+= Is BlockSpare SEO friendly? =
+
+BlockSpare is designed to work with WordPress best practices and popular SEO plugins. Its Gutenberg-based blocks generate structured HTML markup, while overall SEO performance also depends on your content, theme, site configuration, and SEO setup.
 
 = Is BlockSpare translation ready? =
 
-Yes. BlockSpare is translation ready and also supports RTL (Right-to-Left) languages.
+Yes. BlockSpare is translation ready and supports RTL (Right-to-Left) languages.
 
 = Is BlockSpare free? =
 
-Yes. BlockSpare includes a powerful free version with many blocks, starter templates, and sections. BlockSpare Pro adds premium blocks, advanced queries, dynamic content, additional templates, and priority support.
+Yes. BlockSpare includes a powerful free version with Gutenberg blocks, starter templates, ready-made sections, and design controls. BlockSpare Pro adds advanced AI tools, Site Builder features, premium starter sites, advanced publishing tools, dynamic content, and additional design options.
+
+= What is the difference between BlockSpare Free and Pro? =
+
+The free version provides a collection of Gutenberg blocks, starter templates, sections, and essential design controls. BlockSpare Pro adds advanced features such as AI-powered content tools, AI model selection, Site Builder, Header & Footer Builder, premium starter sites, advanced post queries, AJAX filters and Load More, dynamic content, smart visibility, and additional premium controls.
 
 = Can I use BlockSpare on client websites? =
 
-Yes. BlockSpare can be used on personal websites, business websites, and client projects according to your license.
+Yes. BlockSpare can be used for personal websites, business websites, and client projects according to the applicable BlockSpare Pro license terms.
 
-= Where can I see the starter templates, documentation, and demos? =
+= Where can I see BlockSpare starter templates and demos? =
 
-Starter Templates:
-https://afthemes.com/blockspare-pro/
+You can explore BlockSpare starter templates, website demos, and available designs through the BlockSpare website.
 
-Blocks:
-https://www.blockspare.com/
+= Where can I find BlockSpare documentation? =
 
-Documentation:
-https://www.blockspare.com/docs/
+BlockSpare documentation includes information about installation, configuration, blocks, templates, Site Builder, AI features, and other available features.
 
 = Where can I get support or request a feature? =
 
-You can get support through the [AF themes support](https://afthemes.com/supports/) form or our official documentation. We also welcome feature requests and continuously improve BlockSpare based on community feedback.
+You can get support through the [AF Themes support](https://afthemes.com/supports/) form or the official documentation. Feature requests and feedback are welcome and help guide future BlockSpare improvements.
 
 ---
 
@@ -542,6 +788,31 @@ You can get support through the [AF themes support](https://afthemes.com/support
 10. Save & reuse patterns.
 
 == Changelog ==
+
+= 5.0.0 =
+* Added AI-powered content generation.
+* Added AI model selection support.
+* Added a dedicated AI settings panel.
+* Added AI content generation blocks and controls.
+* Added Header and Footer template support in the Theme Builder.
+* Improved Theme Builder dashboard and template management interface.
+* Improved Theme Builder template selection and display.
+* Improved Theme Builder responsive design and user interface.
+* Added additional security checks for AI and content generation features.
+* Improved template include and display conditions.
+* Improved AI content generation interface with additional links, icons, and controls.
+* Fixed undefined array key issues.
+* Fixed tab and template display issues.
+* Fixed frontend console errors related to WordPress Interactivity.
+* Fixed various Theme Builder interface and layout issues.
+* Improved plugin code structure and removed unused code.
+* Fixed a security vulnerability that could allow authenticated users with Subscriber-level access or higher to create arbitrary posts due to an incorrect authorization check.
+* Improved template import with include and exclude options.
+* Improved archive template handling.
+* Fixed tabs and accordion display issues.
+* Excluded My Templates from the post selection dropdown.
+* Improved interface text spacing and messaging.
+
 = 4.2.0 =
 * Improved query builder with enhanced taxonomy and author filtering.
 * Improved typography controls and cross-device editor experience.

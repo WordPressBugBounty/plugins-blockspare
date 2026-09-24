@@ -92,8 +92,8 @@ SVG;
 
       add_submenu_page(
         'blockspare', // Parent slug.
-        __('Home Dashboard', 'blockspare'), // Page title.
-        __('Home Dashboard', 'blockspare'), // Menu title.
+        __('Home', 'blockspare'), // Page title.
+        __('Home', 'blockspare'), // Menu title.
         'manage_options', // Capability.
         'blockspare', // Menu slug.
         array($this, 'blockspare_admin_dashboard'), // Callback function.
@@ -182,7 +182,7 @@ SVG;
 
       );
 
-      
+
       add_submenu_page(
         'blockspare',
         esc_html__('Support', 'blockspare'),
@@ -216,6 +216,8 @@ SVG;
           'pluginVesion' => BLOCKSPARE_VERSION,
           'exploreUrl' => admin_url('admin.php?page=bs-blocks'),
           'adminUrl' => admin_url('admin.php?page=blockspare'),
+          'blockspareAi' => admin_url('admin.php?page=blockspare-ai'),
+          'blockspareThemeBuilder' => admin_url('admin.php?page=blockspare-theme-builder'),
           'templateUrl' => admin_url('edit.php?post_type=bs_templates'),
           'starterUrl' => admin_url('admin.php?page=bspare-starter-sites'),
           'blockUrl' => admin_url('admin.php?page=bs-blocks'),
