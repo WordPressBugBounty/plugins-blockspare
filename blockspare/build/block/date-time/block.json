@@ -79,7 +79,7 @@
     },
     "dateIconColor": {
       "type": "string",
-      "default": "#000"
+      "default": "#1290f8"
     },
     "textBeforeColor": {
       "type": "string",
@@ -95,7 +95,7 @@
     },
     "timeIconColor": {
       "type": "string",
-      "default": "#000"
+      "default": "#1290f8"
     },
     "bgColor": {
       "type": "string",

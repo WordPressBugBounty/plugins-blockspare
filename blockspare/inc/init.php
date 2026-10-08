@@ -382,7 +382,7 @@ class Blockspare_Init
       'loadscripton'      => $loadscripton,
       'wpversion'         => (version_compare($blockspare_current_wp_version, '6.6') >= 0) ? 'true' : 'false',
       'inspector_imgs'    => BLOCKSPARE_PLUGIN_URL . 'assets/images',
-      'upgradeUrl'        => 'https://afthemes.com/blockspare-pro/',
+      'upgradeUrl'        => 'https://blockspare.com/',
       'isPro'             => false,
       'allowedFonts' => $this->blockspare_allow_fonts()
     ];

@@ -54,11 +54,11 @@
     },
     "backGroundColor": {
       "type": "string",
-      "default": "#f9f9f9"
+      "default": "#f7f7f7"
     },
     "boxBorderColor": {
       "type": "string",
-      "default": "#141618"
+      "default": "#1290f8"
     },
     "noticeContent": {
       "type": "string",

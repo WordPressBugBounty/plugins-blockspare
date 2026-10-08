@@ -1,18 +1,16 @@
-﻿=== BlockSpare – Gutenberg Blocks, AI Content Generator & Site Builder for News, Magazine & Blogs ===
+﻿=== BlockSpare – Gutenberg Blocks, AI Content Generator & Site Builder for news, magazine, blog and business sites ===
 
 Contributors: blockspare, afthemes
 Donate link: https://www.blockspare.com/
-Tags: gutenberg blocks, post grid, post slider, post carousel, starter templates
+Tags: gutenberg blocks, theme builder, ai generator, news magazine, post grid
 Requires at least: 5.0
 Tested up to: 7.1
-Requires PHP: 5.0
-Stable tag: 5.0.1
+Requires PHP: 7.4
+Stable tag: 5.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Build news, magazine, blog, editorial and business websites with powerful Gutenberg blocks, AI tools, Site Builder, starter sites, post layouts and more.
-
-== Description ==
+Build news, magazine, blog and business sites with 60+ Gutenberg blocks, AI tools, custom Theme Builder, 500+ patterns, and starter templates.
 
 == Description ==
 
@@ -398,7 +396,7 @@ From breaking news homepages and featured stories to business websites and landi
 
 ## Unlock More with BlockSpare Pro
 
-Upgrade to [**BlockSpare Pro**](https://afthemes.com/blockspare-pro/) to unlock AI-powered content tools, advanced Site Builder features, premium starter sites, powerful publishing tools, dynamic content controls, and advanced design options for professional WordPress websites.
+Upgrade to [**BlockSpare Pro**](https://blockspare.com/) to unlock AI-powered content tools, advanced Site Builder features, premium starter sites, powerful publishing tools, dynamic content controls, and advanced design options for professional WordPress websites.
 
 ### AI-Powered Content Tools
 
@@ -788,6 +786,19 @@ You can get support through the [AF Themes support](https://afthemes.com/support
 10. Save & reuse patterns.
 
 == Changelog ==
+= 5.1.0 =
+* Added AI model selection interface and improved AI generator controls.
+* Improved AI content generation with enhanced prompts and system instructions.
+* Added support for selecting post types in relevant content settings.
+* Added user role settings for improved control over plugin features.
+* Improved block previews for Accordion, Content Box, CTA, Services, and Testimonial blocks.
+* Improved default designs and layouts for Accordion and Testimonial blocks.
+* Improved popup designs and interface consistency across block generators.
+* Improved testimonial image handling, aspect ratios, alignment, and image generation.
+* Improved CTA opacity and visual presentation.
+* Improved compatibility between the free and Pro versions.
+* Improved interface text, icons, spacing, and overall design consistency.
+* Fixed various UI and design issues across block generators and previews.
 
 = 5.0.0 =
 * Added AI-powered content generation.

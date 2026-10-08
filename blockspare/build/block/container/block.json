@@ -35,11 +35,11 @@
     },
     "opacityRatio": {
       "type": "number",
-      "default": 100
+      "default": 50
     },
     "backGroundColor": {
       "type": "string",
-      "default": "#f9f9f9"
+      "default": "#f7f7f7"
     },
     "borderRadius": {
       "type": "number",

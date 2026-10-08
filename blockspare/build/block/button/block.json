@@ -37,7 +37,7 @@
     },
     "buttonBackgroundColor": {
       "type": "string",
-      "default": "#141618"
+      "default": "#1290f8"
     },
     "buttonTextColor": {
       "type": "string",
@@ -77,7 +77,7 @@
     },
     "backgroundColor2": {
       "type": "string",
-      "default": "#ce242c"
+      "default": "#1290f8"
     },
     "gradientAngle": {
       "type": "number",
@@ -140,11 +140,11 @@
     },
     "buttonIconPosition": {
       "type": "string",
-      "default": "btn-icon-left"
+      "default": "btn-icon-right"
     },
     "buttonIcon": {
       "type": "string",
-      "default": "fas fa-rocket"
+      "default": "far fa-play-circle"
     },
     "buttonIconColor": {
       "type": "string",

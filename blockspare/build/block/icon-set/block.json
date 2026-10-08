@@ -39,11 +39,11 @@
     },
     "iconBackgroundColor": {
       "type": "string",
-      "default": "#ce242c"
+      "default": "#1290f8"
     },
     "iconBorderColor": {
       "type": "string",
-      "default": "#ce242c"
+      "default": "#1290f8"
     },
     "iconColor": {
       "type": "string",
@@ -51,7 +51,7 @@
     },
     "borderRadius": {
       "type": "number",
-      "default": 50
+      "default": 15
     },
     "marginTop": {
       "type": "number",

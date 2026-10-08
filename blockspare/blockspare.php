@@ -3,8 +3,8 @@
 /** 
  * Plugin Name:       BlockSpare
  * Plugin URI:        https://blockspare.com/
- * Description:       Build news, magazine, blog, editorial and business websites with powerful Gutenberg blocks, AI tools, Site Builder, starter sites, post layouts and more.
- * Version:           5.0.1
+ * Description:       Effortless site creation powered by AI block generation, visual Theme Builder, expert templates, and refined Gutenberg blocks for blog, news, magazine, and agency websites. Generate AI content, build custom layouts, and publish with ease!
+ * Version:           5.1.1
  * Author:            BlockSpare
  * Author URI:        https://blockspare.com/
  * Text Domain:       blockspare
@@ -24,7 +24,7 @@ defined('BLOCKSPARE_PLUGIN_URL') or define('BLOCKSPARE_PLUGIN_URL', plugin_dir_u
 defined('BLOCKSPARE_PLUGIN_DIR') or define('BLOCKSPARE_PLUGIN_DIR', plugin_dir_path(__FILE__));
 defined('BLOCKSPARE_PRO_PATH') || define('BLOCKSPARE_PRO_PATH', 'https://www.blockspare.com/');
 defined('BLOCKSPARE_SHOW_PRO_NOTICES') || define('BLOCKSPARE_SHOW_PRO_NOTICES', true);
-defined('BLOCKSPARE_VERSION') || define('BLOCKSPARE_VERSION',  '5.0.0');
+defined('BLOCKSPARE_VERSION') || define('BLOCKSPARE_VERSION',  '5.1.0');
 
 
 if (!version_compare(PHP_VERSION, '5.6', '>=')) {

@@ -39,7 +39,7 @@
     },
     "opacityRatio": {
       "type": "number",
-      "default": 75
+      "default": 50
     },
     "ctaBackGroundColor": {
       "type": "string",

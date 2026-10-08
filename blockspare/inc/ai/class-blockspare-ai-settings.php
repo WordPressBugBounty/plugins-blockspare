@@ -76,6 +76,8 @@ Article:
 
     // How many Q&A pairs to generate (max 5).
     'qa_count' => 2,
+    'ai_posttype_selection' => array('post', 'page'), // Added default
+    'ai_author_selection'   => array(), // Default selected authors
   );
 
 
@@ -176,7 +178,7 @@ Article:
    */
   public function blockspare_ai_settings_menu()
   {
-$badge_count = __('New', 'blockspare'); // Dynamic count variable
+    $badge_count = __('New', 'blockspare'); // Dynamic count variable
     add_submenu_page(
       'blockspare',
       __('AI Settings', 'blockspare'),
@@ -242,6 +244,22 @@ $badge_count = __('New', 'blockspare'); // Dynamic count variable
       'ai_model_selection',
       __('AI Model', 'blockspare'),
       array($this, 'blockspare_ai_model_field'),
+      'blockspare-ai-general',
+      'blockspare_ai_general_section'
+    );
+
+    add_settings_field(
+      'ai_author_selection',
+      __('Select User Roles', 'blockspare'),
+      array($this, 'blockspare_ai_support_roles'),
+      'blockspare-ai-general',
+      'blockspare_ai_general_section'
+    );
+
+    add_settings_field(
+      'ai_posttype_selection',
+      __('Select Post Type', 'blockspare'),
+      array($this, 'blockspare_ai_support_posttype'),
       'blockspare-ai-general',
       'blockspare_ai_general_section'
     );
@@ -606,6 +624,75 @@ $badge_count = __('New', 'blockspare'); // Dynamic count variable
     );
   }
 
+  public function blockspare_ai_support_roles()
+  {
+    // 1. Fetch saved settings
+    $settings      = $this->get_ai_settings();
+    $selected_roles = isset($settings['ai_roles_selection']) && is_array($settings['ai_roles_selection'])
+      ? $settings['ai_roles_selection']
+      : array('administrator', 'editor');
+
+    // 2. Get global roles object
+    $wp_roles = wp_roles();
+    $all_roles = $wp_roles->roles;
+
+    // 3. Render checkboxes for roles that can edit posts
+    echo '<fieldset>';
+    foreach ($all_roles as $role_key => $role_info) {
+      // Only list roles with 'edit_posts' capability
+      if (empty($role_info['capabilities']['edit_posts'])) {
+        continue;
+      }
+
+      $checked = in_array($role_key, $selected_roles, true) ? 'checked="checked"' : '';
+
+      printf(
+        '<label style="display: block; margin-bottom: 6px;">
+                <input type="checkbox" name="blockspare_ai_settings[ai_roles_selection][]" value="%1$s" %2$s />
+                %3$s
+            </label>',
+        esc_attr($role_key),
+        $checked,
+        esc_html($role_info['name'])
+      );
+    }
+    echo '</fieldset>';
+  }
+
+  public function blockspare_ai_support_posttype()
+  {
+    // 1. Fetch saved options with defaults fallback
+    $settings = $this->get_ai_settings();
+    $options  = isset($settings['ai_posttype_selection']) && is_array($settings['ai_posttype_selection'])
+      ? $settings['ai_posttype_selection']
+      : array('post', 'page');
+
+    // 2. Fetch public post types
+    $post_types = get_post_types(array('public' => true), 'objects');
+
+    // 3. Render checkboxes
+    echo '<fieldset>';
+    foreach ($post_types as $post_type) {
+      // Skip media/attachment
+      if ('attachment' === $post_type->name) {
+        continue;
+      }
+
+      $checked = in_array($post_type->name, $options, true) ? 'checked="checked"' : '';
+
+      printf(
+        '<label style="display: block; margin-bottom: 6px;">
+                <input type="checkbox" name="blockspare_ai_settings[ai_posttype_selection][]" value="%1$s" %2$s />
+                %3$s
+            </label>',
+        esc_attr($post_type->name),
+        $checked,
+        esc_html($post_type->labels->singular_name)
+      );
+    }
+    echo '</fieldset>';
+  }
+
 
   /**
    * Content generation prompt field (DISABLED).
@@ -874,7 +961,7 @@ $badge_count = __('New', 'blockspare'); // Dynamic count variable
      * General settings (Allowed to update).
      */
     if (isset($input['language'])) {
-      $output['language'] = sanitize_text_field($input['language']);
+      $output['language'] = $this->blockspare_get_default_language();
     }
 
     if (! empty($input['ai_model_selection']) && str_contains($input['ai_model_selection'], '|')) {
@@ -887,15 +974,38 @@ $badge_count = __('New', 'blockspare'); // Dynamic count variable
     }
 
     /**
+     * Post Types Selection
+     */
+    if (isset($input['ai_posttype_selection']) && is_array($input['ai_posttype_selection'])) {
+      $output['ai_posttype_selection'] = array_map('sanitize_key', $input['ai_posttype_selection']);
+    } else {
+      // If all checkboxes are unchecked on save
+      $output['ai_posttype_selection'] = array();
+    }
+
+    /**
+     * User Roles Selection
+     */
+    if (isset($input['ai_roles_selection']) && is_array($input['ai_roles_selection'])) {
+      $output['ai_roles_selection'] = array_map('sanitize_key', $input['ai_roles_selection']);
+    } else {
+      // If all checkboxes are unchecked on save
+      $output['ai_roles_selection'] = array();
+    }
+
+    /**
      * Locked settings in Free Plugin (Retain original values).
      */
-    $output['language']             = $this->blockspare_get_default_language();
-    $output['generate_prompt']    = $existing['generate_prompt'];
-    $output['generate_word_limit'] = $existing['generate_word_limit'];
-    $output['summarize_prompt']   = $existing['summarize_prompt'];
-    $output['summarize_word_limit'] = $existing['summarize_word_limit'];
-    $output['qa_prompt']          = $existing['qa_prompt'];
-    $output['qa_count']           = $existing['qa_count'];
+    // $output['language']             = $this->blockspare_get_default_language();
+    // $output['generate_prompt']    = $existing['generate_prompt'];
+    // $output['generate_word_limit'] = $existing['generate_word_limit'];
+    // $output['summarize_prompt']   = $existing['summarize_prompt'];
+    // $output['summarize_word_limit'] = $existing['summarize_word_limit'];
+    // $output['qa_prompt']          = $existing['qa_prompt'];
+    // $output['qa_count']           = $existing['qa_count'];
+    // $output['ai_posttype_selection'] = $existing['ai_posttype_selection'];
+    // $output['ai_roles_selection'] = $existing['ai_roles_selection'];
+
 
     return $output;
   }

@@ -169,7 +169,7 @@
     },
     "buttonBgColor": {
       "type": "string",
-      "default": "#bb1919"
+      "default": "#1290f8"
     },
     "buttonTextColor": {
       "type": "string",

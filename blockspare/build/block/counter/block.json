@@ -11,7 +11,7 @@
     },
     "counter": {
       "type": "number",
-      "default": 25
+      "default": 2500
     },
     "align": {
       "type": "string",
@@ -19,7 +19,7 @@
     },
     "counterFontColor": {
       "type": "string",
-      "default": "#000"
+      "default": "#1290f8"
     },
     "backGroundColor": {
       "type": "string",
@@ -51,26 +51,27 @@
     },
     "iconBackgroundColor": {
       "type": "string",
-      "default": "#ce242c"
+      "default": "#f7f7f7"
     },
     "iconBorderColor": {
       "type": "string",
-      "default": "#000"
+      "default": "#1290f8"
     },
     "iconColor": {
-      "type": "string"
+      "type": "string",
+      "default": "#1290f8"
     },
     "borderRadius": {
       "type": "number",
-      "default": 50
+      "default": 15
     },
     "design": {
       "type": "string",
-      "default": "blockspare-layout1"
+      "default": "blockspare-layout2"
     },
     "blockBorderRadius": {
       "type": "number",
-      "default": 0
+      "default": 15
     },
     "headertitleColor": {
       "type": "string",
@@ -78,7 +79,7 @@
     },
     "headersubtitleColor": {
       "type": "string",
-      "default": "#000"
+      "default": "#6d6d6d"
     },
     "headermarginTop": {
       "type": "number",
@@ -130,7 +131,7 @@
     },
     "iconMarginBottom": {
       "type": "number",
-      "default": 0
+      "default": 10
     },
     "iconMarginLeft": {
       "type": "number",
@@ -158,7 +159,7 @@
     },
     "counterFontSize": {
       "type": "number",
-      "default": 32
+      "default": 42
     },
     "counterFontFamily": {
       "type": "string",
@@ -166,7 +167,7 @@
     },
     "counterFontWeight": {
       "type": "string",
-      "default": ""
+      "default": "600"
     },
     "counterFontSubset": {
       "type": "string"

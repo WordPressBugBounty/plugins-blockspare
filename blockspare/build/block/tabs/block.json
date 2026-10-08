@@ -98,15 +98,15 @@
     },
     "tabBackGroundColor": {
       "type": "string",
-      "default": "#141618"
+      "default": "#f7f7f7"
     },
     "activeTabBackgroundColor": {
       "type": "string",
-      "default": "#ce242c"
+      "default": "#1290f8"
     },
     "tabTextColor": {
       "type": "string",
-      "default": "#fff"
+      "default": "#000"
     },
     "activetabTextColor": {
       "type": "string",
@@ -192,7 +192,8 @@
       "default": "#dee2e6"
     },
     "contentBackgroundColor": {
-      "type": "string"
+      "type": "string",
+      "default": "#f7f7f7"
     },
     "animation": {
       "type": "string",

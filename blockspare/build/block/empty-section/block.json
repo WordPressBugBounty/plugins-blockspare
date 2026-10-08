@@ -18,11 +18,11 @@
     },
     "height": {
       "type": "number",
-      "default": 10
+      "default": 20
     },
     "backGroundColor": {
       "type": "string",
-      "default": "#f9f9f9"
+      "default": "#f7f7f7"
     },
     "uniqueClass": {
       "type": "string",

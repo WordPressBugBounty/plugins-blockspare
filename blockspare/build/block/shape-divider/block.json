@@ -36,7 +36,7 @@
     },
     "color": {
       "type": "string",
-      "default": "#141618"
+      "default": "#f7f7f7"
     },
     "marginTop": {
       "type": "number",

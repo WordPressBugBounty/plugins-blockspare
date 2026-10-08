@@ -71,7 +71,7 @@
     },
     "headerlayoutOption": {
       "type": "string",
-      "default": "blockspare-style1"
+      "default": "blockspare-style10"
     },
     "headerTagOption": {
       "type": "string",
@@ -111,11 +111,11 @@
     },
     "dashColor": {
       "type": "string",
-      "default": "#ce242c"
+      "default": "#1290f8"
     },
     "dashColor2": {
       "type": "string",
-      "default": "#E5EFE3"
+      "default": "#f7f7f7"
     },
     "titleFontFamily": {
       "type": "string",

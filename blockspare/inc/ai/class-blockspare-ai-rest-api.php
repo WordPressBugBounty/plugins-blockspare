@@ -69,7 +69,14 @@ class Blockspare_AI_REST_API
       'blockspare-ai-generator-editor',
       BLOCKSPARE_PLUGIN_URL . 'dist/aigen.js',
       $merged_deps,
-      '1.0.0'
+      BLOCKSPARE_VERSION
+    );
+
+    wp_register_script(
+      'blockspare-ai-custom-toolbar',
+      BLOCKSPARE_PLUGIN_URL . 'dist/aicustomToolbar.js',
+      $merged_deps,
+      BLOCKSPARE_VERSION
     );
   }
 
@@ -80,7 +87,26 @@ class Blockspare_AI_REST_API
   public function blockspare_enqueue_editor_assets()
   {
 
-    wp_enqueue_script('blockspare-ai-generator-editor');
+    $ai_settings = self::blockspare_get_all_settings();
+
+    // 2. Access selected post types safely
+    $allowed_post_types = !empty($ai_settings['ai_posttype_selection'])
+      ? $ai_settings['ai_posttype_selection']
+      : array('post', 'page');
+    $screen            = get_current_screen();
+    $current_post_type = $screen ? $screen->post_type : '';
+    // If on a post edit screen, fallback check via global $post
+    if (empty($current_post_type) && isset($GLOBALS['post']->post_type)) {
+      $current_post_type = $GLOBALS['post']->post_type;
+    }
+
+    // 3. Only enqueue if the current post type is selected in settings
+    if (in_array($current_post_type, $allowed_post_types, true)) {
+      wp_enqueue_script('blockspare-ai-generator-editor');
+    }
+    wp_enqueue_script('blockspare-ai-custom-toolbar');
+
+    // wp_enqueue_script('blockspare-ai-generator-editor');
 
     // Check if function exists AND if any active provider/connector is available.
     $ai_active       = function_exists('wp_ai_client_prompt');
@@ -130,6 +156,7 @@ class Blockspare_AI_REST_API
         'connectorText'  => __('Configure Connectors', 'blockspare'),
         'bsAiLink'  => admin_url('admin.php?page=blockspare-ai'),
         'bsAiText'  => __('Configure AI Settings', 'blockspare'),
+        'aiIconUrl'      => esc_url(BLOCKSPARE_PLUGIN_URL . 'assets/icons/generator.svg')
 
 
       )
@@ -195,24 +222,68 @@ class Blockspare_AI_REST_API
    */
   public function check_permissions(WP_REST_Request $request)
   {
-    // 1. Verify user capability to manage options
-    if (! current_user_can('manage_options')) {
+    // 1. Fetch saved settings via helper
+    $settings        = self::blockspare_get_all_settings();
+    $allowed_roles   = ! empty($settings['ai_roles_selection']) && is_array($settings['ai_roles_selection'])
+      ? $settings['ai_roles_selection']
+      : array('administrator', 'editor');
+    $allowed_types   = ! empty($settings['ai_posttype_selection']) && is_array($settings['ai_posttype_selection'])
+      ? $settings['ai_posttype_selection']
+      : array('post', 'page');
+
+    // 2. Check if the current user has an allowed role
+    $current_user = wp_get_current_user();
+    if (! $current_user->exists()) {
       return new WP_Error(
-        'rest_forbidden',
-        __('You do not have permission to access this endpoint.', 'blockspare'),
+        'rest_not_logged_in',
+        __('You must be logged in to use AI tools.', 'blockspare'),
+        array('status' => 401)
+      );
+    }
+
+    $user_roles = (array) $current_user->roles;
+    $has_role   = array_intersect($user_roles, $allowed_roles);
+
+    if (empty($has_role)) {
+      return new WP_Error(
+        'rest_forbidden_role',
+        __('Your user role is not authorized to use AI tools.', 'blockspare'),
         array('status' => 403)
       );
     }
 
-    // 2. Ensure post ID exists and user can edit this post
+    // 3. If a specific post_id is provided, check its post type and edit rights
     $post_id = $request->get_param('post_id');
-    if (! current_user_can('edit_post', $post_id)) {
-      return new WP_Error(
-        'rest_cannot_edit',
-        __('You are not allowed to edit this post.', 'blockspare'),
-        array('status' => 403)
-      );
+    if ($post_id) {
+      $post = get_post($post_id);
+
+      if (! $post) {
+        return new WP_Error(
+          'rest_post_invalid',
+          __('Invalid post ID.', 'blockspare'),
+          array('status' => 404)
+        );
+      }
+
+      // Check if the post type is enabled in AI settings
+      if (! in_array($post->post_type, $allowed_types, true)) {
+        return new WP_Error(
+          'rest_posttype_disabled',
+          __('AI features are not enabled for this post type.', 'blockspare'),
+          array('status' => 403)
+        );
+      }
+
+      // Check standard WordPress edit capability for this specific post
+      if (! current_user_can('edit_post', $post_id)) {
+        return new WP_Error(
+          'rest_cannot_edit',
+          __('You are not allowed to edit this post.', 'blockspare'),
+          array('status' => 403)
+        );
+      }
     }
+
     return true;
   }
 
@@ -415,7 +486,8 @@ or "Quality: Professional".'
      */
     elseif ($action === 'summarize') {
 
-      $post_content = $post->post_content;
+      $data         = $request->get_param('data');
+      $post_content = ! empty($data) ? sanitize_text_field($data) : $post->post_content;
 
 
       /**
@@ -530,5 +602,32 @@ about the summary.'
         'content' => $response,
       )
     );
+  }
+
+  public static function blockspare_get_all_settings()
+  {
+    $defaults = array(
+      'language'              => 'English',
+      'ai_provider'           => '',
+      'ai_model'              => '',
+      'ai_posttype_selection' => array('post', 'page'),
+      'generate_prompt'       => 'Write a high-quality blog post about: {prompt}',
+      'generate_word_limit'   => 75,
+      'summarize_prompt'      => 'Summarize the following WordPress blog post...',
+      'summarize_word_limit' => 25,
+      'qa_prompt'             => 'Read the following WordPress blog post...',
+      'qa_count'              => 3,
+    );
+
+
+
+    // Direct database fallback if instantiated outside the class scope
+    $saved_settings = get_option('blockspare_ai_settings', array());
+
+    if (!is_array($saved_settings)) {
+      $saved_settings = array();
+    }
+
+    return wp_parse_args($saved_settings, $defaults);
   }
 }
