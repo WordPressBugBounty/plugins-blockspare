@@ -4,7 +4,7 @@
  * Plugin Name:       BlockSpare
  * Plugin URI:        https://blockspare.com/
  * Description:       Effortless site creation powered by AI block generation, visual Theme Builder, expert templates, and refined Gutenberg blocks for blog, news, magazine, and agency websites. Generate AI content, build custom layouts, and publish with ease!
- * Version:           5.1.1
+ * Version:           5.1.2
  * Author:            BlockSpare
  * Author URI:        https://blockspare.com/
  * Text Domain:       blockspare

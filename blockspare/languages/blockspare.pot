@@ -2614,7 +2614,7 @@ msgstr ""
 
 #: dist/block_category.js:2
 #: src/utils/ProFeatureNotice.js:11
-msgid "Available in BlockSpare Pro"
+msgid "Unlock with Pro"
 msgstr ""
 
 #: dist/block_category.js:2
@@ -2656,7 +2656,7 @@ msgid "Design Library"
 msgstr ""
 
 #: src/block/accordion/edit.js:132
-msgid "Add Accordion  (🔒 pro version)"
+msgid "Add Accordion  (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/accordion/index.js:15
@@ -3955,15 +3955,15 @@ msgid "Default"
 msgstr ""
 
 #: src/block/content-box/components/inspector.js:179
-msgid "Style 3 (🔒 pro version)"
+msgid "Style 3 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/content-box/components/inspector.js:184
-msgid "Style 4 (🔒 pro version)"
+msgid "Style 4 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/content-box/components/inspector.js:189
-msgid "Style 5 (🔒 pro version)"
+msgid "Style 5 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/content-box/components/inspector.js:319
@@ -4025,7 +4025,7 @@ msgstr ""
 
 #: src/block/counter/components/inspector.js:134
 #: src/block/pricing-table/inner-tables/inspector.js:282
-msgid "Image (🔒 pro version)"
+msgid "Image (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/counter/components/inspector.js:210
@@ -4583,11 +4583,11 @@ msgstr ""
 #: src/block/latest-posts-slider/components/inspector.js:249
 #: src/block/social-links/components/inspector.js:77
 #: src/block/social-sharing/components/inspector.js:82
-msgid "Large (🔒 pro version)"
+msgid "Large (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/icon-set/components/icon-settings.js:56
-msgid "Extra Large (🔒 pro version)"
+msgid "Extra Large (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/icon-set/components/icon-settings.js:110
@@ -4653,7 +4653,7 @@ msgstr ""
 
 #: src/block/image-carousel/components/edit.js:311
 #: src/block/image-slider/components/edit.js:300
-msgid "Add Image (🔒 pro version)"
+msgid "Add Image (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:44
@@ -4665,32 +4665,32 @@ msgstr ""
 #: src/block/image-carousel/components/inspector.js:47
 #: src/block/image-masonry/components/inspector.js:65
 #: src/block/image-slider/components/inspector.js:64
-msgid "Grayscale (🔒 pro version)"
+msgid "Grayscale (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:52
 #: src/block/image-masonry/components/inspector.js:70
 #: src/block/image-slider/components/inspector.js:69
 #: src/utils/component/hover/image-hover-control.js:40
-msgid "Sepia (🔒 pro version)"
+msgid "Sepia (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:57
 #: src/block/image-masonry/components/inspector.js:75
 #: src/block/image-slider/components/inspector.js:74
-msgid "Saturation (🔒 pro version)"
+msgid "Saturation (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:62
 #: src/block/image-masonry/components/inspector.js:80
 #: src/block/image-slider/components/inspector.js:79
-msgid "Dim (🔒 pro version)"
+msgid "Dim (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:67
 #: src/block/image-masonry/components/inspector.js:85
 #: src/block/image-slider/components/inspector.js:84
-msgid "Vintage (🔒 pro version)"
+msgid "Vintage (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:87
@@ -4721,7 +4721,7 @@ msgstr ""
 #: src/block/latest-posts-carousel-grid/components/inspector.js:205
 #: src/block/latest-posts-slider/components/inspector.js:213
 #: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:52
-msgid "Caret (🔒 pro version)"
+msgid "Caret (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:100
@@ -4729,7 +4729,7 @@ msgstr ""
 #: src/block/latest-posts-carousel-grid/components/inspector.js:210
 #: src/block/latest-posts-slider/components/inspector.js:218
 #: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:57
-msgid "Caret Square (🔒 pro version)"
+msgid "Caret Square (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:105
@@ -4738,7 +4738,7 @@ msgstr ""
 #: src/block/latest-posts-slider/components/inspector.js:223
 #: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:62
 #: src/utils/component/hover/image-hover-control.js:65
-msgid "Circle (🔒 pro version)"
+msgid "Circle (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:110
@@ -4746,7 +4746,7 @@ msgstr ""
 #: src/block/latest-posts-carousel-grid/components/inspector.js:220
 #: src/block/latest-posts-slider/components/inspector.js:228
 #: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:67
-msgid "Arrow (🔒 pro version)"
+msgid "Arrow (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:115
@@ -4754,7 +4754,7 @@ msgstr ""
 #: src/block/latest-posts-carousel-grid/components/inspector.js:225
 #: src/block/latest-posts-slider/components/inspector.js:233
 #: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:72
-msgid "Long Arrow (🔒 pro version)"
+msgid "Long Arrow (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:124
@@ -4762,7 +4762,7 @@ msgstr ""
 #: src/block/latest-posts-slider/components/inspector.js:244
 #: src/block/social-links/components/inspector.js:72
 #: src/block/social-sharing/components/inspector.js:77
-msgid "Medium (🔒 pro version)"
+msgid "Medium (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:135
@@ -4787,21 +4787,21 @@ msgstr ""
 #: src/block/image-slider/components/inspector.js:172
 #: src/block/latest-posts-slider/components/inspector.js:262
 #: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:97
-msgid "Shape 3 (🔒 pro version)"
+msgid "Shape 3 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:147
 #: src/block/image-slider/components/inspector.js:177
 #: src/block/latest-posts-slider/components/inspector.js:267
 #: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:102
-msgid "Shape 4 (🔒 pro version)"
+msgid "Shape 4 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:152
 #: src/block/image-slider/components/inspector.js:182
 #: src/block/latest-posts-slider/components/inspector.js:272
 #: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:107
-msgid "Shape 5 (🔒 pro version)"
+msgid "Shape 5 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-carousel/components/inspector.js:196
@@ -5019,7 +5019,7 @@ msgstr ""
 #: src/block/latest-posts-carousel-grid/components/inspector.js:200
 #: src/block/latest-posts-slider/components/inspector.js:208
 #: src/utils/component/banner-settings-tabs/slider-carousel-settings-tab.js:47
-msgid "Chevron Circle (🔒 pro version)"
+msgid "Chevron Circle (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/image-slider/components/inspector.js:217
@@ -5068,59 +5068,59 @@ msgid "No posts found."
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:118
-msgid "Layout 3 (🔒 pro version)"
+msgid "Layout 3 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:123
-msgid "Layout 4 (🔒 pro version)"
+msgid "Layout 4 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:128
-msgid "Layout 5 (🔒 pro version)"
+msgid "Layout 5 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:133
-msgid "Layout 6 (🔒 pro version)"
+msgid "Layout 6 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:138
-msgid "Layout 7 (🔒 pro version)"
+msgid "Layout 7 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:143
-msgid "Layout 8 (🔒 pro version)"
+msgid "Layout 8 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:148
-msgid "Layout 9 (🔒 pro version)"
+msgid "Layout 9 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:153
-msgid "Layout 10 (🔒 pro version)"
+msgid "Layout 10 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:158
-msgid "Layout 11 (🔒 pro version)"
+msgid "Layout 11 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:163
-msgid "Layout 12 (🔒 pro version)"
+msgid "Layout 12 (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:175
-msgid "Rounded (🔒 pro version)"
+msgid "Rounded (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:180
-msgid "Circular (🔒 pro version)"
+msgid "Circular (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:185
-msgid "Rectangular (🔒 pro version)"
+msgid "Rectangular (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:197
-msgid "Vertical (🔒 pro version)"
+msgid "Vertical (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-popular-tags/components/inspector.js:205
@@ -5922,15 +5922,15 @@ msgid "Latest Posts Flash"
 msgstr ""
 
 #: src/block/latest-posts-flash/components/inspector.js:141
-msgid "Pointed (🔒 pro version)"
+msgid "Pointed (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-posts-flash/components/inspector.js:146
-msgid "Angled (🔒 pro version)"
+msgid "Angled (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-posts-flash/components/inspector.js:152
-msgid "Inclined (🔒 pro version)"
+msgid "Inclined (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-posts-flash/components/inspector.js:157
@@ -6156,12 +6156,12 @@ msgid "Latest Posts Slider"
 msgstr ""
 
 #: src/block/latest-posts-slider/components/inspector.js:281
-msgid "Border (🔒 pro version)"
+msgid "Border (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-posts-slider/components/inspector.js:286
 #: src/block/tabs/component/inspector.js:83
-msgid "None (🔒 pro version)"
+msgid "None (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/latest-posts-slider/components/inspector.js:472
@@ -6359,7 +6359,7 @@ msgid "layout"
 msgstr ""
 
 #: src/block/linear-progressbar/edit.js:103
-msgid "Add Progressbar  (🔒 pro version)"
+msgid "Add Progressbar  (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/linear-progressbar/index.js:15
@@ -6576,7 +6576,7 @@ msgstr ""
 
 #: src/block/price-list/list-item/components/inspector.js:124
 #: src/block/search/components/inspector.js:145
-msgid "Icon (🔒 pro version)"
+msgid "Icon (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/price-list/list-item/components/inspector.js:176
@@ -6604,7 +6604,7 @@ msgid "Display creative Price List, Menu ."
 msgstr ""
 
 #: src/block/pricing-table/edit.js:133
-msgid "Add More Price (🔒 pro version)"
+msgid "Add More Price (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/pricing-table/index.js:18
@@ -6631,17 +6631,17 @@ msgid "Text"
 msgstr ""
 
 #: src/block/pricing-table/inner-tables/inspector.js:294
-msgid "Solid(🔒 pro version)"
+msgid "Solid(✨ Pro Feature)"
 msgstr ""
 
 #: src/block/pricing-table/inner-tables/inspector.js:299
 #: src/block/tabs/component/inspector.js:93
-msgid "Dotted (🔒 pro version)"
+msgid "Dotted (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/pricing-table/inner-tables/inspector.js:304
 #: src/block/tabs/component/inspector.js:98
-msgid "Dashed (🔒 pro version)"
+msgid "Dashed (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/pricing-table/inner-tables/inspector.js:415
@@ -6871,13 +6871,13 @@ msgstr ""
 #: src/block/pricing-table/inspector.js:39
 #: src/block/services/components/inspector.js:40
 #: src/block/testimonial/components/inspector.js:58
-msgid "Ladder Up (🔒 pro version)"
+msgid "Ladder Up (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/pricing-table/inspector.js:44
 #: src/block/services/components/inspector.js:45
 #: src/block/testimonial/components/inspector.js:63
-msgid "ladder Down (🔒 pro version)"
+msgid "ladder Down (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/pricing-table/inspector.js:78
@@ -6984,7 +6984,7 @@ msgid "Column Gaps"
 msgstr ""
 
 #: src/block/services/edit.js:131
-msgid "Add More Service(🔒 pro version)"
+msgid "Add More Service(✨ Pro Feature)"
 msgstr ""
 
 #: src/block/services/index.js:15
@@ -7297,11 +7297,11 @@ msgid "center"
 msgstr ""
 
 #: src/block/tabs/component/inspector.js:88
-msgid "Double (🔒 pro version)"
+msgid "Double (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/tabs/component/inspector.js:103
-msgid "Groove (🔒 pro version)"
+msgid "Groove (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/tabs/component/inspector.js:141
@@ -7342,7 +7342,7 @@ msgid "tabbed"
 msgstr ""
 
 #: src/block/testimonial/components/edit.js:86
-msgid "Add More testimonial (🔒 pro version)"
+msgid "Add More testimonial (✨ Pro Feature)"
 msgstr ""
 
 #: src/block/testimonial/components/inspector.js:102
@@ -7451,95 +7451,95 @@ msgid "Fade in down"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:33
-msgid "Fade in left (🔒 pro version)"
+msgid "Fade in left (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:38
-msgid "Fade in right (🔒 pro version)"
+msgid "Fade in right (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:43
-msgid "Fade in up (🔒 pro version)"
+msgid "Fade in up (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:48
-msgid "Zoom in (🔒 pro version)"
+msgid "Zoom in (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:53
-msgid "Slide in from left (🔒 pro version)"
+msgid "Slide in from left (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:58
-msgid "Slide in from right (🔒 pro version)"
+msgid "Slide in from right (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:63
-msgid "Slide in from bottom (🔒 pro version)"
+msgid "Slide in from bottom (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:68
-msgid "Clip horizontally (🔒 pro version)"
+msgid "Clip horizontally (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:74
-msgid "Clip vertically (🔒 pro version)"
+msgid "Clip vertically (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:79
-msgid "Bounce in (🔒 pro version)"
+msgid "Bounce in (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:84
-msgid "Bounce in down (🔒 pro version)"
+msgid "Bounce in down (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:89
-msgid "Bounce in left (🔒 pro version)"
+msgid "Bounce in left (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:94
-msgid "Bounce in right (🔒 pro version)"
+msgid "Bounce in right (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:99
-msgid "Bounce in up (🔒 pro version)"
+msgid "Bounce in up (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:104
-msgid "Flip in X (🔒 pro version)"
+msgid "Flip in X (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:109
-msgid "Flip in Y (🔒 pro version)"
+msgid "Flip in Y (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:114
-msgid "Light speed in (🔒 pro version)"
+msgid "Light speed in (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:119
-msgid "Rotate in (🔒 pro version)"
+msgid "Rotate in (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:124
-msgid "Rotate in down left (🔒 pro version)"
+msgid "Rotate in down left (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:129
-msgid "Rotate in down right (🔒 pro version)"
+msgid "Rotate in down right (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:134
-msgid "Rotate in up left (🔒 pro version)"
+msgid "Rotate in up left (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:139
-msgid "Rotate in up right (🔒 pro version)"
+msgid "Rotate in up right (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:144
-msgid "Roll in (🔒 pro version)"
+msgid "Roll in (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/animations/controls.js:151
@@ -7551,7 +7551,7 @@ msgid "Animation "
 msgstr ""
 
 #: src/utils/component/animations/controls.js:194
-msgid "More Animations in BlockSpare Pro"
+msgid "Unlock 20+ Premium Animations in Pro"
 msgstr ""
 
 #: src/utils/component/banner-settings-tabs/banner-post-colors-tabs.js:211
@@ -7647,7 +7647,7 @@ msgstr ""
 
 #: src/utils/component/banner-settings-tabs/query-control.js:96
 #: src/utils/post/tax-query-inspector/tax-query-inspector.js:53
-msgid "select Posts"
+msgid "Select Posts"
 msgstr ""
 
 #: src/utils/component/banner-settings-tabs/query-control.js:99
@@ -7745,7 +7745,7 @@ msgid "Single"
 msgstr ""
 
 #: src/utils/component/cateogory-control/category-color-control.js:39
-msgid "Multiple (🔒 pro version)"
+msgid "Multiple (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/cateogory-control/category-color-control.js:65
@@ -7862,15 +7862,15 @@ msgid "Location #2"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:20
-msgid "Shrink (🔒 pro version)"
+msgid "Shrink (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:25
-msgid "Pulse (🔒 pro version)"
+msgid "Pulse (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:30
-msgid "Pulse Grow (🔒 pro version)"
+msgid "Pulse Grow (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:35
@@ -7878,79 +7878,79 @@ msgid "Pulse Shrink"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:40
-msgid "Push (🔒 pro version)"
+msgid "Push (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:45
-msgid "Pop (🔒 pro version)"
+msgid "Pop (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:50
-msgid "Bounce In (🔒 pro version)"
+msgid "Bounce In (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:55
-msgid " Bounce Out (🔒 pro version)"
+msgid " Bounce Out (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:60
-msgid " Rotate (🔒 pro version)"
+msgid " Rotate (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:65
-msgid " Grow Rotate (🔒 pro version)"
+msgid " Grow Rotate (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:70
-msgid " Float (🔒 pro version)"
+msgid " Float (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:75
-msgid " Sink (🔒 pro version)"
+msgid " Sink (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:80
-msgid " Bob (🔒 pro version)"
+msgid " Bob (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:85
-msgid " Hang (🔒 pro version)"
+msgid " Hang (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:90
-msgid " Skew (🔒 pro version)"
+msgid " Skew (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:95
-msgid " Skew Forward (🔒 pro version)"
+msgid " Skew Forward (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:100
-msgid " Skew Backward (🔒 pro version)"
+msgid " Skew Backward (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:105
-msgid " Wobble Vertical (🔒 pro version)"
+msgid " Wobble Vertical (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:110
-msgid " Wobble Horizontal (🔒 pro version)"
+msgid " Wobble Horizontal (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:115
-msgid " Wobble To Bottom Right (🔒 pro version)"
+msgid " Wobble To Bottom Right (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:120
-msgid " Wobble To Top Right (🔒 pro version)"
+msgid " Wobble To Top Right (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:125
-msgid " Wobble Top (🔒 pro version)"
+msgid " Wobble Top (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:130
-msgid " Wobble Bottom (🔒 pro version)"
+msgid " Wobble Bottom (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/hover-control.js:147
@@ -7966,35 +7966,35 @@ msgid "Zoom Out"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:20
-msgid "Slide (🔒 pro version)"
+msgid "Slide (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:25
-msgid "Rotate + Zoom Out (🔒 pro version)"
+msgid "Rotate + Zoom Out (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:30
-msgid "Blur (🔒 pro version)"
+msgid "Blur (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:35
-msgid "Gray Scale (🔒 pro version)"
+msgid "Gray Scale (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:45
-msgid "Blur + Gray Scale (🔒 pro version)"
+msgid "Blur + Gray Scale (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:50
-msgid "Opacity (🔒 pro version)"
+msgid "Opacity (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:55
-msgid "Flashing (🔒 pro version)"
+msgid "Flashing (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:60
-msgid "Shine (🔒 pro version)"
+msgid "Shine (✨ Pro Feature)"
 msgstr ""
 
 #: src/utils/component/hover/image-hover-control.js:81
