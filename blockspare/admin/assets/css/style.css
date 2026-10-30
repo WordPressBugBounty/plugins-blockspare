@@ -604,8 +604,18 @@
 .blockspare-pro-link {
     color: #ce242c;
     font-weight: bold;
-  }
-  .blockspare-pro-link:hover, 
-  .blockspare-pro-link:focus {
+}
+.blockspare-pro-link:hover, 
+.blockspare-pro-link:focus {
     color: #ce242c;
-  }
+}
+
+.components-modal__frame button.components-button.is-primary,
+.editor-header button.components-button.is-primary{
+  border-radius: 3px;
+  padding: 10px 16px;
+}
+.components-modal__frame .components-textarea-control + div button.components-button.is-primary,
+.editor-header__settings button.components-button.is-primary:last-child{
+    background: #222;
+}

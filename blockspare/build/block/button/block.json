@@ -97,7 +97,7 @@
     },
     "btnFontWeight": {
       "type": "string",
-      "default": "normal"
+      "default": ""
     },
     "buttonHoverEffect": {
       "type": "string",
@@ -156,19 +156,19 @@
     },
     "paddingTop": {
       "type": "number",
-      "default": 12
+      "default": 15
     },
     "paddingRight": {
       "type": "number",
-      "default": 22
+      "default": 30
     },
     "paddingBottom": {
       "type": "number",
-      "default": 12
+      "default": 15
     },
     "paddingLeft": {
       "type": "number",
-      "default": 22
+      "default": 30
     },
     "marginTop": {
       "type": "number",

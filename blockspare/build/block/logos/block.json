@@ -46,7 +46,7 @@
     },
     "gutter": {
       "type": "number",
-      "default": 15
+      "default": 60
     },
     "paddingTop": {
       "type": "number",

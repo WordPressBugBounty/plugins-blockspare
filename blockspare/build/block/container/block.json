@@ -39,7 +39,7 @@
     },
     "backGroundColor": {
       "type": "string",
-      "default": "#f7f7f7"
+      "default": "#f5f7f9"
     },
     "borderRadius": {
       "type": "number",
@@ -203,7 +203,7 @@
     },
     "paddingTop": {
       "type": "number",
-      "default": 20
+      "default": 40
     },
     "paddingRight": {
       "type": "number",
@@ -211,7 +211,7 @@
     },
     "paddingBottom": {
       "type": "number",
-      "default": 20
+      "default": 40
     },
     "paddingLeft": {
       "type": "number",

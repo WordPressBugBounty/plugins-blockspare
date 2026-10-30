@@ -6,6 +6,19 @@ if (! defined('ABSPATH')) {
 
 function blockspare_post_query($attributes)
 {
+  /* Security fix: only allow publicly viewable post types */
+  $requested_post_type = isset($attributes['postType']) ? sanitize_key($attributes['postType']) : 'post';
+  if (! post_type_exists($requested_post_type) || ! is_post_type_viewable($requested_post_type)) {
+    $requested_post_type = 'post';
+  }
+  $attributes['postType'] = $requested_post_type;
+  /* Security fix: only allow existing, viewable taxonomies */
+  if (isset($attributes['taxType'])) {
+    $attributes['taxType'] = sanitize_key($attributes['taxType']);
+    if (! taxonomy_exists($attributes['taxType']) || ! is_taxonomy_viewable($attributes['taxType'])) {
+      $attributes['taxType'] = '';
+    }
+  }
   $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
   if (isset($attributes['categories']) && ! empty($attributes['categories']) && is_array($attributes['categories'])) {
     $categories = array();
@@ -36,6 +49,7 @@ function blockspare_post_query($attributes)
     'orderby' => $attributes['orderBy'],
     'offset' => ($attributes['enablePagination'] == 'true') ? '' : $attributes['offset'],
     'post_type' => $attributes['postType'],
+    'has_password' => false,
     'ignore_sticky_posts' => 1,
     'paged' => $paged,
     'post__not_in' => array($currentID)

@@ -18,7 +18,7 @@
     },
     "align": {
       "type": "string",
-      "default": "center"
+      "default": "full"
     },
     "sectionAlignment": {
       "type": "string",
@@ -40,6 +40,42 @@
     "opacityRatio": {
       "type": "number",
       "default": 50
+    },
+    "titleFontSize": {
+      "type": "number",
+      "default": 42
+    },
+    "titleFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "titleFontSizeMobile": {
+      "type": "number",
+      "default": 20
+    },
+    "titleFontSizeTablet": {
+      "type": "number",
+      "default": 24
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": "700"
+    },
+    "subTitleFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "subTitleFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "subTitleFontSizeMobile": {
+      "type": "number",
+      "default": 14
+    },
+    "subTitleFontSizeTablet": {
+      "type": "number",
+      "default": 14
     },
     "ctaBackGroundColor": {
       "type": "string",

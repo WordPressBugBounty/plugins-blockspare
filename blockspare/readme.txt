@@ -6,7 +6,7 @@ Tags: gutenberg blocks, theme builder, ai generator, news magazine, post grid
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 5.1.3
+Stable tag: 5.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -567,7 +567,7 @@ Build your website your way with Gutenberg.
 3. **Create, refine, and publish content** using AI-powered tools and advanced publishing features.
 
 
-[youtube https://www.youtube.com/watch?v=niy3RhamIOE]
+[youtube https://www.youtube.com/watch?v=2_N-UGetua0]
 
 
 **Recommended Themes**
@@ -786,6 +786,14 @@ You can get support through the [AF Themes support](https://afthemes.com/support
 10. Save & reuse patterns.
 
 == Changelog ==
+= 5.2.0 =
+* Fixed an information disclosure vulnerability in post blocks by checking whether post types are viewable.
+* Improved security when querying non-public post types through server-rendered blocks.
+* Updated default designs for call-to-action, content box, pricing table, accordion, services, and other blocks.
+* Fixed alignment issues in call-to-action and content box blocks.
+* Improved link insertion with a loading indicator and SVG button URL support.
+* Refined title sizes, post list columns, and section layouts.
+
 = 5.1.2 =
 * Fixed a security vulnerability related to stored cross-site scripting (XSS) in the author icon block attribute.
 * Improved REST API permission checks for saving templates.

@@ -36,15 +36,15 @@
     },
     "color": {
       "type": "string",
-      "default": "#f7f7f7"
+      "default": "#f5f7f9"
     },
     "marginTop": {
       "type": "number",
-      "default": 30
+      "default": 0
     },
     "marginBottom": {
       "type": "number",
-      "default": 30
+      "default": 0
     },
     "marginLeft": {
       "type": "number",

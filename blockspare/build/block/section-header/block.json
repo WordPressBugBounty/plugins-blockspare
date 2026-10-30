@@ -15,7 +15,7 @@
     },
     "align": {
       "type": "string",
-      "default": "center"
+      "default": "left"
     },
     "sectionAlignment": {
       "type": "string",
@@ -27,7 +27,7 @@
     },
     "titleFontSize": {
       "type": "number",
-      "default": 24
+      "default": 32
     },
     "headerSubTitle": {
       "type": "string",
@@ -39,7 +39,7 @@
     },
     "headertitleColor": {
       "type": "string",
-      "default": "#404040"
+      "default": "#242a56"
     },
     "headertitleColorDark": {
       "type": "string",
@@ -47,7 +47,7 @@
     },
     "headersubtitleColor": {
       "type": "string",
-      "default": "#6d6d6d"
+      "default": "#393a56"
     },
     "headertitleDashColor": {
       "type": "string",
@@ -71,7 +71,7 @@
     },
     "headerlayoutOption": {
       "type": "string",
-      "default": "blockspare-style10"
+      "default": "blockspare-style3"
     },
     "headerTagOption": {
       "type": "string",
@@ -123,7 +123,7 @@
     },
     "titleFontWeight": {
       "type": "string",
-      "default": ""
+      "default": "700"
     },
     "titleFontSubset": {
       "type": "string"
@@ -138,7 +138,7 @@
     },
     "titleFontSizeTablet": {
       "type": "number",
-      "default": 22
+      "default": 24
     },
     "titleLoadGoogleFonts": {
       "type": "boolean",
@@ -146,7 +146,7 @@
     },
     "subTitleFontSize": {
       "type": "number",
-      "default": 14
+      "default": 16
     },
     "subTitleFontFamily": {
       "type": "string",

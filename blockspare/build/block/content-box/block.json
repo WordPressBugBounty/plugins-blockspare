@@ -5,13 +5,20 @@
   "title": "Content Box",
   "category": "blockspare",
   "description": "Card with text and buttons over a background image.",
+  "supports": {
+    "align": [
+      "wide",
+      "full",
+      "center"
+    ]
+  },
   "attributes": {
     "className": {
       "type": "string"
     },
     "align": {
       "type": "string",
-      "default": "center"
+      "default": "wide"
     },
     "sectionAlignment": {
       "type": "string",
@@ -58,13 +65,33 @@
       "type": "string",
       "default": "#000"
     },
+    "titleFontSize": {
+      "type": "number",
+      "default": 42
+    },
+    "titleFontSizeType": {
+      "type": "string",
+      "default": "px"
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": "700"
+    },
+    "titleFontSizeMobile": {
+      "type": "number",
+      "default": 20
+    },
+    "titleFontSizeTablet": {
+      "type": "number",
+      "default": 22
+    },
     "descriptionColor": {
       "type": "string",
       "default": "#6d6d6d"
     },
     "layoutOption": {
       "type": "boolean",
-      "default": false
+      "default": true
     },
     "imageShape": {
       "type": "string",
@@ -72,7 +99,11 @@
     },
     "design": {
       "type": "string",
-      "default": "style-1"
+      "default": "style-3"
+    },
+    "headerlayoutOption": {
+      "type": "string",
+      "default": "blockspare-style3"
     },
     "headermarginTop": {
       "type": "number",
