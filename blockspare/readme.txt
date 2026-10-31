@@ -2,11 +2,11 @@
 
 Contributors: blockspare, afthemes
 Donate link: https://www.blockspare.com/
-Tags: gutenberg blocks, theme builder, ai generator, news magazine, post grid
+Tags: gutenberg blocks, content generation, news, post grid, page builder
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 5.2.0
+Stable tag: 5.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,8 +61,8 @@ Unlike general-purpose block plugins, BlockSpare is designed specifically for co
 ✅ Built by the creators of popular [**AF Themes**](https://afthemes.com/)
 
 
+[youtube https://www.youtube.com/watch?v=2_N-UGetua0]
 
-[youtube https://www.youtube.com/watch?v=JHNIdv4C690]
 
 ---
 
@@ -567,7 +567,7 @@ Build your website your way with Gutenberg.
 3. **Create, refine, and publish content** using AI-powered tools and advanced publishing features.
 
 
-[youtube https://www.youtube.com/watch?v=2_N-UGetua0]
+[youtube https://www.youtube.com/watch?v=JHNIdv4C690]
 
 
 **Recommended Themes**

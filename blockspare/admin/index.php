@@ -129,6 +129,21 @@ SVG;
         'edit.php?post_type=bs_templates', // Menu slug.
 
       );
+
+
+      $badge_free = __('Free', 'blockspare'); // Dynamic count variable
+      add_submenu_page(
+        'blockspare',
+        __('Themes', 'blockspare'),
+        sprintf(
+          __('Themes %s', 'blockspare'),
+          '<span class="update-plugins count-' . esc_attr($badge_free) . '"><span class="plugin-count">' . esc_html($badge_free) . '</span></span>'
+        ),
+        'manage_options',
+        esc_url('https://blockspare.com/free-wordpress-themes/')
+
+      );
+
       add_submenu_page(
         'blockspare', // Parent slug.
         __('Compare Free & Pro', 'blockspare'), // Page title.
@@ -167,26 +182,8 @@ SVG;
       );
       add_submenu_page(
         'blockspare',
-        esc_html__('Need a Website?', 'blockspare'),
-        esc_html__('Need a Website?', 'blockspare'),
-        'manage_options',
-        esc_url('https://afthemes.com/make-a-website/')
-
-      );
-      add_submenu_page(
-        'blockspare',
-        esc_html__('Power Bundle', 'blockspare'),
-        esc_html__('Power Bundle', 'blockspare'),
-        'manage_options',
-        esc_url('https://afthemes.com/all-themes-plan/')
-
-      );
-
-
-      add_submenu_page(
-        'blockspare',
-        esc_html__('Support', 'blockspare'),
-        esc_html__('Support', 'blockspare'),
+        esc_html__('Need Help?', 'blockspare'),
+        esc_html__('Need Help?', 'blockspare'),
         'manage_options',
         esc_url('https://afthemes.com/supports/')
 
@@ -216,6 +213,7 @@ SVG;
           'pluginVesion' => BLOCKSPARE_VERSION,
           'exploreUrl' => admin_url('admin.php?page=bs-blocks'),
           'adminUrl' => admin_url('admin.php?page=blockspare'),
+          'WPadminUrl'   => admin_url(),
           'blockspareAi' => admin_url('admin.php?page=blockspare-ai'),
           'blockspareThemeBuilder' => admin_url('admin.php?page=blockspare-theme-builder'),
           'templateUrl' => admin_url('edit.php?post_type=bs_templates'),
