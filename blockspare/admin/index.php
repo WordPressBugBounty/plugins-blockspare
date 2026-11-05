@@ -110,6 +110,19 @@ SVG;
         array($this, 'blockspare_admin_blocks'), // Callback function.
         1 // Position
       );
+      $badge_demo = __('Import', 'blockspare'); // Dynamic count variable
+      add_submenu_page(
+        'blockspare', // Parent slug.
+        __('Import Starter Demo Sites', 'blockspare'), // Page title.
+        sprintf(
+          __('Demo Sites %s', 'blockspare'),
+          '<span class="update-plugins count-' . esc_attr($badge_demo) . '"><span class="plugin-count">' . esc_html($badge_demo) . '</span></span>'
+        ),
+        'manage_options', // Capability.
+        'bspare-demo-import', // Menu slug.
+        array($this, 'blockspare_admin_demo_import'), // Callback function.
+        2 // Position
+      );
 
       add_submenu_page(
         'blockspare', // Parent slug.
@@ -118,7 +131,7 @@ SVG;
         'manage_options', // Capability.
         'bs-blocks', // Menu slug.
         array($this, 'blockspare_admin_explore_more_blocks'), // Callback function.
-        2 // Position
+        3 // Position
       );
 
       add_submenu_page(
@@ -191,10 +204,17 @@ SVG;
     }
 
 
-    public function enqueue_dashboard_script($hook)
+    public function enqueue_dashboard_script($hook_suffix)
     {
+      $expected_hook = get_plugin_page_hookname('bspare-demo-import', 'blockspare');
+
+      if ($hook_suffix === $expected_hook) {
+        remove_all_actions('admin_notices');
+        remove_all_actions('all_admin_notices');
+      }
       wp_enqueue_style('blockspare-admin', BLOCKSPARE_PLUGIN_URL . 'admin/assets/css/style.css', '', '');
-      wp_enqueue_script('blockspare_dashboard_js', BLOCKSPARE_PLUGIN_URL . 'dist/block_admin_dashboard.js', array('react', 'react-dom', 'wp-components', 'wp-element', 'wp-api-fetch', 'wp-polyfill'), '1.0');
+      wp_enqueue_script('blockspare_dashboard_js', BLOCKSPARE_PLUGIN_URL . 'dist/block_admin_dashboard.js', array('react', 'react-dom', 'wp-components', 'wp-element', 'wp-api-fetch', 'wp-polyfill'), BLOCKSPARE_VERSION);
+      wp_register_script('block_admin_plugin_install', BLOCKSPARE_PLUGIN_URL . 'dist/block_admin_plugin_install.js', array('blockspare_dashboard_js'), BLOCKSPARE_VERSION, true);
       wp_enqueue_style('blockspare-admin-css', BLOCKSPARE_PLUGIN_URL . 'dist/dashboard_css.css');
       wp_enqueue_script('wp-api');
       $blockspare_dashboard_logo = BLOCKSPARE_PLUGIN_URL . 'admin/assets/images/blockspare-logo.png';
@@ -208,6 +228,7 @@ SVG;
           'logo' => $blockspare_dashboard_logo,
           "imagePath" => "https://raw.githubusercontent.com/afthemes/blockspare-demo-data/master/blocks/new/",
           "static_img" => BLOCKSPARE_PLUGIN_URL,
+          'admin_nonce' => wp_create_nonce('aft_installer_nonce'),
           'newPageUrl' => admin_url('post-new.php?post_type=page&blockspare_create_block'),
           'adminPath' => admin_url('post-new.php?post_type=page&blockspare_show_intro=true'),
           'pluginVesion' => BLOCKSPARE_VERSION,
@@ -227,6 +248,12 @@ SVG;
           'changelog' => blockspare_get_latest_change_log(),
           'blocks' => $blockspare_block_manager->get_all_blocks(),
           'disabledBlocks' => $blockspare_block_manager->get_disabled_blocks(),
+          'starter_sites' => BLOCKSPARE_PLUGIN_URL . 'admin/assets/images/starter-sites.jpg',
+          'ajax_url' => admin_url('admin-ajax.php'),
+          'install_now' => __('Are you sure you want to install this plugin?', 'blockspare'),
+          'install_btn' => __('Install Now', 'blockspare'),
+          'activate_btn' => __('Activate', 'blockspare'),
+          'installed_btn' => __('Activated', 'blockspare'),
 
         )
       );
@@ -239,6 +266,11 @@ SVG;
       <div id="bs-starter-sites"></div>
 
     <?php
+    }
+    public function blockspare_admin_demo_import()
+    {
+      include_once BLOCKSPARE_PLUGIN_DIR . 'admin/templatespare-demo.php';
+      new Templatespare_Starter_Sites();
     }
 
     public function blockspare_admin_dashboard()

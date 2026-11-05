@@ -2,11 +2,11 @@
 
 Contributors: blockspare, afthemes
 Donate link: https://www.blockspare.com/
-Tags: gutenberg blocks, content generation, news, post grid, page builder
+Tags: gutenberg blocks, post slider, blog, post grid, page builder
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 5.2.1
+Stable tag: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,46 +22,32 @@ Trusted by **17,000+ WordPress users**, BlockSpare includes **60+ Gutenberg bloc
 
 With **BlockSpare Pro**, you can unlock **AI-powered content generation**, **AI summarization**, **AI Key Q&A**, **AI model selection**, an **advanced Site Builder**, **Header & Footer Builder**, premium starter sites, advanced post queries, dynamic content, smart visibility controls, AJAX post filters and Load More, breaking news tickers, advertisement blocks, and more.
 
+[youtube https://www.youtube.com/watch?v=2_N-UGetua0]
+
 ## Why Choose BlockSpare?
 
 Unlike general-purpose block plugins, BlockSpare is designed specifically for content-rich websites, professional publishing, and flexible WordPress site building.
 
 ✅ Purpose-built for news, magazine, blog and editorial websites
-
 ✅ 60+ specialized Gutenberg blocks
-
 ✅ 100+ professionally designed starter templates
-
 ✅ 300+ ready-made sections
-
 ✅ Powerful post query and content filtering tools
-
 ✅ AI-powered content generation with multiple AI models
-
 ✅ AI summarization and Key Q&A tools
-
 ✅ AI connectors with configurable language and model settings
-
 ✅ Advanced Site Builder for managing website templates
-
 ✅ Header & Footer Builder
-
 ✅ Dynamic content and smart visibility controls
-
 ✅ AJAX post filters and Load More
-
 ✅ Breaking News Ticker and Advertisement Blocks
-
 ✅ Native Gutenberg experience
-
 ✅ No shortcode lock-in
-
 ✅ Works with modern WordPress themes
-
 ✅ Built by the creators of popular [**AF Themes**](https://afthemes.com/)
 
 
-[youtube https://www.youtube.com/watch?v=2_N-UGetua0]
+
 
 
 ---
@@ -71,39 +57,22 @@ Unlike general-purpose block plugins, BlockSpare is designed specifically for co
 BlockSpare makes it easy to create professional layouts for:
 
 👉 [Online Newspapers](https://demos.blockspare.com/newspare/dailynews)
-
 👉 [Digital Magazines](https://demos.blockspare.com/newspare/techwire)
-
 👉 [Personal Blogs](https://demos.blockspare.com/newspare/healthmag)
-
 👉 [Editorial Websites](https://demos.blockspare.com/newspare/espanol)
-
 👉 [Technology Blogs](https://demos.blockspare.com/newspare/chinese)
-
 👉 [Sports Websites](https://demos.blockspare.com/newspare/sportx)
-
 👉 [Fashion & Lifestyle](https://demos.blockspare.com/newspare/fashion)
-
 👉 [Travel Blogs](https://demos.blockspare.com/newspare/travelogue)
-
 👉 [Food & Recipe Websites](https://demos.blockspare.com/newspare/foodie)
-
 👉 [Business Websites](https://demos.blockspare.com/newspare/enterprise)
-
 👉 [Corporate Websites](https://demos.blockspare.com/newspare/standard-solutions)
-
 👉 [Agencies](https://demos.blockspare.com/newspare/business-company)
-
 👉 [Landing Pages](https://demos.blockspare.com/newspare/environment-care)
-
 👉 [Portfolios](https://demos.blockspare.com/newspare/prime-generic)
-
 👉 [Educational Websites](https://demos.blockspare.com/newspare/edupress)
-
 👉 [Non-profit Organizations](https://demos.blockspare.com/newspare/donate-food)
-
 👉 [Local Businesses](https://demos.blockspare.com/newspare/global-business)
-
 👉 [WooCommerce Stores](https://demos.blockspare.com/newspare/fast-food)
 
 ---
@@ -117,15 +86,10 @@ BlockSpare brings together powerful Gutenberg blocks, AI-powered content tools, 
 Create, improve, and understand your content with AI directly inside WordPress.
 
 ✓ AI Content Generation
-
 ✓ AI Content Summarization
-
 ✓ AI Key Questions & Answers
-
 ✓ Multiple AI Model Support
-
 ✓ Custom AI Generation Prompts
-
 ✓ Multiple Language Support
 
 Use your connected AI providers and preferred models to generate content, summarize posts, and discover useful questions and answers.
@@ -135,27 +99,16 @@ Use your connected AI providers and preferred models to generate content, summar
 Build and customize your website using the native WordPress Site Editor with flexible template controls.
 
 ✓ All Templates
-
 ✓ Header Templates
-
 ✓ Footer Templates
-
 ✓ Front Page Templates
-
 ✓ Singular Templates
-
 ✓ Archive Templates
-
 ✓ Search Results Templates
-
 ✓ Category Templates
-
 ✓ Author Templates
-
 ✓ Tag Templates
-
 ✓ Date Archive Templates
-
 ✓ 404 Page Templates
 
 Create and manage templates for different parts of your website without relying on heavy page builders or custom code.
@@ -165,27 +118,16 @@ Create and manage templates for different parts of your website without relying 
 Create engaging news, magazine, blog, and editorial layouts using:
 
 ✓ Hero Banners
-
 ✓ Breaking News Tickers
-
 ✓ Trending Posts
-
 ✓ Post Grids
-
 ✓ Post Sliders
-
 ✓ Post Carousels
-
 ✓ Post Lists
-
 ✓ Express Lists
-
 ✓ Masonry Layouts
-
 ✓ Timeline Layouts
-
 ✓ Featured Categories
-
 ✓ Large Featured Sections
 
 Perfect for online newspapers, digital magazines, blogs, editorial websites, and other content-rich publications.
@@ -195,35 +137,20 @@ Perfect for online newspapers, digital magazines, blogs, editorial websites, and
 Build professional business pages and content sections with:
 
 ✓ Containers
-
 ✓ Section Headers
-
 ✓ Content Boxes
-
 ✓ Pricing Tables
-
 ✓ Price Lists
-
 ✓ Call to Action
-
 ✓ Testimonials
-
 ✓ Services
-
 ✓ Buttons
-
 ✓ Icon Lists
-
 ✓ Counters
-
 ✓ Progress Bars
-
 ✓ Accordions
-
 ✓ Tabs
-
 ✓ Notice Bars
-
 ✓ Author Profiles
 
 Create everything from business pages and landing pages to service sections, pricing pages, and calls to action.
@@ -233,13 +160,9 @@ Create everything from business pages and landing pages to service sections, pri
 Showcase images and visual content with:
 
 ✓ Image Slider
-
 ✓ Image Carousel
-
 ✓ Masonry Gallery
-
 ✓ Logo Showcase
-
 ✓ Responsive Media Layouts
 
 Create attractive visual sections while keeping your layouts responsive across devices.
@@ -249,19 +172,12 @@ Create attractive visual sections while keeping your layouts responsive across d
 Customize your blocks and layouts with powerful design options including:
 
 👉 Typography & Fonts
-
 👉 Colors & Backgrounds
-
 👉 Animations & Transitions
-
 👉 Spacing & Layout
-
 👉 Borders & Shadows
-
 👉 Responsive Visibility
-
 👉 Hover Effects
-
 👉 Device Controls
 
 ## Professional Starter Sites
@@ -273,23 +189,14 @@ Import complete websites or individual layouts in just a few clicks.
 Build websites faster using:
 
 👉 Homepages
-
 👉 Landing Pages
-
 👉 About Pages
-
 👉 Contact Pages
-
 👉 Business Websites
-
 👉 Magazine Layouts
-
 👉 Blog Pages
-
 👉 Editorial Sections
-
 👉 Header & Footer Designs
-
 👉 Reusable Content Sections
 
 Simply import, customize, and publish.
@@ -301,23 +208,14 @@ Create flexible content layouts using the powerful post query builder.
 Display and organize posts by:
 
 👉 Categories
-
 👉 Tags
-
 👉 Authors
-
 👉 Date
-
 👉 Modified Date
-
 👉 Popular Posts
-
 👉 Featured Posts
-
 👉 Custom Ordering
-
 👉 Random Posts
-
 👉 Include & Exclude Posts
 
 Choose from multiple layouts and control which content appears on your pages.
@@ -329,21 +227,15 @@ Create flexible content experiences with dynamic blocks and display controls.
 Use dynamic content to:
 
 👉 Display custom content and fields
-
 👉 Create dynamic buttons and labels
-
 👉 Build dynamic section headings
-
 👉 Customize content based on your data
 
 Control block visibility based on:
 
 👉 User Role
-
 👉 Device
-
 👉 Date Range
-
 👉 Display Conditions
 
 Create more flexible layouts that show the right content to the right visitors.
@@ -355,27 +247,16 @@ BlockSpare is designed to work naturally with the WordPress Block Editor without
 Features include:
 
 ✓ Native Gutenberg blocks
-
 ✓ Lightweight frontend output
-
 ✓ Responsive layouts
-
 ✓ Clean HTML markup
-
 ✓ Optimized CSS
-
 ✓ Lazy loading compatible
-
 ✓ SEO-friendly structure
-
 ✓ Accessibility improvements
-
 ✓ Translation ready
-
 ✓ RTL support
-
 ✓ Developer friendly
-
 ✓ Compatible with caching plugins
 
 ## Why Publishers Love BlockSpare
@@ -403,17 +284,11 @@ Upgrade to [**BlockSpare Pro**](https://blockspare.com/) to unlock AI-powered co
 Create, improve, and understand your content directly inside WordPress with integrated AI tools.
 
 ✅  AI Content Generation
-
 ✅  AI Content Generation Blocks
-
 ✅  AI Summarization
-
 ✅  AI Key Q&A
-
 ✅  Multiple AI Model Selection
-
 ✅  AI Connector Support
-
 ✅  Configurable Default Language
 
 Use your preferred AI provider and model to generate content, summarize posts, and identify useful questions and answers from your content.
@@ -423,27 +298,16 @@ Use your preferred AI provider and model to generate content, summarize posts, a
 Build and manage templates for different parts of your website with the BlockSpare Site Builder.
 
 ✅  All Templates
-
 ✅  404 Page
-
 ✅  Header
-
 ✅  Footer
-
 ✅  Front Page
-
 ✅  Singular
-
 ✅  Archive
-
 ✅  Search Results
-
 ✅  Category
-
 ✅  Author
-
 ✅  Tag
-
 ✅  Date Archive
 
 Create and customize website templates using Gutenberg without relying on heavy page builders or custom code.
@@ -453,23 +317,14 @@ Create and customize website templates using Gutenberg without relying on heavy 
 Start your website with professionally designed complete websites and ready-made layouts.
 
 ✅  137+ Starter Templates
-
 ✅  Complete Website Designs
-
 ✅  News & Magazine Websites
-
 ✅  Blog Websites
-
 ✅  Business Websites
-
 ✅  Corporate Websites
-
 ✅  Agency Websites
-
 ✅  Landing Pages
-
 ✅  Portfolio Websites
-
 ✅  Reusable Sections
 
 Import a complete starter site or individual sections, then customize everything with Gutenberg.
@@ -479,23 +334,14 @@ Import a complete starter site or individual sections, then customize everything
 Build powerful news, magazine, blog, and editorial layouts with advanced content tools.
 
 ✅  Premium News & Magazine Blocks
-
 ✅  Advanced Post Queries
-
 ✅  AJAX Post Filters
-
 ✅  AJAX Load More
-
 ✅  Advanced Ordering
-
 ✅  Author Queries
-
 ✅  Taxonomy Queries
-
 ✅  Include & Exclude Posts
-
 ✅  Breaking News Ticker
-
 ✅  Advertisement Blocks
 
 Create flexible content layouts and control exactly which posts and content appear on your pages.
@@ -505,21 +351,13 @@ Create flexible content layouts and control exactly which posts and content appe
 Create more flexible and personalized layouts using dynamic content and display controls.
 
 ✅  Dynamic Content Blocks
-
 ✅  Custom Fields
-
 ✅  ACF Integration
-
 ✅  Dynamic Buttons & Labels
-
 ✅  Dynamic Section Content
-
 ✅  User Role Visibility
-
 ✅  Device Visibility
-
 ✅  Scheduled Visibility
-
 ✅  Conditional Display
 
 Show the right content in the right place based on your content, visitors, devices, and display conditions.
@@ -529,19 +367,12 @@ Show the right content in the right place based on your content, visitors, devic
 Get more control over the appearance and behavior of your Gutenberg layouts.
 
 ✅  Premium Block Controls
-
 ✅  Advanced Typography
-
 ✅  Advanced Container Settings
-
 ✅  Responsive Controls
-
 ✅  Block Animations
-
 ✅  Block Hover Effects
-
 ✅  Image Hover Effects
-
 ✅  Additional Layout Options
 
 Create polished, responsive layouts with flexible controls directly in the WordPress Block Editor.
@@ -551,7 +382,6 @@ Create polished, responsive layouts with flexible controls directly in the WordP
 Get more from BlockSpare with ongoing product improvements and dedicated support.
 
 ✅  Priority Support
-
 ✅  Regular Feature Updates
 
 ---
