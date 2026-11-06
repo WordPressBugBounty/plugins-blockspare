@@ -55,7 +55,7 @@ if (!class_exists('Templatespare_Starter_Sites')) {
             <?php $this->blockspare_render_header();
             ?>
             <div id="templatespare-template-collcetion-dashboard" selectedLanguage=""
-              selectedBuilder="elementor">
+              selectedBuilder="gutenberg">
               <footer class="bs-footer">
                 <?php $this->blockspare_render_footer()
                 ?>
