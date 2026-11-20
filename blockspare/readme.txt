@@ -6,7 +6,7 @@ Tags: gutenberg blocks, post slider, blog, post grid, page builder
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 5.2.6
+Stable tag: 5.2.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -604,16 +604,15 @@ You can get support through the [AF Themes support](https://afthemes.com/support
 ---
 
 == Screenshots ==
-1. Editor view — BlockSpare blocks in Gutenberg.  
-2. Starter templates gallery .  
-3. Sample homepage imported from a template.  
-4. Post Grid and Post Slider examples.  
-5. Hero Banner + Trending section.  
-6. Image carousel and masonry gallery.  
-7. Business blocks: Pricing table & Testimonials.  
-8. Patterns Library import flow.  
-9. Block controls and responsive options.  
-10. Save & reuse patterns.
+1. Build Professional Websites in Minutes: Access an all-in-one Gutenberg-powered toolkit to create visually stunning news, magazine, and business sites instantly. 
+2. AI Content Creation Setting Dashboard: Configure global AI providers, select preferred models like Google Gemini, and customize generation roles effortlessly.
+3. AI-Powered Content Creation: Generate, summarize, and optimize your entire content workflow inside Gutenberg using advanced AI models. 
+4. Advanced Site Builder: Design headers, footers, archives, and single templates for every part of your dynamic website without code. 
+5. 137+ Ready-to-Import Templates: Kickstart your project with a library of complete professional websites and customizable sections.
+6. Specialized Publishing Blocks: Engage readers with dedicated News Tickers, Post Grids, Hero Banners, and Editorial layouts. 
+7. Dynamic Post Query & AJAX: Master your content display with advanced filtering, conditional logic, and seamless AJAX pagination.  
+8. Endless Variation with Post Layouts: Transform post displays with 9+ Hero Banners, sliders, masonry grids, and carousel styles.
+9. Design Controls - Social Media Links Options: Easily configure and style social media channel integrations across your pages with flexible layout choices.
 
 == Changelog ==
 = 5.2.0 =

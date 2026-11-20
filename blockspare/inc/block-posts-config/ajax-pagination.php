@@ -35,6 +35,7 @@ function bs_load_more()
   $query_args = array(
     'posts_per_page' => $bs_attributes['postsToShow'],
     'post_status' => 'publish',
+    'has_password'   => false,
     'offset' => ($bs_attributes['enablePagination'] == 'true') ? '' : $bs_attributes['offset'],
     'order' => $bs_attributes['order'],
     'orderby' => $bs_attributes['orderBy'],
@@ -112,7 +113,9 @@ function bs_load_more()
 
     /* Setup the post ID */
     $post_id = get_the_ID();
-
+    if (post_password_required($post_id)) {
+      continue;
+    }
 
     /* Setup the featured image ID */
     $post_thumb_id = get_post_thumbnail_id($post_id);
